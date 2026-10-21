@@ -1,7 +1,7 @@
 <template>
   <div class="platform-shell" :class="{ 'login-page': !identity }">
     <header class="platform-header">
-      <a class="platform-brand" href="#" @click.prevent="workspace = 'personal'"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="10" fill="#14374B"/><g stroke="#D1E8F8" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12c-1-4-7-4-8 0-4 0-6 5-3 8-3 3-1 7 3 7 0 4 6 5 8 1M20 12c1-4 7-4 8 0 4 0 6 5 3 8 3 3 1 7-3 7 0 4-6 5-8 1M20 12v16"/><path d="M12 12c0 3 2 4 4 4m-7 4c3-1 5 0 6 3m-3 4c0-3 2-4 4-4m12-11c0 3-2 4-4 4m7 4c-3-1-5 0-6 3m3 4c0-3-2-4-4-4"/></g></svg><span><strong>PsyConsult</strong><small>心理健康与专业协作平台</small></span></a>
+      <a class="platform-brand" href="#" @click.prevent="workspace = 'personal'"><span class="brand-mark" aria-hidden="true"><img src="/images/psyconsult-logo.png" alt="" /></span><span><strong>PsyConsult</strong><small>心理健康与专业协作平台</small></span></a>
       <span v-if="!identity" class="portal-caption">统一工作平台<span>本地试用</span></span>
       <nav v-if="identity" aria-label="使用入口">
         <button :class="{ chosen: workspace === 'personal' }" @click="chooseWorkspace('personal')">个人健康空间</button>
@@ -290,5 +290,11 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 .cover-art .cover-background{position:static;display:block;width:100%;height:160px;object-fit:cover;filter:grayscale(1);opacity:.24;max-width:100%}
 @media(max-width:1000px){.cover-art{height:145px;margin-top:18px}.cover-art .cover-emblem{height:120px}.cover-art .cover-background{height:145px}}
 @media(max-width:700px){.cover-art{grid-template-columns:40% 60%;height:78px;margin:12px 0 2px}.cover-art .cover-emblem{height:76px}.cover-art .cover-background{height:78px}.cover-capabilities{margin-top:14px}}
+
+/* Compact source artwork, framed only by the wordmark lockup. */
+.platform-brand .brand-mark{position:relative;display:block;width:44px;height:50px;flex-shrink:0;overflow:hidden;mix-blend-mode:multiply;opacity:.88}
+.platform-brand .brand-mark img{position:absolute;display:block;width:110px;height:auto;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%)}
+.login-page .platform-brand{gap:12px}
+@media(max-width:700px){.platform-brand .brand-mark,.login-page .platform-brand .brand-mark{width:38px;height:44px}.platform-brand .brand-mark img{width:96px}}
 
 </style>

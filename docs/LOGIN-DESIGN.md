@@ -81,3 +81,13 @@
 ![浅蓝整体封面](images/login-light-composed-desktop.png)
 
 ![手机整体封面](images/login-light-composed-mobile.png)
+
+## 侧脸心形作为系统标识
+
+根据用户指定，将侧脸心形原图缩小放在PsyConsult名称左侧，替换原脑部SVG。图形无外框和色块，原图文件未作像素修改，通过显示尺寸和裁切去除多余留白。桌面图形区域44×50px、手机38×44px；登录前后共用标识，封面布局保留。
+
+桌面及手机视觉检查、类型检查与生产构建通过，业务脚本比较一致。
+
+![系统小标识](images/login-sideface-logo-desktop.png)
+
+![手机小标识](images/login-sideface-logo-mobile.png)
