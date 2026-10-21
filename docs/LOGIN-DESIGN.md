@@ -37,3 +37,14 @@
 ![蓝色封面及图标](images/login-blue-icons-desktop.png)
 
 ![手机入口](images/login-blue-icons-mobile.png)
+
+
+## 脑部品牌标识与背景
+
+采用用户新提供的脑线框图作封面淡水印，原图字节不变，通过CSS灰度、反相与混合实现蓝底上的低对比度展示；背景不响应鼠标、不进入辅助阅读顺序，文字保持在独立上层。桌面背景透明度15%，手机端10%。独立圆形侧脸配图从封面收起，保留其素材文件。
+
+品牌心电图换成简洁的双半球脑部SVG图标，登录前后共用，保留放大的PsyConsult字标。认证与业务脚本逐段比较一致。类型检查和生产构建通过，桌面1440宽、手机390宽及专业入口切换已检查。
+
+![脑部标识与封面水印](images/login-brain-background-desktop.png)
+
+![手机封面水印](images/login-brain-background-mobile.png)

@@ -1,7 +1,7 @@
 <template>
   <div class="platform-shell" :class="{ 'login-page': !identity }">
     <header class="platform-header">
-      <a class="platform-brand" href="#" @click.prevent="workspace = 'personal'"><span v-if="identity" class="brand-symbol">心</span><svg v-else class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="10" fill="#14374B"/><path d="M8 21h7l3-9 5 17 3-8h6" stroke="#B9E7DF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>PsyConsult</strong><small>心理健康与专业协作平台</small></span></a>
+      <a class="platform-brand" href="#" @click.prevent="workspace = 'personal'"><svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="10" fill="#14374B"/><g stroke="#D1E8F8" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12c-1-4-7-4-8 0-4 0-6 5-3 8-3 3-1 7 3 7 0 4 6 5 8 1M20 12c1-4 7-4 8 0 4 0 6 5 3 8 3 3 1 7-3 7 0 4-6 5-8 1M20 12v16"/><path d="M12 12c0 3 2 4 4 4m-7 4c3-1 5 0 6 3m-3 4c0-3 2-4 4-4m12-11c0 3-2 4-4 4m7 4c-3-1-5 0-6 3m3 4c0-3-2-4-4-4"/></g></svg><span><strong>PsyConsult</strong><small>心理健康与专业协作平台</small></span></a>
       <span v-if="!identity" class="portal-caption">统一工作平台<span>本地试用</span></span>
       <nav v-if="identity" aria-label="使用入口">
         <button :class="{ chosen: workspace === 'personal' }" @click="chooseWorkspace('personal')">个人健康空间</button>
@@ -14,10 +14,10 @@
     <main v-if="!identity" class="login-layout">
       <div class="access-frame">
         <section class="platform-cover" aria-labelledby="platform-title">
+          <img class="cover-background" src="/images/brain-network-background.png" alt="" aria-hidden="true" />
           <p class="cover-wordmark">PsyConsult</p>
           <h1 id="platform-title">心理健康<br>与临床协作</h1>
           <p class="cover-summary">面向个人与专业人员的辅助工作平台</p>
-          <div class="cover-symbol" aria-hidden="true"><img src="/images/mental-health-symbol.png" alt="" /></div>
           <div class="cover-capabilities"><span><el-icon aria-hidden="true"><ChatDotRound /></el-icon>科普与自评</span><span><el-icon aria-hidden="true"><Document /></el-icon>资料与报告</span><span><el-icon aria-hidden="true"><User /></el-icon>专业协作</span></div>
         </section>
 
@@ -261,14 +261,20 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 @media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:31px}.cover-wordmark{font-size:46px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
 @media(max-width:700px){.login-page .platform-header{height:70px;min-height:70px;padding:0 22px}.portal-caption{display:none}.login-layout{width:calc(100% - 32px);padding-top:24px}.access-frame{grid-template-columns:1fr;min-height:0;border-radius:10px}.platform-cover{padding:25px 28px 24px}.cover-wordmark{font-size:36px;margin-bottom:18px;letter-spacing:-1.3px}.login-page .brand-mark{width:44px;height:44px}.login-page .platform-brand strong{font-size:28px}.platform-cover h1{font-size:25px;line-height:1.5;margin-bottom:10px}.platform-cover h1 br{display:none}.cover-summary{font-size:11px}.cover-rule{display:none}.cover-capabilities{font-size:10px;padding-top:15px;margin-top:18px}.cover-capabilities span+span:before{margin:0 13px}.access-panel{padding:26px 28px 30px}.access-tabs{margin-bottom:26px}.access-heading h2{font-size:21px}.access-heading p{margin-bottom:24px}.access-footer{flex-direction:column;gap:4px;padding:18px 4px;text-align:center;font-size:10px}}
 
-.cover-symbol{position:absolute;width:148px;height:148px;right:48px;bottom:108px;border-radius:50%;background:#e0ecf7;overflow:hidden;box-shadow:0 8px 28px #102d4510}
-.cover-symbol img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;mix-blend-mode:multiply;opacity:.8}
+
+
 .cover-capabilities>span{display:inline-flex;gap:7px;align-items:center;white-space:nowrap}
 .cover-capabilities .el-icon{font-size:16px;color:#adcde6}
 .cover-capabilities span+span:before{margin:0 12px 0 5px;background:#b7d3e440}
 .access-tabs button{display:flex;align-items:center;justify-content:center;gap:8px}.access-tabs .el-icon{font-size:16px}
 .access-panel :deep(.el-input__prefix){color:#8199ab;margin-right:4px}
-@media(max-width:1000px){.cover-symbol{right:30px;width:124px;height:124px;bottom:112px}.cover-capabilities{font-size:11px}.cover-capabilities>span{gap:5px}.cover-capabilities span+span:before{margin:0 7px 0 3px}}
-@media(max-width:700px){.cover-symbol{display:none}.cover-capabilities{font-size:10px}.cover-capabilities .el-icon{font-size:14px}.cover-capabilities span+span:before{margin:0 9px 0 3px}}
+@media(max-width:1000px){.cover-capabilities{font-size:11px}.cover-capabilities>span{gap:5px}.cover-capabilities span+span:before{margin:0 7px 0 3px}}
+@media(max-width:700px){.cover-capabilities{font-size:10px}.cover-capabilities .el-icon{font-size:14px}.cover-capabilities span+span:before{margin:0 9px 0 3px}}
+
+.platform-cover{isolation:isolate}
+.cover-background{position:absolute;width:760px;height:608px;max-width:none;right:-160px;bottom:-160px;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.15;pointer-events:none;user-select:none;z-index:0}
+.platform-cover>:not(.cover-background){position:relative;z-index:1}
+@media(max-width:1000px){.cover-background{right:-210px;bottom:-160px}}
+@media(max-width:700px){.cover-background{width:440px;height:352px;right:-105px;bottom:-155px;opacity:.1}}
 
 </style>
