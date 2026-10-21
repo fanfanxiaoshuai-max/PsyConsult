@@ -91,3 +91,9 @@
 ![系统小标识](images/login-sideface-logo-desktop.png)
 
 ![手机小标识](images/login-sideface-logo-mobile.png)
+
+## 恢复用户指定的深蓝界面
+
+按用户截图恢复深蓝封面、左右分栏及淡化脑线框背景，保留系统名称旁的侧脸心形 logo。业务脚本未改动，前端类型检查及构建通过，已在浏览器核对桌面布局。
+
+![恢复后的界面](images/login-restored-blue-logo-desktop.png)
