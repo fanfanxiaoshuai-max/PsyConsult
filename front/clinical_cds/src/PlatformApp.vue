@@ -14,24 +14,10 @@
     <main v-if="!identity" class="login-layout">
       <div class="access-frame">
         <section class="platform-cover" aria-labelledby="platform-title">
-          <p class="cover-eyebrow"><span></span> PSYCONSULT</p>
+          <p class="cover-wordmark">PsyConsult</p>
           <h1 id="platform-title">心理健康<br>与临床协作</h1>
           <p class="cover-summary">面向个人与专业人员的辅助工作平台</p>
-          <svg class="cover-visual" viewBox="0 0 460 210" fill="none" aria-hidden="true">
-            <defs><linearGradient id="cover-line" x1="20" y1="100" x2="440" y2="100" gradientUnits="userSpaceOnUse"><stop stop-color="#8BD8CB" stop-opacity=".15"/><stop offset=".5" stop-color="#8BD8CB" stop-opacity=".8"/><stop offset="1" stop-color="#8BD8CB" stop-opacity=".15"/></linearGradient></defs>
-            <path d="M16 112H444M100 26V192M230 26V192M360 26V192" stroke="#C8E6ED" stroke-opacity=".07"/>
-            <path d="M20 124C75 124 80 78 136 78S188 146 236 146 286 67 336 67 387 104 440 104" stroke="url(#cover-line)" stroke-width="1.8"/>
-            <rect x="38" y="48" width="116" height="126" rx="10" fill="#173D51" stroke="#AACBD5" stroke-opacity=".24"/>
-            <rect x="56" y="67" width="28" height="30" rx="5" fill="#8BD8CB" fill-opacity=".13"/><path d="M64 75h12m-12 6h12m-12 6h7" stroke="#B3DFD8" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M57 114h77m-77 11h61m-61 11h69m-69 18h36" stroke="#ADC9D3" stroke-opacity=".38" stroke-width="3" stroke-linecap="round"/>
-            <rect x="182" y="20" width="104" height="104" rx="12" fill="#1A4659" stroke="#B2DFD8" stroke-opacity=".4"/>
-            <path d="M210 47h48a7 7 0 0 1 7 7v22a7 7 0 0 1-7 7h-21l-12 11V83h-15a7 7 0 0 1-7-7V54a7 7 0 0 1 7-7Z" stroke="#B9E7DF" stroke-width="1.6" stroke-linejoin="round"/>
-            <circle cx="219" cy="65" r="2" fill="#B9E7DF"/><circle cx="234" cy="65" r="2" fill="#B9E7DF"/><circle cx="249" cy="65" r="2" fill="#B9E7DF"/>
-            <rect x="316" y="86" width="106" height="100" rx="10" fill="#173D51" stroke="#AACBD5" stroke-opacity=".24"/>
-            <circle cx="342" cy="114" r="9" stroke="#B3DFD8" stroke-width="1.5"/><path d="M337 114l3 3 6-6" stroke="#B3DFD8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M361 111h42m-42 8h28m-67 23h76m-76 11h57m-57 11h64" stroke="#ADC9D3" stroke-opacity=".38" stroke-width="3" stroke-linecap="round"/>
-            <circle cx="163" cy="91" r="3" fill="#91CEC5"/><circle cx="300" cy="105" r="3" fill="#91CEC5"/>
-          </svg>
+          <span class="cover-rule" aria-hidden="true"></span>
           <div class="cover-capabilities"><span>科普与自评</span><span>资料与报告</span><span>专业协作</span></div>
         </section>
 
@@ -252,26 +238,26 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 @media(max-width:1000px){.platform-header{flex-wrap:wrap;padding:14px 20px}.account{max-width:100%}.case-space{grid-template-columns:1fr}.personal-workspace{padding:20px}.professional-toolbar{flex-wrap:wrap;gap:12px}}
 @media(max-width:600px){.platform-header nav{width:100%;overflow:auto}.platform-header nav button{white-space:nowrap;padding:9px 11px}.space-heading,.section-heading{align-items:flex-start;flex-wrap:wrap}.panel{padding:18px}.record-row,.composer-actions{flex-wrap:wrap}.question :deep(.el-radio-group){display:grid}.professional-toolbar span{display:block;margin:8px 0}.public-message.user{margin-left:5%}}
 /* Entry page: a compact institutional workspace, independent of clinical UI. */
-.login-page{background:#f3f6f8;color:#203447;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
+.login-page{background:#f5f5f1;color:#203447;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
 .login-page .platform-header{height:82px;min-height:82px;padding:0 max(32px,calc((100vw - 1160px)/2));border-bottom:1px solid #e3e9ee;background:#fff}
-.login-page .platform-brand{gap:12px}.brand-mark{height:40px;width:40px;flex-shrink:0}
-.login-page .platform-brand strong{font-size:21px;font-weight:650;letter-spacing:-.4px;color:#18394d}.login-page .platform-brand small{font-size:11px;color:#71808d;letter-spacing:.04em}
+.login-page .platform-brand{gap:14px}.brand-mark{height:50px;width:50px;flex-shrink:0}
+.login-page .platform-brand strong{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:600;line-height:1.15;letter-spacing:-1.2px;color:#203f42}.login-page .platform-brand small{display:block;margin-top:5px;font-size:11px;color:#71808d;letter-spacing:.04em}
 .portal-caption{display:flex;align-items:center;gap:16px;font-size:12px;color:#687a88}.portal-caption>span{border:1px solid #dce5eb;border-radius:4px;padding:4px 8px;font-size:11px;color:#7b8995}
 .login-layout{width:min(1160px,calc(100% - 64px));margin:0 auto;padding:64px 0 26px}
 .access-frame{display:grid;grid-template-columns:1.06fr 1fr;min-height:584px;background:#fff;border:1px solid #dfe7ed;border-radius:14px;overflow:hidden;box-shadow:0 12px 36px #18394d08}
-.platform-cover{position:relative;padding:48px 48px 30px;background:linear-gradient(150deg,#112e43 0%,#153c50 100%);color:#f7fafb;display:flex;flex-direction:column;overflow:hidden}
-.cover-eyebrow{display:flex;align-items:center;gap:9px;margin:0 0 30px;color:#b6d8df;font-size:11px;font-weight:550;letter-spacing:.2em}.cover-eyebrow>span{width:6px;height:6px;border:1px solid #a4d6cc;border-radius:50%}
-.platform-cover h1{font-size:40px;line-height:1.45;font-weight:550;letter-spacing:.035em;margin:0 0 16px;color:#fff}
-.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#b8cbd5;margin:0}.cover-visual{width:100%;height:auto;max-height:210px;margin:26px 0 18px;flex:1;min-height:140px}
-.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #b3d6dc26;padding-top:22px;margin-top:auto;color:#c4d7df;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
-.access-panel{padding:44px 58px 38px;align-self:center;min-width:0}.access-tabs{display:flex;padding:4px;background:#f1f5f7;border-radius:7px;gap:4px;margin-bottom:34px}.access-tabs button{flex:1;border:0;border-radius:5px;padding:10px 8px;font:inherit;font-size:13px;color:#6a7d8a;background:transparent;cursor:pointer}.access-tabs button.active{background:white;color:#173e53;box-shadow:0 1px 5px #14394f12;font-weight:600}
+.platform-cover{position:relative;padding:50px 48px 30px;background:#203f42;color:#f7fafb;display:flex;flex-direction:column;overflow:hidden}
+.cover-wordmark{margin:0 0 60px;font-family:Georgia,"Times New Roman",serif;font-size:54px;font-weight:400;line-height:1.1;letter-spacing:-2.2px;color:#f2f3eb}
+.platform-cover h1{font-size:33px;line-height:1.55;font-weight:500;letter-spacing:.045em;margin:0 0 16px;color:#fff}
+.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#c0ceca;margin:0}.cover-rule{display:block;width:54px;height:1px;background:#a6bbb2;margin-top:34px;opacity:.65}
+.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #d2dfd526;padding-top:22px;margin-top:auto;color:#cad6cf;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
+.access-panel{padding:44px 58px 38px;align-self:center;min-width:0}.access-tabs{display:flex;padding:4px;background:#f1f5f7;border-radius:7px;gap:4px;margin-bottom:34px}.access-tabs button{flex:1;border:0;border-radius:5px;padding:10px 8px;font:inherit;font-size:13px;color:#6a7d8a;background:transparent;cursor:pointer}.access-tabs button.active{background:white;color:#244b4c;box-shadow:0 1px 5px #14394f12;font-weight:600}
 .access-heading h2{font-size:23px;font-weight:600;letter-spacing:.015em;margin:0 0 10px;color:#1b3447}.access-heading p{font-size:12px;line-height:1.7;color:#84909b;margin:0 0 30px}
 .access-panel :deep(.el-form-item){margin-bottom:22px}.access-panel :deep(.el-form-item__label){font-size:12px;font-weight:500;color:#526675;padding-bottom:8px;line-height:20px;height:auto}.access-panel :deep(.el-input__wrapper){border-radius:6px;background:#fff;box-shadow:0 0 0 1px #dce4ea inset;padding:0 13px}.access-panel :deep(.el-input__wrapper:hover){box-shadow:0 0 0 1px #9eafb9 inset}.access-panel :deep(.el-input__wrapper.is-focus){box-shadow:0 0 0 1.5px #32647a inset}.access-panel :deep(.el-input__inner){height:44px;font-size:13px;color:#283e4f}.access-panel :deep(.el-input__inner::placeholder){color:#a5b0b9;font-size:12px}
-.access-submit.el-button{display:flex;justify-content:space-between;width:100%;height:45px;padding:0 18px;margin-top:9px;border-radius:6px;background:#173e53;border-color:#173e53;font-size:14px;font-weight:500}.access-submit.el-button:hover{background:#24566c;border-color:#24566c}.access-submit :deep(>span){display:flex;justify-content:space-between;width:100%;align-items:center}.access-submit :deep(>span>span){font-size:18px;opacity:.7}
+.access-submit.el-button{display:flex;justify-content:space-between;width:100%;height:45px;padding:0 18px;margin-top:9px;border-radius:6px;background:#244b4c;border-color:#244b4c;font-size:14px;font-weight:500}.access-submit.el-button:hover{background:#24566c;border-color:#24566c}.access-submit :deep(>span){display:flex;justify-content:space-between;width:100%;align-items:center}.access-submit :deep(>span>span){font-size:18px;opacity:.7}
 .access-secondary{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:24px;font-size:12px;color:#8a969f}.access-secondary button{padding:3px 0;border:0;background:transparent;font:inherit;font-size:12px;color:#2a6077;cursor:pointer}.access-note{text-align:center;color:#8a969f;font-size:12px;line-height:1.8;margin:24px 0 0}
 .access-footer{display:flex;justify-content:space-between;gap:20px;padding-top:24px;color:#8c99a3;font-size:11px;line-height:1.7}.access-tabs button:focus-visible,.access-secondary button:focus-visible{outline:2px solid #3c829b;outline-offset:3px}
 @media(min-width:1500px){.login-layout{padding-top:88px}}
-@media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:34px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
-@media(max-width:700px){.login-page .platform-header{height:70px;min-height:70px;padding:0 22px}.portal-caption{display:none}.login-layout{width:calc(100% - 32px);padding-top:24px}.access-frame{grid-template-columns:1fr;min-height:0;border-radius:10px}.platform-cover{padding:25px 28px 24px}.cover-eyebrow{font-size:10px;margin-bottom:15px}.platform-cover h1{font-size:29px;line-height:1.4;margin-bottom:10px}.platform-cover h1 br{display:none}.cover-summary{font-size:11px}.cover-visual{display:none}.cover-capabilities{font-size:10px;padding-top:15px;margin-top:18px}.cover-capabilities span+span:before{margin:0 13px}.access-panel{padding:26px 28px 30px}.access-tabs{margin-bottom:26px}.access-heading h2{font-size:21px}.access-heading p{margin-bottom:24px}.access-footer{flex-direction:column;gap:4px;padding:18px 4px;text-align:center;font-size:10px}}
+@media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:31px}.cover-wordmark{font-size:46px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
+@media(max-width:700px){.login-page .platform-header{height:70px;min-height:70px;padding:0 22px}.portal-caption{display:none}.login-layout{width:calc(100% - 32px);padding-top:24px}.access-frame{grid-template-columns:1fr;min-height:0;border-radius:10px}.platform-cover{padding:25px 28px 24px}.cover-wordmark{font-size:36px;margin-bottom:18px;letter-spacing:-1.3px}.login-page .brand-mark{width:44px;height:44px}.login-page .platform-brand strong{font-size:28px}.platform-cover h1{font-size:25px;line-height:1.5;margin-bottom:10px}.platform-cover h1 br{display:none}.cover-summary{font-size:11px}.cover-rule{display:none}.cover-capabilities{font-size:10px;padding-top:15px;margin-top:18px}.cover-capabilities span+span:before{margin:0 13px}.access-panel{padding:26px 28px 30px}.access-tabs{margin-bottom:26px}.access-heading h2{font-size:21px}.access-heading p{margin-bottom:24px}.access-footer{flex-direction:column;gap:4px;padding:18px 4px;text-align:center;font-size:10px}}
 
 </style>
