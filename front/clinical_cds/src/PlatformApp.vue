@@ -17,19 +17,19 @@
           <p class="cover-wordmark">PsyConsult</p>
           <h1 id="platform-title">心理健康<br>与临床协作</h1>
           <p class="cover-summary">面向个人与专业人员的辅助工作平台</p>
-          <span class="cover-rule" aria-hidden="true"></span>
-          <div class="cover-capabilities"><span>科普与自评</span><span>资料与报告</span><span>专业协作</span></div>
+          <div class="cover-symbol" aria-hidden="true"><img src="/images/mental-health-symbol.png" alt="" /></div>
+          <div class="cover-capabilities"><span><el-icon aria-hidden="true"><ChatDotRound /></el-icon>科普与自评</span><span><el-icon aria-hidden="true"><Document /></el-icon>资料与报告</span><span><el-icon aria-hidden="true"><User /></el-icon>专业协作</span></div>
         </section>
 
         <section class="access-panel" aria-labelledby="access-title">
           <nav class="access-tabs" aria-label="登录方式">
-            <button :class="{ active: loginMode !== 'token' }" :aria-pressed="loginMode !== 'token'" @click="loginMode = 'login'; error = ''">个人登录</button>
-            <button :class="{ active: loginMode === 'token' }" :aria-pressed="loginMode === 'token'" @click="loginMode = 'token'; error = ''">专业入口</button>
+            <button :class="{ active: loginMode !== 'token' }" :aria-pressed="loginMode !== 'token'" @click="loginMode = 'login'; error = ''"><el-icon aria-hidden="true"><User /></el-icon>个人登录</button>
+            <button :class="{ active: loginMode === 'token' }" :aria-pressed="loginMode === 'token'" @click="loginMode = 'token'; error = ''"><el-icon aria-hidden="true"><Briefcase /></el-icon>专业入口</button>
           </nav>
           <div class="access-heading"><h2 id="access-title">{{ loginMode === 'register' ? '创建个人账号' : loginMode === 'token' ? '登录专业工作台' : '登录个人空间' }}</h2><p>{{ loginMode === 'register' ? '用于科普、自评和个人资料管理' : loginMode === 'token' ? '使用现有专业访问令牌' : '请输入你的账号信息' }}</p></div>
           <el-form label-position="top" @submit.prevent="signIn">
-            <template v-if="loginMode !== 'token'"><el-form-item label="用户名"><el-input v-model="username" autocomplete="username" :placeholder="loginMode === 'register' ? '3–64位字母、数字或 . _ -' : '请输入用户名'" /></el-form-item><el-form-item v-if="loginMode === 'register'" label="称呼"><el-input v-model="displayName" maxlength="60" placeholder="请输入称呼" /></el-form-item><el-form-item label="密码"><el-input v-model="password" type="password" show-password :autocomplete="loginMode === 'register' ? 'new-password' : 'current-password'" :placeholder="loginMode === 'register' ? '至少10位' : '请输入密码'" /></el-form-item></template>
-            <el-form-item v-else label="访问令牌"><el-input v-model="professionalToken" type="password" show-password autocomplete="off" placeholder="请输入专业访问令牌" /></el-form-item>
+            <template v-if="loginMode !== 'token'"><el-form-item label="用户名"><el-input v-model="username" :prefix-icon="User" autocomplete="username" :placeholder="loginMode === 'register' ? '3–64位字母、数字或 . _ -' : '请输入用户名'" /></el-form-item><el-form-item v-if="loginMode === 'register'" label="称呼"><el-input v-model="displayName" maxlength="60" placeholder="请输入称呼" /></el-form-item><el-form-item label="密码"><el-input v-model="password" :prefix-icon="Lock" type="password" show-password :autocomplete="loginMode === 'register' ? 'new-password' : 'current-password'" :placeholder="loginMode === 'register' ? '至少10位' : '请输入密码'" /></el-form-item></template>
+            <el-form-item v-else label="访问令牌"><el-input v-model="professionalToken" :prefix-icon="Key" type="password" show-password autocomplete="off" placeholder="请输入专业访问令牌" /></el-form-item>
             <el-alert v-if="error" :title="error" type="error" :closable="false" />
             <el-button class="access-submit" native-type="submit" type="primary" :loading="busy">{{ loginMode === 'register' ? '创建账号并登录' : '登 录' }}<span aria-hidden="true">→</span></el-button>
           </el-form>
@@ -93,6 +93,7 @@ import { consumeChatStream } from '@/api/chatStream'
 import DOMPurify from 'dompurify'
 import { marked } from 'marked'
 import { ElMessage } from 'element-plus'
+import { User, Briefcase, ChatDotRound, Document, Lock, Key } from '@element-plus/icons-vue'
 import { accessToken, apiBase, headers, request, setAccessToken, type CaseDetail, type CaseItem, type Grant, type HealthRecord, type Identity } from '@/api/platform'
 const ClinicalWorkbench = defineAsyncComponent(() => import('./App.vue'))
 const identity = ref<Identity | null>(null), workspace = ref('personal'), personalTab = ref('chat')
@@ -238,26 +239,36 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 @media(max-width:1000px){.platform-header{flex-wrap:wrap;padding:14px 20px}.account{max-width:100%}.case-space{grid-template-columns:1fr}.personal-workspace{padding:20px}.professional-toolbar{flex-wrap:wrap;gap:12px}}
 @media(max-width:600px){.platform-header nav{width:100%;overflow:auto}.platform-header nav button{white-space:nowrap;padding:9px 11px}.space-heading,.section-heading{align-items:flex-start;flex-wrap:wrap}.panel{padding:18px}.record-row,.composer-actions{flex-wrap:wrap}.question :deep(.el-radio-group){display:grid}.professional-toolbar span{display:block;margin:8px 0}.public-message.user{margin-left:5%}}
 /* Entry page: a compact institutional workspace, independent of clinical UI. */
-.login-page{background:#f5f5f1;color:#203447;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
+.login-page{background:#f2f6fa;color:#203447;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif}
 .login-page .platform-header{height:82px;min-height:82px;padding:0 max(32px,calc((100vw - 1160px)/2));border-bottom:1px solid #e3e9ee;background:#fff}
 .login-page .platform-brand{gap:14px}.brand-mark{height:50px;width:50px;flex-shrink:0}
-.login-page .platform-brand strong{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:600;line-height:1.15;letter-spacing:-1.2px;color:#203f42}.login-page .platform-brand small{display:block;margin-top:5px;font-size:11px;color:#71808d;letter-spacing:.04em}
+.login-page .platform-brand strong{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:600;line-height:1.15;letter-spacing:-1.2px;color:#1c3f5c}.login-page .platform-brand small{display:block;margin-top:5px;font-size:11px;color:#71808d;letter-spacing:.04em}
 .portal-caption{display:flex;align-items:center;gap:16px;font-size:12px;color:#687a88}.portal-caption>span{border:1px solid #dce5eb;border-radius:4px;padding:4px 8px;font-size:11px;color:#7b8995}
 .login-layout{width:min(1160px,calc(100% - 64px));margin:0 auto;padding:64px 0 26px}
 .access-frame{display:grid;grid-template-columns:1.06fr 1fr;min-height:584px;background:#fff;border:1px solid #dfe7ed;border-radius:14px;overflow:hidden;box-shadow:0 12px 36px #18394d08}
-.platform-cover{position:relative;padding:50px 48px 30px;background:#203f42;color:#f7fafb;display:flex;flex-direction:column;overflow:hidden}
-.cover-wordmark{margin:0 0 60px;font-family:Georgia,"Times New Roman",serif;font-size:54px;font-weight:400;line-height:1.1;letter-spacing:-2.2px;color:#f2f3eb}
+.platform-cover{position:relative;padding:50px 48px 30px;background:#214b6b;color:#f7fafb;display:flex;flex-direction:column;overflow:hidden}
+.cover-wordmark{margin:0 0 60px;font-family:Georgia,"Times New Roman",serif;font-size:54px;font-weight:400;line-height:1.1;letter-spacing:-2.2px;color:#f6faff}
 .platform-cover h1{font-size:33px;line-height:1.55;font-weight:500;letter-spacing:.045em;margin:0 0 16px;color:#fff}
-.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#c0ceca;margin:0}.cover-rule{display:block;width:54px;height:1px;background:#a6bbb2;margin-top:34px;opacity:.65}
-.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #d2dfd526;padding-top:22px;margin-top:auto;color:#cad6cf;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
-.access-panel{padding:44px 58px 38px;align-self:center;min-width:0}.access-tabs{display:flex;padding:4px;background:#f1f5f7;border-radius:7px;gap:4px;margin-bottom:34px}.access-tabs button{flex:1;border:0;border-radius:5px;padding:10px 8px;font:inherit;font-size:13px;color:#6a7d8a;background:transparent;cursor:pointer}.access-tabs button.active{background:white;color:#244b4c;box-shadow:0 1px 5px #14394f12;font-weight:600}
+.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#c5d7e7;margin:0}.cover-rule{display:block;width:54px;height:1px;background:#a6bbb2;margin-top:34px;opacity:.65}
+.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #d6e7f02e;padding-top:22px;margin-top:auto;color:#d5e3ef;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
+.access-panel{padding:44px 58px 38px;align-self:center;min-width:0}.access-tabs{display:flex;padding:4px;background:#f1f5f7;border-radius:7px;gap:4px;margin-bottom:34px}.access-tabs button{flex:1;border:0;border-radius:5px;padding:10px 8px;font:inherit;font-size:13px;color:#6a7d8a;background:transparent;cursor:pointer}.access-tabs button.active{background:white;color:#285578;box-shadow:0 1px 5px #14394f12;font-weight:600}
 .access-heading h2{font-size:23px;font-weight:600;letter-spacing:.015em;margin:0 0 10px;color:#1b3447}.access-heading p{font-size:12px;line-height:1.7;color:#84909b;margin:0 0 30px}
 .access-panel :deep(.el-form-item){margin-bottom:22px}.access-panel :deep(.el-form-item__label){font-size:12px;font-weight:500;color:#526675;padding-bottom:8px;line-height:20px;height:auto}.access-panel :deep(.el-input__wrapper){border-radius:6px;background:#fff;box-shadow:0 0 0 1px #dce4ea inset;padding:0 13px}.access-panel :deep(.el-input__wrapper:hover){box-shadow:0 0 0 1px #9eafb9 inset}.access-panel :deep(.el-input__wrapper.is-focus){box-shadow:0 0 0 1.5px #32647a inset}.access-panel :deep(.el-input__inner){height:44px;font-size:13px;color:#283e4f}.access-panel :deep(.el-input__inner::placeholder){color:#a5b0b9;font-size:12px}
-.access-submit.el-button{display:flex;justify-content:space-between;width:100%;height:45px;padding:0 18px;margin-top:9px;border-radius:6px;background:#244b4c;border-color:#244b4c;font-size:14px;font-weight:500}.access-submit.el-button:hover{background:#24566c;border-color:#24566c}.access-submit :deep(>span){display:flex;justify-content:space-between;width:100%;align-items:center}.access-submit :deep(>span>span){font-size:18px;opacity:.7}
+.access-submit.el-button{display:flex;justify-content:space-between;width:100%;height:45px;padding:0 18px;margin-top:9px;border-radius:6px;background:#285578;border-color:#285578;font-size:14px;font-weight:500}.access-submit.el-button:hover{background:#24566c;border-color:#24566c}.access-submit :deep(>span){display:flex;justify-content:space-between;width:100%;align-items:center}.access-submit :deep(>span>span){font-size:18px;opacity:.7}
 .access-secondary{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:24px;font-size:12px;color:#8a969f}.access-secondary button{padding:3px 0;border:0;background:transparent;font:inherit;font-size:12px;color:#2a6077;cursor:pointer}.access-note{text-align:center;color:#8a969f;font-size:12px;line-height:1.8;margin:24px 0 0}
 .access-footer{display:flex;justify-content:space-between;gap:20px;padding-top:24px;color:#8c99a3;font-size:11px;line-height:1.7}.access-tabs button:focus-visible,.access-secondary button:focus-visible{outline:2px solid #3c829b;outline-offset:3px}
 @media(min-width:1500px){.login-layout{padding-top:88px}}
 @media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:31px}.cover-wordmark{font-size:46px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
 @media(max-width:700px){.login-page .platform-header{height:70px;min-height:70px;padding:0 22px}.portal-caption{display:none}.login-layout{width:calc(100% - 32px);padding-top:24px}.access-frame{grid-template-columns:1fr;min-height:0;border-radius:10px}.platform-cover{padding:25px 28px 24px}.cover-wordmark{font-size:36px;margin-bottom:18px;letter-spacing:-1.3px}.login-page .brand-mark{width:44px;height:44px}.login-page .platform-brand strong{font-size:28px}.platform-cover h1{font-size:25px;line-height:1.5;margin-bottom:10px}.platform-cover h1 br{display:none}.cover-summary{font-size:11px}.cover-rule{display:none}.cover-capabilities{font-size:10px;padding-top:15px;margin-top:18px}.cover-capabilities span+span:before{margin:0 13px}.access-panel{padding:26px 28px 30px}.access-tabs{margin-bottom:26px}.access-heading h2{font-size:21px}.access-heading p{margin-bottom:24px}.access-footer{flex-direction:column;gap:4px;padding:18px 4px;text-align:center;font-size:10px}}
+
+.cover-symbol{position:absolute;width:148px;height:148px;right:48px;bottom:108px;border-radius:50%;background:#e0ecf7;overflow:hidden;box-shadow:0 8px 28px #102d4510}
+.cover-symbol img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;mix-blend-mode:multiply;opacity:.8}
+.cover-capabilities>span{display:inline-flex;gap:7px;align-items:center;white-space:nowrap}
+.cover-capabilities .el-icon{font-size:16px;color:#adcde6}
+.cover-capabilities span+span:before{margin:0 12px 0 5px;background:#b7d3e440}
+.access-tabs button{display:flex;align-items:center;justify-content:center;gap:8px}.access-tabs .el-icon{font-size:16px}
+.access-panel :deep(.el-input__prefix){color:#8199ab;margin-right:4px}
+@media(max-width:1000px){.cover-symbol{right:30px;width:124px;height:124px;bottom:112px}.cover-capabilities{font-size:11px}.cover-capabilities>span{gap:5px}.cover-capabilities span+span:before{margin:0 7px 0 3px}}
+@media(max-width:700px){.cover-symbol{display:none}.cover-capabilities{font-size:10px}.cover-capabilities .el-icon{font-size:14px}.cover-capabilities span+span:before{margin:0 9px 0 3px}}
 
 </style>
