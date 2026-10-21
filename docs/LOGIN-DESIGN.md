@@ -71,3 +71,13 @@
 ![平板布局](images/login-separated-tablet.png)
 
 ![手机布局](images/login-separated-mobile.png)
+
+## 浅蓝整体构图
+
+根据用户对突兀感的反馈，将封面改为浅蓝底与深蓝文字，侧脸和脑线框统一放在下方网格区域，采用相近的低对比度灰蓝线条。取消独立悬浮定位，两个图案具有各自空间；保留品牌脑图标、字标大小与蓝色按钮。手机端使用紧凑的装饰行。
+
+类型检查、生产构建及桌面和手机视觉检查通过，业务脚本比较一致。
+
+![浅蓝整体封面](images/login-light-composed-desktop.png)
+
+![手机整体封面](images/login-light-composed-mobile.png)

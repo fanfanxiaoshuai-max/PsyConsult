@@ -14,11 +14,10 @@
     <main v-if="!identity" class="login-layout">
       <div class="access-frame">
         <section class="platform-cover" aria-labelledby="platform-title">
-          <img class="cover-background" src="/images/brain-network-background.png" alt="" aria-hidden="true" />
-          <div class="cover-emblem" aria-hidden="true"><img src="/images/mental-health-symbol.png" alt="" /></div>
           <p class="cover-wordmark">PsyConsult</p>
           <h1 id="platform-title">心理健康<br>与临床协作</h1>
           <p class="cover-summary">面向个人与专业人员的辅助工作平台</p>
+          <div class="cover-art" aria-hidden="true"><div class="cover-emblem"><img src="/images/mental-health-symbol.png" alt="" /></div><img class="cover-background" src="/images/brain-network-background.png" alt="" /></div>
           <div class="cover-capabilities"><span><el-icon aria-hidden="true"><ChatDotRound /></el-icon>科普与自评</span><span><el-icon aria-hidden="true"><Document /></el-icon>资料与报告</span><span><el-icon aria-hidden="true"><User /></el-icon>专业协作</span></div>
         </section>
 
@@ -247,11 +246,11 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 .portal-caption{display:flex;align-items:center;gap:16px;font-size:12px;color:#687a88}.portal-caption>span{border:1px solid #dce5eb;border-radius:4px;padding:4px 8px;font-size:11px;color:#7b8995}
 .login-layout{width:min(1160px,calc(100% - 64px));margin:0 auto;padding:64px 0 26px}
 .access-frame{display:grid;grid-template-columns:1.06fr 1fr;min-height:584px;background:#fff;border:1px solid #dfe7ed;border-radius:14px;overflow:hidden;box-shadow:0 12px 36px #18394d08}
-.platform-cover{position:relative;padding:50px 48px 30px;background:#214b6b;color:#f7fafb;display:flex;flex-direction:column;overflow:hidden}
-.cover-wordmark{margin:0 0 60px;font-family:Georgia,"Times New Roman",serif;font-size:54px;font-weight:400;line-height:1.1;letter-spacing:-2.2px;color:#f6faff}
-.platform-cover h1{font-size:33px;line-height:1.55;font-weight:500;letter-spacing:.045em;margin:0 0 16px;color:#fff}
-.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#c5d7e7;margin:0}.cover-rule{display:block;width:54px;height:1px;background:#a6bbb2;margin-top:34px;opacity:.65}
-.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #d6e7f02e;padding-top:22px;margin-top:auto;color:#d5e3ef;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
+.platform-cover{position:relative;padding:50px 48px 30px;background:#e9f2fa;color:#244a67;display:flex;flex-direction:column;overflow:hidden}
+.cover-wordmark{margin:0 0 48px;font-family:Georgia,"Times New Roman",serif;font-size:54px;font-weight:400;line-height:1.1;letter-spacing:-2.2px;color:#234760}
+.platform-cover h1{font-size:33px;line-height:1.55;font-weight:500;letter-spacing:.045em;margin:0 0 16px;color:#294f6c}
+.cover-summary{font-size:13px;line-height:1.8;letter-spacing:.025em;color:#526b7e;margin:0}.cover-rule{display:block;width:54px;height:1px;background:#a6bbb2;margin-top:34px;opacity:.65}
+.cover-capabilities{display:flex;align-items:center;gap:0;border-top:1px solid #c9dce9;padding-top:22px;margin-top:auto;color:#526b7e;font-size:12px;letter-spacing:.035em}.cover-capabilities span+span:before{content:"";display:inline-block;width:1px;height:10px;background:#a6c7d23d;margin:0 18px}
 .access-panel{padding:44px 58px 38px;align-self:center;min-width:0}.access-tabs{display:flex;padding:4px;background:#f1f5f7;border-radius:7px;gap:4px;margin-bottom:34px}.access-tabs button{flex:1;border:0;border-radius:5px;padding:10px 8px;font:inherit;font-size:13px;color:#6a7d8a;background:transparent;cursor:pointer}.access-tabs button.active{background:white;color:#285578;box-shadow:0 1px 5px #14394f12;font-weight:600}
 .access-heading h2{font-size:23px;font-weight:600;letter-spacing:.015em;margin:0 0 10px;color:#1b3447}.access-heading p{font-size:12px;line-height:1.7;color:#84909b;margin:0 0 30px}
 .access-panel :deep(.el-form-item){margin-bottom:22px}.access-panel :deep(.el-form-item__label){font-size:12px;font-weight:500;color:#526675;padding-bottom:8px;line-height:20px;height:auto}.access-panel :deep(.el-input__wrapper){border-radius:6px;background:#fff;box-shadow:0 0 0 1px #dce4ea inset;padding:0 13px}.access-panel :deep(.el-input__wrapper:hover){box-shadow:0 0 0 1px #9eafb9 inset}.access-panel :deep(.el-input__wrapper.is-focus){box-shadow:0 0 0 1.5px #32647a inset}.access-panel :deep(.el-input__inner){height:44px;font-size:13px;color:#283e4f}.access-panel :deep(.el-input__inner::placeholder){color:#a5b0b9;font-size:12px}
@@ -265,23 +264,31 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 
 
 .cover-capabilities>span{display:inline-flex;gap:7px;align-items:center;white-space:nowrap}
-.cover-capabilities .el-icon{font-size:16px;color:#adcde6}
-.cover-capabilities span+span:before{margin:0 12px 0 5px;background:#b7d3e440}
+.cover-capabilities .el-icon{font-size:16px;color:#7895ab}
+.cover-capabilities span+span:before{margin:0 12px 0 5px;background:#bed0df}
 .access-tabs button{display:flex;align-items:center;justify-content:center;gap:8px}.access-tabs .el-icon{font-size:16px}
 .access-panel :deep(.el-input__prefix){color:#8199ab;margin-right:4px}
 @media(max-width:1000px){.cover-capabilities{font-size:11px}.cover-capabilities>span{gap:5px}.cover-capabilities span+span:before{margin:0 7px 0 3px}}
 @media(max-width:700px){.cover-capabilities{font-size:10px}.cover-capabilities .el-icon{font-size:14px}.cover-capabilities span+span:before{margin:0 9px 0 3px}}
 
 .platform-cover{isolation:isolate}
-.cover-background{position:absolute;width:760px;height:608px;max-width:none;right:-160px;bottom:-160px;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.1;pointer-events:none;user-select:none;z-index:0}
+
 .platform-cover>:not(.cover-background){position:relative;z-index:1}
-@media(max-width:1000px){.cover-background{right:-210px;bottom:-160px}}
-@media(max-width:700px){.cover-background{width:300px;height:240px;right:-75px;bottom:-92px;opacity:.1}}
+@media(max-width:1000px){}
+@media(max-width:700px){}
 
 /* The illustration blends into the cover: no white tile, disc, border or shadow. */
-.platform-cover>.cover-emblem{position:absolute;right:32px;top:34px;bottom:auto;width:230px;height:195px;mix-blend-mode:screen;opacity:.48;pointer-events:none;user-select:none;z-index:1}
-.cover-emblem img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1) invert(1)}
-@media(max-width:1000px){.platform-cover>.cover-emblem{width:128px;height:112px;right:14px;top:24px;bottom:auto}}
-@media(max-width:700px){.platform-cover>.cover-emblem{width:110px;height:100px;right:12px;top:8px;bottom:auto;opacity:.38}}
+
+
+@media(max-width:1000px){}
+@media(max-width:700px){}
+
+/* One quiet illustration band, with separate grid cells rather than floating marks. */
+.cover-art{display:grid;grid-template-columns:38% 62%;align-items:center;gap:0;height:160px;margin:20px 0 16px;mix-blend-mode:multiply;pointer-events:none;user-select:none}
+.cover-art .cover-emblem{position:static;width:100%;height:145px;opacity:.14}
+.cover-art .cover-emblem img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1)}
+.cover-art .cover-background{position:static;display:block;width:100%;height:160px;object-fit:cover;filter:grayscale(1);opacity:.24;max-width:100%}
+@media(max-width:1000px){.cover-art{height:145px;margin-top:18px}.cover-art .cover-emblem{height:120px}.cover-art .cover-background{height:145px}}
+@media(max-width:700px){.cover-art{grid-template-columns:40% 60%;height:78px;margin:12px 0 2px}.cover-art .cover-emblem{height:76px}.cover-art .cover-background{height:78px}.cover-capabilities{margin-top:14px}}
 
 </style>
