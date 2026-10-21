@@ -1,0 +1,123 @@
+{
+  "checked_at_utc": "2026-10-20T12:47:47Z",
+  "passed": 18,
+  "failed": 0,
+  "scope": "project_internal_review_and_knowledge_workspace",
+  "active": "project-27e190d37419",
+  "checks": [
+    {
+      "case": "project_status_and_active_release",
+      "passed": true,
+      "counts": {
+        "approved": 787,
+        "disabled": 44,
+        "blocked": 68
+      },
+      "active": "project-27e190d37419"
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "working",
+      "query": "抑郁症",
+      "records": 19
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "working",
+      "query": "双相情感障碍",
+      "records": 4
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "working",
+      "query": "失眠",
+      "records": 2
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "working",
+      "query": "帕罗西汀",
+      "records": 10
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "working",
+      "query": "6A72",
+      "records": 4
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "active",
+      "query": "抑郁症",
+      "records": 19
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "active",
+      "query": "双相情感障碍",
+      "records": 4
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "active",
+      "query": "失眠",
+      "records": 2
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "active",
+      "query": "帕罗西汀",
+      "records": 10
+    },
+    {
+      "case": "query_and_detail",
+      "passed": true,
+      "view": "active",
+      "query": "6A72",
+      "records": 4
+    },
+    {
+      "case": "project_review_filter",
+      "passed": true,
+      "status": "approved",
+      "count": 787
+    },
+    {
+      "case": "project_review_filter",
+      "passed": true,
+      "status": "blocked",
+      "count": 68
+    },
+    {
+      "case": "project_review_filter",
+      "passed": true,
+      "status": "disabled",
+      "count": 44
+    },
+    {
+      "case": "project_ledger_export_without_expert_form",
+      "passed": true
+    },
+    {
+      "case": "invalid_mutation_rejected",
+      "passed": true
+    },
+    {
+      "case": "graph_browser_tracks_release_and_baseline_archive_unchanged",
+      "passed": true
+    },
+    {
+      "case": "frontend_http",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "baseline_commit": "3d2fd3d74fbf245f451805f4aa4c2e5b5ac2682e",
+  "docker_engine": "29.8.2",
+  "redis_checkpoint": {
+    "write_reconnect_restore_continue": "passed",
+    "ttl_observed_seconds": [86392, 86398],
+    "retained_after_container_restart": true
+  },
+  "milvus": {"version": "2.4.0", "client_connection": "passed", "rag_ingestion": "passed", "source_markdown_files": 7, "document_chunks": 50},
+  "neo4j": {
+    "version": "5.26.32", "nodes": 214, "relationships": 423,
+    "source_edges_with_missing_endpoints": 13,
+    "source_ids_with_multiple_labels": 5,
+    "retained_after_container_restart": true
+  },
+  "image_digests": {
+    "redis/redis-stack-server": "sha256:887cf87cc744e4588ccade336d0dbb943e4e46330f738653ccb3a7a55df2f186",
+    "milvusdb/milvus": "sha256:9500220e24ba8948cfd7d4273aa2432b3321acaf30dfd698ff1bd53d93fcb74b",
+    "neo4j": "sha256:0a6e7aedf54a531f76286032d4365ead65b11cca05e4a15cdf23b8e53d6db02b"
+  },
+  "model_api_key": "configured_locally_and_validated",
+  "live_model_end_to_end": "passed",
+  "live_model_report": "E2E-VERIFICATION.json"
+}

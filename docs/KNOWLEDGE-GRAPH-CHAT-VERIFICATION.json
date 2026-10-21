@@ -1,0 +1,85 @@
+{
+  "version": "kg_v1",
+  "cache_collection": "qa_semantic_cache_kg_c99d9fd268ba",
+  "synthetic_cases_only": true,
+  "turns": [
+    {
+      "seconds": 86.78,
+      "content_chars": 2334,
+      "nodes": [
+        "orchestrator",
+        "differential_diagnosis",
+        "treatment_recommend",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_synonyms...",
+        "正在调用 ...",
+        "正在调用 query_synonyms...",
+        "正在调用 ...",
+        "正在调用 query_synonyms...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 ...",
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 ...",
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ..."
+      ],
+      "cache_hit": false,
+      "done": true
+    },
+    {
+      "seconds": 37.39,
+      "content_chars": 1497,
+      "nodes": [
+        "orchestrator",
+        "treatment_recommend",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 ...",
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ..."
+      ],
+      "cache_hit": false,
+      "done": true
+    },
+    {
+      "seconds": 13.2,
+      "content_chars": 560,
+      "nodes": [
+        "orchestrator",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ..."
+      ],
+      "cache_hit": false,
+      "done": true
+    }
+  ],
+  "cache_hit": {
+    "seconds": 0.2,
+    "content_chars": 560,
+    "nodes": [],
+    "tools": [],
+    "cache_hit": true,
+    "done": true
+  }
+}

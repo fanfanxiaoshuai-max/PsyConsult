@@ -15,6 +15,9 @@
         新建诊疗会话
       </el-button>
 
+      <el-button @click="activeView = activeView === 'graph' ? 'chat' : 'graph'">{{ activeView === 'graph' ? '返回诊疗会话' : '知识图谱' }}</el-button>
+      <el-button @click="activeView = activeView === 'candidate' ? 'chat' : 'candidate'">{{ activeView === 'candidate' ? '返回诊疗会话' : '知识审核与版本管理' }}</el-button>
+
       <nav class="session-list" aria-label="诊疗会话">
         <button
           v-for="s in sessions"
@@ -38,7 +41,9 @@
       </div>
     </aside>
 
-    <main class="case-workbench">
+    <KnowledgeGraphPanel v-if="identityReady" v-show="activeView === 'graph'" :active="activeView === 'graph'" :user-id="userId" />
+    <CandidateGraphPanel v-if="identityReady && activeView === 'candidate'" :active="true" :user-id="userId" :role="identityRole" />
+    <main v-show="activeView === 'chat'" class="case-workbench">
       <header class="case-header">
         <div>
           <p class="eyebrow">ICD-11 · Multi-Agent · 药物审查</p>
@@ -54,6 +59,7 @@
         <el-icon><WarningFilled /></el-icon>
         <span>仅供临床参考，诊断和处方须由执业医师结合病史、查体和检查结果确认。</span>
       </section>
+      <el-alert v-if="identityError" :title="identityError" type="error" :closable="false" />
 
       <section ref="msgContainer" class="messages-panel" aria-live="polite">
         <div v-if="messages.length === 0" class="empty-state">
@@ -87,7 +93,7 @@
           :class="msg.role === 'user' ? 'user-row' : 'assistant-row'"
         >
           <div class="message-meta">
-            <span>{{ msg.role === 'user' ? '医生输入' : 'CDS 输出' }}</span>
+            <span>{{ msg.role === 'user' ? '医生输入' : 'CDS 输出' }}</span><span v-if="msg.role === 'assistant' && msg.knowledgeVersion" class="knowledge-version" :title="msg.knowledgeChecksum">知识版本：{{ msg.knowledgeName || msg.knowledgeVersion }} · {{ msg.knowledgeVersion }}{{ msg.cacheHit ? ' · 缓存命中' : '' }}</span>
           </div>
           <div class="message-bubble" :class="msg.role === 'user' ? 'user-bubble' : 'assistant-bubble'">
             <div v-if="msg.role === 'assistant' && msg.status" class="stage-status" aria-live="polite">
@@ -95,6 +101,7 @@
               <span>阶段：{{ msg.status }}</span>
             </div>
             <div v-if="msg.content" class="markdown-body" v-html="renderMarkdown(msg.content)"></div>
+            <el-button v-if="msg.failed" text :disabled="isThinking" @click="retryMessage(idx)">重新提问</el-button>
           </div>
         </article>
 
@@ -105,6 +112,7 @@
       </section>
 
       <footer class="composer">
+        <span v-if="storageError" role="status">{{ storageError }}</span>
         <el-input
           v-model="inputMessage"
           class="case-input"
@@ -114,11 +122,12 @@
           placeholder="请输入患者症状、病程、既往用药、量表结果或需要审查的治疗方案"
           @keydown.enter.exact.prevent="sendQuery()"
         />
-        <el-button
+        <el-button v-if="isThinking" class="send-button" @click="cancelRequest">停止生成</el-button>
+        <el-button v-else
           class="send-button"
           type="primary"
           :icon="Promotion"
-          :disabled="!inputMessage.trim() || isThinking"
+          :disabled="!identityReady || !inputMessage.trim() || isThinking"
           @click="sendQuery()"
         >
           发送
@@ -126,7 +135,7 @@
       </footer>
     </main>
 
-    <aside class="insight-panel">
+    <aside v-show="activeView === 'chat'" class="insight-panel">
       <section class="panel-section">
         <p class="section-label">工作流</p>
         <ol class="pipeline-list">
@@ -157,7 +166,13 @@
 </template>
 
 <script setup lang="ts">
-import { nextTick, ref } from 'vue'
+import { defineAsyncComponent, nextTick, onBeforeUnmount, ref, watch } from 'vue'
+import { consumeChatStream } from '@/api/chatStream'
+import { encodeSessions, newSessionId, restoreSessions, sessionStorageKey, type SessionItem, type ChatMessage } from '@/api/chatSessions'
+const KnowledgeGraphPanel = defineAsyncComponent(() => import('@/components/knowledge-graph/KnowledgeGraphPanel.vue'))
+const CandidateGraphPanel = defineAsyncComponent(() => import('@/components/knowledge-graph/CandidateGraphPanel.vue'))
+const activeView = ref<'chat' | 'graph' | 'candidate'>(window.location.hash === '#candidate' ? 'candidate' : 'chat')
+watch(activeView, view => { window.history.replaceState(null, '', window.location.pathname + window.location.search + (view === 'candidate' ? '#candidate' : '')) })
 import {
   ChatDotRound,
   CirclePlus,
@@ -173,29 +188,51 @@ import {
 import DOMPurify from 'dompurify'
 import { marked } from 'marked'
 
-interface SessionItem {
-  id: string
-  name: string
-}
-
-interface ChatMessage {
-  role: 'user' | 'assistant'
-  content: string
-  status?: string
-}
-
 const userId = ref('doctor_001')
-const currentSessionId = ref(`session_${Date.now()}`)
+const storageError = ref('')
+const identityReady = ref(false)
+const identityRole = ref('reader')
+const identityError = ref('')
+const currentSessionId = ref(newSessionId())
 const sessions = ref<SessionItem[]>([{ id: currentSessionId.value, name: '新诊疗会话' }])
 const messagesBySession = ref<Record<string, ChatMessage[]>>({
   [currentSessionId.value]: [],
 })
-const messages = ref<ChatMessage[]>([])
+const messages = ref<ChatMessage[]>(messagesBySession.value[currentSessionId.value] || [])
+watch([sessions, messagesBySession, currentSessionId], () => {
+  if (!identityReady.value) return
+  try {
+    localStorage.setItem(sessionStorageKey(userId.value), encodeSessions({ sessions: sessions.value, messagesBySession: messagesBySession.value, currentSessionId: currentSessionId.value }))
+    storageError.value = ''
+  } catch { storageError.value = '本机保存会话失败，请保留重要内容后再刷新。' }
+}, { deep: true })
+let activeRequest: AbortController | null = null
+onBeforeUnmount(() => activeRequest?.abort())
+function cancelRequest() { activeRequest?.abort('user') }
 const inputMessage = ref('')
 const isThinking = ref(false)
 const msgContainer = ref<HTMLElement | null>(null)
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5000'
 const apiAuthToken = import.meta.env.VITE_API_AUTH_TOKEN || ''
+const identityPromise = (async () => {
+  try {
+    const response = await fetch(`${apiBaseUrl}/api/identity`, { headers: apiAuthToken ? { Authorization: `Bearer ${apiAuthToken}` } : {}, signal: AbortSignal.timeout(10_000) })
+    if (!response.ok) throw new Error('identity unavailable')
+    const identity = await response.json()
+    userId.value = identity.user_id
+    identityRole.value = identity.role
+    try {
+      const restored = restoreSessions(localStorage.getItem(sessionStorageKey(userId.value)))
+      if (restored) {
+        sessions.value = restored.sessions
+        messagesBySession.value = restored.messagesBySession
+        currentSessionId.value = restored.currentSessionId
+        messages.value = restored.messagesBySession[restored.currentSessionId] || []
+      }
+    } catch { storageError.value = '本机无法保存会话，刷新后可能丢失。' }
+    identityReady.value = true
+  } catch { identityError.value = '无法确认当前用户，请检查后端连接或访问令牌后刷新页面。' }
+})()
 
 const scenarios = [
   {
@@ -237,7 +274,7 @@ const scenarios = [
 ]
 
 const pipelineStages = [
-  { index: '01', name: '症状抽取', detail: '标准术语、证据、量表推断' },
+  { index: '01', name: '症状抽取', detail: '用户原话、证据、量表资料核对' },
   { index: '02', name: '鉴别诊断', detail: 'ICD-11 标准逐条对照' },
   { index: '03', name: '治疗建议', detail: '指南路径和分级方案' },
   { index: '04', name: '药物审查', detail: '相互作用和风险评级' },
@@ -245,7 +282,7 @@ const pipelineStages = [
 
 const knowledgeSources = [
   { name: 'Milvus RAG', detail: '指南和诊断标准片段', icon: DataAnalysis },
-  { name: 'Neo4j 图谱', detail: '疾病、症状、药物关系', icon: Connection },
+  { name: '版本化知识图谱', detail: '当前启用版本的结构化记录', icon: Connection },
   { name: 'Redis 记忆', detail: '当前会话近期上下文', icon: ChatDotRound },
 ]
 
@@ -272,7 +309,7 @@ async function selectSession(sessionId: string) {
 }
 
 function createSession() {
-  const id = `session_${Date.now()}`
+  const id = newSessionId()
   sessions.value.unshift({ id, name: `诊疗会话 ${sessions.value.length + 1}` })
   messagesBySession.value[id] = []
   currentSessionId.value = id
@@ -292,6 +329,7 @@ function agentLabel(name: string): string {
     differential_diagnosis: '🔬 临床评估与鉴别诊断',
     treatment_recommend: '💊 治疗推荐',
     drug_interaction: '⚠️ 药物审查',
+    input_validation: '输入提示',
   }
   return labels[name] || name
 }
@@ -319,14 +357,6 @@ function appendAssistantMessage(sessionId: string, index: number, content: strin
   }
 }
 
-function replaceAssistantMessage(sessionId: string, index: number, content: string) {
-  const message = getSessionMessages(sessionId)[index]
-  if (message && message.role === 'assistant') {
-    message.content = content
-    message.status = undefined
-  }
-}
-
 function updateAssistantStatus(sessionId: string, index: number, status: string) {
   const message = getSessionMessages(sessionId)[index]
   if (message && message.role === 'assistant') {
@@ -335,6 +365,8 @@ function updateAssistantStatus(sessionId: string, index: number, status: string)
 }
 
 async function sendQuery(preset?: string) {
+  await identityPromise
+  if (!identityReady.value) return
   const query = preset || inputMessage.value.trim()
   if (!query || isThinking.value) return
 
@@ -346,8 +378,11 @@ async function sendQuery(preset?: string) {
   inputMessage.value = ''
   isThinking.value = true
   const msgIdx = sessionMessages.length
-  sessionMessages.push({ role: 'assistant', content: '' })
+  sessionMessages.push({ role: 'assistant', content: '', status: '正在连接...' })
   const lastContentAgent = { current: '' }
+  const controller = new AbortController()
+  activeRequest = controller
+  const timeout = window.setTimeout(() => controller.abort('timeout'), 240_000)
   await scrollMessages()
 
   try {
@@ -363,33 +398,28 @@ async function sendQuery(preset?: string) {
       method: 'POST',
       headers,
       body: JSON.stringify({ query, session_id: requestSessionId }),
+      signal: controller.signal,
     })
 
     if (!response.ok || !response.body) {
       throw new Error(`Request failed with status ${response.status}`)
     }
 
-    const reader = response.body.getReader()
-    const decoder = new TextDecoder()
-    let buffer = ''
-
-    while (true) {
-      const { done, value } = await reader.read()
-      if (done) break
-      buffer += decoder.decode(value, { stream: true })
-      const lines = buffer.split('\n')
-      buffer = lines.pop() || ''
-
-      for (const line of lines) {
-        if (!line.startsWith('data: ')) continue
-        const data = line.slice(6)
-        if (data === '[DONE]') break
-
-        try {
-          const parsed = JSON.parse(data)
+    await consumeChatStream(response.body, async parsed => {
+          const target = getSessionMessages(requestSessionId)[msgIdx]
+          if (target) {
+            if (parsed.knowledge_version) { target.knowledgeVersion = parsed.knowledge_version; target.knowledgeName = parsed.knowledge_name; target.knowledgeChecksum = parsed.knowledge_checksum }
+            if (parsed.cache_hit) target.cacheHit = true
+            if (parsed.error || parsed.failed) target.failed = true
+          }
+          if (parsed.error) {
+            appendAssistantMessage(requestSessionId, msgIdx, '\n' + parsed.content)
+            updateAssistantStatus(requestSessionId, msgIdx, '分析未完成')
+            return
+          }
           if (parsed.done) {
-            updateAssistantStatus(requestSessionId, msgIdx, '分析完成')
-            continue
+            updateAssistantStatus(requestSessionId, msgIdx, target?.failed ? '分析未完成' : '分析完成')
+            return
           }
 
           if (parsed.status) {
@@ -397,33 +427,41 @@ async function sendQuery(preset?: string) {
             if (currentSessionId.value === requestSessionId) {
               await scrollMessages()
             }
-            continue
+            return
           }
 
           if (parsed.content) {
             let label = ''
-            if (parsed.agent && parsed.agent !== lastContentAgent.current) {
+            if (parsed.agent && parsed.agent !== 'semantic_cache' && parsed.agent !== lastContentAgent.current) {
               lastContentAgent.current = parsed.agent
-              label = `\n### ${agentLabel(parsed.agent)}\n`
+              if (!parsed.content.trimStart().startsWith('#')) label = `\n### ${agentLabel(parsed.agent)}\n`
             }
             appendAssistantMessage(requestSessionId, msgIdx, label + parsed.content)
             if (currentSessionId.value === requestSessionId) {
               await scrollMessages()
             }
           }
-        } catch {
-          // Ignore partial SSE frames until the next chunk completes them.
-        }
-      }
-    }
+    })
   } catch {
-    replaceAssistantMessage(requestSessionId, msgIdx, '请求失败，请检查后端服务是否启动，或确认 5000 端口可访问。')
+    const target = getSessionMessages(requestSessionId)[msgIdx]
+    if (target) {
+      target.failed = true
+      target.status = controller.signal.reason === 'user' ? '已停止生成' : controller.signal.reason === 'timeout' ? '请求超时，可重新提问' : '连接中断，分析未完成'
+      if (!target.content) target.content = controller.signal.aborted ? '本次回答未完成。' : '请求失败，请检查后端连接后重新提问。'
+    }
   } finally {
+    window.clearTimeout(timeout)
+    activeRequest = null
     isThinking.value = false
     if (currentSessionId.value === requestSessionId) {
       await scrollMessages()
     }
   }
+}
+
+function retryMessage(index: number) {
+  const question = messages.value.slice(0, index).reverse().find(message => message.role === 'user')
+  if (question) void sendQuery(question.content)
 }
 </script>
 
@@ -932,4 +970,8 @@ async function sendQuery(preset?: string) {
     max-width: 100%;
   }
 }
+</style>
+
+<style scoped>
+.knowledge-version{font-size:11px;overflow-wrap:anywhere;color:#578078}.message-meta{flex-wrap:wrap;gap:8px}
 </style>

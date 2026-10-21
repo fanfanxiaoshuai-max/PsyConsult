@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-10-20T11:35:34Z",
+  "scope": "localhost_demo_acceptance_not_clinical_certification",
+  "candidate_url": "http://127.0.0.1:5173/#candidate",
+  "checks": [
+    {
+      "case": "candidate_unsigned_readonly",
+      "passed": true
+    },
+    {
+      "case": "search_and_detail",
+      "query": "抑郁症",
+      "matched": 2,
+      "records": 19,
+      "passed": true
+    },
+    {
+      "case": "search_and_detail",
+      "query": "双相情感障碍",
+      "matched": 4,
+      "records": 4,
+      "passed": true
+    },
+    {
+      "case": "search_and_detail",
+      "query": "失眠",
+      "matched": 1,
+      "records": 2,
+      "passed": true
+    },
+    {
+      "case": "search_and_detail",
+      "query": "帕罗西汀",
+      "matched": 1,
+      "records": 10,
+      "passed": true
+    },
+    {
+      "case": "search_and_detail",
+      "query": "6A72",
+      "matched": 1,
+      "records": 4,
+      "passed": true
+    },
+    {
+      "case": "review_filter",
+      "status": "all",
+      "total": 899,
+      "passed": true
+    },
+    {
+      "case": "review_filter",
+      "status": "amended",
+      "total": 399,
+      "passed": true
+    },
+    {
+      "case": "review_filter",
+      "status": "insufficient_evidence",
+      "total": 55,
+      "passed": true
+    },
+    {
+      "case": "review_filter",
+      "status": "quarantined",
+      "total": 13,
+      "passed": true
+    },
+    {
+      "case": "withdrawn_target_excluded",
+      "passed": true
+    },
+    {
+      "case": "expert_download_unsigned",
+      "passed": true,
+      "packet_sha256": "c76608767cbe4e5077f2d4351a839eb5182166bbc7d9c280e9c2aa09bc4f667c"
+    },
+    {
+      "case": "active_graph_preserved",
+      "version": "kg_v2",
+      "passed": true
+    },
+    {
+      "case": "kg_v2_files_unchanged",
+      "passed": true
+    },
+    {
+      "case": "frontend_http",
+      "passed": true
+    }
+  ],
+  "passed": 15,
+  "failed": 0,
+  "clinical_expert_approved": false
+}

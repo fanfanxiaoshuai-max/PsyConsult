@@ -1,0 +1,109 @@
+{
+  "user_id": "repro_e2e_7742c32e4e",
+  "session_id": "repro_session_7742c32e4e",
+  "synthetic_cases_only": true,
+  "turns": [
+    {
+      "seconds": 58.59,
+      "content_chars": 1847,
+      "nodes": [
+        "orchestrator",
+        "differential_diagnosis",
+        "treatment_recommend",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_synonyms...",
+        "正在调用 ...",
+        "正在调用 query_synonyms...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 ...",
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ..."
+      ],
+      "cache_hit": false,
+      "done": true
+    },
+    {
+      "seconds": 33.0,
+      "content_chars": 1401,
+      "nodes": [
+        "orchestrator",
+        "treatment_recommend",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_vector_db...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph...",
+        "正在调用 ...",
+        "正在调用 query_knowledge_graph..."
+      ],
+      "cache_hit": false,
+      "done": true
+    },
+    {
+      "seconds": 14.0,
+      "content_chars": 517,
+      "nodes": [
+        "orchestrator",
+        "drug_interaction"
+      ],
+      "tools": [
+        "正在调用 query_knowledge_graph..."
+      ],
+      "cache_hit": false,
+      "done": true
+    },
+    {
+      "seconds": 0.41,
+      "content_chars": 517,
+      "nodes": [],
+      "tools": [],
+      "cache_hit": true,
+      "done": true
+    },
+    {
+      "seconds": 0.39,
+      "content_chars": 517,
+      "nodes": [],
+      "tools": [],
+      "cache_hit": true,
+      "done": true
+    }
+  ],
+  "checkpoint_message_count": 13,
+  "five_turns_retained": true,
+  "long_term_memory_rows": 2,
+  "cross_session_memory_retrieval": true,
+  "compression_turn": {
+    "seconds": 37.08,
+    "content_chars": 588,
+    "nodes": [
+      "orchestrator",
+      "treatment_recommend",
+      "drug_interaction"
+    ],
+    "tools": [
+      "正在调用 query_knowledge_graph...",
+      "正在调用 ...",
+      "正在调用 ...",
+      "正在调用 query_knowledge_graph...",
+      "正在调用 ...",
+      "正在调用 ..."
+    ],
+    "cache_hit": false,
+    "done": true
+  },
+  "history_compression": true,
+  "status": "passed"
+}

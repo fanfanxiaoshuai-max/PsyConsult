@@ -4,6 +4,8 @@ import logging
 import sys
 import os
 import time
+import hashlib
+from uuid import uuid4
 
 # 初始化 Agent 和 Graph
 AGENT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "agent")
@@ -25,6 +27,7 @@ extraction_llm = None
 logger = logging.getLogger("clinical_cds.chat")
 
 MIN_CLINICAL_QUERY_LENGTH = 4
+CHAT_TIMEOUT_SECONDS = 210
 SHORT_QUERY_RESPONSE = (
     "请输入更完整的临床问题或患者信息，例如症状、持续时间、严重程度、既往用药、"
     "量表分数或需要审查的药物组合。当前输入过短，系统不会进入诊疗推理流程。"
@@ -68,14 +71,14 @@ async def shutdown_agent_system():
     graph = None
     checkpointer = None
 
-async def _extract_long_term_context(user_id: str, query: str) -> str:
+async def _extract_long_term_context(user_id: str, query: str, session_id: str = 'default_session') -> str:
     """检索 Milvus 长期记忆中的临床要点（近期历史由 checkpoint 自动携带）。"""
     if not (memory and memory.long_term.available):
         return ""
-    prefs = await memory.load_preferences(user_id, query)
+    prefs = await memory.load_preferences(_user_fact_namespace(user_id, session_id), query)
     if not prefs:
         return ""
-    lines = ["【用户长期临床背景】:"]
+    lines = ["【用户陈述的历史背景；不是当前知识版本的证据或系统确认的诊断】:"]
     lines.extend(f"- {p}" for p in prefs)
     return "\n".join(lines)
 
@@ -95,14 +98,47 @@ def _format_conversation(messages: list[BaseMessage]) -> str:
         parts.append(f"{role}: {content}")
     return "\n".join(parts)
 
-async def _record_cache_hit_turn(config: dict, query: str, answer: str) -> None:
+def session_config(user_id: str, session_id: str) -> dict:
+    """The saver indexes thread_id, not user_id. Never reopen an unscoped legacy thread."""
+    key = json.dumps([user_id, session_id], ensure_ascii=False, separators=(',', ':'))
+    return {'configurable': {'thread_id': 'case_v2_' + hashlib.sha256(key.encode()).hexdigest(),
+                             'user_id': user_id, 'session_id': session_id}}
+
+
+def _user_fact_namespace(user_id, session_id='default_session'):
+    # A new case must not inherit another patient's facts or legacy doctor-wide memory.
+    return 'casefacts_v2_' + session_config(user_id, session_id)['configurable']['thread_id']
+
+async def _cache_owner(user_id,config,binding,memory_context):
+    history=[]
+    if checkpointer is not None:
+        try:
+            snapshot=await graph.aget_state(config)
+            values=snapshot.values
+            same=values.get('history_knowledge_identity')==binding.identity
+            messages=values.get('messages',[]) if same else list(values.get('user_messages',[]))+list(values.get('messages',[]))
+            seen=set()
+            for m in messages:
+                if not same and not isinstance(m,HumanMessage):continue
+                key=m.id or str(m.content)
+                if key in seen:continue
+                seen.add(key);history.append((m.type,m.content))
+        except Exception:
+            # Unknown context cannot safely share a cached answer, including another failed read.
+            history=[('unavailable',uuid4().hex)]
+    payload=json.dumps([user_id,binding.identity,history,memory_context],ensure_ascii=False,sort_keys=True)
+    return 'turn_'+hashlib.sha256(payload.encode()).hexdigest()
+
+async def _record_cache_hit_turn(config: dict, query: str, answer: str, binding=None) -> None:
     """语义缓存命中不经过图执行，手动把该轮写入 checkpoint 保持多轮连续。"""
     if checkpointer is None:
         return
     try:
+        message=HumanMessage(content=query,id=uuid4().hex)
         await graph.aupdate_state(
             config,
-            {"messages": [HumanMessage(content=query), AIMessage(content=answer)]},
+            {"messages": [message, AIMessage(content=answer,additional_kwargs={'knowledge_binding':binding.metadata()} if binding else {})],
+             "user_messages": [message]},
         )
         logger.info("event=cache_hit_state_recorded")
     except Exception as exc:
@@ -112,11 +148,22 @@ def _is_insufficient_query(query: str) -> bool:
     normalized = "".join(query.strip().split())
     return len(normalized) < MIN_CLINICAL_QUERY_LENGTH
 
-async def stream_chat(query: str, user_id: str, session_id: str):
+async def _stream_chat(query: str, user_id: str, session_id: str):
     request_start = time.perf_counter()
     last_step = request_start
+    from core.graph.runtime_version import resolve_binding
+    try:
+        binding=await asyncio.to_thread(resolve_binding)
+    except Exception:
+        logger.exception('Knowledge version resolution failed')
+        yield 'data: '+json.dumps({'error':'knowledge_version_unavailable','content':'当前知识版本不可用，请检查版本管理后重试。'},ensure_ascii=False)+'\n\n'
+        yield 'data: {"done": true}\n\n'
+        return
 
     def emit_sse(payload: dict, kind: str) -> str:
+        payload['knowledge_version']=binding.version
+        payload['knowledge_name']=binding.name
+        payload['knowledge_checksum']=binding.checksum
         logger.info(
             "event=sse_emit user_id=%s session_id=%s kind=%s total=%.3fs",
             user_id,
@@ -147,45 +194,49 @@ async def stream_chat(query: str, user_id: str, session_id: str):
     )
     yield emit_sse({"status": "accepted", "content": "已接收病例，开始分析..."}, "status")
 
-    # thread_id = session_id，checkpoint 自动携带该会话的历史与中间状态
-    config = {"configurable": {"thread_id": session_id, "user_id": user_id}}
+    config = session_config(user_id, session_id)
     should_record_turn = True
 
     if _is_insufficient_query(query):
         response_text = SHORT_QUERY_RESPONSE
         should_record_turn = False
-        logger.info("event=chat_short_query user_id=%s session_id=%s query=%r", user_id, session_id, query)
+        logger.info("event=chat_short_query user_id=%s session_id=%s", user_id, session_id)
         log_step("local_input_validation")
         yield emit_sse({"agent": "input_validation", "content": response_text}, "content")
     else:
+        memory_context = await _extract_long_term_context(user_id, query, session_id)
+        turn_cache=await semantic_cache.for_knowledge(binding.identity)
+        cache_owner=await _cache_owner(user_id,config,binding,memory_context)
         yield emit_sse({"status": "semantic_cache_check", "content": "正在检查语义缓存..."}, "status")
-        cache_hit = await semantic_cache.get_cache(query, user_id)
+        cache_hit = await turn_cache.get_cache(query, cache_owner)
         log_step("semantic_cache_check")
         if cache_hit:
             response_text = cache_hit["answer"]
             logger.info(
-                "event=semantic_cache_hit user_id=%s session_id=%s level=%s distance=%.4f matched=%r",
+                "event=semantic_cache_hit user_id=%s session_id=%s level=%s distance=%.4f",
                 user_id,
                 session_id,
                 cache_hit["level"],
                 cache_hit["distance"],
-                cache_hit["matched_question"],
             )
-            yield emit_sse({"agent": "semantic_cache", "content": response_text}, "content")
-            await _record_cache_hit_turn(config, query, response_text)
+            yield emit_sse({"agent": "semantic_cache", "content": response_text,"cache_hit":True}, "content")
+            await _record_cache_hit_turn(config, query, response_text,binding)
         else:
             logger.info("event=agent_workflow_start user_id=%s session_id=%s", user_id, session_id)
             yield emit_sse({"status": "memory_context_extract", "content": "正在提取会话记忆..."}, "status")
-            memory_context = await _extract_long_term_context(user_id, query)
             log_step("memory_context_extract")
 
             yield emit_sse({"status": "agent_workflow_start", "content": "正在进入多智能体分析..."}, "status")
             full_response = ""
             current_agent = None
+            last_content_agent = None
 
             # 每轮只传新消息，历史由 checkpoint 的 add_messages reducer 累积
+            message=HumanMessage(content=query,id=uuid4().hex)
             state = {
-                "messages": [HumanMessage(content=query)],
+                "messages": [message],
+                "user_messages": [message],
+                "knowledge_binding":binding.metadata(),
                 "user_id": user_id,
                 "session_id": session_id,
                 "memory_context": memory_context,
@@ -214,10 +265,18 @@ async def stream_chat(query: str, user_id: str, session_id: str):
                             {"status": "agent_tool_done", "agent": current_agent, "content": "工具查询完成，正在生成分析..."},
                             "status",
                         )
+                    elif data.get('event') == 'consistency_check':
+                        yield emit_sse({'status':'clinical_consistency_check','agent':current_agent,
+                                        'content':'正在核对病程、已知信息与诊断条件...'},'status')
                     elif "chunk" in data:
-                        full_response += data["chunk"]
+                        content_agent=data.get('agent',current_agent)
+                        chunk=data['chunk']
+                        if full_response and content_agent!=last_content_agent and not full_response.endswith('\n\n'):
+                            chunk='\n\n'+chunk
+                        full_response += chunk
+                        last_content_agent=content_agent
                         yield emit_sse(
-                            {"agent": data.get("agent", current_agent), "content": data["chunk"]},
+                            {"agent": content_agent, "content": chunk},
                             "content",
                         )
 
@@ -237,9 +296,9 @@ async def stream_chat(query: str, user_id: str, session_id: str):
             response_text = full_response
 
             # 推理结果写入语义缓存，供后续相似问题直接命中
-            if semantic_cache.available and response_text:
+            if turn_cache.available and response_text:
                 try:
-                    await semantic_cache.set_cache(query, response_text, user_id=user_id)
+                    await turn_cache.set_cache(query, response_text, user_id=cache_owner)
                 except Exception as exc:
                     logger.warning("semantic_cache set_cache failed: %s", exc)
 
@@ -265,9 +324,31 @@ async def _extract_long_term_memory(config: dict, user_id: str) -> None:
     """后台任务：读取 checkpoint 会话历史并提取临床要点到 Milvus。"""
     try:
         snapshot = await graph.aget_state(config)
-        messages = list(snapshot.values.get("messages", []))
+        messages = list(snapshot.values.get('user_messages') or snapshot.values.get("messages", []))
+        messages = [m for m in messages if isinstance(m,HumanMessage)]
         conversation = _format_conversation(messages)
         if conversation.strip():
-            await memory.extract_from_conversation(user_id, conversation, extraction_llm)
+            case_id = config.get('configurable', {}).get('session_id', 'default_session')
+            await memory.extract_from_conversation(_user_fact_namespace(user_id, case_id), conversation, extraction_llm)
     except Exception as exc:
         logger.warning("Long-term memory extraction failed: %s", exc)
+
+
+async def stream_chat(query: str,user_id: str,session_id: str):
+    """Report failed streams explicitly, without caching a partial answer."""
+    metadata={}
+    try:
+        async with asyncio.timeout(CHAT_TIMEOUT_SECONDS):
+            async for event in _stream_chat(query,user_id,session_id):
+                payload=json.loads(event.removeprefix('data: ').strip())
+                metadata={k:v for k,v in payload.items() if k.startswith('knowledge_')}
+                yield event
+    except asyncio.CancelledError:raise
+    except TimeoutError:
+        logger.warning('event=chat_timeout user_id=%s session_id=%s',user_id,session_id)
+        yield 'data: '+json.dumps(dict(metadata,error='inference_timeout',content='本轮分析超时，请缩小问题范围后重试。'),ensure_ascii=False)+'\n\n'
+        yield 'data: '+json.dumps(dict(metadata,done=True,failed=True))+'\n\n'
+    except Exception:
+        logger.exception('Chat stream failed')
+        yield 'data: '+json.dumps(dict(metadata,error='inference_failed',content='本轮分析未完成，请稍后重试。'),ensure_ascii=False)+'\n\n'
+        yield 'data: '+json.dumps(dict(metadata,done=True,failed=True))+'\n\n'

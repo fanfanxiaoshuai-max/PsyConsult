@@ -1,0 +1,1511 @@
+{
+  "batch_id": "structured-01",
+  "batch_sha256": "fd0966dee08385a11a76989475bc58d71ff36199bf4bcc24adbb606757ec840f",
+  "candidate_sha256": "02d0ece074233ace90e2252fc7a4fd1e37b7ffba8692cf83d36c0f5d827cf34e",
+  "operations": {
+    "entity:d592d6d2f064492b3c8b07d1": {
+      "kind": "replace_entity_role",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "ClinicalSubtype",
+      "after": "CourseSpecifier",
+      "entity_id": "d592d6d2f064492b3c8b07d1",
+      "course_definition": {
+        "course": "first_episode",
+        "previous_schizophrenia_or_schizoaffective_episodes": 0,
+        "requires_complete_diagnostic_criteria": true,
+        "remission_status_assessed_separately": true
+      }
+    },
+    "entity:fed09d8c290dbd563081baf1": {
+      "kind": "replace_entity_role",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "ClinicalSubtype",
+      "after": "CourseSpecifier",
+      "entity_id": "fed09d8c290dbd563081baf1",
+      "course_definition": {
+        "course": "multiple_episodes",
+        "qualifying_episodes_min": 2,
+        "qualifying_disorders": [
+          "schizophrenia",
+          "schizoaffective_disorder"
+        ],
+        "current_or_most_recent_episode": "schizophrenia",
+        "between_episode_remission_months_min": 3,
+        "remission_states": [
+          "partial",
+          "full"
+        ],
+        "requires_complete_diagnostic_criteria": true
+      }
+    },
+    "entity:21d79055466331363ac01b98": {
+      "kind": "replace_entity_role",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "ClinicalSubtype",
+      "after": "CourseSpecifier",
+      "entity_id": "21d79055466331363ac01b98",
+      "course_definition": {
+        "course": "continuous",
+        "full_criteria_met_for_almost_entire_course": true,
+        "subthreshold_periods": "very_brief_relative_to_overall_course",
+        "when_applied_to_first_episode": {
+          "duration_years_min": 1,
+          "replaces": "first_episode_specifier"
+        },
+        "remission_status_assessed_separately": true
+      }
+    },
+    "relation:39932bf5528116725f43263e": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "HAS_SUBTYPE",
+      "after": "HAS_COURSE_SPECIFIER",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "21d79055466331363ac01b98",
+      "relation_id": "39932bf5528116725f43263e"
+    },
+    "relation:7f848e2a22a596af03e46864": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "HAS_SUBTYPE",
+      "after": "HAS_COURSE_SPECIFIER",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "d592d6d2f064492b3c8b07d1",
+      "relation_id": "7f848e2a22a596af03e46864"
+    },
+    "relation:bb233b2701efc81bd61ef06e": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "target": "eaab0c289a59852018834a78",
+      "relation_id": "bb233b2701efc81bd61ef06e"
+    },
+    "relation:27b52d82ab700e351b02a18d": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "target": "09668b597185de1859fcfd75",
+      "relation_id": "27b52d82ab700e351b02a18d"
+    },
+    "relation:6ff1e4a3223b138bb73e1925": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "ba47a88d925915880cfc4917",
+      "relation_id": "6ff1e4a3223b138bb73e1925"
+    },
+    "relation:7b9c3fe402f595b84ee13f8d": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "a935be7e64ff9b7c3546cc76",
+      "relation_id": "7b9c3fe402f595b84ee13f8d"
+    },
+    "relation:1a04e70275728d5b3df64942": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "18c85333a84c643ddb67e9a7",
+      "relation_id": "1a04e70275728d5b3df64942"
+    },
+    "relation:4903b8d597af660175b23b22": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "085c79fe8a719b7cf8ce25a3",
+      "relation_id": "4903b8d597af660175b23b22"
+    },
+    "relation:11bedb023a2f6673d10a9c51": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "dc1ea99f0af40531a22d8ace",
+      "relation_id": "11bedb023a2f6673d10a9c51"
+    },
+    "relation:a780e88cabc9c17449b29742": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "HAS_SUBTYPE",
+      "after": "HAS_COURSE_SPECIFIER",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "fed09d8c290dbd563081baf1",
+      "relation_id": "a780e88cabc9c17449b29742"
+    },
+    "relation:9aee08812d1a8ca8d92846e2": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "230f5e390ee5bace8cfabca3",
+      "relation_id": "9aee08812d1a8ca8d92846e2"
+    },
+    "relation:36851159b15758905039622f": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "5893e207ab717d55a19dd302",
+      "relation_id": "36851159b15758905039622f"
+    },
+    "relation:81ed0807b783c78c2e182c55": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "961e88c7f3404b1aad0e1a32",
+      "relation_id": "81ed0807b783c78c2e182c55"
+    },
+    "relation:e75d937aa63e061b1888d97c": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "fcabc0e64a1974ed3658be73",
+      "relation_id": "e75d937aa63e061b1888d97c"
+    },
+    "relation:5caaf66ff10ddcb8bcc41208": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "bcb02fa4547a845e35777dea",
+      "relation_id": "5caaf66ff10ddcb8bcc41208"
+    },
+    "relation:476362b9190ef80a668411f6": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "e0673d4a6ff84d513ae697c5",
+      "relation_id": "476362b9190ef80a668411f6"
+    },
+    "relation:00fec67a4e1342256300932f": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "95a736f858113c5a764c3f4c",
+      "target": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "relation_id": "00fec67a4e1342256300932f"
+    },
+    "relation:3358624b80974d8e895dd01e": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "e9f48e8b2e0815df913fe55b",
+      "target": "5d731c3e7612ba6caf9486ee",
+      "relation_id": "3358624b80974d8e895dd01e"
+    },
+    "relation:a0da0704d2bab2af25f7dfc3": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "7a63dab77d4d4ac760115c66",
+      "relation_id": "a0da0704d2bab2af25f7dfc3"
+    },
+    "relation:4037f1d80ddbd3cb36dbbc6f": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "2c3829f221ec7c3ceb871222",
+      "relation_id": "4037f1d80ddbd3cb36dbbc6f"
+    },
+    "relation:2230df68e03a775be1421b9d": {
+      "kind": "replace_relation_type",
+      "evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "before": "SUBTYPE_OF",
+      "after": "HAS_EXAMPLE",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "ad2392546a8c03fc848cbc8f",
+      "relation_id": "2230df68e03a775be1421b9d"
+    },
+    "property:06b62e6a29f4d2e83f762bd2:icd_code": {
+      "kind": "replace_with_related_categories",
+      "evidence": [
+        {
+          "evidence_id": "B03-ICD10-DEP",
+          "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+          "source_id": "who_icd10_F32",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "F32",
+              "F33"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "06b62e6a29f4d2e83f762bd2",
+      "key": "icd_code",
+      "before": "F32/F33",
+      "after": [
+        {
+          "code": "F32",
+          "concept": "Depressive episode",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        },
+        {
+          "code": "F33",
+          "concept": "Recurrent depressive disorder",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ]
+    },
+    "property:06b62e6a29f4d2e83f762bd2:icd10": {
+      "kind": "replace_with_related_categories",
+      "evidence": [
+        {
+          "evidence_id": "B03-ICD10-DEP",
+          "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+          "source_id": "who_icd10_F32",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "F32",
+              "F33"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "06b62e6a29f4d2e83f762bd2",
+      "key": "icd10",
+      "before": "F32/F33",
+      "after": [
+        {
+          "code": "F32",
+          "concept": "Depressive episode",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        },
+        {
+          "code": "F33",
+          "concept": "Recurrent depressive disorder",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ]
+    },
+    "property:7b837688f1073be778fe46f7:icd_code": {
+      "kind": "replace_with_related_categories",
+      "evidence": [
+        {
+          "evidence_id": "B03-ANXIETY-CODES",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_F40",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "F40",
+              "F41"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "7b837688f1073be778fe46f7",
+      "key": "icd_code",
+      "before": "F40/F41",
+      "after": [
+        {
+          "code": "F40",
+          "concept": "Phobic anxiety disorders",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ANXIETY-CODES",
+              "conditions": "WHO ICD-10 2019。",
+              "source_id": "who_icd10_F40",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F40",
+                  "F41"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        },
+        {
+          "code": "F41",
+          "concept": "Other anxiety disorders",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ANXIETY-CODES",
+              "conditions": "WHO ICD-10 2019。",
+              "source_id": "who_icd10_F40",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F40",
+                  "F41"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ]
+    },
+    "property:f24ee52a7efbff65c7339fd8:ICD-11_code": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "WHO-MANIC-CODE-SCOPE",
+          "conditions": "仅指出原编码赋值的范围问题；具体编码需结合所属障碍、当前发作及修饰信息。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              243
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "f24ee52a7efbff65c7339fd8",
+      "key": "ICD-11_code",
+      "before": "6A60",
+      "after": null,
+      "followup_required": true
+    },
+    "property:0a16bf13b44d8f0c6a6dbfe1:ICD-11_code": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "WHO-HYPOMANIC-CODE-SCOPE",
+          "conditions": "不据单个轻躁狂发作诊断双相II型障碍；本记录不补造独立发作代码。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              248
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "0a16bf13b44d8f0c6a6dbfe1",
+      "key": "ICD-11_code",
+      "before": "6A61",
+      "after": null,
+      "followup_required": true
+    },
+    "property:8baeef1194c213900abd08f3:ICD-11_code": {
+      "kind": "replace_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "WHO-DYSTHYMIA-CODE",
+          "conditions": "针对WHO ICD-11 CDDR 2024的恶劣心境条目；名称与编码一起核对。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              273
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "8baeef1194c213900abd08f3",
+      "key": "ICD-11_code",
+      "before": "6A73",
+      "after": {
+        "code": "6A72",
+        "system": "ICD-11",
+        "edition": "WHO CDDR 2024",
+        "concept": "Dysthymic disorder",
+        "evidence": [
+          {
+            "evidence_id": "WHO-DYSTHYMIA-CODE",
+            "conditions": "针对WHO ICD-11 CDDR 2024的恶劣心境条目；名称与编码一起核对。",
+            "source_id": "who_cddr_2024",
+            "locator": {
+              "kind": "pdf_pages",
+              "pages": [
+                273
+              ],
+              "page_numbering": "PDF physical pages"
+            }
+          }
+        ],
+        "equivalent_to_named_concept": true,
+        "expert_review": "pending",
+        "reasoning_eligible": false
+      }
+    },
+    "property:c93d5937775db620f66e7431:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-MANIA-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_F31_1",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "F31.1",
+              "F31.2"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "c93d5937775db620f66e7431",
+      "key": "icd10",
+      "before": "F31.1",
+      "after": null,
+      "followup_required": true
+    },
+    "property:60daf4037069ebea6aee7dbe:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-THYROID-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_E03_9",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "E03.9"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "60daf4037069ebea6aee7dbe",
+      "key": "icd10",
+      "before": "E03.9",
+      "after": null,
+      "followup_required": true
+    },
+    "property:c65b27d41eb2415526c17338:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-LIPID-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_E78_5",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "E78.5"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "c65b27d41eb2415526c17338",
+      "key": "icd10",
+      "before": "E78.5",
+      "after": null,
+      "followup_required": true
+    },
+    "property:408bf2d0bb58d9adb050102d:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-SEROTONIN-CODE",
+          "conditions": "WHO ICD-10 2019；未据此补造另一个统一替代编码。",
+          "source_id": "who_icd10_T43_6",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "T43.6"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "408bf2d0bb58d9adb050102d",
+      "key": "icd10",
+      "before": "T43.6",
+      "after": null,
+      "followup_required": true
+    },
+    "property:b22c1619c84a15eec2192457:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-HYPERTENSION-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_I10",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "I10"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "b22c1619c84a15eec2192457",
+      "key": "icd10",
+      "before": "I10",
+      "after": null,
+      "followup_required": true
+    },
+    "property:845ae0c616b381a617eeb5d4:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-HEPATIC-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_K76_0",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "K76.0",
+              "K72.9"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "845ae0c616b381a617eeb5d4",
+      "key": "icd10",
+      "before": "K76.0",
+      "after": null,
+      "followup_required": true
+    },
+    "property:9a92aa6b151984a4259ada36:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-RENAL-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_N18_4",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "N18.4",
+              "N18.5"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "9a92aa6b151984a4259ada36",
+      "key": "icd10",
+      "before": "N18.4",
+      "after": null,
+      "followup_required": true
+    },
+    "property:ae02cd74347c0ab4c80f7588:icd10": {
+      "kind": "remove_code_assignment",
+      "evidence": [
+        {
+          "evidence_id": "B03-GI-BLEED-CODE",
+          "conditions": "WHO ICD-10 2019。",
+          "source_id": "who_icd10_K92_2",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "K92.2"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "ae02cd74347c0ab4c80f7588",
+      "key": "icd10",
+      "before": "K92.2",
+      "after": null,
+      "followup_required": true
+    },
+    "property:04f8787e935c61048f6af186:dose_start": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-SER-START",
+          "conditions": "CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。",
+          "source_id": "cn_sertraline_viatris",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              2
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:sertraline-adult-initial-cn"
+      ]
+    },
+    "property:fcc7bf9f26197edd8426900f:dose_max": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-FLU-MAX",
+          "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+          "source_id": "cn_fluoxetine_lilly",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              2,
+              3
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:fluoxetine-depression-cn",
+        "v3-rule:fluoxetine-OCD-cn",
+        "v3-rule:fluoxetine-bulimia-cn",
+        "v3-rule:fluoxetine-elderly-cn"
+      ]
+    },
+    "property:fbe4ed72827477d0ae8cfb0f:dose_start": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-OLA-START",
+          "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+          "source_id": "cn_olanzapine_hansoh",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              2
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:olanzapine-schizophrenia-monotherapy-cn",
+        "v3-rule:olanzapine-mania-monotherapy-cn",
+        "v3-rule:olanzapine-mania-combination-cn",
+        "v3-rule:olanzapine-bipolar_recurrence_prevention-label_qualified-cn"
+      ]
+    },
+    "property:72d56d56d60120f29a185b86:dose_start": {
+      "kind": "retire_unqualified_dose",
+      "evidence": [
+        {
+          "evidence_id": "B03-LI-RANGE",
+          "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+          "source_id": "us_lithium_dailymed",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              4,
+              5
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "entity_id": "72d56d56d60120f29a185b86",
+      "key": "dose_start",
+      "before": "300-600mg/d",
+      "after": null,
+      "followup_required": true
+    },
+    "property:72d56d56d60120f29a185b86:therapeutic_range": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B03-LI-RANGE",
+          "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+          "source_id": "us_lithium_dailymed",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              4,
+              5
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        },
+        {
+          "evidence_id": "B03-LI-NICE-CONCENTRATION",
+          "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+          "source_id": "nice_cg185",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "cg185-1_10_15",
+              "cg185-1_10_16"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:lithium-acute_manic_or_mixed-us",
+        "v3-rule:lithium-maintenance-us",
+        "v3-rule:lithium-first_time-uk",
+        "v3-rule:lithium-trial_higher-uk"
+      ]
+    },
+    "entity:6776fcf352fe12c2d0e50aab": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B03-LI-RANGE",
+          "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+          "source_id": "us_lithium_dailymed",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              4,
+              5
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        },
+        {
+          "evidence_id": "B03-LI-NICE-CONCENTRATION",
+          "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+          "source_id": "nice_cg185",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "cg185-1_10_15",
+              "cg185-1_10_16"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:lithium-acute_manic_or_mixed-us",
+        "v3-rule:lithium-maintenance-us",
+        "v3-rule:lithium-first_time-uk",
+        "v3-rule:lithium-trial_higher-uk"
+      ]
+    },
+    "property:6776fcf352fe12c2d0e50aab:parameter": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B03-LI-RANGE",
+          "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+          "source_id": "us_lithium_dailymed",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              4,
+              5
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        },
+        {
+          "evidence_id": "B03-LI-NICE-CONCENTRATION",
+          "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+          "source_id": "nice_cg185",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "cg185-1_10_15",
+              "cg185-1_10_16"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:lithium-acute_manic_or_mixed-us",
+        "v3-rule:lithium-maintenance-us",
+        "v3-rule:lithium-first_time-uk",
+        "v3-rule:lithium-trial_higher-uk"
+      ]
+    },
+    "relation:395aa7569c27fb5f83d9647d": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B03-LI-RANGE",
+          "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+          "source_id": "us_lithium_dailymed",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              4,
+              5
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        },
+        {
+          "evidence_id": "B03-LI-NICE-CONCENTRATION",
+          "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+          "source_id": "nice_cg185",
+          "locator": {
+            "kind": "html_anchor",
+            "anchors": [
+              "cg185-1_10_15",
+              "cg185-1_10_16"
+            ]
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:lithium-acute_manic_or_mixed-us",
+        "v3-rule:lithium-maintenance-us",
+        "v3-rule:lithium-first_time-uk",
+        "v3-rule:lithium-trial_higher-uk"
+      ]
+    },
+    "relation:69c38392c2018447898f75b6": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-SER-MAOI",
+          "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。",
+          "source_id": "cn_sertraline_viatris",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              6,
+              11
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:sertraline-maoi-washout-cn"
+      ]
+    },
+    "relation:5074f125be11e6459b0a7bab": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-CLO-FLUVOX",
+          "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。",
+          "source_id": "us_clozapine_mylan",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              8,
+              27,
+              33
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:fluvoxamine-clozapine-management-us"
+      ]
+    },
+    "relation:43a9201e4b41894e18db9400": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-CLO-FLUVOX",
+          "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。",
+          "source_id": "us_clozapine_mylan",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              8,
+              27,
+              33
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:fluvoxamine-clozapine-management-us"
+      ]
+    },
+    "relation:72eab889786efdf949c885cd": {
+      "kind": "replace_with_scoped_records",
+      "evidence": [
+        {
+          "evidence_id": "B02-SER-MAOI",
+          "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。",
+          "source_id": "cn_sertraline_viatris",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              6,
+              11
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "record_ids": [
+        "v3-rule:sertraline-maoi-washout-cn"
+      ]
+    }
+  },
+  "counts_by_operation": {
+    "replace_entity_role": 3,
+    "replace_relation_type": 21,
+    "replace_with_related_categories": 3,
+    "remove_code_assignment": 10,
+    "replace_code_assignment": 1,
+    "replace_with_scoped_records": 11,
+    "retire_unqualified_dose": 1
+  }
+}

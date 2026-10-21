@@ -1,0 +1,32 @@
+# Local reproduction, separate from upstream compose. No MySQL in the chat path.
+name: psyconsult-repro
+services:
+  redis:
+    image: redis/redis-stack-server:7.4.0-v0@sha256:887cf87cc744e4588ccade336d0dbb943e4e46330f738653ccb3a7a55df2f186
+    ports: ["127.0.0.1:6379:6379"]
+    environment:
+      REDIS_ARGS: "--appendonly yes"
+    volumes: ["redis-data:/data"]
+    restart: unless-stopped
+  milvus:
+    image: milvusdb/milvus:v2.4.0@sha256:9500220e24ba8948cfd7d4273aa2432b3321acaf30dfd698ff1bd53d93fcb74b
+    command: ["milvus", "run", "standalone"]
+    ports: ["127.0.0.1:19530:19530", "127.0.0.1:9091:9091"]
+    environment:
+      ETCD_USE_EMBED: "true"
+      ETCD_DATA_DIR: /var/lib/milvus/etcd
+      COMMON_STORAGETYPE: local
+    volumes: ["milvus-data:/var/lib/milvus"]
+    restart: unless-stopped
+  neo4j:
+    image: neo4j:5-community@sha256:0a6e7aedf54a531f76286032d4365ead65b11cca05e4a15cdf23b8e53d6db02b
+    ports: ["127.0.0.1:7474:7474", "127.0.0.1:7687:7687"]
+    environment:
+      NEO4J_AUTH: neo4j/password123
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes: ["neo4j-data:/data"]
+    restart: unless-stopped
+volumes:
+  redis-data:
+  milvus-data:
+  neo4j-data:

@@ -1,0 +1,3762 @@
+[
+  {
+    "id": "a394c640f090f2ffc1b84e43",
+    "source": "0bcb3364e7952d40547b04f2",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/0"
+    ]
+  },
+  {
+    "id": "36da5edfc2ad673f9410d11b",
+    "source": "50f50ec8e4f4652fe1c6d57f",
+    "target": "14bcb6c7b85b820b2df94154",
+    "type": "HAS_TREATMENT_STRATEGY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/1"
+    ]
+  },
+  {
+    "id": "3da5c9f282c305b3c32ec376",
+    "source": "288aef35757361db129d2728",
+    "target": "1b21cab1d1a3143e887f40d3",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/2"
+    ]
+  },
+  {
+    "id": "ad103fe8193d8de54df9fc59",
+    "source": "414a3332eef9a7659be9e0d8",
+    "target": "fb65c44222644e4f91b97db4",
+    "type": "HAS_TREATMENT_OPTION",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/3"
+    ]
+  },
+  {
+    "id": "9b18e248b87a6fa6fb0a3756",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "55031919872fbf6c48172e67",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/4"
+    ]
+  },
+  {
+    "id": "6ac5cc07f8c69d4c2fafedef",
+    "source": "1b21cab1d1a3143e887f40d3",
+    "target": "92d5947708a272d0beac0615",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/5"
+    ]
+  },
+  {
+    "id": "be359fbe7f61b2c0b37832ee",
+    "source": "17961902442705345a65f4ee",
+    "target": "b417c2371558fc84b9c2e27c",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/6"
+    ]
+  },
+  {
+    "id": "670fe5f2c8a033f32ebb738f",
+    "source": "24c5810487b4d9467ba5297d",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/7"
+    ]
+  },
+  {
+    "id": "53e6c9a76f524364eceb6eaf",
+    "source": "d62c8e662ff2a3910597b3a3",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/8"
+    ]
+  },
+  {
+    "id": "4feed1c513d5afe9645d7508",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "a809570dab8e6d7f95bc0450",
+    "type": "HAS_PHASE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/9"
+    ]
+  },
+  {
+    "id": "d889e8a2203011c3e151ed80",
+    "source": "17961902442705345a65f4ee",
+    "target": "73140311e1638f7c044e7308",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/10"
+    ]
+  },
+  {
+    "id": "cf5560910ebac58389087306",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "9e0382d028daee7e2641b2a4",
+    "type": "REQUIRES_MONITORING_OF",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/11"
+    ]
+  },
+  {
+    "id": "0429565bf97541c58895e429",
+    "source": "17961902442705345a65f4ee",
+    "target": "539e69734a4c56d9e856cba5",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/12"
+    ]
+  },
+  {
+    "id": "673ee7df16b2c1d974c2eba7",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "5ef75109906b16d77f580853",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/13"
+    ]
+  },
+  {
+    "id": "a48b2d6bfcd964ca41261965",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "261ade81e504fe49fcbdad9a",
+    "type": "SECOND_LINE_DRUG",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/14"
+    ]
+  },
+  {
+    "id": "73ebf078c047085fef8fe56a",
+    "source": "f7a2e37680b73cfa8f705638",
+    "target": "b417c2371558fc84b9c2e27c",
+    "type": "HAS_EVIDENCE_BASED_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/15"
+    ]
+  },
+  {
+    "id": "020b00a49a55bbb989a305bc",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "e189d4546e4bee6eb27181e2",
+    "type": "NEUROMODULATION_FOR_REFRACTORY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/16"
+    ]
+  },
+  {
+    "id": "9a2e58cebe2d0222598ae258",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "HAS_STRONG_EVIDENCE_FOR",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/17"
+    ]
+  },
+  {
+    "id": "50e38d5daf071d30aa8166f9",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "04f8787e935c61048f6af186",
+    "type": "FIRST_LINE_DRUG",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/18"
+    ]
+  },
+  {
+    "id": "5ad1fc62e38bc97450bd5239",
+    "source": "17961902442705345a65f4ee",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/19"
+    ]
+  },
+  {
+    "id": "4f6a29f9b0539290e5824fd9",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "1c3145c3241406035842ad4c",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/20"
+    ]
+  },
+  {
+    "id": "50b832e8432cf6bbcd15eaff",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "73140311e1638f7c044e7308",
+    "type": "ANTIPSYCHOTIC_ADD_ON",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/21"
+    ]
+  },
+  {
+    "id": "5fd17d766296aef2ef71898d",
+    "source": "55031919872fbf6c48172e67",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/22"
+    ]
+  },
+  {
+    "id": "60997a9f03d04d3fa791ddae",
+    "source": "17961902442705345a65f4ee",
+    "target": "6689ab6f770334391953b60c",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/23"
+    ]
+  },
+  {
+    "id": "232ffb2cc277c9e331b12fa2",
+    "source": "28f8cecccbbc0cbbbdddc95d",
+    "target": "4aee1ca4ec39b8f0f2dcfee7",
+    "type": "IS_EVIDENCE_BASED_FOR",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/24"
+    ]
+  },
+  {
+    "id": "9d00856e4fcab3c5de725832",
+    "source": "50f50ec8e4f4652fe1c6d57f",
+    "target": "e6e0b194c1935beb7b92eb8e",
+    "type": "HAS_TREATMENT_STRATEGY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/25"
+    ]
+  },
+  {
+    "id": "4bbc112c1d292b3326983aac",
+    "source": "98e2994f321ccfb183449920",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/26"
+    ]
+  },
+  {
+    "id": "ece54a61166fff9c9a353cd7",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "d0edfc4d2a910e7878c03d38",
+    "type": "FIRST_LINE_DRUG",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/27"
+    ]
+  },
+  {
+    "id": "de243a044056d807cc9c92ea",
+    "source": "d62c8e662ff2a3910597b3a3",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/28"
+    ]
+  },
+  {
+    "id": "36ca8ee13fd79b2a022a88cf",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "98e2994f321ccfb183449920",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/29"
+    ]
+  },
+  {
+    "id": "03246023c03401eb634ecd91",
+    "source": "55031919872fbf6c48172e67",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/30"
+    ]
+  },
+  {
+    "id": "7cf3c5978d784a63c8161099",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/31"
+    ]
+  },
+  {
+    "id": "441f7e36ec904abf32ea016d",
+    "source": "d62c8e662ff2a3910597b3a3",
+    "target": "261ade81e504fe49fcbdad9a",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/32"
+    ]
+  },
+  {
+    "id": "bcd58d502120b272c9b27ca5",
+    "source": "04f8787e935c61048f6af186",
+    "target": "6b13520734575a801a1a6285",
+    "type": "MAX_DOSE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/33"
+    ]
+  },
+  {
+    "id": "f0dec8de0f89cff6e68b4b08",
+    "source": "4bf380949eddb94cce781aed",
+    "target": "72d56d56d60120f29a185b86",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/34"
+    ]
+  },
+  {
+    "id": "5e728e42f230fbff53ab1932",
+    "source": "1c3145c3241406035842ad4c",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/35"
+    ]
+  },
+  {
+    "id": "abe0882e9ec7ec0648726de8",
+    "source": "fb65c44222644e4f91b97db4",
+    "target": "0233471087789bd1c8061c1b",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/36"
+    ]
+  },
+  {
+    "id": "8c2f869e59bec5a3085f4389",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "6689ab6f770334391953b60c",
+    "type": "REDUCES_SUICIDE_RISK_IN",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/37"
+    ]
+  },
+  {
+    "id": "86f7660ec2087306c5c48a63",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/38"
+    ]
+  },
+  {
+    "id": "0588ba514d9c827109620441",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/39"
+    ]
+  },
+  {
+    "id": "13cf4441fe873d04d447d25c",
+    "source": "04f8787e935c61048f6af186",
+    "target": "d6ba5704d8f5910e9c7b9040",
+    "type": "TARGET_DOSE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/40"
+    ]
+  },
+  {
+    "id": "11874225dab1bf39be094606",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "da424821bf328794aa43279d",
+    "type": "TARGET_DOSE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/41"
+    ]
+  },
+  {
+    "id": "d8b34fdab30359a2868cfb1f",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "a09cd5c8486bd88b62edd53a",
+    "type": "HAS_TREATMENT_GOAL",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/42"
+    ]
+  },
+  {
+    "id": "c54c163d8e1fb0d6ee4f8ad9",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "c9dad2f8cc1b4eb0d76440aa",
+    "type": "NEUROMODULATION_FOR_REFRACTORY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/43"
+    ]
+  },
+  {
+    "id": "268682b028f346029f63532f",
+    "source": "8e2fc4181e3fcb168217fdcd",
+    "target": "fa9c130254295828f271eb43",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/45"
+    ]
+  },
+  {
+    "id": "d1bac267b33120e8ec61fb20",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "d278e5df26f426707524c9f3",
+    "type": "REQUIRES_MONITORING_OF",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/46"
+    ]
+  },
+  {
+    "id": "ad2655be3c45c8796753514a",
+    "source": "1c3145c3241406035842ad4c",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/47"
+    ]
+  },
+  {
+    "id": "6742a122f54279934acf2564",
+    "source": "6689ab6f770334391953b60c",
+    "target": "f7a2e37680b73cfa8f705638",
+    "type": "HAS_PHASE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/48"
+    ]
+  },
+  {
+    "id": "e3489be5b2cd46a3979c1440",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/49"
+    ]
+  },
+  {
+    "id": "e1ee4baf5b3950fd695c3c13",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "8e2fc4181e3fcb168217fdcd",
+    "type": "HAS_ACUTE_ONLY_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/50"
+    ]
+  },
+  {
+    "id": "277982f7e25f00512f9e0fbd",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "ca6f4ce9f70aeb40e51f5b8f",
+    "type": "FIRST_LINE_DRUG",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/51"
+    ]
+  },
+  {
+    "id": "0301005637dfa1fe3a23d075",
+    "source": "35d4b8ca2bfb16b83b91d5b9",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/52"
+    ]
+  },
+  {
+    "id": "be684ac44d165565c0027a30",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "414a3332eef9a7659be9e0d8",
+    "type": "HAS_PHASE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/53"
+    ]
+  },
+  {
+    "id": "ae89834d15d46f9037061493",
+    "source": "288aef35757361db129d2728",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/54"
+    ]
+  },
+  {
+    "id": "e8323771453feb13cb85ba0d",
+    "source": "7b837688f1073be778fe46f7",
+    "target": "d62c8e662ff2a3910597b3a3",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/55"
+    ]
+  },
+  {
+    "id": "3294e4764e1b41d1a6b4a131",
+    "source": "8e2fc4181e3fcb168217fdcd",
+    "target": "231245a74f4d18dcc61dae25",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/56"
+    ]
+  },
+  {
+    "id": "4a9abf3375176c99720d8060",
+    "source": "a809570dab8e6d7f95bc0450",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/57"
+    ]
+  },
+  {
+    "id": "db155e0336ecc910b7decc22",
+    "source": "4d827297911d3bc97349766d",
+    "target": "fcc7bf9f26197edd8426900f",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/58"
+    ]
+  },
+  {
+    "id": "eadcf5acd6703196acc5b06e",
+    "source": "fb65c44222644e4f91b97db4",
+    "target": "5dafe72a5638b57bf7b6c0f5",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/59"
+    ]
+  },
+  {
+    "id": "8ef608951b648f73e7841e70",
+    "source": "35d4b8ca2bfb16b83b91d5b9",
+    "target": "b54615f03488c89728b0568e",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/60"
+    ]
+  },
+  {
+    "id": "47126905da155c628d7b1db7",
+    "source": "97c971cd793751d2f3d73b3e",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/61"
+    ]
+  },
+  {
+    "id": "fc602ad0aada4cc4f7057484",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "5f2e39c14d5751492b95b4a8",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/63"
+    ]
+  },
+  {
+    "id": "30839551104abb739dff0abe",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "8e2fc4181e3fcb168217fdcd",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/64"
+    ]
+  },
+  {
+    "id": "008788c999cf089247462ba7",
+    "source": "1c3145c3241406035842ad4c",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/65"
+    ]
+  },
+  {
+    "id": "78ce76f23fa43d79d7da29b7",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "1b22b37d7777d12a73a5f468",
+    "type": "REQUIRES_MINIMUM_TREATMENT_DURATION",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/66"
+    ]
+  },
+  {
+    "id": "f914b212f8729a8d65abda72",
+    "source": "6689ab6f770334391953b60c",
+    "target": "4bf380949eddb94cce781aed",
+    "type": "HAS_PHASE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/67"
+    ]
+  },
+  {
+    "id": "5b823706aaec54ed2b4bef3c",
+    "source": "4d827297911d3bc97349766d",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/68"
+    ]
+  },
+  {
+    "id": "09242557914b2c46ffd42ec4",
+    "source": "fb65c44222644e4f91b97db4",
+    "target": "236e70b30a7b422016b148cc",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/69"
+    ]
+  },
+  {
+    "id": "f21d179831d36d80c9e48cb8",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/70"
+    ]
+  },
+  {
+    "id": "d5e9c9aa828c85ff9deea610",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "de5b21f14cb779c7ca4d00d7",
+    "type": "ASSOCIATED_WITH_POORER_TREATMENT_RESPONSE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/71"
+    ]
+  },
+  {
+    "id": "bc081f5da8d8a7c07e6f708c",
+    "source": "1b21cab1d1a3143e887f40d3",
+    "target": "827862c7895134e2e6cbd42c",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/72"
+    ]
+  },
+  {
+    "id": "7e0b1d64b6bc0aecc155e8ed",
+    "source": "28f8cecccbbc0cbbbdddc95d",
+    "target": "72912c08ccb6fa05cbad43bf",
+    "type": "HAS_COMPARABLE_OR_SUPERIOR_EFFICACY_TO",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/73"
+    ]
+  },
+  {
+    "id": "fd09016c51fe58da5db2465a",
+    "source": "1b21cab1d1a3143e887f40d3",
+    "target": "72d56d56d60120f29a185b86",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/74"
+    ]
+  },
+  {
+    "id": "85b38b306b5b75cf3a62aa1b",
+    "source": "24c5810487b4d9467ba5297d",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/75"
+    ]
+  },
+  {
+    "id": "607827b2e868431487e1adf6",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "7b837688f1073be778fe46f7",
+    "type": "COMMONLY_COMORBID_WITH",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/76"
+    ]
+  },
+  {
+    "id": "b6ea7bccf2d771f5acc33f14",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "24c5810487b4d9467ba5297d",
+    "type": "PSYCHOTHERAPY_ADD_ON",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/77"
+    ]
+  },
+  {
+    "id": "f2aef4e4f7a2eb14905a4884",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "24c5810487b4d9467ba5297d",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/79"
+    ]
+  },
+  {
+    "id": "bf187917d24a6b0387f3c504",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "d605b888f7183a35139b1a3d",
+    "type": "REQUIRES_MAINTENANCE_THERAPY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/80"
+    ]
+  },
+  {
+    "id": "10253ba60cee331de5867d86",
+    "source": "17961902442705345a65f4ee",
+    "target": "557312cc1a8ce5f7bb725e2d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/81"
+    ]
+  },
+  {
+    "id": "2d8396f31ad426f2eb7214b3",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "COMMONLY_COMORBID_WITH",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/82"
+    ]
+  },
+  {
+    "id": "9fe240967bbf352ea478f451",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "97c971cd793751d2f3d73b3e",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/83"
+    ]
+  },
+  {
+    "id": "f77ddfc9b266eb5afeb8101f",
+    "source": "50f50ec8e4f4652fe1c6d57f",
+    "target": "97c971cd793751d2f3d73b3e",
+    "type": "HAS_TREATMENT_STRATEGY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/84"
+    ]
+  },
+  {
+    "id": "b4d56d7b1de884b0709aa31d",
+    "source": "7b837688f1073be778fe46f7",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/85"
+    ]
+  },
+  {
+    "id": "b4900d951312059bae4f4bee",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "dc3d9e49959aa4c8f809a8ff",
+    "type": "TARGET_DOSE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/86"
+    ]
+  },
+  {
+    "id": "6488baba98e09c86e5fd32b9",
+    "source": "261ade81e504fe49fcbdad9a",
+    "target": "ac2d2d73a0b8e07aeb818f00",
+    "type": "HAS_CLINICAL_PROFILE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/87"
+    ]
+  },
+  {
+    "id": "4fa34aeb3f0fe0be1c6df7c8",
+    "source": "4d827297911d3bc97349766d",
+    "target": "04f8787e935c61048f6af186",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/88"
+    ]
+  },
+  {
+    "id": "49107577de8ed7ea9b8c8ea1",
+    "source": "261ade81e504fe49fcbdad9a",
+    "target": "a8e4a7b38710a4af70fdece9",
+    "type": "IS_SUBCLASS_OF",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/89"
+    ]
+  },
+  {
+    "id": "41c80ff88edccfb9ff944623",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "2a1bcb899c2e99f63b782b2f",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/90"
+    ]
+  },
+  {
+    "id": "97a9011857b8016b7717e2e2",
+    "source": "24c5810487b4d9467ba5297d",
+    "target": "d62c8e662ff2a3910597b3a3",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/91"
+    ]
+  },
+  {
+    "id": "c5e378e8914872b67457aa43",
+    "source": "1b21cab1d1a3143e887f40d3",
+    "target": "6689ab6f770334391953b60c",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/92"
+    ]
+  },
+  {
+    "id": "36e2c9f6c9c985ba88a4db31",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "HAS_STRONG_EVIDENCE_FOR",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/93"
+    ]
+  },
+  {
+    "id": "8d1d1549c868f41a388737cb",
+    "source": "4d827297911d3bc97349766d",
+    "target": "d0edfc4d2a910e7878c03d38",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/94"
+    ]
+  },
+  {
+    "id": "1ed21e119f78a70ab4c4c31b",
+    "source": "17961902442705345a65f4ee",
+    "target": "5fb927be024f43b102bdd1d5",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/95"
+    ]
+  },
+  {
+    "id": "4e919fef1dec01f28d557462",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "28f8cecccbbc0cbbbdddc95d",
+    "type": "FIRST_LINE_PSYCHOTHERAPY",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/96"
+    ]
+  },
+  {
+    "id": "fdabf9ce3c9da3f510d8cae9",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/97"
+    ]
+  },
+  {
+    "id": "3696ce0047b6bd633bf54684",
+    "source": "d62c8e662ff2a3910597b3a3",
+    "target": "24c5810487b4d9467ba5297d",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/98"
+    ]
+  },
+  {
+    "id": "5d445d341a96cda4e9c5726d",
+    "source": "6689ab6f770334391953b60c",
+    "target": "288aef35757361db129d2728",
+    "type": "HAS_PHASE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/100"
+    ]
+  },
+  {
+    "id": "395aa7569c27fb5f83d9647d",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "6776fcf352fe12c2d0e50aab",
+    "type": "HAS_THERAPEUTIC_RANGE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/101"
+    ]
+  },
+  {
+    "id": "ad78de90060994f017d6cb10",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "fcc7bf9f26197edd8426900f",
+    "type": "FIRST_LINE_DRUG",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/102"
+    ]
+  },
+  {
+    "id": "2e28f05898bd118bf6fe0c3f",
+    "source": "4aee1ca4ec39b8f0f2dcfee7",
+    "target": "5fb927be024f43b102bdd1d5",
+    "type": "ANTIPSYCHOTIC_ADD_ON",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/103"
+    ]
+  },
+  {
+    "id": "1846c7496874c238c75cdd8f",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "fb65c44222644e4f91b97db4",
+    "type": "HAS_MAINTENANCE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/104"
+    ]
+  },
+  {
+    "id": "c37b85cc5793106a89f9c052",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "24c5810487b4d9467ba5297d",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/105"
+    ]
+  },
+  {
+    "id": "9f17d2a6b49e92ecece5b913",
+    "source": "35d4b8ca2bfb16b83b91d5b9",
+    "target": "5d3c0aed6313740d007d5c33",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/106"
+    ]
+  },
+  {
+    "id": "298012439f6f6539cf7faf6b",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "0bcb3364e7952d40547b04f2",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/107"
+    ]
+  },
+  {
+    "id": "fd9d051b51eb529d2d975459",
+    "source": "288aef35757361db129d2728",
+    "target": "8e2fc4181e3fcb168217fdcd",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/109"
+    ]
+  },
+  {
+    "id": "fdd2f6b499227922df983a64",
+    "source": "261ade81e504fe49fcbdad9a",
+    "target": "d62c8e662ff2a3910597b3a3",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/110"
+    ]
+  },
+  {
+    "id": "a869d1c0251ffa70e8dad203",
+    "source": "a809570dab8e6d7f95bc0450",
+    "target": "8e2fc4181e3fcb168217fdcd",
+    "type": "HAS_SECOND_LINE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/111"
+    ]
+  },
+  {
+    "id": "e8289281100820a1afa3e899",
+    "source": "06b62e6a29f4d2e83f762bd2",
+    "target": "50f50ec8e4f4652fe1c6d57f",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/112"
+    ]
+  },
+  {
+    "id": "933de8e74d5f1be99f9848cd",
+    "source": "f7a2e37680b73cfa8f705638",
+    "target": "1b21cab1d1a3143e887f40d3",
+    "type": "HAS_BASE_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/113"
+    ]
+  },
+  {
+    "id": "14213b7af71f0485b17b2da0",
+    "source": "07a1fd94a62ac7259cb58f8e",
+    "target": "d47e1944f7c73b1a90658703",
+    "type": "HAS_NON_PHARMACOLOGICAL_TREATMENT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/114"
+    ]
+  },
+  {
+    "id": "13b4e931676874d304eddb85",
+    "source": "8e2fc4181e3fcb168217fdcd",
+    "target": "cead9d4e068969c0bcbb1b8d",
+    "type": "HAS_DRUG_INSTANCE",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/115"
+    ]
+  },
+  {
+    "id": "cc754ad797157878ae6275e1",
+    "source": "f7a2e37680b73cfa8f705638",
+    "target": "92d5947708a272d0beac0615",
+    "type": "HAS_PROPHYLACTIC_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/edges/116"
+    ]
+  },
+  {
+    "id": "f272a62377373791e134411f",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "f7f3420c7ff85ad8e534629d",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/0"
+    ]
+  },
+  {
+    "id": "1308124f95a6d06487fe92c5",
+    "source": "48538199759d05485b4a23be",
+    "target": "dc10e80ec8a5fcbf559c883e",
+    "type": "ASSOCIATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/1"
+    ]
+  },
+  {
+    "id": "d7276cef63a3b87d9b8ce8e6",
+    "source": "4c93659a14284dc4890a7d13",
+    "target": "bc20194aa9386ec7b2ae1710",
+    "type": "CAN_ACCOMPANY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/2"
+    ]
+  },
+  {
+    "id": "bd0f44a2f275a758d5483c84",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "34fa190bee7f387da83cde8f",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/3"
+    ]
+  },
+  {
+    "id": "02c625016a533dd158e489e9",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "42b068358fb31a69fc37b490",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/4"
+    ]
+  },
+  {
+    "id": "6387f5bf79e8d32cbb8ae76e",
+    "source": "d7f6125c8217fe7ba4a5e2ec",
+    "target": "d0d1259b10ccf299876a2741",
+    "type": "ASSOCIATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/5"
+    ]
+  },
+  {
+    "id": "a2b1e05b613e9da5e8cd249f",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "07b4172ccf37edd708a1c13e",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/6"
+    ]
+  },
+  {
+    "id": "c447045b8577a7cdab5596ac",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "6bc48d97fee28697e2c09065",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/7"
+    ]
+  },
+  {
+    "id": "51604213e27f2c8445dccb86",
+    "source": "8baeef1194c213900abd08f3",
+    "target": "6ae8f17d5d2ac000e74f31ae",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/8"
+    ]
+  },
+  {
+    "id": "2e3513bcc3e9cd9c7bfe6bfd",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "930daa867abec00366f6caff",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/9"
+    ]
+  },
+  {
+    "id": "77726a3911de46915f308210",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "48538199759d05485b4a23be",
+    "type": "HAS_SEVERITY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/11"
+    ]
+  },
+  {
+    "id": "98d04f56d412f9e1c3daa35e",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "d7f6125c8217fe7ba4a5e2ec",
+    "type": "HAS_SEVERITY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/12"
+    ]
+  },
+  {
+    "id": "e31fcf2bdc1231c14c7025db",
+    "source": "d7f6125c8217fe7ba4a5e2ec",
+    "target": "c476858b9e45de3820b3878b",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/13"
+    ]
+  },
+  {
+    "id": "8f9c1a293b87e1ab8dfe34c1",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "6ae8f17d5d2ac000e74f31ae",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/14"
+    ]
+  },
+  {
+    "id": "6d45249878dcf5ec0e41383e",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "80c0a41b505f32fbe589d7c3",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/15"
+    ]
+  },
+  {
+    "id": "27a5b182961b429eff6044e0",
+    "source": "8baeef1194c213900abd08f3",
+    "target": "cf373db89ae8abfa0e86bc96",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/16"
+    ]
+  },
+  {
+    "id": "f060a055d3b68b0ba4112b2b",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "945cdee17594b650716a5e40",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/17"
+    ]
+  },
+  {
+    "id": "00f1de241b55220b5c7e1dee",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "c96a99a22a3c400fae67cf40",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/18"
+    ]
+  },
+  {
+    "id": "2cf020a759eb760857b9675e",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "4c93659a14284dc4890a7d13",
+    "type": "HAS_SEVERITY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/19"
+    ]
+  },
+  {
+    "id": "89de73a2698938984f12635d",
+    "source": "8baeef1194c213900abd08f3",
+    "target": "a3f69a300b71c4a3bcdfac2c",
+    "type": "CHARACTERIZED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/20"
+    ]
+  },
+  {
+    "id": "8cca8d78e9ccae76f8ec93b1",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "0a16bf13b44d8f0c6a6dbfe1",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/21"
+    ]
+  },
+  {
+    "id": "57e89173d83e3de538cdbb2d",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "f24ee52a7efbff65c7339fd8",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/22"
+    ]
+  },
+  {
+    "id": "0084858c55281fd831da7ef3",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "d7cf287c4a12d237d8f64a63",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/23"
+    ]
+  },
+  {
+    "id": "2e25cbae5dc864f3b25d6d4d",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "8466f5cda072d0831e1cdb37",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/24"
+    ]
+  },
+  {
+    "id": "d96e1369a03a7765530e3257",
+    "source": "48538199759d05485b4a23be",
+    "target": "c476858b9e45de3820b3878b",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/25"
+    ]
+  },
+  {
+    "id": "1dae960fe51ba99f3a096c1d",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "25500cf7cb98d6fa2d48d381",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/26"
+    ]
+  },
+  {
+    "id": "632aefe5a151f8325d4c9b47",
+    "source": "48538199759d05485b4a23be",
+    "target": "c0870031c547dfd9d781a8dd",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/27"
+    ]
+  },
+  {
+    "id": "f92dd3213c89b01e24c3f7f0",
+    "source": "d7f6125c8217fe7ba4a5e2ec",
+    "target": "052fe8ab323a553e09302f2a",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/28"
+    ]
+  },
+  {
+    "id": "1fc126d1685912ea00683a09",
+    "source": "bcd340a019c2203a6c30c298",
+    "target": "207854fca6a0ef6dd68f826a",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/29"
+    ]
+  },
+  {
+    "id": "021f8ef9253e60d6924fa5dc",
+    "source": "4c93659a14284dc4890a7d13",
+    "target": "41fa547024cf5730df10d763",
+    "type": "ASSOCIATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/30"
+    ]
+  },
+  {
+    "id": "2224d9cce0a1864f8654942d",
+    "source": "cdf9188e4dce59321a9a8311",
+    "target": "51f63a6cefce466c80031b82",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/31"
+    ]
+  },
+  {
+    "id": "c7b3a9e292f8a85f002f4c75",
+    "source": "bcd340a019c2203a6c30c298",
+    "target": "cdf9188e4dce59321a9a8311",
+    "type": "HAS_EPISODE",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/32"
+    ]
+  },
+  {
+    "id": "5f83fbb687fb6c1a321d0ee1",
+    "source": "4c93659a14284dc4890a7d13",
+    "target": "1412bc96f3242b8de8a08739",
+    "type": "REQUIRES",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/edges/33"
+    ]
+  },
+  {
+    "id": "39932bf5528116725f43263e",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "21d79055466331363ac01b98",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/0"
+    ]
+  },
+  {
+    "id": "7f848e2a22a596af03e46864",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "d592d6d2f064492b3c8b07d1",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/1"
+    ]
+  },
+  {
+    "id": "39f465ad278409bd3e40c177",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "ecb26fff7ce20f83639e17e1",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/2"
+    ]
+  },
+  {
+    "id": "bb233b2701efc81bd61ef06e",
+    "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+    "target": "eaab0c289a59852018834a78",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/3"
+    ]
+  },
+  {
+    "id": "f5e7f42e552d356df7632ba4",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "e9f48e8b2e0815df913fe55b",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/4"
+    ]
+  },
+  {
+    "id": "27b52d82ab700e351b02a18d",
+    "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+    "target": "09668b597185de1859fcfd75",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/5"
+    ]
+  },
+  {
+    "id": "6ff1e4a3223b138bb73e1925",
+    "source": "d98039d2a44dad6a61f1f42d",
+    "target": "ba47a88d925915880cfc4917",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/6"
+    ]
+  },
+  {
+    "id": "7b9c3fe402f595b84ee13f8d",
+    "source": "87d2d331e0d60bcd34bfa18d",
+    "target": "a935be7e64ff9b7c3546cc76",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/7"
+    ]
+  },
+  {
+    "id": "1a04e70275728d5b3df64942",
+    "source": "9d94ee09431f90fe8dc5518c",
+    "target": "18c85333a84c643ddb67e9a7",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/8"
+    ]
+  },
+  {
+    "id": "4903b8d597af660175b23b22",
+    "source": "ecb26fff7ce20f83639e17e1",
+    "target": "085c79fe8a719b7cf8ce25a3",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/9"
+    ]
+  },
+  {
+    "id": "11bedb023a2f6673d10a9c51",
+    "source": "87d2d331e0d60bcd34bfa18d",
+    "target": "dc1ea99f0af40531a22d8ace",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/10"
+    ]
+  },
+  {
+    "id": "a780e88cabc9c17449b29742",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "fed09d8c290dbd563081baf1",
+    "type": "HAS_SUBTYPE",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/11"
+    ]
+  },
+  {
+    "id": "9aee08812d1a8ca8d92846e2",
+    "source": "ecb26fff7ce20f83639e17e1",
+    "target": "230f5e390ee5bace8cfabca3",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/12"
+    ]
+  },
+  {
+    "id": "b34d6461b34f3e008e94ac5f",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "ffe2796246e092bc5a39ac33",
+    "type": "DIFFERENTIATED_FROM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/13"
+    ]
+  },
+  {
+    "id": "21baeac41a56c3b4ee219d5e",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "95a736f858113c5a764c3f4c",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/14"
+    ]
+  },
+  {
+    "id": "36851159b15758905039622f",
+    "source": "d98039d2a44dad6a61f1f42d",
+    "target": "5893e207ab717d55a19dd302",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/15"
+    ]
+  },
+  {
+    "id": "cc499c07a6a3c45ab02868f1",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "9d94ee09431f90fe8dc5518c",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/16"
+    ]
+  },
+  {
+    "id": "2f8d176b5e9e1aab8a2a2b73",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "6bf3d540d741ae5836a47aa8",
+    "type": "DIFFERENTIATED_FROM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/17"
+    ]
+  },
+  {
+    "id": "81ed0807b783c78c2e182c55",
+    "source": "ecb26fff7ce20f83639e17e1",
+    "target": "961e88c7f3404b1aad0e1a32",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/18"
+    ]
+  },
+  {
+    "id": "e75d937aa63e061b1888d97c",
+    "source": "87d2d331e0d60bcd34bfa18d",
+    "target": "fcabc0e64a1974ed3658be73",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/19"
+    ]
+  },
+  {
+    "id": "7d5ba77088ff9b49fdc23d9f",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "d98039d2a44dad6a61f1f42d",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/20"
+    ]
+  },
+  {
+    "id": "0b5fbc5e49365c9d2bdfa947",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "6144a9da17473ab8d284daa8",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/21"
+    ]
+  },
+  {
+    "id": "2b5a7f50b946969690f1fd2a",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "87d2d331e0d60bcd34bfa18d",
+    "type": "HAS_SYMPTOM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/22"
+    ]
+  },
+  {
+    "id": "5caaf66ff10ddcb8bcc41208",
+    "source": "87d2d331e0d60bcd34bfa18d",
+    "target": "bcb02fa4547a845e35777dea",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/23"
+    ]
+  },
+  {
+    "id": "476362b9190ef80a668411f6",
+    "source": "ecb26fff7ce20f83639e17e1",
+    "target": "e0673d4a6ff84d513ae697c5",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/24"
+    ]
+  },
+  {
+    "id": "bdf3aac202e6a3f1c8081df0",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "dbdabffbfcbed81628054f77",
+    "type": "EXCLUDED_BY",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/25"
+    ]
+  },
+  {
+    "id": "00fec67a4e1342256300932f",
+    "source": "95a736f858113c5a764c3f4c",
+    "target": "d4b0c8a17fa2d6cfbb2ac4c3",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/26"
+    ]
+  },
+  {
+    "id": "3358624b80974d8e895dd01e",
+    "source": "e9f48e8b2e0815df913fe55b",
+    "target": "5d731c3e7612ba6caf9486ee",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/27"
+    ]
+  },
+  {
+    "id": "a0da0704d2bab2af25f7dfc3",
+    "source": "9d94ee09431f90fe8dc5518c",
+    "target": "7a63dab77d4d4ac760115c66",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/28"
+    ]
+  },
+  {
+    "id": "3e67f09375dbc5fdf7ab69c4",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "DIFFERENTIATED_FROM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/29"
+    ]
+  },
+  {
+    "id": "4037f1d80ddbd3cb36dbbc6f",
+    "source": "9d94ee09431f90fe8dc5518c",
+    "target": "2c3829f221ec7c3ceb871222",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/30"
+    ]
+  },
+  {
+    "id": "2230df68e03a775be1421b9d",
+    "source": "d98039d2a44dad6a61f1f42d",
+    "target": "ad2392546a8c03fc848cbc8f",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/31"
+    ]
+  },
+  {
+    "id": "3e35d742627a449b36530779",
+    "source": "557312cc1a8ce5f7bb725e2d",
+    "target": "6689ab6f770334391953b60c",
+    "type": "DIFFERENTIATED_FROM",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/32"
+    ]
+  },
+  {
+    "id": "550c6a12867d58237bf819a9",
+    "source": "e9f48e8b2e0815df913fe55b",
+    "target": "5af65b554a292ca7ad6bfeb3",
+    "type": "SUBTYPE_OF",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/edges/33"
+    ]
+  },
+  {
+    "id": "07039787574a0e54bcda3b5f",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "2cf1a5693e1e222b377dd271",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/0"
+    ]
+  },
+  {
+    "id": "88ba2d2d0a57769f03ca1909",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "d991039ac8dda1823b1d8f71",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/1"
+    ]
+  },
+  {
+    "id": "130426aff82196a3ac61f3d2",
+    "source": "4ebe39cf333b0fa09d4a20f1",
+    "target": "2003131310775ec49789c7db",
+    "type": "INCLUDES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/2"
+    ]
+  },
+  {
+    "id": "b9fd84730572aeb7a45e435d",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "e7a3e4f67c903a24f5d1c307",
+    "type": "INHIBITS_METABOLISM_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/3"
+    ]
+  },
+  {
+    "id": "3eea3439e4835c027cebc6cf",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/4"
+    ]
+  },
+  {
+    "id": "9851e8a0bd597188487bece4",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "0a7fc23c0a192348e0a4ef2f",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/5"
+    ]
+  },
+  {
+    "id": "15cf06407ac01f98e83fea0e",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "91ab23dd962665c015b5deba",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/6"
+    ]
+  },
+  {
+    "id": "ceca50433e3eb982108a3fba",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/7"
+    ]
+  },
+  {
+    "id": "f69a0a90e7c5362c281b0013",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/8"
+    ]
+  },
+  {
+    "id": "c1839c65f08e500fd7406701",
+    "source": "73140311e1638f7c044e7308",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/9"
+    ]
+  },
+  {
+    "id": "3bbe75bf0fd0d297e32f457e",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "107720736548cfe22d88b62e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/10"
+    ]
+  },
+  {
+    "id": "5a944495f091b0debadf876b",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "1015aa49066cebdc78d7a2b2",
+    "type": "HAS_SYNERGISTIC_EFFECT_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/11"
+    ]
+  },
+  {
+    "id": "69c38392c2018447898f75b6",
+    "source": "04f8787e935c61048f6af186",
+    "target": "11ccaac6c87c08ee420b70cd",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/12"
+    ]
+  },
+  {
+    "id": "8a28262294042e7e2a709d3e",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/13"
+    ]
+  },
+  {
+    "id": "2c2faf6fabc3a899f8f98956",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "04f8787e935c61048f6af186",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/14"
+    ]
+  },
+  {
+    "id": "12021adbbc5d9a6bd2b8168d",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/15"
+    ]
+  },
+  {
+    "id": "1c0b4c8fe708e6e99eb9aa3b",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/16"
+    ]
+  },
+  {
+    "id": "9638cdb7e0c77d45fc4027f9",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "9edaab30566388dc0015e600",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/17"
+    ]
+  },
+  {
+    "id": "614f790b69622b3761fc53b5",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/18"
+    ]
+  },
+  {
+    "id": "09e077e1f767759b68f6e7d5",
+    "source": "04f8787e935c61048f6af186",
+    "target": "b417c2371558fc84b9c2e27c",
+    "type": "CAN_BE_USED_WITH_FOR_DIFFICULT_TO_TREAT_DEPRESSION",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/19"
+    ]
+  },
+  {
+    "id": "efeaaf8a4cb8c9e4fee03d0f",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/20"
+    ]
+  },
+  {
+    "id": "940ebfe680928dbddcb8a59f",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "84bd33b065ba4277ed6b7c92",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/21"
+    ]
+  },
+  {
+    "id": "eb64e97f27acf17bdde6e298",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "0e08afd00f5e34e9ace896ac",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/22"
+    ]
+  },
+  {
+    "id": "67e1be0b7e746eb11e094d6d",
+    "source": "5f761a5bf54842dd3f5d380b",
+    "target": "ca6f4ce9f70aeb40e51f5b8f",
+    "type": "CONTRAINDICATED_DUE_TO_SEROTONIN_SYNDROME_RISK",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/23"
+    ]
+  },
+  {
+    "id": "0d8fd7d6346bcd9f7e6998a8",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "501f498a8507faabb82d5527",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/24"
+    ]
+  },
+  {
+    "id": "0139db48d946cf7288d83168",
+    "source": "04f8787e935c61048f6af186",
+    "target": "f0d6e128a55ccac3f622e41f",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/25"
+    ]
+  },
+  {
+    "id": "b4bb1d5def3acf7c67faea03",
+    "source": "92d5947708a272d0beac0615",
+    "target": "bbc6d1233ce064cfdc21e8b1",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/26"
+    ]
+  },
+  {
+    "id": "fb365cad036dad5b384a6726",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "9374dd79dcfb228e175fe34e",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/27"
+    ]
+  },
+  {
+    "id": "928e98bc66cd4c701b38e048",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "0d4b0879beb43a232f3292f9",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/28"
+    ]
+  },
+  {
+    "id": "86306ca579c20302249cb1eb",
+    "source": "04f8787e935c61048f6af186",
+    "target": "5f761a5bf54842dd3f5d380b",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/29"
+    ]
+  },
+  {
+    "id": "0f3929f13b57ab7e9d1e81cf",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/30"
+    ]
+  },
+  {
+    "id": "6679a39c8409022f01da4024",
+    "source": "92d5947708a272d0beac0615",
+    "target": "6970231fd4fc9b43f8a059bf",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/31"
+    ]
+  },
+  {
+    "id": "072e273070374e9d98266ea3",
+    "source": "04f8787e935c61048f6af186",
+    "target": "c4602add792ddcef5fef921d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/32"
+    ]
+  },
+  {
+    "id": "6c61b27acfb02a9c8879662f",
+    "source": "92d5947708a272d0beac0615",
+    "target": "827862c7895134e2e6cbd42c",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/33"
+    ]
+  },
+  {
+    "id": "cba6fd235de35ec43b53a22a",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "fc9ec421e786e3471e6d977f",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/34"
+    ]
+  },
+  {
+    "id": "c4a657feb9a560fb29aad481",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/35"
+    ]
+  },
+  {
+    "id": "29269e451c219d518faa7539",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "c4602add792ddcef5fef921d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/36"
+    ]
+  },
+  {
+    "id": "0bb7c80947b0859464441741",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "a8e4a7b38710a4af70fdece9",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/37"
+    ]
+  },
+  {
+    "id": "9899b4af7f3d59d1a5c1bc75",
+    "source": "73140311e1638f7c044e7308",
+    "target": "c71e7571e15e6a1684eee094",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/38"
+    ]
+  },
+  {
+    "id": "3b031caec87ce9a16714d437",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "2235fdc943f36ddfd9433806",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/39"
+    ]
+  },
+  {
+    "id": "a39944eb2dfa3d463ede86a5",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "b22c1619c84a15eec2192457",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/40"
+    ]
+  },
+  {
+    "id": "d0ecaa8662e03a2c6f8be6ff",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "bbc6d1233ce064cfdc21e8b1",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/41"
+    ]
+  },
+  {
+    "id": "f50e3b2b6fc03a3cb5b935b9",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "c93d5937775db620f66e7431",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/42"
+    ]
+  },
+  {
+    "id": "63733ac37a92eb9c6072bac9",
+    "source": "04f8787e935c61048f6af186",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/43"
+    ]
+  },
+  {
+    "id": "9634ed349d25c250148c893e",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/44"
+    ]
+  },
+  {
+    "id": "9af5d77d3cc9980df0708ce8",
+    "source": "73140311e1638f7c044e7308",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/45"
+    ]
+  },
+  {
+    "id": "38ef2afd8538ed94fd34d365",
+    "source": "04f8787e935c61048f6af186",
+    "target": "92d5947708a272d0beac0615",
+    "type": "NO_SIGNIFICANT_INTERACTION_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/46"
+    ]
+  },
+  {
+    "id": "f9c67439fdf6541170c3c2e8",
+    "source": "92d5947708a272d0beac0615",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/47"
+    ]
+  },
+  {
+    "id": "dd5b86a14c8e89e0f1245146",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "a3ea1c15a198ea3686a06670",
+    "type": "REQUIRES_WASHOUT_PERIOD",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/48"
+    ]
+  },
+  {
+    "id": "f6b71ae58556317bd6256b55",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "92d5947708a272d0beac0615",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/49"
+    ]
+  },
+  {
+    "id": "d0b9daec5573c83c8d4c4066",
+    "source": "b54615f03488c89728b0568e",
+    "target": "07a1fd94a62ac7259cb58f8e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/50"
+    ]
+  },
+  {
+    "id": "98d15450b8df1da515d79a41",
+    "source": "b54615f03488c89728b0568e",
+    "target": "0d4b0879beb43a232f3292f9",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/51"
+    ]
+  },
+  {
+    "id": "878be9b84db9ea6e63d22e0b",
+    "source": "92d5947708a272d0beac0615",
+    "target": "8a681cbc6009dbe6396966aa",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/53"
+    ]
+  },
+  {
+    "id": "665e5036296a1cd9955ff814",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "233ce8361f28c6588893af20",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/54"
+    ]
+  },
+  {
+    "id": "0bd98b2694f5db47029e5711",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "5fb927be024f43b102bdd1d5",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/55"
+    ]
+  },
+  {
+    "id": "2ba2b78b15e6d798cdd613bc",
+    "source": "b54615f03488c89728b0568e",
+    "target": "9a6b35d91336328d42b1e5a3",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/56"
+    ]
+  },
+  {
+    "id": "f1c8fe4a30da1f645a907b44",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "4aee1ca4ec39b8f0f2dcfee7",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/57"
+    ]
+  },
+  {
+    "id": "5074f125be11e6459b0a7bab",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "daf8a55846ed065646f8b0ed",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/58"
+    ]
+  },
+  {
+    "id": "fc292538cbd81e360b473a5d",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/59"
+    ]
+  },
+  {
+    "id": "bc2ada1a64401812a0287d45",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/60"
+    ]
+  },
+  {
+    "id": "9148d1e0724254ba64a3f79c",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "b417c2371558fc84b9c2e27c",
+    "type": "NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/61"
+    ]
+  },
+  {
+    "id": "654582a6f62f32abe04bf0d5",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "5fb927be024f43b102bdd1d5",
+    "type": "NO_CLINICAL_RATIONALE_FOR_COMBINATION",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/62"
+    ]
+  },
+  {
+    "id": "5b810e7ac5d808f0e9df515c",
+    "source": "73140311e1638f7c044e7308",
+    "target": "557312cc1a8ce5f7bb725e2d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/63"
+    ]
+  },
+  {
+    "id": "31364b5c7c0d250d37ddae99",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "ca6f4ce9f70aeb40e51f5b8f",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/64"
+    ]
+  },
+  {
+    "id": "9e9980f781076cc26f679d49",
+    "source": "04f8787e935c61048f6af186",
+    "target": "5fb927be024f43b102bdd1d5",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/65"
+    ]
+  },
+  {
+    "id": "422d523dd2bdaeec68c5b98a",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "557312cc1a8ce5f7bb725e2d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/66"
+    ]
+  },
+  {
+    "id": "5f3e7ffd6060c2fc69c57a2a",
+    "source": "04f8787e935c61048f6af186",
+    "target": "daf8a55846ed065646f8b0ed",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/67"
+    ]
+  },
+  {
+    "id": "5f0348503dbb2daa48bb294f",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "4ebe39cf333b0fa09d4a20f1",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/69"
+    ]
+  },
+  {
+    "id": "c1c56968972a2b18b21be56d",
+    "source": "92d5947708a272d0beac0615",
+    "target": "64205cfd10aad1f77b3b4de1",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/70"
+    ]
+  },
+  {
+    "id": "ca3e5b4e9dc79d77e63d5327",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "0d4b0879beb43a232f3292f9",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/71"
+    ]
+  },
+  {
+    "id": "77ff8da497e8ec6daf77fe9f",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "409b2ba596ece6600615cd85",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/72"
+    ]
+  },
+  {
+    "id": "8c03d749357ba34615609c23",
+    "source": "73140311e1638f7c044e7308",
+    "target": "5e12dc7c5e65ffceae592c3f",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/73"
+    ]
+  },
+  {
+    "id": "e2e521007c32a6a6447784b0",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "1b21cab1d1a3143e887f40d3",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/74"
+    ]
+  },
+  {
+    "id": "86e45ed3c12c897b77c495a7",
+    "source": "04f8787e935c61048f6af186",
+    "target": "2cf1a5693e1e222b377dd271",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/75"
+    ]
+  },
+  {
+    "id": "6f86c983682b98b8f9a12eb9",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "43594fed0268a039f7aedabc",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/76"
+    ]
+  },
+  {
+    "id": "5e2f75f3b696955d37bb1db9",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "d4382bfc4d3db42040876b8d",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/77"
+    ]
+  },
+  {
+    "id": "660b06ab6c5b4f7cdaf78c86",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "76ccf7b37b92c1d7452d6bed",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/79"
+    ]
+  },
+  {
+    "id": "07f1c3a531fd0cdebc2fbf92",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/80"
+    ]
+  },
+  {
+    "id": "2c924de8ba83d6822d6bbe1d",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/81"
+    ]
+  },
+  {
+    "id": "d02a8438690f14b94c4f7d49",
+    "source": "04f8787e935c61048f6af186",
+    "target": "408bf2d0bb58d9adb050102d",
+    "type": "INCREASES_RISK_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/82"
+    ]
+  },
+  {
+    "id": "4926c39931ae448667fd3209",
+    "source": "73140311e1638f7c044e7308",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/83"
+    ]
+  },
+  {
+    "id": "bb10b74924a846576021a633",
+    "source": "04f8787e935c61048f6af186",
+    "target": "d62c8e662ff2a3910597b3a3",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/84"
+    ]
+  },
+  {
+    "id": "0add56b9d1bf5a4c353a1854",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "72d56d56d60120f29a185b86",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/85"
+    ]
+  },
+  {
+    "id": "af0df2ff69723bdf209bb04b",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "11ccaac6c87c08ee420b70cd",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/86"
+    ]
+  },
+  {
+    "id": "9fcda4bd819bd70a042fe8b9",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "10bb43c0165b5a2caae80d23",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/88"
+    ]
+  },
+  {
+    "id": "b09f0f490160baf43d5761e5",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "2cf1a5693e1e222b377dd271",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/89"
+    ]
+  },
+  {
+    "id": "903e46ca7cd1efa7c37e90ed",
+    "source": "b54615f03488c89728b0568e",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/90"
+    ]
+  },
+  {
+    "id": "930d484a0bd0db4358d4b58b",
+    "source": "2cf1a5693e1e222b377dd271",
+    "target": "7ae291f3aa5aa613a2c93ab0",
+    "type": "INCLUDES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/91"
+    ]
+  },
+  {
+    "id": "2c3d1a64c46ccd2a75378768",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "8c00c16456f59d4f5370173f",
+    "type": "REQUIRES_MONITORING_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/92"
+    ]
+  },
+  {
+    "id": "8a9c500aa02e64c48cb1712c",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "557312cc1a8ce5f7bb725e2d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/93"
+    ]
+  },
+  {
+    "id": "8518d0479c3c2bc165fe99f5",
+    "source": "04f8787e935c61048f6af186",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/94"
+    ]
+  },
+  {
+    "id": "521dc0b6aa6a737dd5febedd",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/95"
+    ]
+  },
+  {
+    "id": "e1f04fc29ecd57dc7c68529e",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "4eb6ed4e81573a67ded5332b",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/96"
+    ]
+  },
+  {
+    "id": "eaf35fa9638148b6f86b4474",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "11ccaac6c87c08ee420b70cd",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/97"
+    ]
+  },
+  {
+    "id": "f361ac948807f888af0e7a2b",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/98"
+    ]
+  },
+  {
+    "id": "bd1f04ec8ea04ac47c2f2858",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "014a4e694a765ece01f79987",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/99"
+    ]
+  },
+  {
+    "id": "76fc6f9cfda99626b893972c",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "b417c2371558fc84b9c2e27c",
+    "type": "CAN_BE_USED_WITH_FOR_MANIA_WITH_CAUTION",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/100"
+    ]
+  },
+  {
+    "id": "b21f8751e219a02f07d49af5",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "8fd2cac80650a408de3eada2",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/101"
+    ]
+  },
+  {
+    "id": "b64856f54e41a7f7f31fe1ee",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "11ccaac6c87c08ee420b70cd",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/102"
+    ]
+  },
+  {
+    "id": "febc47ea57e64122d4fa8d87",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "84bd33b065ba4277ed6b7c92",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/103"
+    ]
+  },
+  {
+    "id": "603b30fe00469fcc7b170fef",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/104"
+    ]
+  },
+  {
+    "id": "d41b949286b7708b8a242726",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "c71e7571e15e6a1684eee094",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/105"
+    ]
+  },
+  {
+    "id": "0e7ad968542880407cddfb87",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/107"
+    ]
+  },
+  {
+    "id": "b8cd6e5f5ad353d2c33cb1d9",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/108"
+    ]
+  },
+  {
+    "id": "c2c9dfc3992136e9cf3f3326",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "ae238a93f7d05cb1d5afbbd4",
+    "type": "INCREASES_RISK_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/109"
+    ]
+  },
+  {
+    "id": "53a4e52cc64cbecede0d8ef3",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "f39fdfc38f26931d771cd765",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/110"
+    ]
+  },
+  {
+    "id": "5b62c371590852bd81a08f5f",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/111"
+    ]
+  },
+  {
+    "id": "9c49cd00337d5a090387ae0c",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "55705ada7aa5bcc85eea86ae",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/112"
+    ]
+  },
+  {
+    "id": "7ddc0619a026c1911cc2acad",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "43594fed0268a039f7aedabc",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/113"
+    ]
+  },
+  {
+    "id": "c4f5bd6dd7313c1376eeb42d",
+    "source": "92d5947708a272d0beac0615",
+    "target": "84bd33b065ba4277ed6b7c92",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/114"
+    ]
+  },
+  {
+    "id": "bdfc41145d5264d3ee06dddd",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "c311602eac6d0c8c4e863ad7",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/115"
+    ]
+  },
+  {
+    "id": "246f4683f3e0369644e76b5a",
+    "source": "b54615f03488c89728b0568e",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/116"
+    ]
+  },
+  {
+    "id": "6a4eb431584c1ce39a053575",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/117"
+    ]
+  },
+  {
+    "id": "f5bf8e441558347d8e507cc9",
+    "source": "4ebe39cf333b0fa09d4a20f1",
+    "target": "961383b779faf4879fdb455a",
+    "type": "INCLUDES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/118"
+    ]
+  },
+  {
+    "id": "036b3ccc35a774134749a454",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/119"
+    ]
+  },
+  {
+    "id": "981bcebf8e5312955c162d8a",
+    "source": "04f8787e935c61048f6af186",
+    "target": "7d333baaa33d58c947029f10",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/120"
+    ]
+  },
+  {
+    "id": "5d696b313e5992c0b5ca40cf",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "0779253ee4b882b31dae778e",
+    "type": "USED_FOR_ENHANCEMENT_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/121"
+    ]
+  },
+  {
+    "id": "6e56b7f12d6c7b397fc5faa3",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "c4602add792ddcef5fef921d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/122"
+    ]
+  },
+  {
+    "id": "5295ed33f3bf259bf2a41abd",
+    "source": "04f8787e935c61048f6af186",
+    "target": "aa89ed5d9f90d588de354bf4",
+    "type": "POTENTIATES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/123"
+    ]
+  },
+  {
+    "id": "47c07b1690e2b64c71d95498",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "35167725a9d27d4f184fee27",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/124"
+    ]
+  },
+  {
+    "id": "0c73d9b5c16a207d6bd6b30c",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "9df5531c8fc27988b778de4c",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/125"
+    ]
+  },
+  {
+    "id": "d6f0b1760e261ed4d564e538",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "557312cc1a8ce5f7bb725e2d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/126"
+    ]
+  },
+  {
+    "id": "dccaabd223173bb40f94106b",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/127"
+    ]
+  },
+  {
+    "id": "c0c870e468235396ed3ac302",
+    "source": "04f8787e935c61048f6af186",
+    "target": "b9164d404ac55c24d04aeb15",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/128"
+    ]
+  },
+  {
+    "id": "0398f9e9400497e637b79a8c",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "0779253ee4b882b31dae778e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/129"
+    ]
+  },
+  {
+    "id": "a97dc068f852713b4aa905d6",
+    "source": "92d5947708a272d0beac0615",
+    "target": "9e3cacb9f8358e33194c2d50",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/130"
+    ]
+  },
+  {
+    "id": "79ec1cc5e3edc0fed9609239",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/131"
+    ]
+  },
+  {
+    "id": "03a3692dbbfe8e490ea25e67",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "11ccaac6c87c08ee420b70cd",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/132"
+    ]
+  },
+  {
+    "id": "7cbe0e9d52ebc2390412f561",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "88fb84452b59355599a10fe1",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/133"
+    ]
+  },
+  {
+    "id": "4e7214831d3b4c92a2028f78",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/134"
+    ]
+  },
+  {
+    "id": "b49b8e0f1ad6cfe6fe593d9e",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/135"
+    ]
+  },
+  {
+    "id": "1a15c1d85b49f4de1bc94128",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "8aba5aaf4857d7b6873007fe",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/136"
+    ]
+  },
+  {
+    "id": "aeee883def1c264965d04733",
+    "source": "2cf1a5693e1e222b377dd271",
+    "target": "286942c28289942d4cc948c1",
+    "type": "INCLUDES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/137"
+    ]
+  },
+  {
+    "id": "8d3aff9210861b92cd36c563",
+    "source": "73140311e1638f7c044e7308",
+    "target": "c93d5937775db620f66e7431",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/138"
+    ]
+  },
+  {
+    "id": "ecae570820caa587ef2a517d",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "72d56d56d60120f29a185b86",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/139"
+    ]
+  },
+  {
+    "id": "a1cc779d014456b64bc53a97",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "c4602add792ddcef5fef921d",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/140"
+    ]
+  },
+  {
+    "id": "37f1856d523950f6405982ef",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "60ee67ff6aea4f411b5aabcd",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/141"
+    ]
+  },
+  {
+    "id": "badbf17a00ea44c7ab4d7238",
+    "source": "b54615f03488c89728b0568e",
+    "target": "845ae0c616b381a617eeb5d4",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/142"
+    ]
+  },
+  {
+    "id": "0c4cebf549b3e1bcc8a8a930",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "92d5947708a272d0beac0615",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/143"
+    ]
+  },
+  {
+    "id": "e885158bb196e489b9066394",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "c93d5937775db620f66e7431",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/144"
+    ]
+  },
+  {
+    "id": "17e47ddb8b9ece613c08936e",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "0779253ee4b882b31dae778e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/145"
+    ]
+  },
+  {
+    "id": "598ed9cb7022e7b9c1f26339",
+    "source": "92d5947708a272d0beac0615",
+    "target": "58897834fffb1466e9af8e14",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/146"
+    ]
+  },
+  {
+    "id": "2739a11fda857581941f169a",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "32660fefb5062297bb2a1740",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/147"
+    ]
+  },
+  {
+    "id": "03e0586098b57d33c2bb515c",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "0a7fc23c0a192348e0a4ef2f",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/148"
+    ]
+  },
+  {
+    "id": "223a0be87c5d533b3bdcf1aa",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "3bae0a19c25d4e24aa0a32cc",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/149"
+    ]
+  },
+  {
+    "id": "14d0cde2d112f9e15581a38e",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "1015aa49066cebdc78d7a2b2",
+    "type": "HAS_SYNERGISTIC_EFFECT_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/150"
+    ]
+  },
+  {
+    "id": "674d66f996a4c874ef1daf7c",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "4ebe39cf333b0fa09d4a20f1",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/151"
+    ]
+  },
+  {
+    "id": "2132cc84c378fe20c1041461",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/152"
+    ]
+  },
+  {
+    "id": "8a30b3a46d5e9bc1d5a0fa6d",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/153"
+    ]
+  },
+  {
+    "id": "33b85481af8b4e8542669d38",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/154"
+    ]
+  },
+  {
+    "id": "0a719d18467abacb2dba6ba8",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "60daf4037069ebea6aee7dbe",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/155"
+    ]
+  },
+  {
+    "id": "d070b17e90b4da3950f52acd",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "73140311e1638f7c044e7308",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/156"
+    ]
+  },
+  {
+    "id": "722dfed96de0d33b731a3da1",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "7691a51fefe8689ba53abc4c",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/157"
+    ]
+  },
+  {
+    "id": "82893dcd43390d082505a3b6",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "0779253ee4b882b31dae778e",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/158"
+    ]
+  },
+  {
+    "id": "722715ddc9463fac4718052f",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "c93d5937775db620f66e7431",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/159"
+    ]
+  },
+  {
+    "id": "53b788a85643fc77f277c8c6",
+    "source": "b417c2371558fc84b9c2e27c",
+    "target": "dabcf95c8e36144554d9816e",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/160"
+    ]
+  },
+  {
+    "id": "e3f54a673da78d9512b8a8d8",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "47c4e8ad09f70b2111f65f0f",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/161"
+    ]
+  },
+  {
+    "id": "4e656578d3d2842f0072fb0c",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "1b21cab1d1a3143e887f40d3",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/162"
+    ]
+  },
+  {
+    "id": "b198df08e47c3bb64482d45f",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "84bd33b065ba4277ed6b7c92",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/165"
+    ]
+  },
+  {
+    "id": "ab360d2f9ef29fde6d9b07b2",
+    "source": "04f8787e935c61048f6af186",
+    "target": "b7a435f02a7309d7b8fc029c",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/166"
+    ]
+  },
+  {
+    "id": "7efcc9ce0710295737b50093",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "04f8787e935c61048f6af186",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/167"
+    ]
+  },
+  {
+    "id": "93110c7434d42586cd017545",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "fcc7bf9f26197edd8426900f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/168"
+    ]
+  },
+  {
+    "id": "101b64e53b05c857f08eee58",
+    "source": "92d5947708a272d0beac0615",
+    "target": "1b21cab1d1a3143e887f40d3",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/169"
+    ]
+  },
+  {
+    "id": "845248382f4719fb5c025c88",
+    "source": "04f8787e935c61048f6af186",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/170"
+    ]
+  },
+  {
+    "id": "8791b8c1cb05a75a866b4c79",
+    "source": "73140311e1638f7c044e7308",
+    "target": "d83185cc77724f393627335a",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/171"
+    ]
+  },
+  {
+    "id": "36e829e67a76d40e19de6958",
+    "source": "5fb927be024f43b102bdd1d5",
+    "target": "5da074f82e502bda4024a465",
+    "type": "HAS_MECHANISM",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/172"
+    ]
+  },
+  {
+    "id": "2bcb29bf15de89939c4dc90c",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "5f761a5bf54842dd3f5d380b",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/173"
+    ]
+  },
+  {
+    "id": "b593d2bf4944cfb832f55c1d",
+    "source": "04f8787e935c61048f6af186",
+    "target": "4d827297911d3bc97349766d",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/174"
+    ]
+  },
+  {
+    "id": "1356def306e7137bd0b95555",
+    "source": "b54615f03488c89728b0568e",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/175"
+    ]
+  },
+  {
+    "id": "535c8d1a4e56bfd9b4ff3e23",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "17961902442705345a65f4ee",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/176"
+    ]
+  },
+  {
+    "id": "155169e9ac1079dc2808cf9e",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "43594fed0268a039f7aedabc",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/177"
+    ]
+  },
+  {
+    "id": "4b1f437e8e090fa280c76263",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "b7a435f02a7309d7b8fc029c",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/178"
+    ]
+  },
+  {
+    "id": "95740c5de8fc994234b14df4",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "d62c8e662ff2a3910597b3a3",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/179"
+    ]
+  },
+  {
+    "id": "b7f575d9ab91b22981ec98fb",
+    "source": "04f8787e935c61048f6af186",
+    "target": "35d4b8ca2bfb16b83b91d5b9",
+    "type": "CONTRAINDICATED_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/180"
+    ]
+  },
+  {
+    "id": "6ebec15ca5d8edcd4f81efd5",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "9a92aa6b151984a4259ada36",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/181"
+    ]
+  },
+  {
+    "id": "5245494f2d632ac026f3e572",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "64205cfd10aad1f77b3b4de1",
+    "type": "HAS_CATEGORY",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/182"
+    ]
+  },
+  {
+    "id": "02ac69cb5a290f3fcb402e2e",
+    "source": "04f8787e935c61048f6af186",
+    "target": "4aee1ca4ec39b8f0f2dcfee7",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/183"
+    ]
+  },
+  {
+    "id": "9af6e7f1955af46564aef176",
+    "source": "04f8787e935c61048f6af186",
+    "target": "ae02cd74347c0ab4c80f7588",
+    "type": "INCREASES_RISK_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/184"
+    ]
+  },
+  {
+    "id": "628d23f29974ce1f2e0f9ab4",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/185"
+    ]
+  },
+  {
+    "id": "22a76f06441fb6d45db82b7f",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "daf8a55846ed065646f8b0ed",
+    "type": "INCREASES_NEUROTOXICITY_RISK",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/186"
+    ]
+  },
+  {
+    "id": "b3798c9846a8bf13b3f4e523",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "daf8a55846ed065646f8b0ed",
+    "type": "NO_CLINICAL_INDICATION_FOR_COMBINATION",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/187"
+    ]
+  },
+  {
+    "id": "43a9201e4b41894e18db9400",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "ca6f4ce9f70aeb40e51f5b8f",
+    "type": "CONTRAINDICATED_DUE_TO_CONCENTRATION_ELEVATION",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/188"
+    ]
+  },
+  {
+    "id": "e89d445c805884d5cfb357fa",
+    "source": "d0edfc4d2a910e7878c03d38",
+    "target": "43594fed0268a039f7aedabc",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/189"
+    ]
+  },
+  {
+    "id": "92224e3d66cab22b56496279",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/190"
+    ]
+  },
+  {
+    "id": "8bfe329e2745641e2495449a",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "c93d5937775db620f66e7431",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/191"
+    ]
+  },
+  {
+    "id": "238c08b4dc157a1ce417eebd",
+    "source": "ca6f4ce9f70aeb40e51f5b8f",
+    "target": "4aee1ca4ec39b8f0f2dcfee7",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/192"
+    ]
+  },
+  {
+    "id": "f38f54c74f4628ae508a7a93",
+    "source": "fcc7bf9f26197edd8426900f",
+    "target": "06b62e6a29f4d2e83f762bd2",
+    "type": "TREATS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/193"
+    ]
+  },
+  {
+    "id": "5f3e6e7ceacc466c0fee8d3e",
+    "source": "72d56d56d60120f29a185b86",
+    "target": "32bcff22f79d03b56b8eb58d",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/194"
+    ]
+  },
+  {
+    "id": "72eab889786efdf949c885cd",
+    "source": "04f8787e935c61048f6af186",
+    "target": "285a3c18bfefa90c5d571a7b",
+    "type": "REQUIRES_WASHOUT_PERIOD",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/195"
+    ]
+  },
+  {
+    "id": "6a3020907f9ed95b404b2655",
+    "source": "827862c7895134e2e6cbd42c",
+    "target": "fbe4ed72827477d0ae8cfb0f",
+    "type": "INTERACTS_WITH",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/196"
+    ]
+  },
+  {
+    "id": "11f79d469f5f6169d3e8c28c",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "c65b27d41eb2415526c17338",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/197"
+    ]
+  },
+  {
+    "id": "3b6dae6ecbf3d2f5c0490c69",
+    "source": "daf8a55846ed065646f8b0ed",
+    "target": "d95e4f8e8197f79c6b006f41",
+    "type": "CONTRAINDICATED_IN",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/198"
+    ]
+  },
+  {
+    "id": "18c62b7c312febb4e499ce9f",
+    "source": "fbe4ed72827477d0ae8cfb0f",
+    "target": "43594fed0268a039f7aedabc",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/199"
+    ]
+  },
+  {
+    "id": "a0c2137693c8de865ad83e70",
+    "source": "5e12dc7c5e65ffceae592c3f",
+    "target": "e4fced6e4a3cc7563b3ead4a",
+    "type": "ALSO_KNOWN_AS",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/200"
+    ]
+  },
+  {
+    "id": "2eb32f8a2ed01fe02c1860bb",
+    "source": "5d3c0aed6313740d007d5c33",
+    "target": "408bf2d0bb58d9adb050102d",
+    "type": "INCREASES_RISK_OF",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/201"
+    ]
+  },
+  {
+    "id": "4b2b182074417edffad3ee71",
+    "source": "b54615f03488c89728b0568e",
+    "target": "e88677d175f8f5da551dd0e9",
+    "type": "HAS_SIDE_EFFECT",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/202"
+    ]
+  },
+  {
+    "id": "c152272f5aaa8d8e203092a7",
+    "source": "92d5947708a272d0beac0615",
+    "target": "d58afa8300bc0308c2684511",
+    "type": "CAUSES",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/edges/203"
+    ]
+  }
+]

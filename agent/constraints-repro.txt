@@ -1,0 +1,5 @@
+# Compatibility constraints discovered during local reproduction.
+# Install requirements.txt with -c constraints-repro.txt.
+mcp<2
+pymilvus<3
+langchain-milvus<0.4

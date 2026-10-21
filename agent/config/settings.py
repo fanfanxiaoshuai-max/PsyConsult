@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=Path(__file__).resolve().parents[1] / ".env",
         env_file_encoding="utf-8",
         extra="ignore",
     )
@@ -50,6 +50,8 @@ class Settings(BaseSettings):
     neo4j_password: str = Field(default="password123", alias="NEO4J_PASSWORD")
     neo4j_database: str = Field(default="neo4j", alias="NEO4J_DATABASE")
     
+    kg_version: str = Field(default="legacy", alias="KG_VERSION")
+
     # Logging
     log_level: str = Field(default="INFO", alias="LOG_LEVEL")
     

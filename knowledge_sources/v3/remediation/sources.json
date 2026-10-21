@@ -1,0 +1,359 @@
+{
+  "pmid_9627209": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_9627209",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/9627209/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/9627209/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "9627209"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_22426846": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_22426846",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/22426846/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22426846/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "22426846"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_15257068": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_15257068",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/15257068/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/15257068/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "15257068"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_21739267": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_21739267",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/21739267/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/21739267/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "21739267"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_10920469": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_10920469",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/10920469/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10920469/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "10920469"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_22933237": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_22933237",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/22933237/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/22933237/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "22933237"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_19698511": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_19698511",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/19698511/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/19698511/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "19698511"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_34787653": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_34787653",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/34787653/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/34787653/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "34787653"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_20015461": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_20015461",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/20015461/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/20015461/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "20015461"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_18725912": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_18725912",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/18725912/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18725912/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "18725912"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_36350591": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_36350591",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/36350591/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/36350591/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "36350591"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_20092882": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_20092882",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/20092882/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/20092882/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "20092882"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_18832427": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_18832427",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/18832427/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/18832427/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "18832427"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_14709947": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_14709947",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/14709947/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/14709947/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "14709947"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "pmid_10327910": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=9627209,22426846,15257068,21739267,10920469,22933237,19698511,34787653,20015461,18725912,36350591,20092882,18832427,14709947,10327910",
+    "region": "study_specific",
+    "source_kind": "primary_article_abstract",
+    "scope": "Original author abstract indexed by PubMed; full article not reviewed",
+    "id": "pmid_10327910",
+    "expert_review": "pending",
+    "availability": "available",
+    "failed_html_url": "https://pubmed.ncbi.nlm.nih.gov/10327910/",
+    "landing_url": "https://pubmed.ncbi.nlm.nih.gov/10327910/",
+    "format": "xml",
+    "locator": {
+      "kind": "pubmed_article",
+      "pmid": "10327910"
+    },
+    "sha256": "45459e8eec0e58ea51d95e92fa1980eb0a86fed117f9583ef156834eb350928f",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/primary-abstracts.xml",
+    "retrieved_at": "2026-10-20"
+  },
+  "us_sertraline_supplement": {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e1864a7e-44b9-4399-9554-0c18b46fbdd6&type=display",
+    "region": "US",
+    "source_kind": "product_label",
+    "scope": "US specific product only, not Chinese approval",
+    "id": "us_sertraline_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "246afd10489c9b11f7c57e526f8f92cef3ae533f9e59f4598f88133440044417",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/us_sertraline_supplement.html"
+  },
+  "us_ziprasidone_supplement": {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=ccfd5ba2-7271-f3dd-4c98-7418c1a4b54a&type=display",
+    "region": "US",
+    "source_kind": "product_label",
+    "scope": "US specific product only, not Chinese approval",
+    "id": "us_ziprasidone_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "2e3e6497b589b7a6f214f3c6f0be35707870e08b589196baf0214aa72e0a9a5e",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/us_ziprasidone_supplement.html"
+  },
+  "us_buspirone_supplement": {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=a9bb9216-3dac-4e8a-9df9-f72c2eaef160&type=display",
+    "region": "US",
+    "source_kind": "product_label",
+    "scope": "US specific product only, not Chinese approval",
+    "id": "us_buspirone_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "c9e95c558f38e5bd201b3e9327701d6911a63358b3eef62d5016bd96c7007acb",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/us_buspirone_supplement.html"
+  },
+  "us_hydrochlorothiazide_supplement": {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9e6a0c83-1494-44ca-90e0-3f43fa8ec746&type=display",
+    "region": "US",
+    "source_kind": "product_label",
+    "scope": "US specific product only, not Chinese approval",
+    "id": "us_hydrochlorothiazide_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "f478d96b61102ec7cc209a0db58363502062c8c1af90e6e0d66b35f10df644ca",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/us_hydrochlorothiazide_supplement.html"
+  },
+  "uk_clozapine_supplement": {
+    "url": "https://www.medicines.org.uk/emc/product/10290/smpc",
+    "region": "UK",
+    "source_kind": "manufacturer_smpc",
+    "scope": "UK specific product, not Chinese approval",
+    "id": "uk_clozapine_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "0f1c91edd2fd3941de23087ac7630c4a658c4d6758ee3278669acf7420cf9f34",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/uk_clozapine_supplement.html"
+  },
+  "uk_fluvoxamine_supplement": {
+    "url": "https://www.medicines.org.uk/emc/product/1169/smpc",
+    "region": "UK",
+    "source_kind": "manufacturer_smpc",
+    "scope": "UK specific product, not Chinese approval",
+    "id": "uk_fluvoxamine_supplement",
+    "expert_review": "pending",
+    "availability": "available",
+    "retrieved_at": "2026-10-20",
+    "sha256": "508fa2aa7952b84b8feb9b5ceb1d1a945be9ccf29332adcdac7feda0b76cb436",
+    "local_snapshot": ".tools/knowledge_sources/v3/remediation/uk_fluvoxamine_supplement.html"
+  }
+}

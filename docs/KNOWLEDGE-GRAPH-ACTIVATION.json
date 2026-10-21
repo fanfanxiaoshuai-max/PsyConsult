@@ -1,0 +1,29 @@
+{
+  "legacy": {
+    "http_checked": true,
+    "entities": 214,
+    "relations": 423,
+    "search": true,
+    "detail": true,
+    "filtered_neighbors": true,
+    "cache_collection": "qa_semantic_cache"
+  },
+  "kg_v1": {
+    "http_checked": true,
+    "entities": 214,
+    "relations": 376,
+    "search": true,
+    "detail": true,
+    "filtered_neighbors": true,
+    "cache_collection": "qa_semantic_cache_kg_c99d9fd268ba"
+  },
+  "kg_v2": {
+    "http_checked": true,
+    "entities": 230,
+    "relations": 406,
+    "search": true,
+    "detail": true,
+    "filtered_neighbors": true,
+    "cache_collection": "qa_semantic_cache_kg_745e805abef3"
+  }
+}

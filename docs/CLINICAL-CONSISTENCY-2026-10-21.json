@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "scope": "A08 reproduced clinical consistency defects",
+  "backend_tests_passed": 278,
+  "new_regressions": 43,
+  "direct_synthetic_model_cases": 5,
+  "direct_cases_completed": 5,
+  "workflow_probes": "completed; see verified runtime-probes.json",
+  "source_scope_recheck_remaining_rules": 0,
+  "clinical_expert_certification": false,
+  "active_release": "project-cf5cb3277205",
+  "report": "CLINICAL-CONSISTENCY-2026-10-21.md"
+}

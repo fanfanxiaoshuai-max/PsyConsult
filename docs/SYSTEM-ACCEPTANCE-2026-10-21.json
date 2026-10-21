@@ -1,0 +1,715 @@
+{
+  "summary": {
+    "date": "2026-10-21",
+    "timezone": "Asia/Shanghai",
+    "scope": "课题展示与本地完整运行；软件验收和小样本内容检查",
+    "conclusion": "主链路可运行，整体验收未全部通过；应先处理已复现问题，再考虑新增功能。",
+    "backend": {
+      "tests": 214,
+      "passed": 212,
+      "failed": 2,
+      "seconds": 36.59,
+      "recheck": "两个失败项单独复跑：1失败、1通过"
+    },
+    "frontend_build": "PASS",
+    "python_compile": "PASS",
+    "dependencies": "120 packages compatible (uv pip check)",
+    "active_version": "project-cf5cb3277205",
+    "knowledge": {
+      "entities": 128,
+      "records": 276,
+      "links": 162,
+      "unresolved_original_items": 68
+    },
+    "runtime_probes": {
+      "total": 24,
+      "passed": 22,
+      "failed": 2
+    },
+    "live_samples": [
+      {
+        "name": "live_symptoms",
+        "query": "患者最近3周压力大，心慌，入睡困难。请梳理症状和鉴别方向，不要给出个体处方。",
+        "user": "acceptance_a7204c4a3c59",
+        "session": "acceptance_480a965338a14047bbf945339c647a3f",
+        "seconds": 90.738,
+        "first_event_seconds": 0.076,
+        "done": true,
+        "errors": [],
+        "nodes": [
+          "orchestrator",
+          "differential_diagnosis"
+        ],
+        "versions": [
+          "project-cf5cb3277205"
+        ],
+        "cache_hit": false,
+        "content_chars": 431
+      },
+      {
+        "name": "live_followup",
+        "query": "沿用刚才这位患者的信息，先复述已提供的病程，再给出两个最需要补问的问题。",
+        "user": "acceptance_a7204c4a3c59",
+        "session": "acceptance_480a965338a14047bbf945339c647a3f",
+        "seconds": 8.797,
+        "first_event_seconds": 0.071,
+        "done": true,
+        "errors": [],
+        "nodes": [
+          "orchestrator",
+          "differential_diagnosis",
+          "treatment_recommend"
+        ],
+        "versions": [
+          "project-cf5cb3277205"
+        ],
+        "cache_hit": false,
+        "content_chars": 322
+      },
+      {
+        "name": "live_drug_only",
+        "query": "仅做药物资料审查：舍曲林与帕罗西汀联用。",
+        "user": "acceptance_drug_76f310c2",
+        "session": "acceptance_drug_23d73c1fa08847029e7e2b66173a74ca",
+        "seconds": 4.198,
+        "first_event_seconds": 0.079,
+        "done": true,
+        "errors": [],
+        "nodes": [
+          "orchestrator",
+          "drug_interaction"
+        ],
+        "versions": [
+          "project-cf5cb3277205"
+        ],
+        "cache_hit": false,
+        "content_chars": 14946
+      }
+    ],
+    "clinical_validation": "NOT_PASSED: 仅小样本抽查，不能推导全面医学准确性或专家审核通过",
+    "changes": "只新增验收脚本和报告；未修复应用逻辑，未修改密钥、审核决定或启用版本。现有测试会同内容重写 inventory.json，已记录为A11。"
+  },
+  "issues": [
+    {
+      "id": "A01",
+      "priority": "P0",
+      "status": "已复现",
+      "title": "不同用户共用 session_id 时会话串读",
+      "impact": "多用户接入时可能把另一位用户的上下文带入本轮推理。仅本地单人演示不能证明用户隔离。",
+      "evidence": "在内存和真实 AsyncRedisSaver 两个探针中，用户 B 的输出都包含用户 A 的合成标记；没有访问真实患者数据。",
+      "files": [
+        "app/service/chat_service.py:190",
+        "app/dependencies/auth.py:19"
+      ],
+      "artifacts": [
+        "isolation-probes.json"
+      ],
+      "proposal": "后端以已认证用户＋病例/会话构造不可伪造的状态命名空间，校验会话归属；不能仅依赖前端生成的 session_id。",
+      "acceptance": "A/B 使用同名会话仍完全隔离；冒用归属被拒绝；同一用户同一病例的多轮恢复继续通过。"
+    },
+    {
+      "id": "A02",
+      "priority": "P1",
+      "status": "代码确认，未验证实际跨病例误召回",
+      "title": "长期临床记忆按医生用户归集，缺少病例边界",
+      "impact": "同一医生处理不同患者时，长期记忆可能把前一位患者的信息带到新会话。",
+      "evidence": "_extract_long_term_context 与写入都仅使用 _user_fact_namespace(user_id)，没有 patient_id/case_id；本轮合成会话未达到第五轮后台提取，不宣称已实测长期记忆泄漏。",
+      "files": [
+        "app/service/chat_service.py:73",
+        "app/service/chat_service.py:100",
+        "app/service/chat_service.py:312"
+      ],
+      "artifacts": [],
+      "proposal": "病例事实按病例隔离，医生的展示偏好独立存储；新建病例时不得继承其他患者事实。",
+      "acceptance": "同医生的病例 A/B 植入不同事实后，B 检索结果不含 A；医生个人偏好仍可复用。"
+    },
+    {
+      "id": "A03",
+      "priority": "P1",
+      "status": "已复现（隔离接口探针）",
+      "title": "审核与发布未区分普通使用者和管理员",
+      "impact": "掌握共享令牌的调用方可以自行填写 X-User-Id，进入审核/发布接口；操作人字段尚不是可信账户身份。",
+      "evidence": "真实 FastAPI 路由＋假的工作区对象中，doctor_001 的审核请求返回 200。使用的是测试令牌和合成条目，没有写真实台账。前端当前身份固定为 doctor_001。",
+      "files": [
+        "app/dependencies/auth.py:19",
+        "app/router/project_workbench.py:10",
+        "front/clinical_cds/src/App.vue:201"
+      ],
+      "artifacts": [
+        "role-probe.json"
+      ],
+      "proposal": "接入账户身份和角色授权，普通问答权限与审核发布权限分开，后端确定操作人。",
+      "acceptance": "普通用户审核/发布返回 403；管理员可操作；伪造 X-User-Id 不改变已认证身份。"
+    },
+    {
+      "id": "A04",
+      "priority": "P1",
+      "status": "已复现",
+      "title": "图谱以名称连接，重名实体被错误分配关系",
+      "impact": "搜索选中同名实体中的不同候选时，可能看到空图；这是上轮关系恢复未覆盖到的缺口。",
+      "evidence": "发布版有 5 组重名实体：精神分裂症、双相障碍、躁狂发作、物质使用、躯体疾病。前一份同名节点显示 0 条记录/连线，后一份分别有 13/4/3/2/2 条连线。并非证明每一组都应合并为同一概念。",
+      "files": [
+        "agent/core/graph/browser_projection.py:9",
+        "agent/core/graph/candidate_preview.py:59",
+        "agent/core/graph/project_workbench.py:103"
+      ],
+      "artifacts": [
+        "duplicate-entity-names.json",
+        "ambiguous-endpoints.json",
+        "full-graph-integrity.json"
+      ],
+      "proposal": "知识记录保留 subject_id/related_id，浏览按 ID 连接；为重名不同类型提供区分信息，旧快照兼容不得凭名称静默猜测。",
+      "acceptance": "逐个搜索/展开五组候选并与冻结记录的原始端点核对；不新增重复编号，不把鉴别概念与疾病定义直接混同。"
+    },
+    {
+      "id": "A05",
+      "priority": "P1",
+      "status": "已复现（浏览器）",
+      "title": "刷新页面后会话列表与消息丢失",
+      "impact": "演示过程中刷新/关闭页面后无法从界面找回会话；后端检查点存在不等于前端能恢复。",
+      "evidence": "新建“诊疗会话 2”发送合成短输入；切换会话可找回，刷新后仅剩新的空会话。",
+      "files": [
+        "front/clinical_cds/src/App.vue:201",
+        "front/clinical_cds/src/App.vue:288"
+      ],
+      "artifacts": [
+        "ui-before-refresh.txt",
+        "ui-after-refresh.txt",
+        "ui-before-refresh.png",
+        "ui-after-refresh.png"
+      ],
+      "proposal": "增加受归属校验的会话列表/消息读取与恢复；选定本地单人或后端持久化方案后实施。",
+      "acceptance": "刷新、关闭重开均能恢复会话和版本标记，切换不会串话；清除数据有明确范围。"
+    },
+    {
+      "id": "A06",
+      "priority": "P1",
+      "status": "已复现（真实模型）",
+      "title": "多轮追问被诊断、治疗两个阶段重复回答",
+      "impact": "简单追问仍执行额外阶段，回答重复且徒增调用。",
+      "evidence": "追问“复述已提供病程，再给出两个最需要补问的问题”，输出 322 字符，前后两半完全相同；执行了 differential_diagnosis 和 treatment_recommend。",
+      "files": [
+        "agent/agents/orchestrator.py:43",
+        "agent/core/workflow/graph_manager.py:60",
+        "agent/agents/treatment_agent.py:45"
+      ],
+      "artifacts": [
+        "live_followup.json",
+        "answer-quality.json"
+      ],
+      "proposal": "识别随访/补问意图，按本轮需求选择阶段；保持用户已确认的自然回答方式。",
+      "acceptance": "同样追问只回答一次，仍记住 3 周病程；明确治疗问题继续正常进入治疗节点。"
+    },
+    {
+      "id": "A07",
+      "priority": "P1",
+      "status": "已复现（真实接口）",
+      "title": "药物审查仍输出冗长的记录编号和原始字段",
+      "impact": "未满足用户此前要求的自然、简洁问答体验，关键结论被大量背景资料淹没。",
+      "evidence": "“仅做药物资料审查：舍曲林与帕罗西汀联用”输出 14,946 字符，包含记录编号、定位和 &quot; 转义的 JSON；该药物对没有直接记录时仍列大量单药背景。路由本身正确。",
+      "files": [
+        "agent/agents/drug_review_agent.py:23",
+        "agent/core/graph/evidence_report.py:70"
+      ],
+      "artifacts": [
+        "live_drug_only.json",
+        "answer-quality.json"
+      ],
+      "proposal": "默认答复聚焦所问药物/药物对，简述已知、未知和需确认条件；完整记录保留在可展开详情中。",
+      "acceptance": "默认正文无记录编号、原始 JSON 和逐条来源堆砌；无直接记录时清楚说明，背景不被当成直接证据。"
+    },
+    {
+      "id": "A08",
+      "priority": "P1",
+      "status": "已复现并抽查原文",
+      "title": "回答中的诊断标准存在来源混用",
+      "impact": "内容流畅不能代表医学表述准确；当前不能宣称回答医学准确性验收通过。",
+      "evidence": "样本将 GAD 的“≥6个月”写成 ICD-11 要求。所缓存 WHO CDDR 2024（PDF物理第284页、印刷第266页）的 essential features 写的是“至少数个月”。原 PDF SHA-256 与来源目录一致；这是抽查发现，不是全量医学复核。",
+      "files": [
+        "agent/agents/diagnosis_agent.py:25",
+        "agent/tools/vector_tool.py:93"
+      ],
+      "artifacts": [
+        "live_symptoms.json",
+        "medical-spot-check.json"
+      ],
+      "proposal": "术语、编码、诊断阈值绑定标准及版本；后台做代表性内容复核和回归，不恢复用户已撤销的前台证据编号格式。",
+      "acceptance": "选定标准的关键阈值逐条有对应原文；不能把 DSM/ICD 或不同版本要求混写；缺资料时明确未核实。"
+    },
+    {
+      "id": "A09",
+      "priority": "P1",
+      "status": "中断探针已复现；超时/取消缺口代码确认",
+      "title": "流式回答中断识别与请求生命周期不完整",
+      "impact": "连接正常结束但没有 done 帧时，半截回答没有标为失败；请求长期不结束时用户缺少取消操作。",
+      "evidence": "执行 App.vue 原始 sendQuery/消息更新函数，仅把 fetch 换为合成流：正常分片流通过；缺 done 帧的流仍保留半截答案和阶段标签，isThinking 已变 false、failed 未设置。源码未使用 AbortController/总时限。",
+      "files": [
+        "front/clinical_cds/src/App.vue:351",
+        "front/clinical_cds/src/App.vue:391"
+      ],
+      "artifacts": [
+        "frontend-stream-probes.json",
+        "frontend-stream-probe.mjs"
+      ],
+      "proposal": "显式追踪完成标记，截断显示未完成；增加取消、总超时与保留部分结果的重试入口。",
+      "acceptance": "完整、截断、超时、断网、用户取消分别有正确终态，不把未完成回答当成成功，不串到其他会话。"
+    },
+    {
+      "id": "A10",
+      "priority": "P2",
+      "status": "已复现，根因确认",
+      "title": "审核包测试随日期变化失败",
+      "impact": "现有测试套件不能稳定给出全绿结果，跨天后会产生假失败。",
+      "evidence": "保存包 generated_on 为 2026-10-20，build_packet 使用当天日期。只保留保存的 generated_on 后，包的其余内容摘要完全一致；运行时 CandidatePreview 已对日期作了相应处理。",
+      "files": [
+        "agent/core/graph/expert_review.py:118",
+        "app/test/test_candidate_preview.py:103"
+      ],
+      "artifacts": [
+        "pytest.log",
+        "recheck.log",
+        "artifact-check.json"
+      ],
+      "proposal": "测试固定日期或比较稳定内容，与运行时校验语义一致；不要为消除测试失败篡改历史审核时间。",
+      "acceptance": "跨天/不同时区复跑得到一致结果，实际知识改动仍会使完整性校验失败。"
+    },
+    {
+      "id": "A11",
+      "priority": "P2",
+      "status": "一次失败、单独复跑通过；并发根因待进一步确认",
+      "title": "校验路径重写共享台账，出现文件写入失败",
+      "impact": "只读浏览/校验可能触发磁盘写入，存在并发或文件占用敏感性。",
+      "evidence": "全量测试中 validate_candidate→validate_audit→freeze 在 inventory.json 写入时报 OSError[22]，单独复跑通过。freeze 即使文件内容不变仍调用 write；本轮未做真实工作区的破坏性压力测试，不能断言并发就是唯一根因。",
+      "files": [
+        "agent/core/graph/audit.py:95",
+        "agent/core/graph/candidate_preview.py:23"
+      ],
+      "artifacts": [
+        "pytest.log",
+        "recheck.log"
+      ],
+      "proposal": "初始化/重建与只读校验分离；写入增加必要的互斥及原子替换，避免浏览请求重写封存文件。",
+      "acceptance": "多个只读请求和校验并行运行不改台账字节/修改时间、不出现读半截文件或写入错误。"
+    },
+    {
+      "id": "A12",
+      "priority": "P2",
+      "status": "样本已测，未做性能基准",
+      "title": "首轮症状分析出现较长路由等待",
+      "impact": "状态提示很快出现，但正文等待时间可能影响演示体验。",
+      "evidence": "首轮总耗时90.738秒、accepted帧0.076秒；该轮后台路由日志71.348秒。后续追问8.797秒，药物审查4.198秒。样本只有这三次，不计算P95、不据此宣称稳定吞吐。",
+      "files": [
+        "agent/agents/orchestrator.py:83",
+        "app/service/chat_service.py:238"
+      ],
+      "artifacts": [
+        "live_symptoms.json",
+        "live_followup.json",
+        "live_drug_only.json"
+      ],
+      "proposal": "先区分模型渠道、路由与检索耗时，设定演示可接受时限；稳定性评估后再决定是否更换模型或增加规则路由。",
+      "acceptance": "在约定设备/渠道下，多次代表性请求的耗时分布可复现，并有可取消的超时策略。"
+    },
+    {
+      "id": "A13",
+      "priority": "P2",
+      "status": "代码确认；未检索任何真实病例日志",
+      "title": "日志仍可能包含临床输入片段",
+      "impact": "真实使用前需要明确日志最小化、访问和保留策略。当前不能把日志轮转等同于隐私保护。",
+      "evidence": "vector_tool 打印 query 前120字符；缓存命中日志包含 matched_question。此次不读取真实患者会话验证泄漏，只依据代码和合成数据判断。",
+      "files": [
+        "agent/tools/vector_tool.py:103",
+        "app/service/chat_service.py:209",
+        "app/infra/logging_config.py:47"
+      ],
+      "artifacts": [],
+      "proposal": "默认仅记录请求标识、长度与耗时，调试内容脱敏并限制权限/保留周期。",
+      "acceptance": "包含合成姓名/联系方式的请求不会以明文进入普通运行日志；授权调试有明确开关与审计。"
+    },
+    {
+      "id": "A14",
+      "priority": "P2",
+      "status": "界面已复现",
+      "title": "输入校验提示暴露内部英文节点名",
+      "impact": "用户看到 input_validation，影响中文界面一致性。",
+      "evidence": "浏览器发送两字合成输入“验收”，正确拦截推理，但输出标题为 input_validation。",
+      "files": [
+        "front/clinical_cds/src/App.vue:304"
+      ],
+      "artifacts": [
+        "ui-before-refresh.txt",
+        "ui-before-refresh.png"
+      ],
+      "proposal": "补齐阶段中文映射，输入提示无需呈现内部节点名。",
+      "acceptance": "短输入显示清晰中文提示，并继续不调用模型。"
+    }
+  ],
+  "unverified": [
+    "真实专家审核、全量回答医学准确率、PHQ-9/GAD-7全题评分与危机情况的完整评测。",
+    "高并发、多设备、多浏览器、长时间稳定性与实际P95耗时。",
+    "真实生产断电/容器重启/整机重启后的恢复；本轮仅验证Redis客户端重连恢复。",
+    "备份导出后的完整恢复、数据保留/删除策略、生产账号管理和监控告警。",
+    "真实模型服务商断网/配额耗尽/限流；本轮测试了本地模拟断流和Redis/Milvus关闭端口降级。",
+    "全新电脑从零安装；本轮验收当前已有环境，未重新安装依赖或更改系统执行策略。",
+    "长期临床记忆第五轮提取及同医生跨病例召回的真实端到端验证。"
+  ],
+  "recommendations": [
+    {
+      "batch": "1",
+      "name": "先修已有功能",
+      "issue_ids": [
+        "A01",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A09"
+      ]
+    },
+    {
+      "batch": "2",
+      "name": "稳住知识与验收基线",
+      "issue_ids": [
+        "A08",
+        "A10",
+        "A11",
+        "A12",
+        "A14"
+      ]
+    },
+    {
+      "batch": "3",
+      "name": "多人/真实数据接入前补齐",
+      "issue_ids": [
+        "A02",
+        "A03",
+        "A13"
+      ]
+    }
+  ],
+  "evidence_directory": ".tools/acceptance-20261021",
+  "runtime_probes": [
+    {
+      "name": "active_version_consistency",
+      "status": "PASS",
+      "graph_version": "project-cf5cb3277205",
+      "active": "project-cf5cb3277205",
+      "entities": 128,
+      "links": 162,
+      "knowledge_records": 276,
+      "counts": {
+        "approved": 787,
+        "disabled": 44,
+        "blocked": 68
+      }
+    },
+    {
+      "name": "http_auth_and_bounds",
+      "status": "PASS",
+      "cases": [
+        {
+          "path": "/api/knowledge-graph/stats",
+          "expected": 401,
+          "actual": 401
+        },
+        {
+          "path": "/api/knowledge-graph/stats",
+          "expected": 401,
+          "actual": 401
+        },
+        {
+          "path": "/api/knowledge-graph/stats",
+          "expected": 400,
+          "actual": 400
+        },
+        {
+          "path": "/api/knowledge-graph/search?q=%20",
+          "expected": 422,
+          "actual": 422
+        },
+        {
+          "path": "/api/knowledge-graph/search?q=x&limit=999",
+          "expected": 422,
+          "actual": 422
+        },
+        {
+          "path": "/api/knowledge-graph/entities/acceptance-nonexistent",
+          "expected": 404,
+          "actual": 404
+        }
+      ]
+    },
+    {
+      "name": "graph_search_抑郁症",
+      "status": "PASS",
+      "matches": 1,
+      "nodes": [
+        "舍曲林",
+        "抑郁障碍",
+        "精神分裂症",
+        "非典型抗精神病药",
+        "SNRI",
+        "SSRI",
+        "难治性抑郁",
+        "文拉法辛",
+        "伴精神病性症状",
+        "ECT",
+        "度洛西汀",
+        "帕罗西汀",
+        "氟西汀"
+      ],
+      "links": 12,
+      "records": 19,
+      "seconds": 0.319
+    },
+    {
+      "name": "graph_search_双相情感障碍",
+      "status": "PASS",
+      "matches": 2,
+      "nodes": [
+        "精神分裂症",
+        "非典型抗精神病药",
+        "心境稳定剂",
+        "双相障碍",
+        "抑郁发作"
+      ],
+      "links": 4,
+      "records": 6,
+      "seconds": 0.467
+    },
+    {
+      "name": "graph_search_失眠",
+      "status": "PASS",
+      "matches": 1,
+      "nodes": [
+        "阿立哌唑",
+        "氟伏沙明",
+        "失眠"
+      ],
+      "links": 2,
+      "records": 2,
+      "seconds": 0.312
+    },
+    {
+      "name": "graph_search_帕罗西汀",
+      "status": "PASS",
+      "matches": 1,
+      "nodes": [
+        "抑郁障碍",
+        "广泛性焦虑障碍",
+        "单胺氧化酶抑制剂",
+        "三环类抗抑郁药",
+        "社交焦虑障碍",
+        "帕罗西汀",
+        "惊恐障碍",
+        "CYP2D6抑制"
+      ],
+      "links": 7,
+      "records": 9,
+      "seconds": 0.471
+    },
+    {
+      "name": "graph_search_舍曲林",
+      "status": "PASS",
+      "matches": 3,
+      "nodes": [
+        "舍曲林",
+        "抑郁障碍",
+        "强迫症",
+        "舍曲林成人剂量调整上限（指定中国产品）",
+        "锂盐",
+        "华法林",
+        "凝血酶原时间变化（临床意义未定）",
+        "消化道出血",
+        "非甾体抗炎药",
+        "氯氮平"
+      ],
+      "links": 9,
+      "records": 15,
+      "seconds": 0.454
+    },
+    {
+      "name": "graph_search_精神分裂症",
+      "status": "PASS",
+      "matches": 3,
+      "nodes": [
+        "抑郁障碍",
+        "精神分裂症",
+        "非典型抗精神病药",
+        "阿立哌唑",
+        "物质使用",
+        "双相躁狂",
+        "利培酮",
+        "双相障碍",
+        "喹硫平",
+        "抑郁发作",
+        "躯体疾病",
+        "长效针剂",
+        "奥氮平",
+        "药物所致精神障碍"
+      ],
+      "links": 13,
+      "records": 15,
+      "seconds": 0.315
+    },
+    {
+      "name": "graph_search_6A72",
+      "status": "PASS",
+      "matches": 1,
+      "nodes": [
+        "抑郁心境",
+        "恶劣心境",
+        "恶劣心境的症状及后续发作关系",
+        "恶劣心境的年龄及初期病程要求"
+      ],
+      "links": 3,
+      "records": 4,
+      "seconds": 0.474
+    },
+    {
+      "name": "workbench_browse_working",
+      "status": "PASS",
+      "records": 19,
+      "entities": 13,
+      "links": 12
+    },
+    {
+      "name": "workbench_browse_active",
+      "status": "PASS",
+      "records": 19,
+      "entities": 13,
+      "links": 12
+    },
+    {
+      "name": "review_export",
+      "status": "PASS",
+      "review_rows": 899,
+      "cache_control": "no-store"
+    },
+    {
+      "name": "short_input",
+      "status": "PASS",
+      "query": "你好",
+      "user": "acceptance_a7204c4a3c59",
+      "session": "acceptance_480a965338a14047bbf945339c647a3f",
+      "seconds": 0.075,
+      "first_event_seconds": 0.073,
+      "done": true,
+      "errors": [],
+      "nodes": [],
+      "versions": [
+        "project-cf5cb3277205"
+      ],
+      "cache_hit": false,
+      "content_chars": 72
+    },
+    {
+      "name": "live_symptoms",
+      "status": "PASS",
+      "query": "患者最近3周压力大，心慌，入睡困难。请梳理症状和鉴别方向，不要给出个体处方。",
+      "user": "acceptance_a7204c4a3c59",
+      "session": "acceptance_480a965338a14047bbf945339c647a3f",
+      "seconds": 90.738,
+      "first_event_seconds": 0.076,
+      "done": true,
+      "errors": [],
+      "nodes": [
+        "orchestrator",
+        "differential_diagnosis"
+      ],
+      "versions": [
+        "project-cf5cb3277205"
+      ],
+      "cache_hit": false,
+      "content_chars": 431
+    },
+    {
+      "name": "live_followup",
+      "status": "PASS",
+      "query": "沿用刚才这位患者的信息，先复述已提供的病程，再给出两个最需要补问的问题。",
+      "user": "acceptance_a7204c4a3c59",
+      "session": "acceptance_480a965338a14047bbf945339c647a3f",
+      "seconds": 8.797,
+      "first_event_seconds": 0.071,
+      "done": true,
+      "errors": [],
+      "nodes": [
+        "orchestrator",
+        "differential_diagnosis",
+        "treatment_recommend"
+      ],
+      "versions": [
+        "project-cf5cb3277205"
+      ],
+      "cache_hit": false,
+      "content_chars": 322
+    },
+    {
+      "name": "live_drug_only",
+      "status": "PASS",
+      "query": "仅做药物资料审查：舍曲林与帕罗西汀联用。",
+      "user": "acceptance_drug_76f310c2",
+      "session": "acceptance_drug_23d73c1fa08847029e7e2b66173a74ca",
+      "seconds": 4.198,
+      "first_event_seconds": 0.079,
+      "done": true,
+      "errors": [],
+      "nodes": [
+        "orchestrator",
+        "drug_interaction"
+      ],
+      "versions": [
+        "project-cf5cb3277205"
+      ],
+      "cache_hit": false,
+      "content_chars": 14946
+    },
+    {
+      "name": "short_input_no_inference",
+      "status": "PASS"
+    },
+    {
+      "name": "symptom_route_no_empty_drug_review",
+      "status": "PASS"
+    },
+    {
+      "name": "multi_turn_duration_recall",
+      "status": "PASS"
+    },
+    {
+      "name": "drug_only_route",
+      "status": "PASS",
+      "nodes": [
+        "orchestrator",
+        "drug_interaction"
+      ]
+    },
+    {
+      "name": "live_answer_version_binding",
+      "status": "PASS"
+    },
+    {
+      "name": "active_release_unchanged",
+      "status": "PASS",
+      "evidence": "Original runtime-probes.log records successful before/after revision and active-pointer check; no production write endpoints were called."
+    },
+    {
+      "name": "cross_user_same_session_isolation",
+      "status": "FAIL",
+      "fake_model": true,
+      "shared_session": true,
+      "synthetic_marker_from_user_A_visible_to_B": true,
+      "checkpointer": "InMemorySaver",
+      "note": "Exercises actual chat_service configuration; no real user data or LLM call."
+    },
+    {
+      "name": "cross_user_redis_isolation",
+      "status": "FAIL",
+      "fake_model": true,
+      "shared_session": true,
+      "synthetic_marker_from_user_A_visible_to_B": true,
+      "checkpointer": "AsyncRedisSaver",
+      "note": "Exercises actual chat_service configuration; no real user data or LLM call."
+    }
+  ]
+}

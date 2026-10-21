@@ -1,0 +1,991 @@
+{
+  "B02-SER-RANGE-EXAMINATION": {
+    "item_ids": [
+      "property:04f8787e935c61048f6af186:dose_range",
+      "relation:13cf4441fe873d04d447d25c"
+    ],
+    "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 / dose_range",
+      "舍曲林 → TARGET_DOSE → 150-200mg/d"
+    ],
+    "source_ids": [
+      "cn_sertraline_viatris"
+    ],
+    "result": "指定说明书未将100–200mg/日或150–200mg/日列为所有患者的通用范围或必须达到的目标。"
+  },
+  "B02-SER-OTHER-SSRI-EXAMINATION": {
+    "item_ids": [
+      "relation:86306ca579c20302249cb1eb",
+      "relation:b7f575d9ab91b22981ec98fb"
+    ],
+    "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → CONTRAINDICATED_WITH → 其他选择性5-羟色胺再摄取抑制剂",
+      "舍曲林 → CONTRAINDICATED_WITH → SNRI"
+    ],
+    "source_ids": [
+      "cn_sertraline_viatris"
+    ],
+    "result": "指定标签支持其他血清素能药物联用的风险警告和谨慎要求，未为原图谱所有其他SSRI/SNRI绝对禁忌断言提供充分依据。"
+  },
+  "B02-PAR-SER-EXAMINATION": {
+    "item_ids": [
+      "relation:2c2faf6fabc3a899f8f98956"
+    ],
+    "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "帕罗西汀 → CONTRAINDICATED_WITH → 舍曲林"
+    ],
+    "source_ids": [
+      "cn_paroxetine_hospital"
+    ],
+    "result": "扫描说明书的血清素能药物警示不能直接证明帕罗西汀与舍曲林为已证实的绝对禁忌。"
+  },
+  "B03-ZIP-CLASS-ITEM-93": {
+    "item_ids": [
+      "property:539e69734a4c56d9e856cba5:class"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "齐拉西酮 / class",
+      "{'entity_id': '539e69734a4c56d9e856cba5', 'key': 'class', 'value': '非典型抗精神病药'}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "所查标签列有齐拉西酮抗精神病药身份，但未直接完成其非典型分类的独立来源核对。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。本次该标签不是齐拉西酮自身说明书，需补其直接分类依据。"
+  },
+  "B03-ZIP-CLASS-ITEM-406": {
+    "item_ids": [
+      "relation:0429565bf97541c58895e429"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "非典型抗精神病药 → HAS_DRUG_INSTANCE → 齐拉西酮",
+      "{'id': '0429565bf97541c58895e429', 'source': '17961902442705345a65f4ee', 'target': '539e69734a4c56d9e856cba5', 'type': 'HAS_DRUG_INSTANCE', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/12'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "所查标签列有齐拉西酮抗精神病药身份，但未直接完成其非典型分类的独立来源核对。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。本次该标签不是齐拉西酮自身说明书，需补其直接分类依据。"
+  },
+  "B03-CLOMI-COMPARE-ITEM-127": {
+    "item_ids": [
+      "property:261ade81e504fe49fcbdad9a:has_high_efficacy_in_OCD"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯米帕明 / has_high_efficacy_in_OCD",
+      "{'entity_id': '261ade81e504fe49fcbdad9a', 'key': 'has_high_efficacy_in_OCD', 'value': 'true'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南支持氯米帕明作为特定后续选项并强调毒性与监测，但不能据此量化为普遍疗效更强或副作用更多。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-CLOMI-COMPARE-ITEM-128": {
+    "item_ids": [
+      "property:261ade81e504fe49fcbdad9a:has_high_side_effect_burden"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯米帕明 / has_high_side_effect_burden",
+      "{'entity_id': '261ade81e504fe49fcbdad9a', 'key': 'has_high_side_effect_burden', 'value': 'true'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南支持氯米帕明作为特定后续选项并强调毒性与监测，但不能据此量化为普遍疗效更强或副作用更多。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-CLOMI-COMPARE-ITEM-166": {
+    "item_ids": [
+      "entity:ac2d2d73a0b8e07aeb818f00"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "ClinicalProfile · OCD 疗效强但副作用多",
+      "{'id': 'ac2d2d73a0b8e07aeb818f00', 'legacy_id': 'OCD 疗效强但副作用多', 'label': 'ClinicalProfile', 'name': 'OCD 疗效强但副作用多', 'properties': {}, 'source_ids': ['china_guidelines.json#/nodes/65'], 'aliases': ['OCD 疗效强但副作用多']}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南支持氯米帕明作为特定后续选项并强调毒性与监测，但不能据此量化为普遍疗效更强或副作用更多。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-CLOMI-COMPARE-ITEM-472": {
+    "item_ids": [
+      "relation:6488baba98e09c86e5fd32b9"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯米帕明 → HAS_CLINICAL_PROFILE → OCD 疗效强但副作用多",
+      "{'id': '6488baba98e09c86e5fd32b9', 'source': '261ade81e504fe49fcbdad9a', 'target': 'ac2d2d73a0b8e07aeb818f00', 'type': 'HAS_CLINICAL_PROFILE', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/87'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南支持氯米帕明作为特定后续选项并强调毒性与监测，但不能据此量化为普遍疗效更强或副作用更多。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-THIAZIDE-ID-ITEM-331": {
+    "item_ids": [
+      "entity:3bae0a19c25d4e24aa0a32cc"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "DrugClass · 噻嗪类利尿剂",
+      "{'id': '3bae0a19c25d4e24aa0a32cc', 'legacy_id': '噻嗪类利尿剂', 'label': 'DrugClass', 'name': '噻嗪类利尿剂', 'properties': {'name': '噻嗪类利尿剂'}, 'source_ids': ['psychiatric_drugs.json#/nodes/63'], 'aliases': ['噻嗪类利尿剂']}"
+    ],
+    "source_ids": [
+      "us_lithium_dailymed"
+    ],
+    "result": "所查标签列利尿剂类别，但没有在对应表中逐一点名噻嗪子类；本条具体子类身份/归属的直接依据尚未补足。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需补噻嗪类直接分类与锂相互作用来源。"
+  },
+  "B03-SYNERGY-NODES-ITEM-338": {
+    "item_ids": [
+      "entity:1015aa49066cebdc78d7a2b2"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "TherapeuticEffect · 协同增效",
+      "{'id': '1015aa49066cebdc78d7a2b2', 'legacy_id': '协同增效', 'label': 'TherapeuticEffect', 'name': '协同增效', 'properties': {'description': '联合用药产生大于单药效应之和的效果'}, 'source_ids': ['psychiatric_drugs.json#/nodes/68'], 'aliases': ['协同增效']}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "联合方案被考虑并不能证明效果大于各单药效果之和；原严格协同定义未由这些治疗推荐建立。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-SYNERGY-NODES-ITEM-339": {
+    "item_ids": [
+      "property:1015aa49066cebdc78d7a2b2:description"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "协同增效 / description",
+      "{'entity_id': '1015aa49066cebdc78d7a2b2', 'key': 'description', 'value': '联合用药产生大于单药效应之和的效果'}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "联合方案被考虑并不能证明效果大于各单药效果之和；原严格协同定义未由这些治疗推荐建立。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-SYNERGY-NODES-ITEM-562": {
+    "item_ids": [
+      "relation:5a944495f091b0debadf876b"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "锂盐 → HAS_SYNERGISTIC_EFFECT_WITH → 协同增效",
+      "{'id': '5a944495f091b0debadf876b', 'source': '72d56d56d60120f29a185b86', 'target': '1015aa49066cebdc78d7a2b2', 'type': 'HAS_SYNERGISTIC_EFFECT_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/11'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "联合方案被考虑并不能证明效果大于各单药效果之和；原严格协同定义未由这些治疗推荐建立。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-SYNERGY-NODES-ITEM-685": {
+    "item_ids": [
+      "relation:14d0cde2d112f9e15581a38e"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "丙戊酸钠 → HAS_SYNERGISTIC_EFFECT_WITH → 协同增效",
+      "{'id': '14d0cde2d112f9e15581a38e', 'source': '827862c7895134e2e6cbd42c', 'target': '1015aa49066cebdc78d7a2b2', 'type': 'HAS_SYNERGISTIC_EFFECT_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/150'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "联合方案被考虑并不能证明效果大于各单药效果之和；原严格协同定义未由这些治疗推荐建立。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-374": {
+    "item_ids": [
+      "entity:d95e4f8e8197f79c6b006f41"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "Contraindication · 粒细胞缺乏症史",
+      "{'id': 'd95e4f8e8197f79c6b006f41', 'legacy_id': '粒细胞缺乏症史', 'label': 'Contraindication', 'name': '粒细胞缺乏症史', 'properties': {'name': '粒细胞缺乏症史'}, 'source_ids': ['psychiatric_drugs.json#/nodes/97'], 'aliases': ['粒细胞缺乏症史']}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-375": {
+    "item_ids": [
+      "entity:4eb6ed4e81573a67ded5332b"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "Contraindication · 未控制的癫痫",
+      "{'id': '4eb6ed4e81573a67ded5332b', 'legacy_id': '未控制的癫痫', 'label': 'Contraindication', 'name': '未控制的癫痫', 'properties': {'name': '未控制的癫痫'}, 'source_ids': ['psychiatric_drugs.json#/nodes/98'], 'aliases': ['未控制的癫痫']}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-376": {
+    "item_ids": [
+      "entity:9df5531c8fc27988b778de4c"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "Contraindication · 严重心脏疾病",
+      "{'id': '9df5531c8fc27988b778de4c', 'legacy_id': '严重心脏疾病', 'label': 'Contraindication', 'name': '严重心脏疾病', 'properties': {'name': '严重心脏疾病'}, 'source_ids': ['psychiatric_drugs.json#/nodes/99'], 'aliases': ['严重心脏疾病']}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-634": {
+    "item_ids": [
+      "relation:e1f04fc29ecd57dc7c68529e"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯氮平 → CONTRAINDICATED_IN → 未控制的癫痫",
+      "{'id': 'e1f04fc29ecd57dc7c68529e', 'source': 'daf8a55846ed065646f8b0ed', 'target': '4eb6ed4e81573a67ded5332b', 'type': 'CONTRAINDICATED_IN', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/96'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-661": {
+    "item_ids": [
+      "relation:0c73d9b5c16a207d6bd6b30c"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯氮平 → CONTRAINDICATED_IN → 严重心脏疾病",
+      "{'id': '0c73d9b5c16a207d6bd6b30c', 'source': 'daf8a55846ed065646f8b0ed', 'target': '9df5531c8fc27988b778de4c', 'type': 'CONTRAINDICATED_IN', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/125'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-CLO-CONTRA-NODES-ITEM-727": {
+    "item_ids": [
+      "relation:3b6dae6ecbf3d2f5c0490c69"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯氮平 → CONTRAINDICATED_IN → 粒细胞缺乏症史",
+      "{'id': '3b6dae6ecbf3d2f5c0490c69', 'source': 'daf8a55846ed065646f8b0ed', 'target': 'd95e4f8e8197f79c6b006f41', 'type': 'CONTRAINDICATED_IN', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/198'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_clozapine_mylan"
+    ],
+    "result": "美国该标签正式禁忌与原图谱三个泛化禁忌名称不一致；存在严格风险管理/再挑战限制，但尚未核对对应中国产品直接禁忌。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能以美国标签没有同名正式禁忌就认定中国条目错误或联用安全。"
+  },
+  "B03-BUSPIRONE-GAD-ITEM-395": {
+    "item_ids": [
+      "relation:a394c640f090f2ffc1b84e43"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "丁螺环酮 → TREATS → 广泛性焦虑障碍",
+      "{'id': 'a394c640f090f2ffc1b84e43', 'source': '0bcb3364e7952d40547b04f2', 'target': '07a1fd94a62ac7259cb58f8e', 'type': 'TREATS', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/0'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg113"
+    ],
+    "result": "所核NICE GAD步骤没有建立丁螺环酮为固定二线的直接依据；该结论不否定其他地区适应症或研究。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-BUSPIRONE-GAD-ITEM-491": {
+    "item_ids": [
+      "relation:298012439f6f6539cf7faf6b"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "广泛性焦虑障碍 → HAS_SECOND_LINE_TREATMENT → 丁螺环酮",
+      "{'id': '298012439f6f6539cf7faf6b', 'source': '07a1fd94a62ac7259cb58f8e', 'target': '0bcb3364e7952d40547b04f2', 'type': 'HAS_SECOND_LINE_TREATMENT', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/107'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg113"
+    ],
+    "result": "所核NICE GAD步骤没有建立丁螺环酮为固定二线的直接依据；该结论不否定其他地区适应症或研究。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-PAR-GAD-EVIDENCE-ITEM-411": {
+    "item_ids": [
+      "relation:9a2e58cebe2d0222598ae258"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "帕罗西汀 → HAS_STRONG_EVIDENCE_FOR → 广泛性焦虑障碍",
+      "{'id': '9a2e58cebe2d0222598ae258', 'source': 'd0edfc4d2a910e7878c03d38', 'target': '07a1fd94a62ac7259cb58f8e', 'type': 'HAS_STRONG_EVIDENCE_FOR', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/17'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "cn_paroxetine_hospital"
+    ],
+    "result": "本产品适应症章节未直接列GAD；安全性研究涉及GAD人群也不足以建立批准用途或未定义的强证据等级。；仅所缓存的中国具体产品说明书及其版本；需区分适应症、人群和制剂，不作个体处方。需补地区/产品直接适应症或明确分级的临床证据，不推导其他地区无效。"
+  },
+  "B03-OCD-ANTIPSYCHOTIC-AUG-ITEM-81": {
+    "item_ids": [
+      "property:5fb927be024f43b102bdd1d5:use_in_OCD"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "阿立哌唑 / use_in_OCD",
+      "{'entity_id': '5fb927be024f43b102bdd1d5', 'key': 'use_in_OCD', 'value': 'Augmentation agent for SSRI-resistant OCD'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南在多线足疗程无效后允许专科考虑抗精神病药增效，但该条款未具体点名利培酮或阿立哌唑。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。不能将类别推荐自动扩为这两个具体药物的同等证据。"
+  },
+  "B03-OCD-ANTIPSYCHOTIC-AUG-ITEM-85": {
+    "item_ids": [
+      "property:73140311e1638f7c044e7308:use_in_OCD"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "利培酮 / use_in_OCD",
+      "{'entity_id': '73140311e1638f7c044e7308', 'key': 'use_in_OCD', 'value': 'Augmentation agent for SSRI-resistant OCD'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南在多线足疗程无效后允许专科考虑抗精神病药增效，但该条款未具体点名利培酮或阿立哌唑。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。不能将类别推荐自动扩为这两个具体药物的同等证据。"
+  },
+  "B03-OCD-ANTIPSYCHOTIC-AUG-ITEM-415": {
+    "item_ids": [
+      "relation:50b832e8432cf6bbcd15eaff"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "强迫症 → ANTIPSYCHOTIC_ADD_ON → 利培酮",
+      "{'id': '50b832e8432cf6bbcd15eaff', 'source': '4aee1ca4ec39b8f0f2dcfee7', 'target': '73140311e1638f7c044e7308', 'type': 'ANTIPSYCHOTIC_ADD_ON', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/21'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南在多线足疗程无效后允许专科考虑抗精神病药增效，但该条款未具体点名利培酮或阿立哌唑。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。不能将类别推荐自动扩为这两个具体药物的同等证据。"
+  },
+  "B03-OCD-ANTIPSYCHOTIC-AUG-ITEM-487": {
+    "item_ids": [
+      "relation:2e28f05898bd118bf6fe0c3f"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "强迫症 → ANTIPSYCHOTIC_ADD_ON → 阿立哌唑",
+      "{'id': '2e28f05898bd118bf6fe0c3f', 'source': '4aee1ca4ec39b8f0f2dcfee7', 'target': '5fb927be024f43b102bdd1d5', 'type': 'ANTIPSYCHOTIC_ADD_ON', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/103'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "指南在多线足疗程无效后允许专科考虑抗精神病药增效，但该条款未具体点名利培酮或阿立哌唑。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。不能将类别推荐自动扩为这两个具体药物的同等证据。"
+  },
+  "B03-LI-SUICIDE-ITEM-427": {
+    "item_ids": [
+      "relation:8c2f869e59bec5a3085f4389"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "锂盐 → REDUCES_SUICIDE_RISK_IN → 双相障碍",
+      "{'id': '8c2f869e59bec5a3085f4389', 'source': '72d56d56d60120f29a185b86', 'target': '6689ab6f770334391953b60c', 'type': 'REDUCES_SUICIDE_RISK_IN', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/37'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "长期治疗有效性推荐本身不足以证明原减少自杀风险的独立因果主张；本次所核条款未提供该结局直接证据。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。需专门结局研究及其不确定性，不将治疗推荐替代结局研究。"
+  },
+  "B03-BENZO-PSYCHOSIS-ITEM-450": {
+    "item_ids": [
+      "relation:30839551104abb739dff0abe"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "精神分裂症 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物",
+      "{'id': '30839551104abb739dff0abe', 'source': '557312cc1a8ce5f7bb725e2d', 'target': '8e2fc4181e3fcb168217fdcd', 'type': 'HAS_SECOND_LINE_TREATMENT', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/64'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg178"
+    ],
+    "result": "指定精神分裂症治疗推荐没有建立苯二氮卓为疾病固定二线的主张；短期镇静等用途与核心疾病治疗须分开。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-BENZO-PSYCHOSIS-ITEM-494": {
+    "item_ids": [
+      "relation:a869d1c0251ffa70e8dad203"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "急性期治疗 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物",
+      "{'id': 'a869d1c0251ffa70e8dad203', 'source': 'a809570dab8e6d7f95bc0450', 'target': '8e2fc4181e3fcb168217fdcd', 'type': 'HAS_SECOND_LINE_TREATMENT', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/111'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg178"
+    ],
+    "result": "指定精神分裂症治疗推荐没有建立苯二氮卓为疾病固定二线的主张；短期镇静等用途与核心疾病治疗须分开。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-INSIGHT-PROGNOSIS-ITEM-457": {
+    "item_ids": [
+      "relation:d5e9c9aa828c85ff9deea610"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "强迫症 → ASSOCIATED_WITH_POORER_TREATMENT_RESPONSE → 自知力差",
+      "{'id': 'd5e9c9aa828c85ff9deea610', 'source': '4aee1ca4ec39b8f0f2dcfee7', 'target': 'de5b21f14cb779c7ca4d00d7', 'type': 'ASSOCIATED_WITH_POORER_TREATMENT_RESPONSE', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/71'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "who_cddr_2024"
+    ],
+    "result": "自知力差的修饰身份有依据，但本次所查诊断条款未直接建立原治疗反应更差的结局断言。；WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。需补专门预后/治疗研究，不能从诊断特征推导疗效。"
+  },
+  "B03-OCD-ANXIETY-COMORBIDITY-ITEM-462": {
+    "item_ids": [
+      "relation:607827b2e868431487e1adf6"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "强迫症 → COMMONLY_COMORBID_WITH → 焦虑障碍",
+      "{'id': '607827b2e868431487e1adf6', 'source': '4aee1ca4ec39b8f0f2dcfee7', 'target': '7b837688f1073be778fe46f7', 'type': 'COMMONLY_COMORBID_WITH', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/76'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "who_cddr_2024"
+    ],
+    "result": "所查条款支持OCD与焦虑相关障碍的鉴别及部分共病可能，未直接建立泛指全部焦虑障碍的常见共病断言。；WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。需补相应流行病学/临床资料，不能以相似症状替代共病证据。"
+  },
+  "B03-MANIA-BENZO-ITEM-492": {
+    "item_ids": [
+      "relation:fd9d051b51eb529d2d975459"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "躁狂发作 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物",
+      "{'id': 'fd9d051b51eb529d2d975459', 'source': '288aef35757361db129d2728', 'target': '8e2fc4181e3fcb168217fdcd', 'type': 'HAS_SECOND_LINE_TREATMENT', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/109'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg185"
+    ],
+    "result": "所查躁狂步骤未确立苯二氮卓为固定二线疾病治疗；短期对症措施不能替代具体抗躁狂方案。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。"
+  },
+  "B03-MINDFULNESS-GAD-ITEM-497": {
+    "item_ids": [
+      "relation:14213b7af71f0485b17b2da0"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "广泛性焦虑障碍 → HAS_NON_PHARMACOLOGICAL_TREATMENT → 正念疗法",
+      "{'id': '14213b7af71f0485b17b2da0', 'source': '07a1fd94a62ac7259cb58f8e', 'target': 'd47e1944f7c73b1a90658703', 'type': 'HAS_NON_PHARMACOLOGICAL_TREATMENT', 'properties': {}, 'source_ids': ['china_guidelines.json#/edges/114'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg113"
+    ],
+    "result": "所查GAD高强度心理治疗条款明确CBT/应用性放松，未直接支持泛称正念疗法为同级推荐。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。不否定其他正念研究，需具体方案和证据。"
+  },
+  "B03-FV-SSRI-ABS-CONTRA-ITEM-572": {
+    "item_ids": [
+      "relation:67e1be0b7e746eb11e094d6d"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "其他选择性5-羟色胺再摄取抑制剂 → CONTRAINDICATED_DUE_TO_SEROTONIN_SYNDROME_RISK → 氟伏沙明",
+      "{'id': '67e1be0b7e746eb11e094d6d', 'source': '5f761a5bf54842dd3f5d380b', 'target': 'ca6f4ce9f70aeb40e51f5b8f', 'type': 'CONTRAINDICATED_DUE_TO_SEROTONIN_SYNDROME_RISK', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/23'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_fluvoxamine"
+    ],
+    "result": "血清素综合征警示及对MAOI等点名禁忌不能直接支持所有其他SSRI均为绝对禁忌的断言。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。并不表示可自行合用或没有风险。"
+  },
+  "B03-SER-OTHER-INDICATIONS-ITEM-574": {
+    "item_ids": [
+      "relation:0139db48d946cf7288d83168"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → TREATS → 创伤后应激障碍",
+      "{'id': '0139db48d946cf7288d83168', 'source': '04f8787e935c61048f6af186', 'target': 'f0d6e128a55ccac3f622e41f', 'type': 'TREATS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/25'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "cn_sertraline_viatris"
+    ],
+    "result": "所核中国左洛复该版适应症仅列抑郁及OCD，未建立本条PTSD/社交焦虑/惊恐在该产品中的批准或具体推荐范围。；仅所缓存的中国具体产品说明书及其版本；需区分适应症、人群和制剂，不作个体处方。不能由此否认其他地区批准或超说明书证据；需另附地区匹配的直接依据。"
+  },
+  "B03-SER-OTHER-INDICATIONS-ITEM-580": {
+    "item_ids": [
+      "relation:072e273070374e9d98266ea3"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → TREATS → 社交焦虑障碍",
+      "{'id': '072e273070374e9d98266ea3', 'source': '04f8787e935c61048f6af186', 'target': 'c4602add792ddcef5fef921d', 'type': 'TREATS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/32'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "cn_sertraline_viatris"
+    ],
+    "result": "所核中国左洛复该版适应症仅列抑郁及OCD，未建立本条PTSD/社交焦虑/惊恐在该产品中的批准或具体推荐范围。；仅所缓存的中国具体产品说明书及其版本；需区分适应症、人群和制剂，不作个体处方。不能由此否认其他地区批准或超说明书证据；需另附地区匹配的直接依据。"
+  },
+  "B03-SER-OTHER-INDICATIONS-ITEM-625": {
+    "item_ids": [
+      "relation:bb10b74924a846576021a633"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → TREATS → 惊恐障碍",
+      "{'id': 'bb10b74924a846576021a633', 'source': '04f8787e935c61048f6af186', 'target': 'd62c8e662ff2a3910597b3a3', 'type': 'TREATS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/84'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "cn_sertraline_viatris"
+    ],
+    "result": "所核中国左洛复该版适应症仅列抑郁及OCD，未建立本条PTSD/社交焦虑/惊恐在该产品中的批准或具体推荐范围。；仅所缓存的中国具体产品说明书及其版本；需区分适应症、人群和制剂，不作个体处方。不能由此否认其他地区批准或超说明书证据；需另附地区匹配的直接依据。"
+  },
+  "B03-FV-SOCIAL-ITEM-583": {
+    "item_ids": [
+      "relation:29269e451c219d518faa7539"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氟伏沙明 → TREATS → 社交焦虑障碍",
+      "{'id': '29269e451c219d518faa7539', 'source': 'ca6f4ce9f70aeb40e51f5b8f', 'target': 'c4602add792ddcef5fef921d', 'type': 'TREATS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/36'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_fluvoxamine"
+    ],
+    "result": "所核美国氟伏沙明片OCD适应症未直接支持社交焦虑这一治疗关系的地区/产品情境。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。未穷尽其他地区说明书或临床研究，不等于证明无效。"
+  },
+  "B03-RIS-SER-ITEM-591": {
+    "item_ids": [
+      "relation:9af5d77d3cc9980df0708ce8"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "利培酮 → INTERACTS_WITH → 舍曲林",
+      "{'id': '9af5d77d3cc9980df0708ce8', 'source': '73140311e1638f7c044e7308', 'target': '04f8787e935c61048f6af186', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/45'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_risperidone"
+    ],
+    "result": "所查利培酮标签点名氟西汀、帕罗西汀等CYP2D6抑制剂，并未直接点名证实舍曲林这一具体药对的效应。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。不能由代谢类别推成每个SSRI的同等相互作用。"
+  },
+  "B03-LAM-SER-ITEM-592": {
+    "item_ids": [
+      "relation:38ef2afd8538ed94fd34d365"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → NO_SIGNIFICANT_INTERACTION_WITH → 拉莫三嗪",
+      "{'id': '38ef2afd8538ed94fd34d365', 'source': '04f8787e935c61048f6af186', 'target': '92d5947708a272d0beac0615', 'type': 'NO_SIGNIFICANT_INTERACTION_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/46'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_lamotrigine_generic"
+    ],
+    "result": "体外结果提示舍曲林不太可能降低拉莫三嗪清除，但体外结果不足以证明临床无显著相互作用，也不能反向确立裸相互作用。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。仍需临床药对证据，未将体外实验升级为临床结论。"
+  },
+  "B03-LAM-SER-ITEM-593": {
+    "item_ids": [
+      "relation:f9c67439fdf6541170c3c2e8"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "拉莫三嗪 → INTERACTS_WITH → 舍曲林",
+      "{'id': 'f9c67439fdf6541170c3c2e8', 'source': '92d5947708a272d0beac0615', 'target': '04f8787e935c61048f6af186', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/47'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_lamotrigine_generic"
+    ],
+    "result": "体外结果提示舍曲林不太可能降低拉莫三嗪清除，但体外结果不足以证明临床无显著相互作用，也不能反向确立裸相互作用。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。仍需临床药对证据，未将体外实验升级为临床结论。"
+  },
+  "B03-FV-ARI-DIRECT-ITEM-600": {
+    "item_ids": [
+      "relation:0bd98b2694f5db47029e5711"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氟伏沙明 → INTERACTS_WITH → 阿立哌唑",
+      "{'id': '0bd98b2694f5db47029e5711', 'source': 'ca6f4ce9f70aeb40e51f5b8f', 'target': '5fb927be024f43b102bdd1d5', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/55'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_aripiprazole"
+    ],
+    "result": "所查标签未直接点名建立氟伏沙明-阿立哌唑的具体相互作用方向；不能用一般CYP条款证明阿立哌唑提高氟伏沙明浓度。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需补直接药代研究；不把类别机制视为每一药对的已证实临床效应。"
+  },
+  "B03-FV-ARI-DIRECT-ITEM-608": {
+    "item_ids": [
+      "relation:31364b5c7c0d250d37ddae99"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "阿立哌唑 → INCREASES_CONCENTRATION_OF → 氟伏沙明",
+      "{'id': '31364b5c7c0d250d37ddae99', 'source': '5fb927be024f43b102bdd1d5', 'target': 'ca6f4ce9f70aeb40e51f5b8f', 'type': 'INCREASES_CONCENTRATION_OF', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/64'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_aripiprazole"
+    ],
+    "result": "所查标签未直接点名建立氟伏沙明-阿立哌唑的具体相互作用方向；不能用一般CYP条款证明阿立哌唑提高氟伏沙明浓度。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需补直接药代研究；不把类别机制视为每一药对的已证实临床效应。"
+  },
+  "B03-OLA-QUE-NEGATIVE-ITEM-605": {
+    "item_ids": [
+      "relation:9148d1e0724254ba64a3f79c"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "奥氮平 → NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS → 喹硫平",
+      "{'id': '9148d1e0724254ba64a3f79c', 'source': 'fbe4ed72827477d0ae8cfb0f', 'target': 'b417c2371558fc84b9c2e27c', 'type': 'NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/61'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg178"
+    ],
+    "result": "不建议常规联合抗精神病药不能证明奥氮平-喹硫平在所有临床情境不存在禁忌或只需监测代谢副作用。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。原全局否定结论缺直接、全面药对依据。"
+  },
+  "B03-SER-ARI-DIRECT-ITEM-609": {
+    "item_ids": [
+      "relation:9e9980f781076cc26f679d49"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "舍曲林 → INCREASES_CONCENTRATION_OF → 阿立哌唑",
+      "{'id': '9e9980f781076cc26f679d49', 'source': '04f8787e935c61048f6af186', 'target': '5fb927be024f43b102bdd1d5', 'type': 'INCREASES_CONCENTRATION_OF', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/65'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_aripiprazole"
+    ],
+    "result": "标签部分联用无需调整的表述不等于没有任何风险，也没有直接建立舍曲林必然提高阿立哌唑浓度的断言。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。保留实际药物方向，需直接临床药对依据，不扩展一般CYP抑制机制。"
+  },
+  "B03-SER-ARI-DIRECT-ITEM-621": {
+    "item_ids": [
+      "relation:07f1c3a531fd0cdebc2fbf92"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "阿立哌唑 → INTERACTS_WITH → 舍曲林",
+      "{'id': '07f1c3a531fd0cdebc2fbf92', 'source': '5fb927be024f43b102bdd1d5', 'target': '04f8787e935c61048f6af186', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/80'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_aripiprazole"
+    ],
+    "result": "标签部分联用无需调整的表述不等于没有任何风险，也没有直接建立舍曲林必然提高阿立哌唑浓度的断言。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。保留实际药物方向，需直接临床药对依据，不扩展一般CYP抑制机制。"
+  },
+  "B03-QUE-SER-DIRECT-ITEM-644": {
+    "item_ids": [
+      "relation:0e7ad968542880407cddfb87"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "喹硫平 → INTERACTS_WITH → 舍曲林",
+      "{'id': '0e7ad968542880407cddfb87', 'source': 'b417c2371558fc84b9c2e27c', 'target': '04f8787e935c61048f6af186', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/107'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_quetiapine"
+    ],
+    "result": "CYP3A4及中枢药物一般相互作用警示未直接建立此舍曲林药对的确定效应。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需要直接药对证据；不能将类别潜在风险升级为已经证明的相同效应。"
+  },
+  "B03-FV-DEPRESSION-ITEM-654": {
+    "item_ids": [
+      "relation:6a4eb431584c1ce39a053575"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氟伏沙明 → TREATS → 抑郁障碍",
+      "{'id': '6a4eb431584c1ce39a053575', 'source': 'ca6f4ce9f70aeb40e51f5b8f', 'target': '06b62e6a29f4d2e83f762bd2', 'type': 'TREATS', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/117'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_fluvoxamine"
+    ],
+    "result": "该美国产品仅列OCD适应症，临床试验安全汇总有抑郁研究也不能据此证明该产品批准治疗抑郁。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需补对应地区/制剂说明书或直接推荐，不据此认定其他地区无效或禁用。"
+  },
+  "B03-LI-THIAZIDE-ITEM-684": {
+    "item_ids": [
+      "relation:223a0be87c5d533b3bdcf1aa"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "锂盐 → INTERACTS_WITH → 噻嗪类利尿剂",
+      "{'id': '223a0be87c5d533b3bdcf1aa', 'source': '72d56d56d60120f29a185b86', 'target': '3bae0a19c25d4e24aa0a32cc', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/149'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "us_lithium_dailymed"
+    ],
+    "result": "原文支持利尿剂类别影响锂清除，但该表未直接点名噻嗪类这一子类，尚不足作本条具体直接依据。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。需补直接子类/药对出处；不表示该联用没有风险。"
+  },
+  "B03-VAL-SER-DIRECT-ITEM-700": {
+    "item_ids": [
+      "relation:7efcc9ce0710295737b50093"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "丙戊酸钠 → INTERACTS_WITH → 舍曲林",
+      "{'id': '7efcc9ce0710295737b50093', 'source': '827862c7895134e2e6cbd42c', 'target': '04f8787e935c61048f6af186', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/167'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "uk_sodium_valproate"
+    ],
+    "result": "所查SmPC有抗抑郁药类别的合用警示，但没有直接点名舍曲林并建立其特定效应。；英国Epilim 200mg肠溶片SmPC（2026-10-02）；与半钠盐、其他制剂及中国批准用法分开。需直接药对证据，不把类别警示升级为该具体药对相同强度的证据。"
+  },
+  "B03-OLA-CLO-UNIVERSAL-ITEM-718": {
+    "item_ids": [
+      "relation:b3798c9846a8bf13b3f4e523"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "奥氮平 → NO_CLINICAL_INDICATION_FOR_COMBINATION → 氯氮平",
+      "{'id': 'b3798c9846a8bf13b3f4e523', 'source': 'fbe4ed72827477d0ae8cfb0f', 'target': 'daf8a55846ed065646f8b0ed', 'type': 'NO_CLINICAL_INDICATION_FOR_COMBINATION', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/187'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg178"
+    ],
+    "result": "避免常规联合且存在经充分评估的氯氮平增效例外，不能据此证明此药对普遍无临床适应证或具有某确定直接相互作用。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。具体药对的利弊需直接研究和个体方案；原两个无条件断言暂不启用。"
+  },
+  "B03-OLA-CLO-UNIVERSAL-ITEM-720": {
+    "item_ids": [
+      "relation:92224e3d66cab22b56496279"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "氯氮平 → INTERACTS_WITH → 奥氮平",
+      "{'id': '92224e3d66cab22b56496279', 'source': 'daf8a55846ed065646f8b0ed', 'target': 'fbe4ed72827477d0ae8cfb0f', 'type': 'INTERACTS_WITH', 'properties': {}, 'source_ids': ['psychiatric_drugs.json#/edges/190'], 'reasoning_eligible': False, 'review_status': 'legacy_unverified'}"
+    ],
+    "source_ids": [
+      "nice_cg178"
+    ],
+    "result": "避免常规联合且存在经充分评估的氯氮平增效例外，不能据此证明此药对普遍无临床适应证或具有某确定直接相互作用。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。具体药对的利弊需直接研究和个体方案；原两个无条件断言暂不启用。"
+  },
+  "B03-Q-BIPOLAR-QUE-ITEM-733": {
+    "item_ids": [
+      "quarantine:china_guidelines.json#/edges/44"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "china_guidelines.json#/edges/44 · {'source': '喹硫平', 'type': 'HAS_EVIDENCE_FOR', 'target': '双相抑郁'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'china_guidelines.json#/edges/44', 'original': {'source': '喹硫平', 'type': 'HAS_EVIDENCE_FOR', 'target': '双相抑郁'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "us_quetiapine"
+    ],
+    "result": "有成人双相抑郁单药情境依据，但原隔离记录目标别名/实体角色尚未完成合法端点映射。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。可提出带条件的新关系，当前记录不直接导入。"
+  },
+  "B03-Q-PSYCHOTIC-COMBINATION-ITEM-734": {
+    "item_ids": [
+      "quarantine:china_guidelines.json#/edges/62"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "china_guidelines.json#/edges/62 · {'source': '伴精神病性症状', 'type': 'REQUIRES_COMBINATION_WITH', 'target': '抗精神病药'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'china_guidelines.json#/edges/62', 'original': {'source': '伴精神病性症状', 'type': 'REQUIRES_COMBINATION_WITH', 'target': '抗精神病药'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "nice_ng222"
+    ],
+    "result": "指南建议考虑精神病性抑郁的抗抑郁药与抗精神病药联合，不支持脱离具体疾病的泛称精神病性症状必须联合两类药。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。原主语语境和端点不足，不能补造通用强制治疗规则。"
+  },
+  "B03-Q-PSYCHOTIC-COMBINATION-ITEM-735": {
+    "item_ids": [
+      "quarantine:china_guidelines.json#/edges/78"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "china_guidelines.json#/edges/78 · {'source': '伴精神病性症状', 'type': 'REQUIRES_COMBINATION_WITH', 'target': '抗抑郁药'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'china_guidelines.json#/edges/78', 'original': {'source': '伴精神病性症状', 'type': 'REQUIRES_COMBINATION_WITH', 'target': '抗抑郁药'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "nice_ng222"
+    ],
+    "result": "指南建议考虑精神病性抑郁的抗抑郁药与抗精神病药联合，不支持脱离具体疾病的泛称精神病性症状必须联合两类药。；NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。原主语语境和端点不足，不能补造通用强制治疗规则。"
+  },
+  "B03-Q-LAM-PREVENTION-ITEM-737": {
+    "item_ids": [
+      "quarantine:china_guidelines.json#/edges/108"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "china_guidelines.json#/edges/108 · {'source': '拉莫三嗪', 'type': 'HAS_PROPHYLACTIC_EVIDENCE_FOR', 'target': '双相抑郁'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'china_guidelines.json#/edges/108', 'original': {'source': '拉莫三嗪', 'type': 'HAS_PROPHYLACTIC_EVIDENCE_FOR', 'target': '双相抑郁'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "us_lamotrigine_generic"
+    ],
+    "result": "维持预防用途与急性双相抑郁治疗不同，原目标别名和关系方向均需明确重建。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。继续隔离，候选新关系应绑定成人双相I型维持情境。"
+  },
+  "B03-Q-VAL-SEDATION-ITEM-739": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/52"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/52 · {'source': '丙戊酸钠', 'type': 'INCREASES_RISK_OF', 'target': '镇静作用'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/52', 'original': {'source': '丙戊酸钠', 'type': 'INCREASES_RISK_OF', 'target': '镇静作用'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "uk_sodium_valproate"
+    ],
+    "result": "嗜睡/中枢相关不良反应有依据，但原缺失镇静作用端点及具体单用/合用情境，不能凭临时补名导入。；英国Epilim 200mg肠溶片SmPC（2026-10-02）；与半钠盐、其他制剂及中国批准用法分开。"
+  },
+  "B03-Q-VAL-CHILDBEARING-ITEM-740": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/68"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/68 · {'source': '丙戊酸钠', 'type': 'CONTRAINDICATED_IN', 'target': '育龄女性'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/68', 'original': {'source': '丙戊酸钠', 'type': 'CONTRAINDICATED_IN', 'target': '育龄女性'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "uk_sodium_valproate"
+    ],
+    "result": "英国现行SmPC有严格的孕期及特定育龄人群条件和例外，不能写成所有育龄女性一概同一个无条件禁忌。；英国Epilim 200mg肠溶片SmPC（2026-10-02）；与半钠盐、其他制剂及中国批准用法分开。保留地区、年龄、专科评估和妊娠预防条件；不将例外解释成可自行使用。"
+  },
+  "B03-Q-VAL-LAM-CONCENTRATION-ITEM-741": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/78"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/78 · {'source': '丙戊酸钠', 'type': 'CAUSES_INCREASED_CONCENTRATION_OF', 'target': '拉莫三嗪血药浓度升高'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/78', 'original': {'source': '丙戊酸钠', 'type': 'CAUSES_INCREASED_CONCENTRATION_OF', 'target': '拉莫三嗪血药浓度升高'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "uk_sodium_valproate"
+    ],
+    "result": "丙戊酸影响拉莫三嗪代谢的直接依据存在，但原浓度效应目标未建立合法端点，仍需具体事件和药物方向。；英国Epilim 200mg肠溶片SmPC（2026-10-02）；与半钠盐、其他制剂及中国批准用法分开。"
+  },
+  "B03-Q-OLA-EPS-ITEM-742": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/87"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/87 · {'source': '奥氮平', 'type': 'INCREASES_RISK_OF', 'target': 'EPS风险叠加'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/87', 'original': {'source': '奥氮平', 'type': 'INCREASES_RISK_OF', 'target': 'EPS风险叠加'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "cn_olanzapine_hansoh"
+    ],
+    "result": "EPS及中枢药物合用谨慎资料不直接建立原无另一合用药的EPS叠加断言，缺端点与触发情境。；仅所缓存的中国具体产品说明书及其版本；需区分适应症、人群和制剂，不作个体处方。"
+  },
+  "B03-Q-LI-MANIA-ITEM-743": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/106"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/106 · {'source': '锂盐', 'type': 'TREATS', 'target': '双相障碍躁狂发作'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/106', 'original': {'source': '锂盐', 'type': 'TREATS', 'target': '双相障碍躁狂发作'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "us_lithium_dailymed"
+    ],
+    "result": "有特定双相I型急性躁狂适应症依据，但原目标名称映射和具体制剂、人群尚需明确，不能直接补造节点。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。"
+  },
+  "B03-Q-ARI-WEIGHT-LOW-ITEM-744": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/163"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/163 · {'source': '阿立哌唑', 'type': 'HAS_CHARACTERISTIC', 'target': '体重增加风险低'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/163', 'original': {'source': '阿立哌唑', 'type': 'HAS_CHARACTERISTIC', 'target': '体重增加风险低'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "us_aripiprazole"
+    ],
+    "result": "标签有体重风险资料，未定义原风险低的比较对象、指标和人群，不能将主观低风险标签当普遍事实。；仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。"
+  },
+  "B03-Q-VAL-HEPATIC-ITEM-745": {
+    "item_ids": [
+      "quarantine:psychiatric_drugs.json#/edges/164"
+    ],
+    "method": "对照列明原文的指定页或条款与本行原值；范围有限，不声称穷尽所有文献",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "psychiatric_drugs.json#/edges/164 · {'source': '丙戊酸钠', 'type': 'CONTRAINDICATED_IN', 'target': '肝功能严重受损'}",
+      "{'kind': 'unresolved_edge', 'source_id': 'psychiatric_drugs.json#/edges/164', 'original': {'source': '丙戊酸钠', 'type': 'CONTRAINDICATED_IN', 'target': '肝功能严重受损'}, 'status': 'pending_review', 'reason': 'Missing endpoint or ambiguous entity type; excluded from active graph.'}"
+    ],
+    "source_ids": [
+      "uk_sodium_valproate"
+    ],
+    "result": "活动性肝病/严重肝功能损害相关史有具体禁忌依据，但原严重受损目标缺失且范围需按产品原文绑定。；英国Epilim 200mg肠溶片SmPC（2026-10-02）；与半钠盐、其他制剂及中国批准用法分开。"
+  },
+  "B03-QUARANTINE-ITEM-736": {
+    "item_ids": [
+      "quarantine:china_guidelines.json#/edges/99"
+    ],
+    "method": "逐项核对原隔离记录、原端点及指定原文要求",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "china_guidelines.json#/edges/99 · {'source': '强迫症', 'type': 'PSYCHOTHERAPY_ADD_ON', 'target': 'ERP'}"
+    ],
+    "source_ids": [
+      "nice_cg31"
+    ],
+    "result": "china_guidelines.json#/edges/99 · {'source': '强迫症', 'type': 'PSYCHOTHERAPY_ADD_ON', 'target': 'ERP'}：SSRI或CBT单独疗效不足后可考虑联合CBT（含ERP），需多学科复核和既往治疗条件。；原端点/条件问题尚未解决，保留隔离。"
+  },
+  "B03-QUARANTINE-ITEM-738": {
+    "item_ids": [
+      "quarantine:icd11_depression.json#/edges/10"
+    ],
+    "method": "逐项核对原隔离记录、原端点及指定原文要求",
+    "performed_at": "2026-10-20",
+    "queries": [
+      "icd11_depression.json#/edges/10 · {'source': '重度抑郁发作', 'type': 'REQUIRES', 'target': '核心症状=3条'}"
+    ],
+    "source_ids": [
+      "who_cddr_2024"
+    ],
+    "result": "icd11_depression.json#/edges/10 · {'source': '重度抑郁发作', 'type': 'REQUIRES', 'target': '核心症状=3条'}：原核心/附加固定计数不是WHO CDDR 2024抑郁发作及严重程度完整规则。；原端点/条件问题尚未解决，保留隔离。"
+  }
+}

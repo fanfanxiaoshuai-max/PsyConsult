@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "backend_full_suite_passed": 235,
+  "backend_final_targeted_passed": 24,
+  "frontend_chat_tests_passed": 9,
+  "frontend_typecheck_build": "passed",
+  "runtime_probes": {
+    "pass": 23,
+    "fail": 0
+  },
+  "active_release": "project-cf5cb3277205",
+  "active_release_changed": false,
+  "medical_content_acceptance": "partial; A08 remains open",
+  "remaining_medical_findings": [
+    "Stressor onset timing stated more confidently than supplied history supports",
+    "Other anxiety duration requirements overgeneralized",
+    "Optional coding preference not followed consistently"
+  ],
+  "report": "SYSTEM-FIXES-2026-10-21.md"
+}

@@ -1,0 +1,28 @@
+{
+  "total": 899,
+  "amendment_safety_actions": 399,
+  "clinical_amendments_approved": 0,
+  "replacement_drafts": 399,
+  "structured_drafts": 0,
+  "structured_items_applied": 399,
+  "remaining_structured_items": 0,
+  "scoped_clinical_records": 15,
+  "qualified_assertions": 268,
+  "remaining_batch_qualified_items": 316,
+  "remaining_batch_withdrawn_items": 33,
+  "rechecks": {
+    "scoped_replacement_available": 37,
+    "original_claim_not_established": 7,
+    "conflicting_evidence": 2,
+    "still_open": 9
+  },
+  "quarantined": 13,
+  "reasoning_eligible": 0,
+  "activation_ready": false,
+  "release_blockers": [
+    "399条已落实候选结构化编辑，0条仍待结构化；均未完成临床验收",
+    "55条补查均未恢复旧断言，13条继续隔离",
+    "临床专家审核尚未完成"
+  ],
+  "candidate_sha256": "4af3da23d395e6b25e760bbbc20a0246d614ab26f031c090c885806bfbd697da"
+}

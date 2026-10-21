@@ -1,9 +1,16 @@
 import asyncio
 import json
 import logging
+import pytest
 
 from app.infra.logging_config import configure_backend_logging
 from app.service import chat_service
+
+@pytest.fixture(autouse=True)
+def local_version(monkeypatch):
+    from core.graph import runtime_version
+    binding=runtime_version.KnowledgeBinding('kg_v2','kg_v2','logging-test',None)
+    monkeypatch.setattr(runtime_version,'resolve_binding',lambda:binding)
 
 
 def _parse_sse_chunk(chunk: str) -> dict:
@@ -31,7 +38,8 @@ def test_stream_chat_logs_short_query_timing(caplog):
     with caplog.at_level(logging.INFO, logger="clinical_cds.chat"):
         chunks = asyncio.run(collect_stream())
 
-    assert chunks[-1] == 'data: {"done": true}\n\n'
+    assert _parse_sse_chunk(chunks[-1])['done'] is True
+    assert _parse_sse_chunk(chunks[-1])['knowledge_version']=='kg_v2'
     assert _parse_sse_chunk(chunks[0])["status"] == "accepted"
     assert any(_parse_sse_chunk(chunk).get("content") == chat_service.SHORT_QUERY_RESPONSE for chunk in chunks)
     messages = [record.getMessage() for record in caplog.records]
@@ -46,6 +54,10 @@ def test_stream_chat_emits_accepted_status_first_for_cache_hit(monkeypatch):
     cached_answer = "cached clinical answer"
 
     class DummySemanticCache:
+        async def for_knowledge(self,identity):
+            from core.graph.runtime_version import answer_policy_fingerprint
+            assert identity=='runtime-v8-'+answer_policy_fingerprint()+':kg_v2:logging-test'
+            return self
         async def get_cache(self, query, user_id):
             return {
                 "answer": cached_answer,
@@ -66,8 +78,10 @@ def test_stream_chat_emits_accepted_status_first_for_cache_hit(monkeypatch):
 
     chunks = asyncio.run(collect_stream())
 
-    assert _parse_sse_chunk(chunks[0]) == {
+    first=_parse_sse_chunk(chunks[0])
+    assert {k:first[k] for k in ('status','content')} == {
         "status": "accepted",
         "content": "已接收病例，开始分析...",
     }
+    assert first['knowledge_version']=='kg_v2'
     assert any(_parse_sse_chunk(chunk).get("content") == cached_answer for chunk in chunks)

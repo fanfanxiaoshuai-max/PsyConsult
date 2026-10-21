@@ -1,0 +1,46 @@
+{
+  "version": "kg_v2",
+  "synthetic_only": true,
+  "counts": {
+    "entities": 230,
+    "relations": 406,
+    "sources": 673,
+    "source_checked_relations": 30,
+    "cn_records": 24,
+    "us_supplement_records": 6,
+    "digest": "835c722765b2ddd73f22eeced4851eed1e336504ce7a0f26e2b13d2596e4905d"
+  },
+  "drugs": {
+    "舍曲林": {
+      "owned_records": 6,
+      "incident_records": 6
+    },
+    "帕罗西汀": {
+      "owned_records": 6,
+      "incident_records": 6
+    },
+    "氟西汀": {
+      "owned_records": 6,
+      "incident_records": 6
+    },
+    "奥氮平": {
+      "owned_records": 6,
+      "incident_records": 6
+    },
+    "锂盐": {
+      "owned_records": 6,
+      "incident_records": 8
+    }
+  },
+  "http": {
+    "version": true,
+    "search": true,
+    "source_proof": true,
+    "default_checked_only": true,
+    "explicit_legacy_toggle": true,
+    "read_only": true
+  },
+  "idempotent": true,
+  "old_versions_preserved": true,
+  "unverified_absolute_contraindication_excluded": true
+}

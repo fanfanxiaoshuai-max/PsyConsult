@@ -1,0 +1,3534 @@
+[
+  {
+    "id": "06b62e6a29f4d2e83f762bd2",
+    "legacy_id": "抑郁障碍",
+    "label": "Disease",
+    "name": "抑郁障碍",
+    "properties": {
+      "icd_code": "F32/F33",
+      "full_name": "Major Depressive Disorder",
+      "exclusion_context": "伴精神病性症状时需鉴别",
+      "icd10": "F32/F33",
+      "name": "抑郁障碍"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/0",
+      "icd11_schizophrenia.json#/nodes/29",
+      "psychiatric_drugs.json#/nodes/14"
+    ],
+    "aliases": [
+      "抑郁障碍"
+    ]
+  },
+  {
+    "id": "557312cc1a8ce5f7bb725e2d",
+    "legacy_id": "精神分裂症",
+    "label": "Disease",
+    "name": "精神分裂症",
+    "properties": {
+      "ICD11_Code": "6A20",
+      "Duration_Requirement": "≥1 month",
+      "Minimum_Symptom_Count": "2",
+      "icd10": "F20",
+      "name": "精神分裂症"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/1",
+      "icd11_schizophrenia.json#/nodes/0",
+      "psychiatric_drugs.json#/nodes/21"
+    ],
+    "aliases": [
+      "精神分裂症"
+    ]
+  },
+  {
+    "id": "6689ab6f770334391953b60c",
+    "legacy_id": "双相障碍",
+    "label": "Disease",
+    "name": "双相障碍",
+    "properties": {
+      "exclusion_context": "伴精神病性症状时需鉴别"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/2",
+      "icd11_schizophrenia.json#/nodes/28"
+    ],
+    "aliases": [
+      "双相障碍"
+    ]
+  },
+  {
+    "id": "7b837688f1073be778fe46f7",
+    "legacy_id": "焦虑障碍",
+    "label": "Disease",
+    "name": "焦虑障碍",
+    "properties": {
+      "icd_code": "F40/F41",
+      "full_name": "Anxiety Disorders (e.g., GAD, Panic Disorder)"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/3"
+    ],
+    "aliases": [
+      "焦虑障碍"
+    ]
+  },
+  {
+    "id": "07a1fd94a62ac7259cb58f8e",
+    "legacy_id": "广泛性焦虑障碍",
+    "label": "Disease",
+    "name": "广泛性焦虑障碍",
+    "properties": {
+      "icd10": "F41.1"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/4",
+      "psychiatric_drugs.json#/nodes/19"
+    ],
+    "aliases": [
+      "广泛性焦虑障碍"
+    ]
+  },
+  {
+    "id": "d62c8e662ff2a3910597b3a3",
+    "legacy_id": "惊恐障碍",
+    "label": "Disease",
+    "name": "惊恐障碍",
+    "properties": {
+      "icd10": "F41.0"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/5",
+      "psychiatric_drugs.json#/nodes/16"
+    ],
+    "aliases": [
+      "惊恐障碍"
+    ]
+  },
+  {
+    "id": "55031919872fbf6c48172e67",
+    "legacy_id": "轻中度抑郁",
+    "label": "Subtype",
+    "name": "轻中度抑郁",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/6"
+    ],
+    "aliases": [
+      "轻中度抑郁"
+    ]
+  },
+  {
+    "id": "1c3145c3241406035842ad4c",
+    "legacy_id": "中重度抑郁",
+    "label": "Subtype",
+    "name": "中重度抑郁",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/7"
+    ],
+    "aliases": [
+      "中重度抑郁"
+    ]
+  },
+  {
+    "id": "5f2e39c14d5751492b95b4a8",
+    "legacy_id": "伴精神病性症状",
+    "label": "Subtype",
+    "name": "伴精神病性症状",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/8"
+    ],
+    "aliases": [
+      "伴精神病性症状"
+    ]
+  },
+  {
+    "id": "50f50ec8e4f4652fe1c6d57f",
+    "legacy_id": "难治性抑郁",
+    "label": "Subtype",
+    "name": "难治性抑郁",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/9"
+    ],
+    "aliases": [
+      "难治性抑郁"
+    ]
+  },
+  {
+    "id": "288aef35757361db129d2728",
+    "legacy_id": "躁狂发作",
+    "label": "Phase",
+    "name": "躁狂发作",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/10"
+    ],
+    "aliases": [
+      "躁狂发作"
+    ]
+  },
+  {
+    "id": "f7a2e37680b73cfa8f705638",
+    "legacy_id": "抑郁发作（双相抑郁）",
+    "label": "Phase",
+    "name": "抑郁发作（双相抑郁）",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/11"
+    ],
+    "aliases": [
+      "抑郁发作（双相抑郁）"
+    ]
+  },
+  {
+    "id": "4bf380949eddb94cce781aed",
+    "legacy_id": "维持治疗",
+    "label": "Phase",
+    "name": "维持治疗",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/12"
+    ],
+    "aliases": [
+      "维持治疗"
+    ]
+  },
+  {
+    "id": "a809570dab8e6d7f95bc0450",
+    "legacy_id": "急性期治疗",
+    "label": "Phase",
+    "name": "急性期治疗",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/13"
+    ],
+    "aliases": [
+      "急性期治疗"
+    ]
+  },
+  {
+    "id": "414a3332eef9a7659be9e0d8",
+    "legacy_id": "维持期治疗",
+    "label": "Phase",
+    "name": "维持期治疗",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/14"
+    ],
+    "aliases": [
+      "维持期治疗"
+    ]
+  },
+  {
+    "id": "4d827297911d3bc97349766d",
+    "legacy_id": "SSRI",
+    "label": "DrugClass",
+    "name": "SSRI",
+    "properties": {
+      "name": "选择性5-羟色胺再摄取抑制剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/15",
+      "psychiatric_drugs.json#/nodes/9"
+    ],
+    "aliases": [
+      "SSRI",
+      "选择性5-羟色胺再摄取抑制剂"
+    ]
+  },
+  {
+    "id": "35d4b8ca2bfb16b83b91d5b9",
+    "legacy_id": "SNRI",
+    "label": "DrugClass",
+    "name": "SNRI",
+    "properties": {
+      "name": "5-羟色胺和去甲肾上腺素再摄取抑制剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/16",
+      "psychiatric_drugs.json#/nodes/10"
+    ],
+    "aliases": [
+      "5-羟色胺和去甲肾上腺素再摄取抑制剂",
+      "SNRI"
+    ]
+  },
+  {
+    "id": "17961902442705345a65f4ee",
+    "legacy_id": "非典型抗精神病药",
+    "label": "DrugClass",
+    "name": "非典型抗精神病药",
+    "properties": {
+      "name": "非典型抗精神病药"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/17",
+      "psychiatric_drugs.json#/nodes/11"
+    ],
+    "aliases": [
+      "非典型抗精神病药"
+    ]
+  },
+  {
+    "id": "1b21cab1d1a3143e887f40d3",
+    "legacy_id": "心境稳定剂",
+    "label": "DrugClass",
+    "name": "心境稳定剂",
+    "properties": {
+      "name": "心境稳定剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/18",
+      "psychiatric_drugs.json#/nodes/12"
+    ],
+    "aliases": [
+      "心境稳定剂"
+    ]
+  },
+  {
+    "id": "8e2fc4181e3fcb168217fdcd",
+    "legacy_id": "苯二氮卓类药物",
+    "label": "DrugClass",
+    "name": "苯二氮卓类药物",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/19"
+    ],
+    "aliases": [
+      "苯二氮卓类药物"
+    ]
+  },
+  {
+    "id": "fb65c44222644e4f91b97db4",
+    "legacy_id": "长效针剂",
+    "label": "DrugFormulation",
+    "name": "长效针剂",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/20"
+    ],
+    "aliases": [
+      "长效针剂"
+    ]
+  },
+  {
+    "id": "24c5810487b4d9467ba5297d",
+    "legacy_id": "CBT",
+    "label": "Treatment",
+    "name": "CBT",
+    "properties": {
+      "full_name": "认知行为治疗",
+      "acronym": "CBT",
+      "role_in_OCD": "Adjunct to SSRI in partial responders"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/21"
+    ],
+    "aliases": [
+      "CBT"
+    ]
+  },
+  {
+    "id": "2a1bcb899c2e99f63b782b2f",
+    "legacy_id": "IPT",
+    "label": "Treatment",
+    "name": "IPT",
+    "properties": {
+      "full_name": "人际心理治疗"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/22"
+    ],
+    "aliases": [
+      "IPT"
+    ]
+  },
+  {
+    "id": "97c971cd793751d2f3d73b3e",
+    "legacy_id": "ECT",
+    "label": "Treatment",
+    "name": "ECT",
+    "properties": {
+      "full_name": "电抽搐治疗"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/23"
+    ],
+    "aliases": [
+      "ECT"
+    ]
+  },
+  {
+    "id": "5ef75109906b16d77f580853",
+    "legacy_id": "放松训练",
+    "label": "Treatment",
+    "name": "放松训练",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/24"
+    ],
+    "aliases": [
+      "放松训练"
+    ]
+  },
+  {
+    "id": "d47e1944f7c73b1a90658703",
+    "legacy_id": "正念疗法",
+    "label": "Treatment",
+    "name": "正念疗法",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/25"
+    ],
+    "aliases": [
+      "正念疗法"
+    ]
+  },
+  {
+    "id": "14bcb6c7b85b820b2df94154",
+    "legacy_id": "换药",
+    "label": "TreatmentStrategy",
+    "name": "换药",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/26"
+    ],
+    "aliases": [
+      "换药"
+    ]
+  },
+  {
+    "id": "e6e0b194c1935beb7b92eb8e",
+    "legacy_id": "增效",
+    "label": "TreatmentStrategy",
+    "name": "增效",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/27"
+    ],
+    "aliases": [
+      "增效"
+    ]
+  },
+  {
+    "id": "04f8787e935c61048f6af186",
+    "legacy_id": "舍曲林",
+    "label": "Drug",
+    "name": "舍曲林",
+    "properties": {
+      "class": "SSRI",
+      "generic_name": "Sertraline",
+      "is_first_line_for_OCD": "true",
+      "name": "舍曲林",
+      "category": "SSRI",
+      "dose_start": "50mg/d",
+      "dose_max": "200mg/d",
+      "dose_range": "100-200mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/28",
+      "psychiatric_drugs.json#/nodes/0",
+      "evidence:S01",
+      "evidence:S02",
+      "evidence:S03",
+      "evidence:S04",
+      "evidence:S05",
+      "evidence:S06"
+    ],
+    "aliases": [
+      "Sertraline",
+      "舍曲林"
+    ],
+    "source_checked_records": 6
+  },
+  {
+    "id": "d0edfc4d2a910e7878c03d38",
+    "legacy_id": "帕罗西汀",
+    "label": "Drug",
+    "name": "帕罗西汀",
+    "properties": {
+      "class": "SSRI",
+      "generic_name": "Paroxetine",
+      "is_first_line_for_OCD": "true",
+      "name": "帕罗西汀",
+      "category": "SSRI",
+      "dose_start": "20mg/d",
+      "dose_max": "50mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/29",
+      "psychiatric_drugs.json#/nodes/1",
+      "evidence:P01",
+      "evidence:P02",
+      "evidence:P03",
+      "evidence:P04",
+      "evidence:P05",
+      "evidence:P06"
+    ],
+    "aliases": [
+      "Paroxetine",
+      "帕罗西汀"
+    ],
+    "source_checked_records": 6
+  },
+  {
+    "id": "fcc7bf9f26197edd8426900f",
+    "legacy_id": "氟西汀",
+    "label": "Drug",
+    "name": "氟西汀",
+    "properties": {
+      "class": "SSRI",
+      "generic_name": "Fluoxetine",
+      "is_first_line_for_OCD": "true",
+      "name": "氟西汀",
+      "category": "SSRI",
+      "dose_start": "20mg/d",
+      "dose_max": "80mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/30",
+      "psychiatric_drugs.json#/nodes/2",
+      "evidence:F01",
+      "evidence:F02",
+      "evidence:F03",
+      "evidence:F04",
+      "evidence:F05",
+      "evidence:F06"
+    ],
+    "aliases": [
+      "Fluoxetine",
+      "氟西汀"
+    ],
+    "source_checked_records": 6
+  },
+  {
+    "id": "5d3c0aed6313740d007d5c33",
+    "legacy_id": "文拉法辛",
+    "label": "Drug",
+    "name": "文拉法辛",
+    "properties": {
+      "class": "SNRI",
+      "name": "文拉法辛",
+      "generic_name": "Venlafaxine",
+      "category": "SNRI",
+      "dose_start": "75mg/d",
+      "dose_max": "225mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/31",
+      "psychiatric_drugs.json#/nodes/3"
+    ],
+    "aliases": [
+      "Venlafaxine",
+      "文拉法辛"
+    ]
+  },
+  {
+    "id": "b54615f03488c89728b0568e",
+    "legacy_id": "度洛西汀",
+    "label": "Drug",
+    "name": "度洛西汀",
+    "properties": {
+      "class": "SNRI",
+      "name": "度洛西汀",
+      "generic_name": "Duloxetine",
+      "category": "SNRI",
+      "dose_start": "30-60mg/d",
+      "dose_max": "120mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/32",
+      "psychiatric_drugs.json#/nodes/4"
+    ],
+    "aliases": [
+      "Duloxetine",
+      "度洛西汀"
+    ]
+  },
+  {
+    "id": "fbe4ed72827477d0ae8cfb0f",
+    "legacy_id": "奥氮平",
+    "label": "Drug",
+    "name": "奥氮平",
+    "properties": {
+      "class": "非典型抗精神病药",
+      "name": "奥氮平",
+      "generic_name": "Olanzapine",
+      "category": "非典型抗精神病药",
+      "dose_start": "5-10mg/d",
+      "dose_max": "20mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/33",
+      "psychiatric_drugs.json#/nodes/5",
+      "evidence:O01",
+      "evidence:O02",
+      "evidence:O03",
+      "evidence:O04",
+      "evidence:O05",
+      "evidence:O06"
+    ],
+    "aliases": [
+      "Olanzapine",
+      "奥氮平"
+    ],
+    "source_checked_records": 6
+  },
+  {
+    "id": "5fb927be024f43b102bdd1d5",
+    "legacy_id": "阿立哌唑",
+    "label": "Drug",
+    "name": "阿立哌唑",
+    "properties": {
+      "class": "非典型抗精神病药",
+      "generic_name": "Aripiprazole",
+      "use_in_OCD": "Augmentation agent for SSRI-resistant OCD",
+      "name": "阿立哌唑"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/34",
+      "psychiatric_drugs.json#/nodes/87"
+    ],
+    "aliases": [
+      "Aripiprazole",
+      "阿立哌唑"
+    ]
+  },
+  {
+    "id": "73140311e1638f7c044e7308",
+    "legacy_id": "利培酮",
+    "label": "Drug",
+    "name": "利培酮",
+    "properties": {
+      "class": "非典型抗精神病药",
+      "generic_name": "Risperidone",
+      "use_in_OCD": "Augmentation agent for SSRI-resistant OCD",
+      "name": "利培酮",
+      "category": "非典型抗精神病药",
+      "dose_start": "1-2mg/d",
+      "dose_max": "6mg/d"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/35",
+      "psychiatric_drugs.json#/nodes/6"
+    ],
+    "aliases": [
+      "Risperidone",
+      "利培酮"
+    ]
+  },
+  {
+    "id": "b417c2371558fc84b9c2e27c",
+    "legacy_id": "喹硫平",
+    "label": "Drug",
+    "name": "喹硫平",
+    "properties": {
+      "class": "非典型抗精神病药",
+      "name": "喹硫平",
+      "generic_name": "Quetiapine"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/36",
+      "psychiatric_drugs.json#/nodes/80"
+    ],
+    "aliases": [
+      "Quetiapine",
+      "喹硫平"
+    ]
+  },
+  {
+    "id": "539e69734a4c56d9e856cba5",
+    "legacy_id": "齐拉西酮",
+    "label": "Drug",
+    "name": "齐拉西酮",
+    "properties": {
+      "class": "非典型抗精神病药"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/37"
+    ],
+    "aliases": [
+      "齐拉西酮"
+    ]
+  },
+  {
+    "id": "72d56d56d60120f29a185b86",
+    "legacy_id": "锂盐",
+    "label": "Drug",
+    "name": "锂盐",
+    "properties": {
+      "class": "心境稳定剂",
+      "name": "锂盐",
+      "generic_name": "Lithium",
+      "category": "心境稳定剂",
+      "dose_start": "300-600mg/d",
+      "therapeutic_range": "0.6-1.2 mmol/L"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/38",
+      "psychiatric_drugs.json#/nodes/7",
+      "evidence:S03",
+      "evidence:F04",
+      "evidence:L01",
+      "evidence:L02",
+      "evidence:L03",
+      "evidence:L04",
+      "evidence:L05",
+      "evidence:L06"
+    ],
+    "aliases": [
+      "Lithium",
+      "锂盐"
+    ],
+    "source_checked_records": 8
+  },
+  {
+    "id": "827862c7895134e2e6cbd42c",
+    "legacy_id": "丙戊酸钠",
+    "label": "Drug",
+    "name": "丙戊酸钠",
+    "properties": {
+      "class": "心境稳定剂",
+      "name": "丙戊酸钠",
+      "generic_name": "Valproate",
+      "category": "心境稳定剂/抗癫痫药",
+      "dose_start": "500-750mg/d",
+      "therapeutic_range": "50-100 μg/mL"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/39",
+      "psychiatric_drugs.json#/nodes/8"
+    ],
+    "aliases": [
+      "Valproate",
+      "丙戊酸钠"
+    ]
+  },
+  {
+    "id": "92d5947708a272d0beac0615",
+    "legacy_id": "拉莫三嗪",
+    "label": "Drug",
+    "name": "拉莫三嗪",
+    "properties": {
+      "class": "心境稳定剂",
+      "generic_name": "Lamotrigine",
+      "name": "拉莫三嗪"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/40",
+      "psychiatric_drugs.json#/nodes/64"
+    ],
+    "aliases": [
+      "Lamotrigine",
+      "拉莫三嗪"
+    ]
+  },
+  {
+    "id": "231245a74f4d18dcc61dae25",
+    "legacy_id": "阿普唑仑",
+    "label": "Drug",
+    "name": "阿普唑仑",
+    "properties": {
+      "class": "苯二氮卓类药物"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/41"
+    ],
+    "aliases": [
+      "阿普唑仑"
+    ]
+  },
+  {
+    "id": "fa9c130254295828f271eb43",
+    "legacy_id": "劳拉西泮",
+    "label": "Drug",
+    "name": "劳拉西泮",
+    "properties": {
+      "class": "苯二氮卓类药物"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/42"
+    ],
+    "aliases": [
+      "劳拉西泮"
+    ]
+  },
+  {
+    "id": "cead9d4e068969c0bcbb1b8d",
+    "legacy_id": "地西泮",
+    "label": "Drug",
+    "name": "地西泮",
+    "properties": {
+      "class": "苯二氮卓类药物"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/43"
+    ],
+    "aliases": [
+      "地西泮"
+    ]
+  },
+  {
+    "id": "0233471087789bd1c8061c1b",
+    "legacy_id": "帕利哌酮棕榈酸酯",
+    "label": "Drug",
+    "name": "帕利哌酮棕榈酸酯",
+    "properties": {
+      "formulation": "长效针剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/44"
+    ],
+    "aliases": [
+      "帕利哌酮棕榈酸酯"
+    ]
+  },
+  {
+    "id": "5dafe72a5638b57bf7b6c0f5",
+    "legacy_id": "利培酮微球",
+    "label": "Drug",
+    "name": "利培酮微球",
+    "properties": {
+      "formulation": "长效针剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/45"
+    ],
+    "aliases": [
+      "利培酮微球"
+    ]
+  },
+  {
+    "id": "236e70b30a7b422016b148cc",
+    "legacy_id": "奥氮平长效制剂",
+    "label": "Drug",
+    "name": "奥氮平长效制剂",
+    "properties": {
+      "formulation": "长效针剂"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/46"
+    ],
+    "aliases": [
+      "奥氮平长效制剂"
+    ]
+  },
+  {
+    "id": "98e2994f321ccfb183449920",
+    "legacy_id": "普瑞巴林",
+    "label": "Drug",
+    "name": "普瑞巴林",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/47"
+    ],
+    "aliases": [
+      "普瑞巴林"
+    ]
+  },
+  {
+    "id": "0bcb3364e7952d40547b04f2",
+    "legacy_id": "丁螺环酮",
+    "label": "Drug",
+    "name": "丁螺环酮",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/48"
+    ],
+    "aliases": [
+      "丁螺环酮"
+    ]
+  },
+  {
+    "id": "261ade81e504fe49fcbdad9a",
+    "legacy_id": "氯米帕明",
+    "label": "Drug",
+    "name": "氯米帕明",
+    "properties": {
+      "class": "Tricyclic Antidepressant (TCA)",
+      "generic_name": "Clomipramine",
+      "is_second_line_for_OCD": "true",
+      "has_high_efficacy_in_OCD": "true",
+      "has_high_side_effect_burden": "true"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/49"
+    ],
+    "aliases": [
+      "Clomipramine",
+      "氯米帕明"
+    ]
+  },
+  {
+    "id": "6776fcf352fe12c2d0e50aab",
+    "legacy_id": "0.6-1.2 mmol/L",
+    "label": "TherapeuticRange",
+    "name": "0.6-1.2 mmol/L",
+    "properties": {
+      "parameter": "血锂浓度"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/50"
+    ],
+    "aliases": [
+      "0.6-1.2 mmol/L"
+    ]
+  },
+  {
+    "id": "9e0382d028daee7e2641b2a4",
+    "legacy_id": "甲状腺功能",
+    "label": "MonitoringParameter",
+    "name": "甲状腺功能",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/51"
+    ],
+    "aliases": [
+      "甲状腺功能"
+    ]
+  },
+  {
+    "id": "d278e5df26f426707524c9f3",
+    "legacy_id": "肾功能",
+    "label": "MonitoringParameter",
+    "name": "肾功能",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/52"
+    ],
+    "aliases": [
+      "肾功能"
+    ]
+  },
+  {
+    "id": "4aee1ca4ec39b8f0f2dcfee7",
+    "legacy_id": "强迫症",
+    "label": "Disease",
+    "name": "强迫症",
+    "properties": {
+      "icd_code": "F42",
+      "full_name": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+      "icd10": "F42",
+      "name": "强迫症"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/53",
+      "psychiatric_drugs.json#/nodes/15"
+    ],
+    "aliases": [
+      "强迫症"
+    ]
+  },
+  {
+    "id": "a09cd5c8486bd88b62edd53a",
+    "legacy_id": "减少强迫思维和强迫行为的时间，改善社会功能",
+    "label": "TreatmentGoal",
+    "name": "减少强迫思维和强迫行为的时间，改善社会功能",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/54"
+    ],
+    "aliases": [
+      "减少强迫思维和强迫行为的时间，改善社会功能"
+    ]
+  },
+  {
+    "id": "1b22b37d7777d12a73a5f468",
+    "legacy_id": "12 周以上评估疗效",
+    "label": "TreatmentDuration",
+    "name": "12 周以上评估疗效",
+    "properties": {
+      "minimum_duration_weeks": "12"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/55"
+    ],
+    "aliases": [
+      "12 周以上评估疗效"
+    ]
+  },
+  {
+    "id": "d605b888f7183a35139b1a3d",
+    "legacy_id": "维持期 ≥1-2 年",
+    "label": "MaintenanceTherapyDuration",
+    "name": "维持期 ≥1-2 年",
+    "properties": {
+      "duration_range_years": "1-2"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/56"
+    ],
+    "aliases": [
+      "维持期 ≥1-2 年"
+    ]
+  },
+  {
+    "id": "ca6f4ce9f70aeb40e51f5b8f",
+    "legacy_id": "氟伏沙明",
+    "label": "Drug",
+    "name": "氟伏沙明",
+    "properties": {
+      "class": "SSRI",
+      "generic_name": "Fluvoxamine",
+      "is_first_line_for_OCD": "true",
+      "name": "氟伏沙明"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/57",
+      "psychiatric_drugs.json#/nodes/100",
+      "evidence:O01"
+    ],
+    "aliases": [
+      "Fluvoxamine",
+      "氟伏沙明"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "d6ba5704d8f5910e9c7b9040",
+    "legacy_id": "150-200mg/d",
+    "label": "DoseRange",
+    "name": "150-200mg/d",
+    "properties": {
+      "unit": "mg/d",
+      "range": "150-200"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/58"
+    ],
+    "aliases": [
+      "150-200mg/d"
+    ]
+  },
+  {
+    "id": "6b13520734575a801a1a6285",
+    "legacy_id": "200mg/d",
+    "label": "MaxDose",
+    "name": "200mg/d",
+    "properties": {
+      "unit": "mg/d",
+      "value": "200"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/59"
+    ],
+    "aliases": [
+      "200mg/d"
+    ]
+  },
+  {
+    "id": "da424821bf328794aa43279d",
+    "legacy_id": "40-80mg/d",
+    "label": "DoseRange",
+    "name": "40-80mg/d",
+    "properties": {
+      "unit": "mg/d",
+      "range": "40-80"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/60"
+    ],
+    "aliases": [
+      "40-80mg/d"
+    ]
+  },
+  {
+    "id": "dc3d9e49959aa4c8f809a8ff",
+    "legacy_id": "150-300mg/d",
+    "label": "DoseRange",
+    "name": "150-300mg/d",
+    "properties": {
+      "unit": "mg/d",
+      "range": "150-300"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/61"
+    ],
+    "aliases": [
+      "150-300mg/d"
+    ]
+  },
+  {
+    "id": "28f8cecccbbc0cbbbdddc95d",
+    "legacy_id": "暴露与反应预防 (ERP)",
+    "label": "Psychotherapy",
+    "name": "暴露与反应预防 (ERP)",
+    "properties": {
+      "acronym": "ERP",
+      "full_name": "Exposure and Response Prevention",
+      "evidence_level": "First-line for OCD"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/62"
+    ],
+    "aliases": [
+      "暴露与反应预防 (ERP)"
+    ]
+  },
+  {
+    "id": "72912c08ccb6fa05cbad43bf",
+    "legacy_id": "药物治疗",
+    "label": "TreatmentModality",
+    "name": "药物治疗",
+    "properties": {
+      "category": "Pharmacotherapy"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/63"
+    ],
+    "aliases": [
+      "药物治疗"
+    ]
+  },
+  {
+    "id": "a8e4a7b38710a4af70fdece9",
+    "legacy_id": "三环类抗抑郁药",
+    "label": "DrugClass",
+    "name": "三环类抗抑郁药",
+    "properties": {
+      "acronym": "TCA",
+      "name": "三环类抗抑郁药"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/64",
+      "psychiatric_drugs.json#/nodes/55"
+    ],
+    "aliases": [
+      "三环类抗抑郁药"
+    ]
+  },
+  {
+    "id": "ac2d2d73a0b8e07aeb818f00",
+    "legacy_id": "OCD 疗效强但副作用多",
+    "label": "ClinicalProfile",
+    "name": "OCD 疗效强但副作用多",
+    "properties": {},
+    "source_ids": [
+      "china_guidelines.json#/nodes/65"
+    ],
+    "aliases": [
+      "OCD 疗效强但副作用多"
+    ]
+  },
+  {
+    "id": "e189d4546e4bee6eb27181e2",
+    "legacy_id": "深部脑刺激 (DBS)",
+    "label": "NeuromodulationTherapy",
+    "name": "深部脑刺激 (DBS)",
+    "properties": {
+      "acronym": "DBS",
+      "full_name": "Deep Brain Stimulation",
+      "indication": "Refractory OCD"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/66"
+    ],
+    "aliases": [
+      "深部脑刺激 (DBS)"
+    ]
+  },
+  {
+    "id": "c9dad2f8cc1b4eb0d76440aa",
+    "legacy_id": "重复经颅磁刺激 (rTMS)",
+    "label": "NeuromodulationTherapy",
+    "name": "重复经颅磁刺激 (rTMS)",
+    "properties": {
+      "acronym": "rTMS",
+      "full_name": "repetitive Transcranial Magnetic Stimulation",
+      "indication": "Refractory OCD"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/67"
+    ],
+    "aliases": [
+      "重复经颅磁刺激 (rTMS)"
+    ]
+  },
+  {
+    "id": "de5b21f14cb779c7ca4d00d7",
+    "legacy_id": "自知力差",
+    "label": "ClinicalFeature",
+    "name": "自知力差",
+    "properties": {
+      "domain": "Insight"
+    },
+    "source_ids": [
+      "china_guidelines.json#/nodes/68"
+    ],
+    "aliases": [
+      "自知力差"
+    ]
+  },
+  {
+    "id": "cdf9188e4dce59321a9a8311",
+    "legacy_id": "抑郁发作",
+    "label": "Disease",
+    "name": "抑郁发作",
+    "properties": {
+      "ICD-11_code": "6A70",
+      "definition": "单次抑郁发作，需满足核心症状和附加症状标准"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/0"
+    ],
+    "aliases": [
+      "抑郁发作"
+    ]
+  },
+  {
+    "id": "6ae8f17d5d2ac000e74f31ae",
+    "legacy_id": "抑郁心境",
+    "label": "Symptom",
+    "name": "抑郁心境",
+    "properties": {
+      "duration_requirement": "几乎每天大部分时间，持续≥2周",
+      "assessment_method": "主观报告或他人观察"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/1"
+    ],
+    "aliases": [
+      "抑郁心境"
+    ]
+  },
+  {
+    "id": "6bc48d97fee28697e2c09065",
+    "legacy_id": "兴趣或快感减退",
+    "label": "Symptom",
+    "name": "兴趣或快感减退",
+    "properties": {
+      "duration_requirement": "几乎每天，对几乎所有活动"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/2"
+    ],
+    "aliases": [
+      "兴趣或快感减退"
+    ]
+  },
+  {
+    "id": "f7f3420c7ff85ad8e534629d",
+    "legacy_id": "精力减退或疲乏",
+    "label": "Symptom",
+    "name": "精力减退或疲乏",
+    "properties": {
+      "duration_requirement": "几乎每天"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/3"
+    ],
+    "aliases": [
+      "精力减退或疲乏"
+    ]
+  },
+  {
+    "id": "34fa190bee7f387da83cde8f",
+    "legacy_id": "注意力减退或犹豫不决",
+    "label": "Symptom",
+    "name": "注意力减退或犹豫不决",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/4"
+    ],
+    "aliases": [
+      "注意力减退或犹豫不决"
+    ]
+  },
+  {
+    "id": "51f63a6cefce466c80031b82",
+    "legacy_id": "自我评价低或自责自罪",
+    "label": "Symptom",
+    "name": "自我评价低或自责自罪",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/5"
+    ],
+    "aliases": [
+      "自我评价低或自责自罪"
+    ]
+  },
+  {
+    "id": "930daa867abec00366f6caff",
+    "legacy_id": "对未来的无望感",
+    "label": "Symptom",
+    "name": "对未来的无望感",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/6"
+    ],
+    "aliases": [
+      "对未来的无望感"
+    ]
+  },
+  {
+    "id": "42b068358fb31a69fc37b490",
+    "legacy_id": "睡眠障碍",
+    "label": "Symptom",
+    "name": "睡眠障碍",
+    "properties": {
+      "subtypes": "失眠或嗜睡"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/7"
+    ],
+    "aliases": [
+      "睡眠障碍"
+    ]
+  },
+  {
+    "id": "945cdee17594b650716a5e40",
+    "legacy_id": "食欲改变",
+    "label": "Symptom",
+    "name": "食欲改变",
+    "properties": {
+      "associated_change": "体重变化（1月内>5%）"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/8"
+    ],
+    "aliases": [
+      "食欲改变"
+    ]
+  },
+  {
+    "id": "d7cf287c4a12d237d8f64a63",
+    "legacy_id": "精神运动性激越或迟滞",
+    "label": "Symptom",
+    "name": "精神运动性激越或迟滞",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/9"
+    ],
+    "aliases": [
+      "精神运动性激越或迟滞"
+    ]
+  },
+  {
+    "id": "25500cf7cb98d6fa2d48d381",
+    "legacy_id": "自杀观念或行为",
+    "label": "Symptom",
+    "name": "自杀观念或行为",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/10"
+    ],
+    "aliases": [
+      "自杀观念或行为"
+    ]
+  },
+  {
+    "id": "48538199759d05485b4a23be",
+    "legacy_id": "轻度抑郁发作",
+    "label": "Severity",
+    "name": "轻度抑郁发作",
+    "properties": {
+      "core_symptoms": "≥2条",
+      "additional_symptoms": "≥2条",
+      "functional_impact": "轻度受损"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/11"
+    ],
+    "aliases": [
+      "轻度抑郁发作"
+    ]
+  },
+  {
+    "id": "d7f6125c8217fe7ba4a5e2ec",
+    "legacy_id": "中度抑郁发作",
+    "label": "Severity",
+    "name": "中度抑郁发作",
+    "properties": {
+      "core_symptoms": "≥2条",
+      "additional_symptoms": "3–4条",
+      "functional_impact": "中度受损"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/12"
+    ],
+    "aliases": [
+      "中度抑郁发作"
+    ]
+  },
+  {
+    "id": "4c93659a14284dc4890a7d13",
+    "legacy_id": "重度抑郁发作",
+    "label": "Severity",
+    "name": "重度抑郁发作",
+    "properties": {
+      "core_symptoms": "3条",
+      "additional_symptoms": "≥5条",
+      "functional_impact": "严重受损",
+      "psychotic_features": "可伴"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/13"
+    ],
+    "aliases": [
+      "重度抑郁发作"
+    ]
+  },
+  {
+    "id": "c476858b9e45de3820b3878b",
+    "legacy_id": "核心症状≥2条",
+    "label": "Criterion",
+    "name": "核心症状≥2条",
+    "properties": {
+      "description": "抑郁心境、兴趣/快感减退、精力减退中至少2项"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/14"
+    ],
+    "aliases": [
+      "核心症状≥2条"
+    ]
+  },
+  {
+    "id": "c0870031c547dfd9d781a8dd",
+    "legacy_id": "附加症状≥2条",
+    "label": "Criterion",
+    "name": "附加症状≥2条",
+    "properties": {
+      "description": "从第4–10项症状中满足相应数量"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/15"
+    ],
+    "aliases": [
+      "附加症状≥2条"
+    ]
+  },
+  {
+    "id": "052fe8ab323a553e09302f2a",
+    "legacy_id": "附加症状≥3-4条",
+    "label": "Criterion",
+    "name": "附加症状≥3-4条",
+    "properties": {
+      "description": "从第4–10项症状中满足3–4项"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/16"
+    ],
+    "aliases": [
+      "附加症状≥3-4条"
+    ]
+  },
+  {
+    "id": "1412bc96f3242b8de8a08739",
+    "legacy_id": "附加症状≥5条",
+    "label": "Criterion",
+    "name": "附加症状≥5条",
+    "properties": {
+      "description": "从第4–10项症状中满足≥5项"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/17"
+    ],
+    "aliases": [
+      "附加症状≥5条"
+    ]
+  },
+  {
+    "id": "dc10e80ec8a5fcbf559c883e",
+    "legacy_id": "功能轻度受损",
+    "label": "FunctionalImpact",
+    "name": "功能轻度受损",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/18"
+    ],
+    "aliases": [
+      "功能轻度受损"
+    ]
+  },
+  {
+    "id": "d0d1259b10ccf299876a2741",
+    "legacy_id": "功能中度受损",
+    "label": "FunctionalImpact",
+    "name": "功能中度受损",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/19"
+    ],
+    "aliases": [
+      "功能中度受损"
+    ]
+  },
+  {
+    "id": "41fa547024cf5730df10d763",
+    "legacy_id": "功能严重受损",
+    "label": "FunctionalImpact",
+    "name": "功能严重受损",
+    "properties": {},
+    "source_ids": [
+      "icd11_depression.json#/nodes/20"
+    ],
+    "aliases": [
+      "功能严重受损"
+    ]
+  },
+  {
+    "id": "bc20194aa9386ec7b2ae1710",
+    "legacy_id": "精神病性症状",
+    "label": "Symptom",
+    "name": "精神病性症状",
+    "properties": {
+      "note": "仅见于重度抑郁发作"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/21"
+    ],
+    "aliases": [
+      "精神病性症状"
+    ]
+  },
+  {
+    "id": "c96a99a22a3c400fae67cf40",
+    "legacy_id": "物质使用",
+    "label": "ExclusionFactor",
+    "name": "物质使用",
+    "properties": {
+      "explanation": "抑郁症状不能归因于物质使用所致"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/22"
+    ],
+    "aliases": [
+      "物质使用"
+    ]
+  },
+  {
+    "id": "80c0a41b505f32fbe589d7c3",
+    "legacy_id": "躯体疾病",
+    "label": "ExclusionFactor",
+    "name": "躯体疾病",
+    "properties": {
+      "explanation": "抑郁症状不能由躯体疾病直接引起"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/23"
+    ],
+    "aliases": [
+      "躯体疾病"
+    ]
+  },
+  {
+    "id": "8466f5cda072d0831e1cdb37",
+    "legacy_id": "双相障碍",
+    "label": "DifferentialDiagnosis",
+    "name": "双相障碍",
+    "properties": {
+      "explanation": "需排除既往或当前存在躁狂/轻躁狂发作"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/24"
+    ],
+    "aliases": [
+      "双相障碍"
+    ]
+  },
+  {
+    "id": "07b4172ccf37edd708a1c13e",
+    "legacy_id": "精神分裂症",
+    "label": "DifferentialDiagnosis",
+    "name": "精神分裂症",
+    "properties": {
+      "explanation": "抑郁症状不能更好解释为精神分裂症等原发性精神病性障碍"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/25"
+    ],
+    "aliases": [
+      "精神分裂症"
+    ]
+  },
+  {
+    "id": "f24ee52a7efbff65c7339fd8",
+    "legacy_id": "躁狂发作",
+    "label": "Episode",
+    "name": "躁狂发作",
+    "properties": {
+      "ICD-11_code": "6A60"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/26"
+    ],
+    "aliases": [
+      "躁狂发作"
+    ]
+  },
+  {
+    "id": "0a16bf13b44d8f0c6a6dbfe1",
+    "legacy_id": "轻躁狂发作",
+    "label": "Episode",
+    "name": "轻躁狂发作",
+    "properties": {
+      "ICD-11_code": "6A61"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/27"
+    ],
+    "aliases": [
+      "轻躁狂发作"
+    ]
+  },
+  {
+    "id": "bcd340a019c2203a6c30c298",
+    "legacy_id": "复发性抑郁障碍",
+    "label": "Disease",
+    "name": "复发性抑郁障碍",
+    "properties": {
+      "ICD-11_code": "6A71",
+      "definition": "至少2次符合6A70标准的抑郁发作，间歇期≥2个月无明显症状"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/28"
+    ],
+    "aliases": [
+      "复发性抑郁障碍"
+    ]
+  },
+  {
+    "id": "207854fca6a0ef6dd68f826a",
+    "legacy_id": "间歇期≥2个月无明显症状",
+    "label": "Criterion",
+    "name": "间歇期≥2个月无明显症状",
+    "properties": {
+      "description": "两次抑郁发作之间无显著抑郁症状持续≥2个月"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/29"
+    ],
+    "aliases": [
+      "间歇期≥2个月无明显症状"
+    ]
+  },
+  {
+    "id": "8baeef1194c213900abd08f3",
+    "legacy_id": "恶劣心境",
+    "label": "Disease",
+    "name": "恶劣心境",
+    "properties": {
+      "ICD-11_code": "6A73",
+      "definition": "慢性抑郁心境持续≥2年，症状未达抑郁发作标准但具有临床意义"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/30"
+    ],
+    "aliases": [
+      "恶劣心境"
+    ]
+  },
+  {
+    "id": "cf373db89ae8abfa0e86bc96",
+    "legacy_id": "持续时间≥2年",
+    "label": "Criterion",
+    "name": "持续时间≥2年",
+    "properties": {
+      "description": "抑郁心境几乎每天存在，持续至少2年"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/31"
+    ],
+    "aliases": [
+      "持续时间≥2年"
+    ]
+  },
+  {
+    "id": "a3f69a300b71c4a3bcdfac2c",
+    "legacy_id": "症状较轻但慢性化",
+    "label": "Characteristic",
+    "name": "症状较轻但慢性化",
+    "properties": {
+      "note": "不符合单次抑郁发作的严重度标准，但病程迁延、影响功能"
+    },
+    "source_ids": [
+      "icd11_depression.json#/nodes/32"
+    ],
+    "aliases": [
+      "症状较轻但慢性化"
+    ]
+  },
+  {
+    "id": "95a736f858113c5a764c3f4c",
+    "legacy_id": "持续性幻觉",
+    "label": "Symptom",
+    "name": "持续性幻觉",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/1"
+    ],
+    "aliases": [
+      "持续性幻觉"
+    ]
+  },
+  {
+    "id": "9d94ee09431f90fe8dc5518c",
+    "legacy_id": "持续性妄想",
+    "label": "Symptom",
+    "name": "持续性妄想",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/2"
+    ],
+    "aliases": [
+      "持续性妄想"
+    ]
+  },
+  {
+    "id": "d98039d2a44dad6a61f1f42d",
+    "legacy_id": "思维紊乱",
+    "label": "Symptom",
+    "name": "思维紊乱",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/3"
+    ],
+    "aliases": [
+      "思维紊乱"
+    ]
+  },
+  {
+    "id": "ecb26fff7ce20f83639e17e1",
+    "legacy_id": "被动体验",
+    "label": "Symptom",
+    "name": "被动体验",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/4"
+    ],
+    "aliases": [
+      "被动体验"
+    ]
+  },
+  {
+    "id": "87d2d331e0d60bcd34bfa18d",
+    "legacy_id": "阴性症状",
+    "label": "Symptom",
+    "name": "阴性症状",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/5"
+    ],
+    "aliases": [
+      "阴性症状"
+    ]
+  },
+  {
+    "id": "e9f48e8b2e0815df913fe55b",
+    "legacy_id": "行为紊乱",
+    "label": "Symptom",
+    "name": "行为紊乱",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/6"
+    ],
+    "aliases": [
+      "行为紊乱"
+    ]
+  },
+  {
+    "id": "d4b0c8a17fa2d6cfbb2ac4c3",
+    "legacy_id": "幻听",
+    "label": "Symptom",
+    "name": "幻听",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/7"
+    ],
+    "aliases": [
+      "幻听"
+    ]
+  },
+  {
+    "id": "09668b597185de1859fcfd75",
+    "legacy_id": "议论性幻听",
+    "label": "Symptom",
+    "name": "议论性幻听",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/8"
+    ],
+    "aliases": [
+      "议论性幻听"
+    ]
+  },
+  {
+    "id": "eaab0c289a59852018834a78",
+    "legacy_id": "命令性幻听",
+    "label": "Symptom",
+    "name": "命令性幻听",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/9",
+      "symptom_synonyms.json#/脑子里有声音"
+    ],
+    "aliases": [
+      "命令性幻听",
+      "脑子里有声音"
+    ]
+  },
+  {
+    "id": "7a63dab77d4d4ac760115c66",
+    "legacy_id": "关系妄想",
+    "label": "Symptom",
+    "name": "关系妄想",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/10",
+      "symptom_synonyms.json#/别人在议论我"
+    ],
+    "aliases": [
+      "关系妄想",
+      "别人在议论我"
+    ]
+  },
+  {
+    "id": "18c85333a84c643ddb67e9a7",
+    "legacy_id": "被害妄想",
+    "label": "Symptom",
+    "name": "被害妄想",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/11",
+      "symptom_synonyms.json#/有人害我",
+      "symptom_synonyms.json#/被跟踪",
+      "symptom_synonyms.json#/有人在害我"
+    ],
+    "aliases": [
+      "有人在害我",
+      "有人害我",
+      "被害妄想",
+      "被跟踪"
+    ]
+  },
+  {
+    "id": "2c3829f221ec7c3ceb871222",
+    "legacy_id": "被控制感",
+    "label": "Symptom",
+    "name": "被控制感",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/12"
+    ],
+    "aliases": [
+      "被控制感"
+    ]
+  },
+  {
+    "id": "5893e207ab717d55a19dd302",
+    "legacy_id": "言语离题",
+    "label": "Symptom",
+    "name": "言语离题",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/13"
+    ],
+    "aliases": [
+      "言语离题"
+    ]
+  },
+  {
+    "id": "ad2392546a8c03fc848cbc8f",
+    "legacy_id": "言语破裂",
+    "label": "Symptom",
+    "name": "言语破裂",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/14"
+    ],
+    "aliases": [
+      "言语破裂"
+    ]
+  },
+  {
+    "id": "ba47a88d925915880cfc4917",
+    "legacy_id": "言语不连贯",
+    "label": "Symptom",
+    "name": "言语不连贯",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/15"
+    ],
+    "aliases": [
+      "言语不连贯"
+    ]
+  },
+  {
+    "id": "085c79fe8a719b7cf8ce25a3",
+    "legacy_id": "思维被插入",
+    "label": "Symptom",
+    "name": "思维被插入",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/16"
+    ],
+    "aliases": [
+      "思维被插入"
+    ]
+  },
+  {
+    "id": "e0673d4a6ff84d513ae697c5",
+    "legacy_id": "思维被广播",
+    "label": "Symptom",
+    "name": "思维被广播",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/17"
+    ],
+    "aliases": [
+      "思维被广播"
+    ]
+  },
+  {
+    "id": "961e88c7f3404b1aad0e1a32",
+    "legacy_id": "思维被抽出",
+    "label": "Symptom",
+    "name": "思维被抽出",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/18"
+    ],
+    "aliases": [
+      "思维被抽出"
+    ]
+  },
+  {
+    "id": "230f5e390ee5bace8cfabca3",
+    "legacy_id": "思维被控制",
+    "label": "Symptom",
+    "name": "思维被控制",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/19"
+    ],
+    "aliases": [
+      "思维被控制"
+    ]
+  },
+  {
+    "id": "bcb02fa4547a845e35777dea",
+    "legacy_id": "情感淡漠",
+    "label": "Symptom",
+    "name": "情感淡漠",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/20",
+      "symptom_synonyms.json#/不爱说话"
+    ],
+    "aliases": [
+      "不爱说话",
+      "情感淡漠"
+    ]
+  },
+  {
+    "id": "a935be7e64ff9b7c3546cc76",
+    "legacy_id": "意志减退",
+    "label": "Symptom",
+    "name": "意志减退",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/21"
+    ],
+    "aliases": [
+      "意志减退"
+    ]
+  },
+  {
+    "id": "dc1ea99f0af40531a22d8ace",
+    "legacy_id": "社交退缩",
+    "label": "Symptom",
+    "name": "社交退缩",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/22",
+      "symptom_synonyms.json#/不出门"
+    ],
+    "aliases": [
+      "不出门",
+      "社交退缩"
+    ]
+  },
+  {
+    "id": "fcabc0e64a1974ed3658be73",
+    "legacy_id": "言语贫乏",
+    "label": "Symptom",
+    "name": "言语贫乏",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/23"
+    ],
+    "aliases": [
+      "言语贫乏"
+    ]
+  },
+  {
+    "id": "5af65b554a292ca7ad6bfeb3",
+    "legacy_id": "紧张症",
+    "label": "Symptom",
+    "name": "紧张症",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/24"
+    ],
+    "aliases": [
+      "紧张症"
+    ]
+  },
+  {
+    "id": "5d731c3e7612ba6caf9486ee",
+    "legacy_id": "不适当的情绪反应",
+    "label": "Symptom",
+    "name": "不适当的情绪反应",
+    "properties": {},
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/25"
+    ],
+    "aliases": [
+      "不适当的情绪反应"
+    ]
+  },
+  {
+    "id": "6144a9da17473ab8d284daa8",
+    "legacy_id": "物质使用",
+    "label": "Condition",
+    "name": "物质使用",
+    "properties": {
+      "exclusion_reason": "不能由其引起"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/26"
+    ],
+    "aliases": [
+      "物质使用"
+    ]
+  },
+  {
+    "id": "dbdabffbfcbed81628054f77",
+    "legacy_id": "躯体疾病",
+    "label": "Condition",
+    "name": "躯体疾病",
+    "properties": {
+      "exclusion_reason": "不能由其引起"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/27"
+    ],
+    "aliases": [
+      "躯体疾病"
+    ]
+  },
+  {
+    "id": "6bf3d540d741ae5836a47aa8",
+    "legacy_id": "双相躁狂",
+    "label": "Disease",
+    "name": "双相躁狂",
+    "properties": {
+      "differentiation_point": "情感症状不占主导，病程中大部分时间为精神病性症状"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/30"
+    ],
+    "aliases": [
+      "双相躁狂"
+    ]
+  },
+  {
+    "id": "ffe2796246e092bc5a39ac33",
+    "legacy_id": "药物所致精神障碍",
+    "label": "Disease",
+    "name": "药物所致精神障碍",
+    "properties": {
+      "differentiation_point": "时间关联性和停药后缓解"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/31"
+    ],
+    "aliases": [
+      "药物所致精神障碍"
+    ]
+  },
+  {
+    "id": "d592d6d2f064492b3c8b07d1",
+    "legacy_id": "6A20.0",
+    "label": "ClinicalSubtype",
+    "name": "首次发作",
+    "properties": {
+      "name": "首次发作"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/32"
+    ],
+    "aliases": [
+      "6A20.0",
+      "首次发作"
+    ]
+  },
+  {
+    "id": "fed09d8c290dbd563081baf1",
+    "legacy_id": "6A20.1",
+    "label": "ClinicalSubtype",
+    "name": "多次发作",
+    "properties": {
+      "name": "多次发作"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/33"
+    ],
+    "aliases": [
+      "6A20.1",
+      "多次发作"
+    ]
+  },
+  {
+    "id": "21d79055466331363ac01b98",
+    "legacy_id": "6A20.2",
+    "label": "ClinicalSubtype",
+    "name": "持续型",
+    "properties": {
+      "name": "持续型"
+    },
+    "source_ids": [
+      "icd11_schizophrenia.json#/nodes/34"
+    ],
+    "aliases": [
+      "6A20.2",
+      "持续型"
+    ]
+  },
+  {
+    "id": "64205cfd10aad1f77b3b4de1",
+    "legacy_id": "抗癫痫药",
+    "label": "DrugClass",
+    "name": "抗癫痫药",
+    "properties": {
+      "name": "抗癫痫药"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/13"
+    ],
+    "aliases": [
+      "抗癫痫药"
+    ]
+  },
+  {
+    "id": "c4602add792ddcef5fef921d",
+    "legacy_id": "社交焦虑障碍",
+    "label": "Disease",
+    "name": "社交焦虑障碍",
+    "properties": {
+      "icd10": "F40.1",
+      "name": "社交焦虑障碍"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/17"
+    ],
+    "aliases": [
+      "社交焦虑障碍"
+    ]
+  },
+  {
+    "id": "f0d6e128a55ccac3f622e41f",
+    "legacy_id": "创伤后应激障碍",
+    "label": "Disease",
+    "name": "创伤后应激障碍",
+    "properties": {
+      "icd10": "F43.1"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/18"
+    ],
+    "aliases": [
+      "创伤后应激障碍"
+    ]
+  },
+  {
+    "id": "76ccf7b37b92c1d7452d6bed",
+    "legacy_id": "神经性贪食",
+    "label": "Disease",
+    "name": "神经性贪食",
+    "properties": {
+      "icd10": "F50.2"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/20"
+    ],
+    "aliases": [
+      "神经性贪食"
+    ]
+  },
+  {
+    "id": "c93d5937775db620f66e7431",
+    "legacy_id": "双相躁狂发作",
+    "label": "Disease",
+    "name": "双相躁狂发作",
+    "properties": {
+      "icd10": "F31.1",
+      "name": "双相躁狂发作"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/22"
+    ],
+    "aliases": [
+      "双相躁狂发作"
+    ]
+  },
+  {
+    "id": "84bd33b065ba4277ed6b7c92",
+    "legacy_id": "双相障碍维持治疗",
+    "label": "Treatment",
+    "name": "双相障碍维持治疗",
+    "properties": {
+      "purpose": "预防复发",
+      "name": "双相障碍维持治疗"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/23"
+    ],
+    "aliases": [
+      "双相障碍维持治疗"
+    ]
+  },
+  {
+    "id": "9a6b35d91336328d42b1e5a3",
+    "legacy_id": "糖尿病神经病变疼痛",
+    "label": "Symptom",
+    "name": "糖尿病神经病变疼痛",
+    "properties": {
+      "associated_with": "糖尿病"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/24"
+    ],
+    "aliases": [
+      "糖尿病神经病变疼痛"
+    ]
+  },
+  {
+    "id": "d58afa8300bc0308c2684511",
+    "legacy_id": "恶心",
+    "label": "Symptom",
+    "name": "恶心",
+    "properties": {
+      "name": "恶心"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/25"
+    ],
+    "aliases": [
+      "恶心"
+    ]
+  },
+  {
+    "id": "b9164d404ac55c24d04aeb15",
+    "legacy_id": "腹泻",
+    "label": "Symptom",
+    "name": "腹泻",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/26"
+    ],
+    "aliases": [
+      "腹泻"
+    ]
+  },
+  {
+    "id": "e88677d175f8f5da551dd0e9",
+    "legacy_id": "失眠",
+    "label": "Symptom",
+    "name": "失眠",
+    "properties": {
+      "name": "失眠"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/27",
+      "symptom_synonyms.json#/睡不着",
+      "symptom_synonyms.json#/睡不好",
+      "symptom_synonyms.json#/早醒",
+      "symptom_synonyms.json#/凌晨醒"
+    ],
+    "aliases": [
+      "凌晨醒",
+      "失眠",
+      "早醒",
+      "睡不好",
+      "睡不着"
+    ]
+  },
+  {
+    "id": "2cf1a5693e1e222b377dd271",
+    "legacy_id": "性功能障碍",
+    "label": "Symptom",
+    "name": "性功能障碍",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/28"
+    ],
+    "aliases": [
+      "性功能障碍"
+    ]
+  },
+  {
+    "id": "7ae291f3aa5aa613a2c93ab0",
+    "legacy_id": "延迟射精",
+    "label": "Symptom",
+    "name": "延迟射精",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/29"
+    ],
+    "aliases": [
+      "延迟射精"
+    ]
+  },
+  {
+    "id": "286942c28289942d4cc948c1",
+    "legacy_id": "性欲减退",
+    "label": "Symptom",
+    "name": "性欲减退",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/30"
+    ],
+    "aliases": [
+      "性欲减退"
+    ]
+  },
+  {
+    "id": "43594fed0268a039f7aedabc",
+    "legacy_id": "嗜睡",
+    "label": "Symptom",
+    "name": "嗜睡",
+    "properties": {
+      "name": "嗜睡"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/31"
+    ],
+    "aliases": [
+      "嗜睡"
+    ]
+  },
+  {
+    "id": "dabcf95c8e36144554d9816e",
+    "legacy_id": "体重增加",
+    "label": "Symptom",
+    "name": "体重增加",
+    "properties": {
+      "name": "体重增加"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/32"
+    ],
+    "aliases": [
+      "体重增加"
+    ]
+  },
+  {
+    "id": "4ebe39cf333b0fa09d4a20f1",
+    "legacy_id": "撤药综合征",
+    "label": "Symptom",
+    "name": "撤药综合征",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/33"
+    ],
+    "aliases": [
+      "撤药综合征"
+    ]
+  },
+  {
+    "id": "2003131310775ec49789c7db",
+    "legacy_id": "眩晕",
+    "label": "Symptom",
+    "name": "眩晕",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/34"
+    ],
+    "aliases": [
+      "眩晕"
+    ]
+  },
+  {
+    "id": "961383b779faf4879fdb455a",
+    "legacy_id": "感觉异常",
+    "label": "Symptom",
+    "name": "感觉异常",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/35"
+    ],
+    "aliases": [
+      "感觉异常"
+    ]
+  },
+  {
+    "id": "8fd2cac80650a408de3eada2",
+    "legacy_id": "焦虑",
+    "label": "Symptom",
+    "name": "焦虑",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/36",
+      "symptom_synonyms.json#/总是担心"
+    ],
+    "aliases": [
+      "总是担心",
+      "焦虑"
+    ]
+  },
+  {
+    "id": "409b2ba596ece6600615cd85",
+    "legacy_id": "食欲减退",
+    "label": "Symptom",
+    "name": "食欲减退",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/37",
+      "symptom_synonyms.json#/没胃口",
+      "symptom_synonyms.json#/吃不下"
+    ],
+    "aliases": [
+      "吃不下",
+      "没胃口",
+      "食欲减退"
+    ]
+  },
+  {
+    "id": "501f498a8507faabb82d5527",
+    "legacy_id": "血压升高",
+    "label": "Symptom",
+    "name": "血压升高",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/38"
+    ],
+    "aliases": [
+      "血压升高"
+    ]
+  },
+  {
+    "id": "0d4b0879beb43a232f3292f9",
+    "legacy_id": "口干",
+    "label": "Symptom",
+    "name": "口干",
+    "properties": {
+      "name": "口干"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/39"
+    ],
+    "aliases": [
+      "口干"
+    ]
+  },
+  {
+    "id": "0a7fc23c0a192348e0a4ef2f",
+    "legacy_id": "震颤",
+    "label": "Symptom",
+    "name": "震颤",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/40"
+    ],
+    "aliases": [
+      "震颤"
+    ]
+  },
+  {
+    "id": "7691a51fefe8689ba53abc4c",
+    "legacy_id": "多尿",
+    "label": "Symptom",
+    "name": "多尿",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/41"
+    ],
+    "aliases": [
+      "多尿"
+    ]
+  },
+  {
+    "id": "60daf4037069ebea6aee7dbe",
+    "legacy_id": "甲状腺功能减退",
+    "label": "Disease",
+    "name": "甲状腺功能减退",
+    "properties": {
+      "icd10": "E03.9"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/42"
+    ],
+    "aliases": [
+      "甲状腺功能减退"
+    ]
+  },
+  {
+    "id": "60ee67ff6aea4f411b5aabcd",
+    "legacy_id": "脱发",
+    "label": "Symptom",
+    "name": "脱发",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/43"
+    ],
+    "aliases": [
+      "脱发"
+    ]
+  },
+  {
+    "id": "f39fdfc38f26931d771cd765",
+    "legacy_id": "肝功能异常",
+    "label": "Symptom",
+    "name": "肝功能异常",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/44"
+    ],
+    "aliases": [
+      "肝功能异常"
+    ]
+  },
+  {
+    "id": "91ab23dd962665c015b5deba",
+    "legacy_id": "多囊卵巢综合征",
+    "label": "Disease",
+    "name": "多囊卵巢综合征",
+    "properties": {
+      "icd10": "E28.2"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/45"
+    ],
+    "aliases": [
+      "多囊卵巢综合征"
+    ]
+  },
+  {
+    "id": "5e12dc7c5e65ffceae592c3f",
+    "legacy_id": "锥体外系反应",
+    "label": "Symptom",
+    "name": "锥体外系反应",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/46"
+    ],
+    "aliases": [
+      "锥体外系反应"
+    ]
+  },
+  {
+    "id": "e4fced6e4a3cc7563b3ead4a",
+    "legacy_id": "EPS",
+    "label": "Symptom",
+    "name": "EPS",
+    "properties": {
+      "abbreviation": "Extrapyramidal Symptoms"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/47"
+    ],
+    "aliases": [
+      "EPS"
+    ]
+  },
+  {
+    "id": "d83185cc77724f393627335a",
+    "legacy_id": "高催乳素血症",
+    "label": "Disease",
+    "name": "高催乳素血症",
+    "properties": {
+      "icd10": "E22.1"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/48"
+    ],
+    "aliases": [
+      "高催乳素血症"
+    ]
+  },
+  {
+    "id": "107720736548cfe22d88b62e",
+    "legacy_id": "血糖升高",
+    "label": "Symptom",
+    "name": "血糖升高",
+    "properties": {},
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/49"
+    ],
+    "aliases": [
+      "血糖升高"
+    ]
+  },
+  {
+    "id": "c65b27d41eb2415526c17338",
+    "legacy_id": "血脂异常",
+    "label": "Disease",
+    "name": "血脂异常",
+    "properties": {
+      "icd10": "E78.5"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/50"
+    ],
+    "aliases": [
+      "血脂异常"
+    ]
+  },
+  {
+    "id": "11ccaac6c87c08ee420b70cd",
+    "legacy_id": "MAOIs",
+    "label": "DrugClass",
+    "name": "单胺氧化酶抑制剂",
+    "properties": {
+      "name": "单胺氧化酶抑制剂"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/51"
+    ],
+    "aliases": [
+      "MAOIs",
+      "单胺氧化酶抑制剂"
+    ]
+  },
+  {
+    "id": "5f761a5bf54842dd3f5d380b",
+    "legacy_id": "其他SSRI",
+    "label": "DrugClass",
+    "name": "其他选择性5-羟色胺再摄取抑制剂",
+    "properties": {
+      "name": "其他选择性5-羟色胺再摄取抑制剂"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/52"
+    ],
+    "aliases": [
+      "其他SSRI",
+      "其他选择性5-羟色胺再摄取抑制剂"
+    ]
+  },
+  {
+    "id": "b7a435f02a7309d7b8fc029c",
+    "legacy_id": "NSAIDs",
+    "label": "DrugClass",
+    "name": "非甾体抗炎药",
+    "properties": {
+      "name": "非甾体抗炎药"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/53"
+    ],
+    "aliases": [
+      "NSAIDs",
+      "非甾体抗炎药"
+    ]
+  },
+  {
+    "id": "7d333baaa33d58c947029f10",
+    "legacy_id": "华法林",
+    "label": "Drug",
+    "name": "华法林",
+    "properties": {
+      "generic_name": "Warfarin"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/54",
+      "evidence:S04",
+      "evidence:F05",
+      "evidence:P06"
+    ],
+    "aliases": [
+      "Warfarin",
+      "华法林"
+    ],
+    "source_checked_records": 3
+  },
+  {
+    "id": "e7a3e4f67c903a24f5d1c307",
+    "legacy_id": "CYP2D6抑制",
+    "label": "PharmacokineticEffect",
+    "name": "CYP2D6抑制",
+    "properties": {
+      "mechanism": "代谢酶抑制"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/56"
+    ],
+    "aliases": [
+      "CYP2D6抑制"
+    ]
+  },
+  {
+    "id": "32660fefb5062297bb2a1740",
+    "legacy_id": "含血清素药物",
+    "label": "DrugClass",
+    "name": "含血清素药物",
+    "properties": {
+      "description": "具有血清素能活性的药物（如SSRIs、SNRIs、曲马多等）"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/57",
+      "evidence:P05",
+      "evidence:L05"
+    ],
+    "aliases": [
+      "含血清素药物"
+    ],
+    "source_checked_records": 2
+  },
+  {
+    "id": "408bf2d0bb58d9adb050102d",
+    "legacy_id": "5-HT综合征",
+    "label": "Disease",
+    "name": "5-HT综合征",
+    "properties": {
+      "icd10": "T43.6",
+      "name": "5-HT综合征"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/58"
+    ],
+    "aliases": [
+      "5-HT综合征"
+    ]
+  },
+  {
+    "id": "b22c1619c84a15eec2192457",
+    "legacy_id": "未控制的高血压",
+    "label": "Disease",
+    "name": "未控制的高血压",
+    "properties": {
+      "icd10": "I10"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/59"
+    ],
+    "aliases": [
+      "未控制的高血压"
+    ]
+  },
+  {
+    "id": "845ae0c616b381a617eeb5d4",
+    "legacy_id": "肝功能不全",
+    "label": "Disease",
+    "name": "肝功能不全",
+    "properties": {
+      "icd10": "K76.0"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/60"
+    ],
+    "aliases": [
+      "肝功能不全"
+    ]
+  },
+  {
+    "id": "9a92aa6b151984a4259ada36",
+    "legacy_id": "严重肾功能不全",
+    "label": "Disease",
+    "name": "严重肾功能不全",
+    "properties": {
+      "icd10": "N18.4"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/61"
+    ],
+    "aliases": [
+      "严重肾功能不全"
+    ]
+  },
+  {
+    "id": "9374dd79dcfb228e175fe34e",
+    "legacy_id": "低钠血症",
+    "label": "Disease",
+    "name": "低钠血症",
+    "properties": {
+      "icd10": "E87.1"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/62"
+    ],
+    "aliases": [
+      "低钠血症"
+    ]
+  },
+  {
+    "id": "3bae0a19c25d4e24aa0a32cc",
+    "legacy_id": "噻嗪类利尿剂",
+    "label": "DrugClass",
+    "name": "噻嗪类利尿剂",
+    "properties": {
+      "name": "噻嗪类利尿剂"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/63"
+    ],
+    "aliases": [
+      "噻嗪类利尿剂"
+    ]
+  },
+  {
+    "id": "c71e7571e15e6a1684eee094",
+    "legacy_id": "血药浓度升高",
+    "label": "PharmacokineticEffect",
+    "name": "血药浓度升高",
+    "properties": {
+      "effect": "血药浓度升高"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/65"
+    ],
+    "aliases": [
+      "血药浓度升高"
+    ]
+  },
+  {
+    "id": "0e08afd00f5e34e9ace896ac",
+    "legacy_id": "血锂浓度升高",
+    "label": "PharmacokineticEffect",
+    "name": "血锂浓度升高",
+    "properties": {
+      "effect": "血锂浓度升高"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/66"
+    ],
+    "aliases": [
+      "血锂浓度升高"
+    ]
+  },
+  {
+    "id": "32bcff22f79d03b56b8eb58d",
+    "legacy_id": "血锂浓度显著升高",
+    "label": "PharmacokineticEffect",
+    "name": "血锂浓度显著升高",
+    "properties": {
+      "effect": "血锂浓度显著升高"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/67"
+    ],
+    "aliases": [
+      "血锂浓度显著升高"
+    ]
+  },
+  {
+    "id": "1015aa49066cebdc78d7a2b2",
+    "legacy_id": "协同增效",
+    "label": "TherapeuticEffect",
+    "name": "协同增效",
+    "properties": {
+      "description": "联合用药产生大于单药效应之和的效果"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/68"
+    ],
+    "aliases": [
+      "协同增效"
+    ]
+  },
+  {
+    "id": "ae238a93f7d05cb1d5afbbd4",
+    "legacy_id": "神经毒性",
+    "label": "SideEffect",
+    "name": "神经毒性",
+    "properties": {
+      "description": "中枢神经系统毒性，如意识模糊、共济失调、抽搐"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/69"
+    ],
+    "aliases": [
+      "神经毒性"
+    ]
+  },
+  {
+    "id": "aa89ed5d9f90d588de354bf4",
+    "legacy_id": "抗凝作用增强",
+    "label": "PharmacodynamicEffect",
+    "name": "抗凝作用增强",
+    "properties": {
+      "effect": "增强抗凝作用"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/70"
+    ],
+    "aliases": [
+      "抗凝作用增强"
+    ]
+  },
+  {
+    "id": "ae02cd74347c0ab4c80f7588",
+    "legacy_id": "消化道出血",
+    "label": "Disease",
+    "name": "消化道出血",
+    "properties": {
+      "icd10": "K92.2"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/71"
+    ],
+    "aliases": [
+      "消化道出血"
+    ]
+  },
+  {
+    "id": "8c00c16456f59d4f5370173f",
+    "legacy_id": "肝功能监测",
+    "label": "Monitoring",
+    "name": "肝功能监测",
+    "properties": {
+      "procedure": "定期检测ALT/AST/GGT及胆红素"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/72"
+    ],
+    "aliases": [
+      "肝功能监测"
+    ]
+  },
+  {
+    "id": "285a3c18bfefa90c5d571a7b",
+    "legacy_id": "14天洗脱期",
+    "label": "WashoutPeriod",
+    "name": "14天洗脱期",
+    "properties": {
+      "duration": "14 days"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/73"
+    ],
+    "aliases": [
+      "14天洗脱期"
+    ]
+  },
+  {
+    "id": "a3ea1c15a198ea3686a06670",
+    "legacy_id": "5周洗脱期",
+    "label": "WashoutPeriod",
+    "name": "5周洗脱期",
+    "properties": {
+      "duration": "5 weeks"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/74"
+    ],
+    "aliases": [
+      "5周洗脱期"
+    ]
+  },
+  {
+    "id": "8a681cbc6009dbe6396966aa",
+    "legacy_id": "双相障碍抑郁发作",
+    "label": "Disease",
+    "name": "双相障碍抑郁发作",
+    "properties": {
+      "name": "双相障碍抑郁发作"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/75"
+    ],
+    "aliases": [
+      "双相障碍抑郁发作"
+    ]
+  },
+  {
+    "id": "6970231fd4fc9b43f8a059bf",
+    "legacy_id": "皮疹",
+    "label": "Symptom",
+    "name": "皮疹",
+    "properties": {
+      "name": "皮疹"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/76"
+    ],
+    "aliases": [
+      "皮疹"
+    ]
+  },
+  {
+    "id": "58897834fffb1466e9af8e14",
+    "legacy_id": "Stevens-Johnson综合征",
+    "label": "SideEffect",
+    "name": "Stevens-Johnson综合征",
+    "properties": {
+      "name": "Stevens-Johnson综合征"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/77"
+    ],
+    "aliases": [
+      "Stevens-Johnson综合征"
+    ]
+  },
+  {
+    "id": "bbc6d1233ce064cfdc21e8b1",
+    "legacy_id": "头痛",
+    "label": "Symptom",
+    "name": "头痛",
+    "properties": {
+      "name": "头痛"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/78"
+    ],
+    "aliases": [
+      "头痛"
+    ]
+  },
+  {
+    "id": "9e3cacb9f8358e33194c2d50",
+    "legacy_id": "拉莫三嗪过敏",
+    "label": "Contraindication",
+    "name": "对拉莫三嗪过敏",
+    "properties": {
+      "name": "对拉莫三嗪过敏"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/79"
+    ],
+    "aliases": [
+      "对拉莫三嗪过敏",
+      "拉莫三嗪过敏"
+    ]
+  },
+  {
+    "id": "c311602eac6d0c8c4e863ad7",
+    "legacy_id": "双相抑郁发作",
+    "label": "Disease",
+    "name": "双相抑郁发作",
+    "properties": {
+      "name": "双相抑郁发作"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/81"
+    ],
+    "aliases": [
+      "双相抑郁发作"
+    ]
+  },
+  {
+    "id": "0779253ee4b882b31dae778e",
+    "legacy_id": "难治性抑郁增效治疗",
+    "label": "Treatment",
+    "name": "难治性抑郁增效治疗",
+    "properties": {
+      "name": "难治性抑郁增效治疗"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/82"
+    ],
+    "aliases": [
+      "难治性抑郁增效治疗"
+    ]
+  },
+  {
+    "id": "88fb84452b59355599a10fe1",
+    "legacy_id": "头晕",
+    "label": "Symptom",
+    "name": "头晕",
+    "properties": {
+      "name": "头晕"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/83"
+    ],
+    "aliases": [
+      "头晕"
+    ]
+  },
+  {
+    "id": "35167725a9d27d4f184fee27",
+    "legacy_id": "体位性低血压",
+    "label": "Symptom",
+    "name": "体位性低血压",
+    "properties": {
+      "name": "体位性低血压"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/84"
+    ],
+    "aliases": [
+      "体位性低血压"
+    ]
+  },
+  {
+    "id": "9edaab30566388dc0015e600",
+    "legacy_id": "未纠正的低钾血症",
+    "label": "Contraindication",
+    "name": "未纠正的低钾血症",
+    "properties": {
+      "name": "未纠正的低钾血症"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/85"
+    ],
+    "aliases": [
+      "未纠正的低钾血症"
+    ]
+  },
+  {
+    "id": "55705ada7aa5bcc85eea86ae",
+    "legacy_id": "未纠正的低镁血症",
+    "label": "Contraindication",
+    "name": "未纠正的低镁血症",
+    "properties": {
+      "name": "未纠正的低镁血症"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/86"
+    ],
+    "aliases": [
+      "未纠正的低镁血症"
+    ]
+  },
+  {
+    "id": "5da074f82e502bda4024a465",
+    "legacy_id": "多巴胺部分激动剂",
+    "label": "PharmacologicalMechanism",
+    "name": "多巴胺部分激动剂",
+    "properties": {
+      "name": "多巴胺部分激动剂"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/88"
+    ],
+    "aliases": [
+      "多巴胺部分激动剂"
+    ]
+  },
+  {
+    "id": "d4382bfc4d3db42040876b8d",
+    "legacy_id": "静坐不能",
+    "label": "SideEffect",
+    "name": "静坐不能",
+    "properties": {
+      "name": "静坐不能"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/89"
+    ],
+    "aliases": [
+      "静坐不能"
+    ]
+  },
+  {
+    "id": "fc9ec421e786e3471e6d977f",
+    "legacy_id": "阿立哌唑过敏",
+    "label": "Contraindication",
+    "name": "对阿立哌唑过敏",
+    "properties": {
+      "name": "对阿立哌唑过敏"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/90"
+    ],
+    "aliases": [
+      "对阿立哌唑过敏",
+      "阿立哌唑过敏"
+    ]
+  },
+  {
+    "id": "daf8a55846ed065646f8b0ed",
+    "legacy_id": "氯氮平",
+    "label": "Drug",
+    "name": "氯氮平",
+    "properties": {
+      "name": "氯氮平",
+      "generic_name": "Clozapine"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/91"
+    ],
+    "aliases": [
+      "Clozapine",
+      "氯氮平"
+    ]
+  },
+  {
+    "id": "233ce8361f28c6588893af20",
+    "legacy_id": "难治性精神分裂症",
+    "label": "Disease",
+    "name": "难治性精神分裂症",
+    "properties": {
+      "name": "难治性精神分裂症",
+      "definition": "至少2种抗精神病药足量足疗程治疗无效"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/92"
+    ],
+    "aliases": [
+      "难治性精神分裂症"
+    ]
+  },
+  {
+    "id": "47c4e8ad09f70b2111f65f0f",
+    "legacy_id": "粒细胞缺乏症",
+    "label": "SideEffect",
+    "name": "粒细胞缺乏症",
+    "properties": {
+      "name": "粒细胞缺乏症"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/93"
+    ],
+    "aliases": [
+      "粒细胞缺乏症"
+    ]
+  },
+  {
+    "id": "8aba5aaf4857d7b6873007fe",
+    "legacy_id": "流涎",
+    "label": "Symptom",
+    "name": "流涎",
+    "properties": {
+      "name": "流涎"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/94"
+    ],
+    "aliases": [
+      "流涎"
+    ]
+  },
+  {
+    "id": "d991039ac8dda1823b1d8f71",
+    "legacy_id": "心肌炎",
+    "label": "SideEffect",
+    "name": "心肌炎",
+    "properties": {
+      "name": "心肌炎"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/95"
+    ],
+    "aliases": [
+      "心肌炎"
+    ]
+  },
+  {
+    "id": "014a4e694a765ece01f79987",
+    "legacy_id": "癫痫发作",
+    "label": "Symptom",
+    "name": "癫痫发作",
+    "properties": {
+      "name": "癫痫发作"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/96"
+    ],
+    "aliases": [
+      "癫痫发作"
+    ]
+  },
+  {
+    "id": "d95e4f8e8197f79c6b006f41",
+    "legacy_id": "粒细胞缺乏症史",
+    "label": "Contraindication",
+    "name": "粒细胞缺乏症史",
+    "properties": {
+      "name": "粒细胞缺乏症史"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/97"
+    ],
+    "aliases": [
+      "粒细胞缺乏症史"
+    ]
+  },
+  {
+    "id": "4eb6ed4e81573a67ded5332b",
+    "legacy_id": "未控制的癫痫",
+    "label": "Contraindication",
+    "name": "未控制的癫痫",
+    "properties": {
+      "name": "未控制的癫痫"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/98"
+    ],
+    "aliases": [
+      "未控制的癫痫"
+    ]
+  },
+  {
+    "id": "9df5531c8fc27988b778de4c",
+    "legacy_id": "严重心脏疾病",
+    "label": "Contraindication",
+    "name": "严重心脏疾病",
+    "properties": {
+      "name": "严重心脏疾病"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/99"
+    ],
+    "aliases": [
+      "严重心脏疾病"
+    ]
+  },
+  {
+    "id": "2235fdc943f36ddfd9433806",
+    "legacy_id": "乏力",
+    "label": "Symptom",
+    "name": "乏力",
+    "properties": {
+      "name": "乏力"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/101"
+    ],
+    "aliases": [
+      "乏力"
+    ]
+  },
+  {
+    "id": "10bb43c0165b5a2caae80d23",
+    "legacy_id": "替扎尼定",
+    "label": "Drug",
+    "name": "替扎尼定",
+    "properties": {
+      "name": "替扎尼定"
+    },
+    "source_ids": [
+      "psychiatric_drugs.json#/nodes/102"
+    ],
+    "aliases": [
+      "替扎尼定"
+    ]
+  },
+  {
+    "id": "172079c16cfd3b1186f32904",
+    "name": "MAOIs",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "MAOIs"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:S01",
+      "evidence:F01",
+      "evidence:P01"
+    ],
+    "source_checked_records": 3
+  },
+  {
+    "id": "d390356adb28572cec60d7c3",
+    "name": "匹莫齐特",
+    "label": "Drug",
+    "legacy_id": "",
+    "aliases": [
+      "匹莫齐特"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:S02",
+      "evidence:F02",
+      "evidence:P02"
+    ],
+    "source_checked_records": 3
+  },
+  {
+    "id": "6ec6ff53cc097d67cd1b4b99",
+    "name": "苯妥英",
+    "label": "Drug",
+    "legacy_id": "",
+    "aliases": [
+      "苯妥英"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:S05"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "4fe9a7ff646491d3373b02da",
+    "name": "延长QT间期的药物",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "延长QT间期的药物"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:S06"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "df1d027e8a203d2c8f71e3cd",
+    "name": "硫利达嗪",
+    "label": "Drug",
+    "legacy_id": "",
+    "aliases": [
+      "硫利达嗪"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:F03",
+      "evidence:P03"
+    ],
+    "source_checked_records": 2
+  },
+  {
+    "id": "8d0da4edf6625e2c27aec160",
+    "name": "他莫昔芬",
+    "label": "Drug",
+    "legacy_id": "",
+    "aliases": [
+      "他莫昔芬"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:F06",
+      "evidence:P04"
+    ],
+    "source_checked_records": 2
+  },
+  {
+    "id": "3e4958ebcc64a27c5131b9b8",
+    "name": "卡马西平",
+    "label": "Drug",
+    "legacy_id": "",
+    "aliases": [
+      "卡马西平"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:O02"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "ac292c0e2db7fbb386b40e13",
+    "name": "体重监测",
+    "label": "Monitoring",
+    "legacy_id": "",
+    "aliases": [
+      "体重监测"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:O03"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "18f4a6dcfc8f6432c57a8e9b",
+    "name": "血糖监测",
+    "label": "Monitoring",
+    "legacy_id": "",
+    "aliases": [
+      "血糖监测"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:O04"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "c495c173784be0b0efc9ab0b",
+    "name": "血脂监测",
+    "label": "Monitoring",
+    "legacy_id": "",
+    "aliases": [
+      "血脂监测"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:O05"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "978f112b26c281da69e91e87",
+    "name": "已知窄角型青光眼风险",
+    "label": "Contraindication",
+    "legacy_id": "",
+    "aliases": [
+      "已知窄角型青光眼风险"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:O06"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "e38b2666eea969540f296ab1",
+    "name": "利尿剂",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "利尿剂"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:L01"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "e9192d97e94e82dbaaa6d900",
+    "name": "NSAIDs",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "NSAIDs"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:L02"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "e3eec598a33af0ede9b2789e",
+    "name": "肾素血管紧张素系统拮抗剂",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "肾素血管紧张素系统拮抗剂"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:L03"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "45d2caeac5dd8145c69a487c",
+    "name": "硝基咪唑类抗菌药",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "硝基咪唑类抗菌药"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:L04"
+    ],
+    "source_checked_records": 1
+  },
+  {
+    "id": "4e5684f0e9f14f860d7226e1",
+    "name": "抗精神病药",
+    "label": "DrugClass",
+    "legacy_id": "",
+    "aliases": [
+      "抗精神病药"
+    ],
+    "properties": {},
+    "source_ids": [
+      "evidence:L06"
+    ],
+    "source_checked_records": 1
+  }
+]

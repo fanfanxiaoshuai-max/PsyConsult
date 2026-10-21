@@ -1,23 +1,12 @@
-"""用于 Neo4j 操作的知识图谱模块。"""
+"""Clinical graph models; optional LLM parser is imported only by its callers."""
+from .models import Disease, Symptom, Drug, SideEffect, Treatment, Relation
+__all__ = ['Disease', 'Symptom', 'Drug', 'SideEffect', 'Treatment', 'Relation']
 
 from .client import Neo4jClient
 from .ingestor import KnowledgeGraphIngestor
-from .parser import KnowledgeGraphParser
-from .models import (
-    Product, InstanceType, Region, Image, BillingMode,
-    DatabaseEngine, StorageType, Relation,
-)
 
-__all__ = [
-    "Neo4jClient",
-    "KnowledgeGraphIngestor",
-    "KnowledgeGraphParser",
-    "Product",
-    "InstanceType",
-    "Region",
-    "Image",
-    "BillingMode",
-    "DatabaseEngine",
-    "StorageType",
-    "Relation",
-]
+def __getattr__(name):
+    if name == 'KnowledgeGraphParser':
+        from .parser import KnowledgeGraphParser
+        return KnowledgeGraphParser
+    raise AttributeError(name)

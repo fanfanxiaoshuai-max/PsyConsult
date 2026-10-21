@@ -1,0 +1,653 @@
+{
+  "S01": {
+    "id": "S01",
+    "drug": "舍曲林",
+    "target": {
+      "name": "MAOIs",
+      "label": "DrugClass"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      6,
+      11
+    ],
+    "section": "药物相互作用",
+    "summary": "禁止与单胺氧化酶抑制剂合用；换药须保留清洗期。",
+    "conditions": "停MAOI后至少14天再开始舍曲林；停舍曲林后至少14天再开始MAOI。",
+    "action": "由处方医师核对换药方向与停药日期。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "washout_days": {
+      "maoi_to_drug": 14,
+      "drug_to_maoi": 14
+    }
+  },
+  "S02": {
+    "id": "S02",
+    "drug": "舍曲林",
+    "target": {
+      "name": "匹莫齐特",
+      "label": "Drug"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      11
+    ],
+    "section": "药物相互作用",
+    "summary": "合用可增加匹莫齐特暴露；说明书列为禁忌。",
+    "conditions": "低剂量匹莫齐特研究未观察到心电图改变，不能据此推断可安全合用。",
+    "action": "避免合用。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "S03": {
+    "id": "S03",
+    "drug": "舍曲林",
+    "target": {
+      "name": "锂盐",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      11
+    ],
+    "section": "药物相互作用",
+    "summary": "健康受试者试验中锂药代未显著改变，但震颤增加。",
+    "conditions": "试验药代结果不能等同于无药效学相互作用。",
+    "action": "合用时监测相关临床表现。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "S04": {
+    "id": "S04",
+    "drug": "舍曲林",
+    "target": {
+      "name": "华法林",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      12
+    ],
+    "section": "药物相互作用",
+    "summary": "合用研究中凝血酶原时间轻度延长，临床意义尚不明确。",
+    "conditions": "证据来自舍曲林200mg/日的合用研究，不是个体给药建议。",
+    "action": "开始或停止舍曲林时密切监测凝血酶原时间。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "S05": {
+    "id": "S05",
+    "drug": "舍曲林",
+    "target": {
+      "name": "苯妥英",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      11
+    ],
+    "section": "药物相互作用",
+    "summary": "试验未见显著代谢抑制；仍须监测苯妥英浓度，苯妥英也可能降低舍曲林浓度。",
+    "conditions": "舍曲林200mg/日研究结论不排除其他情境下相互作用。",
+    "action": "开始合用时监测苯妥英水平，必要时由医师调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "S06": {
+    "id": "S06",
+    "drug": "舍曲林",
+    "target": {
+      "name": "延长QT间期的药物",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_sertraline_viatris",
+    "pages": [
+      11
+    ],
+    "section": "药物相互作用",
+    "summary": "与延长QT间期药物联用时，QTc延长及室性心律失常风险增加。",
+    "conditions": "类别风险；未据此生成每个类别成员的直接关系。",
+    "action": "核对其他用药及QT相关风险。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "F01": {
+    "id": "F01",
+    "drug": "氟西汀",
+    "target": {
+      "name": "MAOIs",
+      "label": "DrugClass"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      9
+    ],
+    "section": "药物相互作用",
+    "summary": "禁止与MAOI合用；两个换药方向的清洗期不同。",
+    "conditions": "停MAOI后至少14天再开始氟西汀；停氟西汀后至少5周再开始MAOI。",
+    "action": "核对换药方向，不能统一写成14天。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "washout_days": {
+      "maoi_to_drug": 14,
+      "drug_to_maoi": 35
+    }
+  },
+  "F02": {
+    "id": "F02",
+    "drug": "氟西汀",
+    "target": {
+      "name": "匹莫齐特",
+      "label": "Drug"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      9,
+      21
+    ],
+    "section": "药物相互作用",
+    "summary": "说明书禁止与匹莫齐特合用。",
+    "conditions": "涉及QT延长及药物暴露风险。",
+    "action": "避免合用。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "F03": {
+    "id": "F03",
+    "drug": "氟西汀",
+    "target": {
+      "name": "硫利达嗪",
+      "label": "Drug"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      9,
+      21
+    ],
+    "section": "药物相互作用",
+    "summary": "禁止与硫利达嗪合用或在停氟西汀后5周内使用硫利达嗪。",
+    "conditions": "氟西汀及其代谢物消除缓慢。",
+    "action": "核对既往停药时间。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "F04": {
+    "id": "F04",
+    "drug": "氟西汀",
+    "target": {
+      "name": "锂盐",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      22
+    ],
+    "section": "药物相互作用",
+    "summary": "合用后锂浓度升高和降低均有报告，也有锂中毒及血清素相关不良反应报告。",
+    "conditions": "不能简化为锂浓度单向升高或无相互作用。",
+    "action": "合用时监测血锂浓度及临床不良反应。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "concentration_directions": [
+      "increase",
+      "decrease"
+    ]
+  },
+  "F05": {
+    "id": "F05",
+    "drug": "氟西汀",
+    "target": {
+      "name": "华法林",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      20
+    ],
+    "section": "药物相互作用",
+    "summary": "合用可能改变抗凝作用并增加出血风险。",
+    "conditions": "开始或停止氟西汀时均需关注；个体风险不同。",
+    "action": "密切监测抗凝状况及出血表现。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "F06": {
+    "id": "F06",
+    "drug": "氟西汀",
+    "target": {
+      "name": "他莫昔芬",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_fluoxetine_lilly",
+    "pages": [
+      17
+    ],
+    "section": "注意事项：他莫昔芬",
+    "summary": "强CYP2D6抑制可能降低他莫昔芬活性代谢产物浓度。",
+    "conditions": "属于应尽量避免的联用情境，不自动等同于绝对禁忌。",
+    "action": "他莫昔芬治疗期间尽量避免氟西汀，交由医师评估替代方案。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "P01": {
+    "id": "P01",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "MAOIs",
+      "label": "DrugClass"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "药物相互作用章节明确禁止与MAOI合用。",
+    "conditions": "本记录仅核对合用禁忌，不补造未逐项确认的换药天数。",
+    "action": "换药时间须另查该制剂完整禁忌章节。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "中栏"
+  },
+  "P02": {
+    "id": "P02",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "匹莫齐特",
+      "label": "Drug"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "可增加匹莫齐特暴露；说明书禁止合用。",
+    "conditions": "匹莫齐特治疗窗窄且存在QT相关风险。",
+    "action": "避免合用。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "中栏"
+  },
+  "P03": {
+    "id": "P03",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "硫利达嗪",
+      "label": "Drug"
+    },
+    "relation_type": "CONTRAINDICATED_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "CYP2D6抑制可能增加硫利达嗪暴露及严重心律失常风险，禁止合用。",
+    "conditions": "该说明书产品及成人范围。",
+    "action": "避免合用。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "中栏末至右栏首"
+  },
+  "P04": {
+    "id": "P04",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "他莫昔芬",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "CYP2D6抑制可降低他莫昔芬活性代谢物浓度。",
+    "conditions": "属于替代方案评估提示，不标记为绝对禁忌。",
+    "action": "考虑选用对CYP2D6抑制很小或无抑制的替代抗抑郁药，由医师决策。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "右栏"
+  },
+  "P05": {
+    "id": "P05",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "含血清素药物",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "与其他血清素能药物合用可能增加血清素综合征风险。",
+    "conditions": "扫描件列出其他SSRI等类别；不能仅凭此条把帕罗西汀与舍曲林改写为已证实的绝对禁忌。",
+    "action": "谨慎合用并密切监测。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "中栏"
+  },
+  "P06": {
+    "id": "P06",
+    "drug": "帕罗西汀",
+    "target": {
+      "name": "华法林",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_paroxetine_hospital",
+    "pages": [
+      2
+    ],
+    "section": "药物相互作用",
+    "summary": "可能存在药效学相互作用及出血倾向，凝血酶原时间不变也不能排除。",
+    "conditions": "说明书强调对口服抗凝治疗者非常谨慎。",
+    "action": "评估出血表现与抗凝治疗，不能只依赖凝血酶原时间。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19",
+    "column": "中栏下部"
+  },
+  "O01": {
+    "id": "O01",
+    "drug": "奥氮平",
+    "target": {
+      "name": "氟伏沙明",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      10
+    ],
+    "section": "药物相互作用",
+    "summary": "抑制CYP1A2可降低奥氮平代谢并增加其暴露。",
+    "conditions": "药物相互作用研究在成人中开展。",
+    "action": "考虑较低起始剂量；加入氟伏沙明时重新评估，由医师调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "O02": {
+    "id": "O02",
+    "drug": "奥氮平",
+    "target": {
+      "name": "卡马西平",
+      "label": "Drug"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      10
+    ],
+    "section": "药物相互作用",
+    "summary": "CYP1A2诱导可降低奥氮平浓度。",
+    "conditions": "药物相互作用研究在成人中开展；吸烟也属于说明书列举的诱导因素。",
+    "action": "临床监测并重新评估剂量。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "O03": {
+    "id": "O03",
+    "drug": "奥氮平",
+    "target": {
+      "name": "体重监测",
+      "label": "Monitoring"
+    },
+    "relation_type": "REQUIRES_MONITORING",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      7
+    ],
+    "section": "注意事项：高血糖及糖尿病／体重",
+    "summary": "治疗前及治疗过程中应规律监测体重。",
+    "conditions": "说明书列出基线、第4/8/12周及以后每季度。",
+    "action": "按适用说明书及个体情况制定监测计划。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "O04": {
+    "id": "O04",
+    "drug": "奥氮平",
+    "target": {
+      "name": "血糖监测",
+      "label": "Monitoring"
+    },
+    "relation_type": "REQUIRES_MONITORING",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      7
+    ],
+    "section": "注意事项：高血糖及糖尿病",
+    "summary": "治疗前及治疗过程中应监测血糖，关注高血糖相关症状。",
+    "conditions": "说明书列出基线、第12周及以后每年；有风险因素者需特别关注。",
+    "action": "结合患者风险由医师确定监测计划。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "O05": {
+    "id": "O05",
+    "drug": "奥氮平",
+    "target": {
+      "name": "血脂监测",
+      "label": "Monitoring"
+    },
+    "relation_type": "REQUIRES_MONITORING",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      8
+    ],
+    "section": "注意事项：血脂变化",
+    "summary": "治疗过程中应关注血脂异常并监测。",
+    "conditions": "说明书列出基线、第12周及以后每5年；不外推为所有患者固定间隔。",
+    "action": "按适用指南及个体风险监测血脂。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "O06": {
+    "id": "O06",
+    "drug": "奥氮平",
+    "target": {
+      "name": "已知窄角型青光眼风险",
+      "label": "Contraindication"
+    },
+    "relation_type": "CONTRAINDICATED_IN",
+    "source_id": "cn_olanzapine_hansoh",
+    "pages": [
+      6
+    ],
+    "section": "禁忌",
+    "summary": "说明书将已知有窄角型青光眼风险的患者列为禁用。",
+    "conditions": "限定为该说明书列出的风险状态，不扩大到所有类型青光眼。",
+    "action": "核对眼科风险及适用制剂。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L01": {
+    "id": "L01",
+    "drug": "锂盐",
+    "target": {
+      "name": "利尿剂",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      12
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "利尿引起钠流失可能降低锂清除率并增加血锂。",
+    "conditions": "美国标签类别警示，不能直接替代中国批准说明书。",
+    "action": "更频繁监测电解质及血锂，必要时由医师调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L02": {
+    "id": "L02",
+    "drug": "锂盐",
+    "target": {
+      "name": "NSAIDs",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      12
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "可降低肾血流及锂清除率，增加血锂。",
+    "conditions": "类别警示，未生成每个NSAID的直接药物关系。",
+    "action": "更频繁监测血锂并由医师评估调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L03": {
+    "id": "L03",
+    "drug": "锂盐",
+    "target": {
+      "name": "肾素血管紧张素系统拮抗剂",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      12
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "合用可增加稳态血锂浓度。",
+    "conditions": "美国标签类别警示。",
+    "action": "更频繁监测血锂并由医师评估调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L04": {
+    "id": "L04",
+    "drug": "锂盐",
+    "target": {
+      "name": "硝基咪唑类抗菌药",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      12
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "可能降低锂肾清除率并增加血锂。",
+    "conditions": "实际2026版标签使用类别名称；未伪造某一具体药物的直接关系。",
+    "action": "更频繁监测血锂并由医师评估调整。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L05": {
+    "id": "L05",
+    "drug": "锂盐",
+    "target": {
+      "name": "含血清素药物",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      12
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "合用可能诱发血清素综合征。",
+    "conditions": "美国标签；尤其关注开始合用阶段。",
+    "action": "监测血清素综合征相关表现。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  },
+  "L06": {
+    "id": "L06",
+    "drug": "锂盐",
+    "target": {
+      "name": "抗精神病药",
+      "label": "DrugClass"
+    },
+    "relation_type": "INTERACTS_WITH",
+    "source_id": "us_lithium_dailymed",
+    "pages": [
+      13
+    ],
+    "section": "7.1 Table 4：临床重要药物相互作用",
+    "summary": "有神经毒性、锥体外系症状至恶性综合征等不良反应报告。",
+    "conditions": "美国标签类别警示，不能据此认定每个药物有同等风险或绝对禁忌。",
+    "action": "监测神经系统不良反应。",
+    "population": "成人；不外推至儿童、孕哺期或个体剂量决策",
+    "source_review": "source_checked_by_agent",
+    "expert_review": "pending",
+    "checked_at": "2026-10-19"
+  }
+}

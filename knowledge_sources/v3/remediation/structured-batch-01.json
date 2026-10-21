@@ -1,0 +1,1569 @@
+{
+  "id": "structured-01",
+  "version": "kg_v3_candidate",
+  "expert_review": "pending",
+  "reasoning_eligible": false,
+  "operations": {
+    "entity:d592d6d2f064492b3c8b07d1": {
+      "item_id": "entity:d592d6d2f064492b3c8b07d1",
+      "original_sha256": "81a942d973b7b91ff995cee577d73614cb41013fc6c8778ef833d1d454c8eb2e",
+      "review_sha256": "603e116a5b6949521e3dc10b4e89443025e3e0fc289daa3802846d06e6330efd",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_entity_role",
+        "expected_label": "ClinicalSubtype",
+        "label": "CourseSpecifier",
+        "disease_id": "557312cc1a8ce5f7bb725e2d",
+        "definition": {
+          "course": "first_episode",
+          "previous_schizophrenia_or_schizoaffective_episodes": 0,
+          "requires_complete_diagnostic_criteria": true,
+          "remission_status_assessed_separately": true
+        }
+      }
+    },
+    "entity:fed09d8c290dbd563081baf1": {
+      "item_id": "entity:fed09d8c290dbd563081baf1",
+      "original_sha256": "79af5bdf0ac10050e9f0fa730e7cd4ba56172edb619d6f26a064a1a056a022f5",
+      "review_sha256": "da82bc76c66781843f122483bb09d98a5e88370c69ff9cd484d5b07cbd5df613",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_entity_role",
+        "expected_label": "ClinicalSubtype",
+        "label": "CourseSpecifier",
+        "disease_id": "557312cc1a8ce5f7bb725e2d",
+        "definition": {
+          "course": "multiple_episodes",
+          "qualifying_episodes_min": 2,
+          "qualifying_disorders": [
+            "schizophrenia",
+            "schizoaffective_disorder"
+          ],
+          "current_or_most_recent_episode": "schizophrenia",
+          "between_episode_remission_months_min": 3,
+          "remission_states": [
+            "partial",
+            "full"
+          ],
+          "requires_complete_diagnostic_criteria": true
+        }
+      }
+    },
+    "entity:21d79055466331363ac01b98": {
+      "item_id": "entity:21d79055466331363ac01b98",
+      "original_sha256": "e4a2edbae0565e508761cf28b5401a918e471248a63732611cb76060ab89e724",
+      "review_sha256": "83af0c3ecee616e73539ad2d889498f9863f281fba28cb88396c98befecbd701",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_entity_role",
+        "expected_label": "ClinicalSubtype",
+        "label": "CourseSpecifier",
+        "disease_id": "557312cc1a8ce5f7bb725e2d",
+        "definition": {
+          "course": "continuous",
+          "full_criteria_met_for_almost_entire_course": true,
+          "subthreshold_periods": "very_brief_relative_to_overall_course",
+          "when_applied_to_first_episode": {
+            "duration_years_min": 1,
+            "replaces": "first_episode_specifier"
+          },
+          "remission_status_assessed_separately": true
+        }
+      }
+    },
+    "relation:39932bf5528116725f43263e": {
+      "item_id": "relation:39932bf5528116725f43263e",
+      "original_sha256": "9df25ac7eb715614ec80ac6b973bcb662aad316b8af9bd78e8f15c7c162bc19a",
+      "review_sha256": "7f8de3fdb507be676d26a9eb6aafb89b69428c9d9daf20a672dfed19552a00f7",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "HAS_SUBTYPE",
+        "type": "HAS_COURSE_SPECIFIER",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:7f848e2a22a596af03e46864": {
+      "item_id": "relation:7f848e2a22a596af03e46864",
+      "original_sha256": "8fcc27fc3c476892647593a835949fbf639dc8ca9aaa23f15dfb6096691958d1",
+      "review_sha256": "2912b04ec9b58cfd97497c2f3a136c0028ced07b5aaa399cec8a9bb4c62c0a91",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "HAS_SUBTYPE",
+        "type": "HAS_COURSE_SPECIFIER",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:bb233b2701efc81bd61ef06e": {
+      "item_id": "relation:bb233b2701efc81bd61ef06e",
+      "original_sha256": "c59171973a29cad99d951b54c6c9b33cf70a5467eda8212c43c3eeb70b5e309f",
+      "review_sha256": "53ad6b578a777008e3b4915a5f3311a60e46d73e864fce0e8fed8c95eabe47b1",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:27b52d82ab700e351b02a18d": {
+      "item_id": "relation:27b52d82ab700e351b02a18d",
+      "original_sha256": "53e48816a1c82f8204b7c6cf2506c2e159557ded6427ed8ba457a3133a2cabcf",
+      "review_sha256": "c29f45786d1c26fe5d9f23df85d0af28bff6384dffdcec2f73654ef52d2ecc96",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:6ff1e4a3223b138bb73e1925": {
+      "item_id": "relation:6ff1e4a3223b138bb73e1925",
+      "original_sha256": "54c1dce945812b76220b51524d0a343e6ed816ac0f0ce927146ccc1bdab2942f",
+      "review_sha256": "6b28970f86a881efbd69b2fcb7ca5946f5bd5c879367761acdcbb7a440544416",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:7b9c3fe402f595b84ee13f8d": {
+      "item_id": "relation:7b9c3fe402f595b84ee13f8d",
+      "original_sha256": "23de01db8be95ba64a646196260a21e32e91d9c992a615ab974057c316f4001f",
+      "review_sha256": "8c90255c1367ff9969e003796859f81d31d5522b408c9e27b938f88b71e2c5be",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:1a04e70275728d5b3df64942": {
+      "item_id": "relation:1a04e70275728d5b3df64942",
+      "original_sha256": "d89bebac41c37f6015ad227a1be6ef6b84181a028e2fe00398d6917295798c0b",
+      "review_sha256": "05f7128c156531cfafde56d0bf79d3717cb4085b88806e4df4affbc70a68588e",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:4903b8d597af660175b23b22": {
+      "item_id": "relation:4903b8d597af660175b23b22",
+      "original_sha256": "99c082e02a558beec937e6b69c9ac370496a18f27685b4a4c9d6105ed287c9ec",
+      "review_sha256": "016f530736544b2fec4ee61041ca663d71287998aada5ddca9873e3aaf4b9c44",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:11bedb023a2f6673d10a9c51": {
+      "item_id": "relation:11bedb023a2f6673d10a9c51",
+      "original_sha256": "a649491f87b8b2bfaf298c568c7e581fede7115fd83f0e6bc9974f13d1a96389",
+      "review_sha256": "b674a5ff9bde63f9c067b618182a8c90a48221f7150baaf418cdfae34d049701",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:a780e88cabc9c17449b29742": {
+      "item_id": "relation:a780e88cabc9c17449b29742",
+      "original_sha256": "260f1a1ebfe23334ad810614e37c2f1bcf9143269d2546dacd65aa39005d6348",
+      "review_sha256": "53962137e5b2ccc0c90cd230f71d6edb7c099eb26a8b2cb8848da5e1e1ff1de1",
+      "evidence_ids": [
+        "B03-SCHIZ-COURSE-SPECIFIERS"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "HAS_SUBTYPE",
+        "type": "HAS_COURSE_SPECIFIER",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:9aee08812d1a8ca8d92846e2": {
+      "item_id": "relation:9aee08812d1a8ca8d92846e2",
+      "original_sha256": "9a0387c1bdf8231e0f12fc46831d4a50a70095c4360a37af2c2e120692dfe061",
+      "review_sha256": "e9a5ac5f41bac94cf28e96f77278ed6330898c13b760ecdabb97c671c26d5c24",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:36851159b15758905039622f": {
+      "item_id": "relation:36851159b15758905039622f",
+      "original_sha256": "6b2c0735a8933a8b238e0577108a89edabc1e4e318545f4400ac6a18238a1f77",
+      "review_sha256": "c99a2ce6e2b503059ab9be578ebe008e94213595f6fae0b1a1a111921d28c5c5",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:81ed0807b783c78c2e182c55": {
+      "item_id": "relation:81ed0807b783c78c2e182c55",
+      "original_sha256": "94e29189672282de6f2fc5b15ee9b3c29f621f833c59a94c9df4a18caa8a2bf4",
+      "review_sha256": "47afd31f9aee4dee0b1dde8a2eeb9a1a4dd85f260606c6c44d8edee06d11d29f",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:e75d937aa63e061b1888d97c": {
+      "item_id": "relation:e75d937aa63e061b1888d97c",
+      "original_sha256": "f6531cb41c04c080c0209e6e3aec14d272b4160dfb039b5fdc92d76d59060970",
+      "review_sha256": "39cfdf7081d47226690161a5861c8902344b44dd67e86e1719fa62f61f12a508",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:5caaf66ff10ddcb8bcc41208": {
+      "item_id": "relation:5caaf66ff10ddcb8bcc41208",
+      "original_sha256": "1688a1ddb920d28f95ccb108b1e3d4738b48c905b03f7e7f1d42d1684963de7b",
+      "review_sha256": "dfbf25965beade8447818c2cbc45d2bd7daf403338c5fb8a3ada3dd37a11c5e7",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:476362b9190ef80a668411f6": {
+      "item_id": "relation:476362b9190ef80a668411f6",
+      "original_sha256": "e07894cc79b6e465bc23950e1bc1d46e02aef7ee2e4f0aa8d26a1f7a5ba4ebb8",
+      "review_sha256": "d0b3a1abf292dc864ba06c5dcaabba68612a7132cf71de3f7303a9535f025c77",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:00fec67a4e1342256300932f": {
+      "item_id": "relation:00fec67a4e1342256300932f",
+      "original_sha256": "61e1211c8a1a104629170443ce4e596477e4c66aef50739329ec42e5df0442f6",
+      "review_sha256": "e91e061abb1bd03c1a6db3af2829715fca37cb93dbcfaa6d6fd606f1cfe8df9a",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:3358624b80974d8e895dd01e": {
+      "item_id": "relation:3358624b80974d8e895dd01e",
+      "original_sha256": "c7f10d8191dcda82ad4fb25cb698582ebd4e9c4ff40f145cd9829791013bd7bd",
+      "review_sha256": "1ce1e7e5dfee107db380598fee1bc09d19ad43715ec1dc31d4a0a86239128528",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:a0da0704d2bab2af25f7dfc3": {
+      "item_id": "relation:a0da0704d2bab2af25f7dfc3",
+      "original_sha256": "3d5e133162f49ac5c3c429f8fe2decba64366c15a8bd178a12e8904211238691",
+      "review_sha256": "9fa6b6413399ad0b1263c0bef13d0218d613a6b0d612d0963e004360ec18ad1c",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:4037f1d80ddbd3cb36dbbc6f": {
+      "item_id": "relation:4037f1d80ddbd3cb36dbbc6f",
+      "original_sha256": "2947f4b8266763fb87dcbcacbde468483742b945b70ded78fb28916b171d1e1d",
+      "review_sha256": "4db51397d3a1c59f27f3533e7663c34674c42a751fe05328daa3a562b6a07d4f",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "relation:2230df68e03a775be1421b9d": {
+      "item_id": "relation:2230df68e03a775be1421b9d",
+      "original_sha256": "eea573447dc2cdb47c0770f4c77b18067a1d602c3b289a975894fb227809a22a",
+      "review_sha256": "c39a0d6ca1f6331e784293e2d2b5a6746c1f5fed47913ec6a837683f6aa097d4",
+      "evidence_ids": [
+        "B03-SCHIZ-EXAMPLE-DIRECTION"
+      ],
+      "edit": {
+        "kind": "replace_relation_type",
+        "expected_type": "SUBTYPE_OF",
+        "type": "HAS_EXAMPLE",
+        "diagnostic_sufficiency": false
+      }
+    },
+    "property:06b62e6a29f4d2e83f762bd2:icd_code": {
+      "item_id": "property:06b62e6a29f4d2e83f762bd2:icd_code",
+      "original_sha256": "e8b65b67b4bb8122b3942d3a087e6f32db82a6ceba58f47c9487f339d78cf97d",
+      "review_sha256": "4e06a665e6d8c402a3ca72f9f4f3c32ff74d88389a265c1145bc33ca677cc5bf",
+      "evidence_ids": [
+        "B03-ICD10-DEP"
+      ],
+      "edit": {
+        "kind": "replace_with_related_categories",
+        "key": "icd_code",
+        "system": "ICD-10",
+        "edition": "WHO ICD-10 2019",
+        "mappings": [
+          {
+            "code": "F32",
+            "concept": "Depressive episode"
+          },
+          {
+            "code": "F33",
+            "concept": "Recurrent depressive disorder"
+          }
+        ],
+        "equivalent_to_umbrella": false,
+        "exhaustive": false
+      }
+    },
+    "property:06b62e6a29f4d2e83f762bd2:icd10": {
+      "item_id": "property:06b62e6a29f4d2e83f762bd2:icd10",
+      "original_sha256": "6dd472353a594810929adc89de9795820f410167c64cace9df83569e01f4245c",
+      "review_sha256": "423ce5bfe03fa7eec08bf0d2fd37784a9f2f9c310d834306fdc9e303b5fa46b1",
+      "evidence_ids": [
+        "B03-ICD10-DEP"
+      ],
+      "edit": {
+        "kind": "replace_with_related_categories",
+        "key": "icd10",
+        "system": "ICD-10",
+        "edition": "WHO ICD-10 2019",
+        "mappings": [
+          {
+            "code": "F32",
+            "concept": "Depressive episode"
+          },
+          {
+            "code": "F33",
+            "concept": "Recurrent depressive disorder"
+          }
+        ],
+        "equivalent_to_umbrella": false,
+        "exhaustive": false
+      }
+    },
+    "property:7b837688f1073be778fe46f7:icd_code": {
+      "item_id": "property:7b837688f1073be778fe46f7:icd_code",
+      "original_sha256": "8c5fe5849e2ab3983134bd81d0db07906293f6ac9150691c52bffe1398038b09",
+      "review_sha256": "ede986320e36e7fa962a4dfe75b39e401a7b9a169538aba848b5c7c3cbd7f0aa",
+      "evidence_ids": [
+        "B03-ANXIETY-CODES"
+      ],
+      "edit": {
+        "kind": "replace_with_related_categories",
+        "key": "icd_code",
+        "system": "ICD-10",
+        "edition": "WHO ICD-10 2019",
+        "mappings": [
+          {
+            "code": "F40",
+            "concept": "Phobic anxiety disorders"
+          },
+          {
+            "code": "F41",
+            "concept": "Other anxiety disorders"
+          }
+        ],
+        "equivalent_to_umbrella": false,
+        "exhaustive": false
+      }
+    },
+    "property:f24ee52a7efbff65c7339fd8:ICD-11_code": {
+      "item_id": "property:f24ee52a7efbff65c7339fd8:ICD-11_code",
+      "original_sha256": "2daf67dc2fc0bc2623786575441b4cc12a2467d9f526bad4b4be95e5f22ffd47",
+      "review_sha256": "d11842c4a5059ffb0821d69c852bae047469ef1c022e5c02c17ec1666f8fcd81",
+      "evidence_ids": [
+        "WHO-MANIC-CODE-SCOPE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "ICD-11_code",
+        "code": "6A60",
+        "reason_code": "disorder_code_assigned_to_episode",
+        "replacement_code": null
+      }
+    },
+    "property:0a16bf13b44d8f0c6a6dbfe1:ICD-11_code": {
+      "item_id": "property:0a16bf13b44d8f0c6a6dbfe1:ICD-11_code",
+      "original_sha256": "dfb7a3e21ba63b884d4a62fa9e30fb25ee12cc407c98c7b10fdd3a20ee072f44",
+      "review_sha256": "da46e339a7ff01ba73fc2bdf632613dbf4330b95b1e89f9bb3ea6ca1b134c377",
+      "evidence_ids": [
+        "WHO-HYPOMANIC-CODE-SCOPE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "ICD-11_code",
+        "code": "6A61",
+        "reason_code": "disorder_code_assigned_to_episode",
+        "replacement_code": null
+      }
+    },
+    "property:8baeef1194c213900abd08f3:ICD-11_code": {
+      "item_id": "property:8baeef1194c213900abd08f3:ICD-11_code",
+      "original_sha256": "4a803dd8767b5ffa432bcece342a0cbde98d69b077960e7817b7d0d94e7091fb",
+      "review_sha256": "6360990795a1ecdf12c6a7211dc6d502578d2a92c0c173b49b9c8f56230cdafb",
+      "evidence_ids": [
+        "WHO-DYSTHYMIA-CODE"
+      ],
+      "edit": {
+        "kind": "replace_code_assignment",
+        "key": "ICD-11_code",
+        "old_code": "6A73",
+        "code": "6A72",
+        "system": "ICD-11",
+        "edition": "WHO CDDR 2024",
+        "concept": "Dysthymic disorder"
+      }
+    },
+    "property:c93d5937775db620f66e7431:icd10": {
+      "item_id": "property:c93d5937775db620f66e7431:icd10",
+      "original_sha256": "0f3bc1b2ecf8615edf82119edaf7dd38cccfa19d003d02250a192c0f1247f77e",
+      "review_sha256": "2ee19efbf375cd31402121603e074913d466d3167b58ce6feb8aff486e545a04",
+      "evidence_ids": [
+        "B03-MANIA-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "F31.1",
+        "reason_code": "requires_current_episode_and_psychotic_status",
+        "replacement_code": null
+      }
+    },
+    "property:60daf4037069ebea6aee7dbe:icd10": {
+      "item_id": "property:60daf4037069ebea6aee7dbe:icd10",
+      "original_sha256": "fc96a1329d88a98f16040a97776e3d36c7e796980aa7c38db7078fb689855042",
+      "review_sha256": "b912f20963bb2a3b8fb995c19afa9b1302a93509e8416738736e67274f039197",
+      "evidence_ids": [
+        "B03-THYROID-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "E03.9",
+        "reason_code": "unspecified_category_assigned_to_umbrella",
+        "replacement_code": null
+      }
+    },
+    "property:c65b27d41eb2415526c17338:icd10": {
+      "item_id": "property:c65b27d41eb2415526c17338:icd10",
+      "original_sha256": "280e9564e84d2bb921d967f10a94ddb579ef06facafcc372f392c4bc1370b457",
+      "review_sha256": "80764f5c5b5bafc841484c76166c95a78daf5e2d6bf956cd120f2690a1c03241",
+      "evidence_ids": [
+        "B03-LIPID-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "E78.5",
+        "reason_code": "requires_lipid_subtype",
+        "replacement_code": null
+      }
+    },
+    "property:408bf2d0bb58d9adb050102d:icd10": {
+      "item_id": "property:408bf2d0bb58d9adb050102d:icd10",
+      "original_sha256": "056b33c3df30ec62b1ef98d2bd846a042b913378b897c1cff90bd2e0984ccb97",
+      "review_sha256": "7a61c9c62d528a5a6363c4edcc40b2a715a88a6db6878633fa0d5af2d36094c1",
+      "evidence_ids": [
+        "B03-SEROTONIN-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "T43.6",
+        "reason_code": "wrong_equivalence",
+        "replacement_code": null
+      }
+    },
+    "property:b22c1619c84a15eec2192457:icd10": {
+      "item_id": "property:b22c1619c84a15eec2192457:icd10",
+      "original_sha256": "6f1e0c508c1a9da93b8ed47595a42649e2c468f995e6de243ef0c30849048a3d",
+      "review_sha256": "9a12af71998d094850a34d3afd2639769c0ffc1995a760c768cb26aee0998726",
+      "evidence_ids": [
+        "B03-HYPERTENSION-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "I10",
+        "reason_code": "essential_hypertension_is_not_control_status",
+        "replacement_code": null
+      }
+    },
+    "property:845ae0c616b381a617eeb5d4:icd10": {
+      "item_id": "property:845ae0c616b381a617eeb5d4:icd10",
+      "original_sha256": "d5bf1f0cb61480ba2a41c1d12e711d7a4fb9ba616723f4b11cae05e23d872e27",
+      "review_sha256": "0cd841ca0a0f442364ea4abc750aa12678d3ccd5413ec357ccbf7de4214979b9",
+      "evidence_ids": [
+        "B03-HEPATIC-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "K76.0",
+        "reason_code": "wrong_equivalence",
+        "replacement_code": null
+      }
+    },
+    "property:9a92aa6b151984a4259ada36:icd10": {
+      "item_id": "property:9a92aa6b151984a4259ada36:icd10",
+      "original_sha256": "b64a3fba80ff3d87b8fc5bb3ae26813c80006d0ae86605b775401d5585b7c129",
+      "review_sha256": "b3e53c0ab42509836da2067f1149f0b5a72e3dc845bea611a876580a13593c2b",
+      "evidence_ids": [
+        "B03-RENAL-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "N18.4",
+        "reason_code": "drug_threshold_is_not_ckd_stage",
+        "replacement_code": null
+      }
+    },
+    "property:ae02cd74347c0ab4c80f7588:icd10": {
+      "item_id": "property:ae02cd74347c0ab4c80f7588:icd10",
+      "original_sha256": "83a84fdd066132f13b3e16f9785a05b2c07b790a90358289dff68da821f8519f",
+      "review_sha256": "bdf51416808dfeaad2c0cf255a35b4e44eb3a4c89a83805825c0b18fd6802361",
+      "evidence_ids": [
+        "B03-GI-BLEED-CODE"
+      ],
+      "edit": {
+        "kind": "remove_code_assignment",
+        "key": "icd10",
+        "code": "K92.2",
+        "reason_code": "requires_bleeding_site_or_unspecified_status",
+        "replacement_code": null
+      }
+    },
+    "property:04f8787e935c61048f6af186:dose_start": {
+      "item_id": "property:04f8787e935c61048f6af186:dose_start",
+      "original_sha256": "f34edb254b68f1310319693ca54d11876cb0a1fb678977017d37ed6206e0fafb",
+      "review_sha256": "b354974c3ddd0a0e42d3dd6fe7b717b8046472bfa7889f52372e80ff8719dbfc",
+      "evidence_ids": [
+        "B02-SER-START"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "sertraline-adult-initial-cn",
+            "subject_id": "04f8787e935c61048f6af186",
+            "kind": "dose",
+            "source_id": "cn_sertraline_viatris",
+            "evidence_id": "B02-SER-START",
+            "context": {
+              "population": "adult",
+              "indications": [
+                "depression",
+                "OCD"
+              ],
+              "phase": "initial"
+            },
+            "parameters": [
+              {
+                "value": 50,
+                "unit": "mg/day",
+                "role": "initial_dose"
+              },
+              {
+                "value": 7,
+                "unit": "day",
+                "role": "minimum_titration_interval"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          }
+        ]
+      }
+    },
+    "property:fcc7bf9f26197edd8426900f:dose_max": {
+      "item_id": "property:fcc7bf9f26197edd8426900f:dose_max",
+      "original_sha256": "7abb1f5dca9485907c96dd33a62a97a9cc2cbf52ec77719c52925ebd2532b270",
+      "review_sha256": "ed21c831e19d40287ea0aed294aa8d20cfc8796d55c3535abae6f42ddbed25fa",
+      "evidence_ids": [
+        "B02-FLU-MAX"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "fluoxetine-depression-cn",
+            "subject_id": "fcc7bf9f26197edd8426900f",
+            "kind": "dose",
+            "source_id": "cn_fluoxetine_lilly",
+            "evidence_id": "B02-FLU-MAX",
+            "context": {
+              "population": "adult",
+              "indication": "depression",
+              "phase": "dose_adjustment",
+              "prerequisite": "20mg/day疗效不足；最初3–4周评估调整"
+            },
+            "parameters": [
+              {
+                "value": 20,
+                "unit": "mg/day",
+                "role": "recommended_dose"
+              },
+              {
+                "value": 60,
+                "unit": "mg/day",
+                "role": "maximum_after_titration"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "fluoxetine-OCD-cn",
+            "subject_id": "fcc7bf9f26197edd8426900f",
+            "kind": "dose",
+            "source_id": "cn_fluoxetine_lilly",
+            "evidence_id": "B02-FLU-MAX",
+            "context": {
+              "population": "adult",
+              "indication": "OCD",
+              "phase": "dose_adjustment",
+              "prerequisite": "20mg/day治疗2周后仍无明显疗效"
+            },
+            "parameters": [
+              {
+                "value": 20,
+                "unit": "mg/day",
+                "role": "recommended_dose"
+              },
+              {
+                "value": 60,
+                "unit": "mg/day",
+                "role": "maximum_after_titration"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "fluoxetine-bulimia-cn",
+            "subject_id": "fcc7bf9f26197edd8426900f",
+            "kind": "dose",
+            "source_id": "cn_fluoxetine_lilly",
+            "evidence_id": "B02-FLU-MAX",
+            "context": {
+              "population": "adult",
+              "indication": "bulimia",
+              "co_treatment": "psychotherapy"
+            },
+            "parameters": [
+              {
+                "value": 60,
+                "unit": "mg/day",
+                "role": "recommended_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "fluoxetine-elderly-cn",
+            "subject_id": "fcc7bf9f26197edd8426900f",
+            "kind": "dose",
+            "source_id": "cn_fluoxetine_lilly",
+            "evidence_id": "B02-FLU-MAX",
+            "context": {
+              "population": "elderly",
+              "phase": "dose_adjustment"
+            },
+            "parameters": [
+              {
+                "value": 40,
+                "unit": "mg/day",
+                "role": "usual_upper_dose"
+              },
+              {
+                "value": 60,
+                "unit": "mg/day",
+                "role": "maximum_recommended_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "谨慎增加剂量；不能把最高量等同于通常推荐量"
+            ]
+          }
+        ]
+      }
+    },
+    "property:fbe4ed72827477d0ae8cfb0f:dose_start": {
+      "item_id": "property:fbe4ed72827477d0ae8cfb0f:dose_start",
+      "original_sha256": "b20932dd257ccac3215baddd3100032d552b53deee47d6d7a12363e515850db0",
+      "review_sha256": "ca50d9690a2648f5dd4c9f298a9a433d210253bd3d2ee530bee248acc63aaca0",
+      "evidence_ids": [
+        "B02-OLA-START"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "olanzapine-schizophrenia-monotherapy-cn",
+            "subject_id": "fbe4ed72827477d0ae8cfb0f",
+            "kind": "dose",
+            "source_id": "cn_olanzapine_hansoh",
+            "evidence_id": "B02-OLA-START",
+            "context": {
+              "population": "adult",
+              "indication": "schizophrenia",
+              "regimen": "monotherapy",
+              "phase": "initial"
+            },
+            "parameters": [
+              {
+                "value": 10,
+                "unit": "mg/day",
+                "role": "initial_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "olanzapine-mania-monotherapy-cn",
+            "subject_id": "fbe4ed72827477d0ae8cfb0f",
+            "kind": "dose",
+            "source_id": "cn_olanzapine_hansoh",
+            "evidence_id": "B02-OLA-START",
+            "context": {
+              "population": "adult",
+              "indication": "mania",
+              "regimen": "monotherapy",
+              "phase": "initial"
+            },
+            "parameters": [
+              {
+                "value": 15,
+                "unit": "mg/day",
+                "role": "initial_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "olanzapine-mania-combination-cn",
+            "subject_id": "fbe4ed72827477d0ae8cfb0f",
+            "kind": "dose",
+            "source_id": "cn_olanzapine_hansoh",
+            "evidence_id": "B02-OLA-START",
+            "context": {
+              "population": "adult",
+              "indication": "mania",
+              "regimen": "combination",
+              "phase": "initial"
+            },
+            "parameters": [
+              {
+                "value": 10,
+                "unit": "mg/day",
+                "role": "initial_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+            "subject_id": "fbe4ed72827477d0ae8cfb0f",
+            "kind": "dose",
+            "source_id": "cn_olanzapine_hansoh",
+            "evidence_id": "B02-OLA-START",
+            "context": {
+              "population": "adult",
+              "indication": "bipolar_recurrence_prevention",
+              "regimen": "label_qualified",
+              "phase": "initial"
+            },
+            "parameters": [
+              {
+                "value": 10,
+                "unit": "mg/day",
+                "role": "initial_dose"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "预防复发应保留既往躁狂治疗有效等标签条件"
+            ]
+          }
+        ]
+      }
+    },
+    "property:72d56d56d60120f29a185b86:dose_start": {
+      "item_id": "property:72d56d56d60120f29a185b86:dose_start",
+      "original_sha256": "14d48b0d004971b51bae5fcfd7c79a12e84df74530278c87b4910a4b9d63af8b",
+      "review_sha256": "4b1f211c71bd075b9a8e7d320c16a2fc426685d61640cbe5720ba85fff3f5d59",
+      "evidence_ids": [
+        "B03-LI-RANGE"
+      ],
+      "edit": {
+        "kind": "retire_unqualified_dose",
+        "key": "dose_start",
+        "replacement_value": null,
+        "followup": "需要另行确认具体制剂起始量；浓度范围不能替代剂量"
+      }
+    },
+    "property:72d56d56d60120f29a185b86:therapeutic_range": {
+      "item_id": "property:72d56d56d60120f29a185b86:therapeutic_range",
+      "original_sha256": "6d2b5444c1f7012f0d1d783a6aee34c5437651bd0e2a67d01a368fb07f5c3d68",
+      "review_sha256": "09a8f552eedd6cba997e0e3102a786d226269298b4be96cf5f3a540a8324d921",
+      "evidence_ids": [
+        "B03-LI-RANGE",
+        "B03-LI-NICE-CONCENTRATION"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "lithium-acute_manic_or_mixed-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "acute_manic_or_mixed",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.2,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-maintenance-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "maintenance",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-first_time-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "first_lithium_treatment"
+            },
+            "parameters": [
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "lithium-trial_higher-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "relapse_while_taking_lithium_or_impairing_subthreshold_symptoms",
+              "trial_duration_months_min": 6
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          }
+        ]
+      }
+    },
+    "entity:6776fcf352fe12c2d0e50aab": {
+      "item_id": "entity:6776fcf352fe12c2d0e50aab",
+      "original_sha256": "04e2fb79dd9315f65aaa16b682a4611d3bb93ab9cc9b1ab693b2bd7e0e863fe3",
+      "review_sha256": "45e2ba1f556ef8ee045b7ffbddf232ea52186c9be62ca1dc6159d0b86b4382b7",
+      "evidence_ids": [
+        "B03-LI-RANGE",
+        "B03-LI-NICE-CONCENTRATION"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "lithium-acute_manic_or_mixed-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "acute_manic_or_mixed",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.2,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-maintenance-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "maintenance",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-first_time-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "first_lithium_treatment"
+            },
+            "parameters": [
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "lithium-trial_higher-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "relapse_while_taking_lithium_or_impairing_subthreshold_symptoms",
+              "trial_duration_months_min": 6
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          }
+        ]
+      }
+    },
+    "property:6776fcf352fe12c2d0e50aab:parameter": {
+      "item_id": "property:6776fcf352fe12c2d0e50aab:parameter",
+      "original_sha256": "b4750f7932b79e7e5aa3eb731c51777608dd592b9e402c86b8ec9dbf9db3a945",
+      "review_sha256": "011637c9726047051b283629c014415640fa230b191e3ef64a48f943ad072722",
+      "evidence_ids": [
+        "B03-LI-RANGE",
+        "B03-LI-NICE-CONCENTRATION"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "lithium-acute_manic_or_mixed-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "acute_manic_or_mixed",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.2,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-maintenance-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "maintenance",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-first_time-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "first_lithium_treatment"
+            },
+            "parameters": [
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "lithium-trial_higher-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "relapse_while_taking_lithium_or_impairing_subthreshold_symptoms",
+              "trial_duration_months_min": 6
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          }
+        ]
+      }
+    },
+    "relation:395aa7569c27fb5f83d9647d": {
+      "item_id": "relation:395aa7569c27fb5f83d9647d",
+      "original_sha256": "deefbbb7da2bd3d3a13e4ea6c6bb21516c697d511854119b2a8c74fcfcfa65d9",
+      "review_sha256": "fc274514cfb9b34d0eb8b4d28402b3a08959d4bc8e9131c4ed7fafe197f72630",
+      "evidence_ids": [
+        "B03-LI-RANGE",
+        "B03-LI-NICE-CONCENTRATION"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "lithium-acute_manic_or_mixed-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "acute_manic_or_mixed",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.2,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-maintenance-us",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "us_lithium_dailymed",
+            "evidence_id": "B03-LI-RANGE",
+            "context": {
+              "population": "adult_over_30kg",
+              "indication": "bipolar_I",
+              "phase": "maintenance",
+              "sampling_hours_after_dose": 12
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mEq/L",
+                "role": "serum_target"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "血浓度不能单独判断疗效或毒性",
+              "不与英国指南单位及阶段范围自动合并"
+            ]
+          },
+          {
+            "key": "lithium-first_time-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "first_lithium_treatment"
+            },
+            "parameters": [
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          },
+          {
+            "key": "lithium-trial_higher-uk",
+            "subject_id": "72d56d56d60120f29a185b86",
+            "kind": "concentration_target",
+            "source_id": "nice_cg185",
+            "evidence_id": "B03-LI-NICE-CONCENTRATION",
+            "context": {
+              "population": "adult",
+              "scenario": "relapse_while_taking_lithium_or_impairing_subthreshold_symptoms",
+              "trial_duration_months_min": 6
+            },
+            "parameters": [
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "unit": "mmol/L",
+                "role": "plasma_target"
+              }
+            ],
+            "constraints": [
+              "仅NICE CG185相应条件",
+              "不转换或并入美国产品目标范围",
+              "不生成个人处方"
+            ]
+          }
+        ]
+      }
+    },
+    "relation:69c38392c2018447898f75b6": {
+      "item_id": "relation:69c38392c2018447898f75b6",
+      "original_sha256": "dc856f9ab595c56a0cbd05fe93b3d5981d315defe8ab819eabbd8f40729773ca",
+      "review_sha256": "0d4d273be6816f0bead3235a84e59565b5f0897c4f43c4b815244736408fbd06",
+      "evidence_ids": [
+        "B02-SER-MAOI"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "sertraline-maoi-washout-cn",
+            "subject_id": "04f8787e935c61048f6af186",
+            "kind": "washout",
+            "source_id": "cn_sertraline_viatris",
+            "evidence_id": "B02-SER-MAOI",
+            "context": {
+              "population": "label_defined",
+              "prohibited_combination": true
+            },
+            "parameters": [
+              {
+                "from_entity": "11ccaac6c87c08ee420b70cd",
+                "to_entity": "04f8787e935c61048f6af186",
+                "minimum": 14,
+                "unit": "day"
+              },
+              {
+                "from_entity": "04f8787e935c61048f6af186",
+                "to_entity": "11ccaac6c87c08ee420b70cd",
+                "minimum": 14,
+                "unit": "day"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "仅MAOI与舍曲林间换药；不扩展到其他药物"
+            ]
+          }
+        ]
+      }
+    },
+    "relation:5074f125be11e6459b0a7bab": {
+      "item_id": "relation:5074f125be11e6459b0a7bab",
+      "original_sha256": "9e339a70012b499a8eb52ab95702a56858d2eeda7d9c75362a57a4a01a328fea",
+      "review_sha256": "fb7b9395bf33d46cd0f3259207dc46a454dc5ceb8d1d2466cc6ccfccc0e74f21",
+      "evidence_ids": [
+        "B02-CLO-FLUVOX"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "fluvoxamine-clozapine-management-us",
+            "subject_id": "daf8a55846ed065646f8b0ed",
+            "kind": "interaction_management",
+            "source_id": "us_clozapine_mylan",
+            "evidence_id": "B02-CLO-FLUVOX",
+            "context": {
+              "population": "label_defined",
+              "inhibitor_id": "ca6f4ce9f70aeb40e51f5b8f",
+              "affected_id": "daf8a55846ed065646f8b0ed",
+              "mechanism": "strong_CYP1A2_inhibition",
+              "exposure_direction": "may_increase"
+            },
+            "parameters": [
+              {
+                "value": 1,
+                "denominator": 3,
+                "unit": "fraction_of_original_dose",
+                "role": "label_dose_adjustment"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "仅美国标签中的强CYP1A2抑制剂合用条件",
+              "非无条件绝对禁忌",
+              "不得自行按比例调药"
+            ]
+          }
+        ]
+      }
+    },
+    "relation:43a9201e4b41894e18db9400": {
+      "item_id": "relation:43a9201e4b41894e18db9400",
+      "original_sha256": "15e849cb2f8aee4ddbb3078d1aa068bdb2867643d9080d5f739d73bf20bea08d",
+      "review_sha256": "06199290fddd9fa7d23902cc89c25b1e8accbaef887c27178189342903cb386b",
+      "evidence_ids": [
+        "B02-CLO-FLUVOX"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "fluvoxamine-clozapine-management-us",
+            "subject_id": "daf8a55846ed065646f8b0ed",
+            "kind": "interaction_management",
+            "source_id": "us_clozapine_mylan",
+            "evidence_id": "B02-CLO-FLUVOX",
+            "context": {
+              "population": "label_defined",
+              "inhibitor_id": "ca6f4ce9f70aeb40e51f5b8f",
+              "affected_id": "daf8a55846ed065646f8b0ed",
+              "mechanism": "strong_CYP1A2_inhibition",
+              "exposure_direction": "may_increase"
+            },
+            "parameters": [
+              {
+                "value": 1,
+                "denominator": 3,
+                "unit": "fraction_of_original_dose",
+                "role": "label_dose_adjustment"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "仅美国标签中的强CYP1A2抑制剂合用条件",
+              "非无条件绝对禁忌",
+              "不得自行按比例调药"
+            ]
+          }
+        ]
+      }
+    },
+    "relation:72eab889786efdf949c885cd": {
+      "item_id": "relation:72eab889786efdf949c885cd",
+      "original_sha256": "b5442e9b50506194313c84bddbf1f64d52b57290f09bd16f6a1ee98467ac93ac",
+      "review_sha256": "18bb76754a5fe1ed88337276327c23b0a8120ac9a731136af94f28692f9d4281",
+      "evidence_ids": [
+        "B02-SER-MAOI"
+      ],
+      "edit": {
+        "kind": "replace_with_scoped_records",
+        "records": [
+          {
+            "key": "sertraline-maoi-washout-cn",
+            "subject_id": "04f8787e935c61048f6af186",
+            "kind": "washout",
+            "source_id": "cn_sertraline_viatris",
+            "evidence_id": "B02-SER-MAOI",
+            "context": {
+              "population": "label_defined",
+              "prohibited_combination": true
+            },
+            "parameters": [
+              {
+                "from_entity": "11ccaac6c87c08ee420b70cd",
+                "to_entity": "04f8787e935c61048f6af186",
+                "minimum": 14,
+                "unit": "day"
+              },
+              {
+                "from_entity": "04f8787e935c61048f6af186",
+                "to_entity": "11ccaac6c87c08ee420b70cd",
+                "minimum": 14,
+                "unit": "day"
+              }
+            ],
+            "constraints": [
+              "仅原文所列制剂及版本",
+              "需临床人员结合完整标签及个体情况复核",
+              "不生成个人处方",
+              "仅MAOI与舍曲林间换药；不扩展到其他药物"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

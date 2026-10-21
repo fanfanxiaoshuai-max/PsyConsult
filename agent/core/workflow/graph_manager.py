@@ -8,7 +8,7 @@
 
 import logging
 import time
-from langchain_core.messages import BaseMessage, HumanMessage, RemoveMessage, SystemMessage
+from langchain_core.messages import BaseMessage, HumanMessage, RemoveMessage, SystemMessage, AIMessage
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 
@@ -50,6 +50,9 @@ class AgentGraphManager:
     def _route_condition(self, state: AgentState) -> str:
         return state.get("next_agent", "differential_diagnosis")
 
+    def _after_diagnosis(self, state: AgentState) -> str:
+        return "end" if state.get("metadata", {}).get("diagnosis_only") else "treatment_recommend"
+
     async def _timed_node(self, node_name: str, node, state: AgentState):
         start = time.perf_counter()
         user_id = state.get("user_id", "")
@@ -61,7 +64,12 @@ class AgentGraphManager:
             node_name,
         )
         try:
-            return await node(state)
+            from core.graph.runtime_version import binding_from_metadata,use_binding,resolve_binding
+            binding=binding_from_metadata(state['knowledge_binding']) if state.get('knowledge_binding') else resolve_binding()
+            with use_binding(binding):result=await node(state)
+            for message in result.get('messages',[]):
+                if isinstance(message,AIMessage):message.additional_kwargs['knowledge_binding']=binding.metadata()
+            return result
         finally:
             logger.info(
                 "event=agent_node_complete user_id=%s session_id=%s node=%s elapsed=%.3fs",
@@ -82,6 +90,20 @@ class AgentGraphManager:
 
     async def _run_drug_review(self, state: AgentState):
         return await self._timed_node("drug_interaction", self.drug_review_node, state)
+
+    async def _prepare_knowledge_history(self,state:AgentState):
+        from core.graph.runtime_version import binding_from_metadata,resolve_binding
+        binding=binding_from_metadata(state['knowledge_binding']) if state.get('knowledge_binding') else resolve_binding()
+        previous=state.get('history_knowledge_identity')
+        changes=dict(knowledge_binding=binding.metadata(),history_knowledge_identity=binding.identity)
+        if previous!=binding.identity:
+            messages=list(state.get('messages',[]))
+            # Never reuse model/tool outputs or old mixed summaries as new-version evidence.
+            humans={m.id:m for m in list(state.get('user_messages',[]))+messages if isinstance(m,HumanMessage)}
+            retained=list(humans.values())
+            changes['messages']=[RemoveMessage(id=m.id) for m in messages if m.id]+retained
+            changes['user_messages']=retained
+        return changes
 
     async def _compress_history(self, state: AgentState):
         """历史压缩节点：超出窗口的消息摘要为一条 SystemMessage。
@@ -133,6 +155,8 @@ class AgentGraphManager:
 
     def build_graph(self, checkpointer=None) -> StateGraph:
         builder = StateGraph(AgentState)
+        builder.add_node('knowledge_history',self._prepare_knowledge_history)
+        builder.add_edge(START,'knowledge_history')
 
         builder.add_node("orchestrator", self._run_orchestrator)
         builder.add_node("differential_diagnosis", self._run_diagnosis)
@@ -142,10 +166,10 @@ class AgentGraphManager:
             builder.add_node("history_compression", self._compress_history)
 
         if checkpointer is not None:
-            builder.add_edge(START, "history_compression")
+            builder.add_edge('knowledge_history', "history_compression")
             builder.add_edge("history_compression", "orchestrator")
         else:
-            builder.add_edge(START, "orchestrator")
+            builder.add_edge('knowledge_history', "orchestrator")
 
         builder.add_conditional_edges(
             "orchestrator", self._route_condition,
@@ -153,9 +177,12 @@ class AgentGraphManager:
              "treatment_recommend": "treatment_recommend",
              "drug_interaction": "drug_interaction"})
 
-        # 3 步流水线（诊断内置症状提取 → 治疗 → 药物审查）
-        builder.add_edge("differential_diagnosis", "treatment_recommend")
-        builder.add_edge("treatment_recommend", "drug_interaction")
+        # Drug review is reached from the router for an actual medication question.
+        builder.add_conditional_edges(
+            "differential_diagnosis", self._after_diagnosis,
+            {"treatment_recommend": "treatment_recommend", "end": END},
+        )
+        builder.add_edge("treatment_recommend", END)
         builder.add_edge("drug_interaction", END)
 
         return builder.compile(checkpointer=checkpointer)

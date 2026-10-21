@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-19",
+  "source_records": [
+    {
+      "id": "cn_sertraline_viatris",
+      "sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "pdf_pages": 15,
+      "cited_pages": [
+        6,
+        11,
+        12
+      ],
+      "method": "agent text extraction and page inspection",
+      "expert_review": "pending",
+      "source_bytes_verified": true
+    },
+    {
+      "id": "cn_fluoxetine_lilly",
+      "sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "pdf_pages": 31,
+      "cited_pages": [
+        9,
+        17,
+        20,
+        21,
+        22
+      ],
+      "method": "agent text extraction and page inspection",
+      "expert_review": "pending",
+      "source_bytes_verified": true
+    },
+    {
+      "id": "cn_olanzapine_lilly",
+      "used_for_claims": false,
+      "availability": "unavailable_404"
+    },
+    {
+      "id": "cn_olanzapine_hansoh",
+      "sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "pdf_pages": 15,
+      "cited_pages": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "method": "agent text extraction and page inspection",
+      "expert_review": "pending",
+      "source_bytes_verified": true
+    },
+    {
+      "id": "cn_paroxetine_hospital",
+      "sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "pdf_pages": 2,
+      "cited_pages": [
+        2
+      ],
+      "method": "agent visual scan reading",
+      "expert_review": "pending",
+      "source_bytes_verified": true
+    },
+    {
+      "id": "us_lithium_dailymed",
+      "sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "pdf_pages": 33,
+      "cited_pages": [
+        12,
+        13
+      ],
+      "method": "agent text extraction and page inspection",
+      "expert_review": "pending",
+      "source_bytes_verified": true
+    }
+  ],
+  "evidence_count": 30,
+  "expert_reviewed": false
+}

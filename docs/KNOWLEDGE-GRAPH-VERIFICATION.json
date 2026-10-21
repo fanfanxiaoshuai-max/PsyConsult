@@ -1,0 +1,163 @@
+{
+  "synthetic_queries_only": true,
+  "idempotent_import": true,
+  "cases": [
+    {
+      "query": "舍曲林",
+      "expected_name": "舍曲林",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "舍曲林有哪些副作用",
+      "expected_name": "舍曲林",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "Sertraline",
+      "expected_name": "舍曲林",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "sertraline side effects",
+      "expected_name": "舍曲林",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "帕罗西汀",
+      "expected_name": "帕罗西汀",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "Paroxetine",
+      "expected_name": "帕罗西汀",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "氟西汀",
+      "expected_name": "氟西汀",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "Fluoxetine",
+      "expected_name": "氟西汀",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "奥氮平",
+      "expected_name": "奥氮平",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "Olanzapine",
+      "expected_name": "奥氮平",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "锂盐",
+      "expected_name": "锂盐",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "Lithium",
+      "expected_name": "锂盐",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "精神分裂症",
+      "expected_name": "精神分裂症",
+      "expected_label": "Disease",
+      "passed": true
+    },
+    {
+      "query": "精神分裂症",
+      "expected_name": "精神分裂症",
+      "expected_label": "DifferentialDiagnosis",
+      "passed": true
+    },
+    {
+      "query": "双相障碍",
+      "expected_name": "双相障碍",
+      "expected_label": "Disease",
+      "passed": true
+    },
+    {
+      "query": "双相障碍",
+      "expected_name": "双相障碍",
+      "expected_label": "DifferentialDiagnosis",
+      "passed": true
+    },
+    {
+      "query": "抑郁发作有什么症状",
+      "expected_name": "抑郁发作",
+      "expected_label": "Disease",
+      "passed": true
+    },
+    {
+      "query": "失眠",
+      "expected_name": "失眠",
+      "expected_label": "Symptom",
+      "passed": true
+    },
+    {
+      "query": "患者睡不着怎么办",
+      "expected_name": "失眠",
+      "expected_label": "Symptom",
+      "passed": true
+    },
+    {
+      "query": "睡不好",
+      "expected_name": "失眠",
+      "expected_label": "Symptom",
+      "passed": true
+    },
+    {
+      "query": "舍曲林与帕罗西汀合用",
+      "expected_name": "舍曲林",
+      "expected_label": "Drug",
+      "passed": true
+    },
+    {
+      "query": "舍曲林与帕罗西汀合用",
+      "expected_name": "帕罗西汀",
+      "expected_label": "Drug",
+      "passed": true
+    }
+  ],
+  "relation_checks": [
+    {
+      "query": "舍曲林有哪些副作用",
+      "edges": 6,
+      "sources": 6,
+      "passed": true
+    },
+    {
+      "query": "抑郁发作有什么症状",
+      "edges": 16,
+      "sources": 16,
+      "passed": true
+    },
+    {
+      "query": "舍曲林与帕罗西汀合用",
+      "edges": 1,
+      "sources": 1,
+      "passed": true
+    }
+  ],
+  "legacy_preserved": true,
+  "entities": 214,
+  "relations": 376,
+  "pending": 13,
+  "digest": "812ffb7e2ab6f07460ef5b50cfa8dbc97b57a71bed2abd71deaffd38ade247b1"
+}

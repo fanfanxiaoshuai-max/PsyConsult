@@ -1,8 +1,17 @@
-"""鏍稿績 Agent 妗嗘灦缁勪欢銆?"""
+"""Core components, loaded lazily to avoid agent/workflow import cycles."""
 
-from .mcp.mcp_manager import MCPManager
-from .workflow.state import AgentOutput, AgentState
-from .workflow.graph_manager import AgentGraphManager
-from .memory.memory_manager import MemoryManager
+from importlib import import_module
+
+_EXPORTS={
+    'AgentOutput':'.workflow.state','AgentState':'.workflow.state',
+    'MCPManager':'.mcp.mcp_manager','AgentGraphManager':'.workflow.graph_manager',
+    'MemoryManager':'.memory.memory_manager',
+}
+
+def __getattr__(name):
+    if name not in _EXPORTS:raise AttributeError(name)
+    value=getattr(import_module(_EXPORTS[name],__name__),name)
+    globals()[name]=value
+    return value
 
 __all__ = ["AgentOutput", "AgentState", "MCPManager", "AgentGraphManager", "MemoryManager"]

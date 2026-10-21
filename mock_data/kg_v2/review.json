@@ -1,0 +1,874 @@
+[
+  {
+    "edge_id": "cf5560910ebac58389087306",
+    "source": "锂盐",
+    "target": "甲状腺功能",
+    "type": "REQUIRES_MONITORING_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9a2e58cebe2d0222598ae258",
+    "source": "帕罗西汀",
+    "target": "广泛性焦虑障碍",
+    "type": "HAS_STRONG_EVIDENCE_FOR",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "50e38d5daf071d30aa8166f9",
+    "source": "强迫症",
+    "target": "舍曲林",
+    "type": "FIRST_LINE_DRUG",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5ad1fc62e38bc97450bd5239",
+    "source": "非典型抗精神病药",
+    "target": "奥氮平",
+    "type": "HAS_DRUG_INSTANCE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "ece54a61166fff9c9a353cd7",
+    "source": "强迫症",
+    "target": "帕罗西汀",
+    "type": "FIRST_LINE_DRUG",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "bcd58d502120b272c9b27ca5",
+    "source": "舍曲林",
+    "target": "200mg/d",
+    "type": "MAX_DOSE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "f0dec8de0f89cff6e68b4b08",
+    "source": "维持治疗",
+    "target": "锂盐",
+    "type": "HAS_FIRST_LINE_TREATMENT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8c2f869e59bec5a3085f4389",
+    "source": "锂盐",
+    "target": "双相障碍",
+    "type": "REDUCES_SUICIDE_RISK_IN",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "13cf4441fe873d04d447d25c",
+    "source": "舍曲林",
+    "target": "150-200mg/d",
+    "type": "TARGET_DOSE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "11874225dab1bf39be094606",
+    "source": "氟西汀",
+    "target": "40-80mg/d",
+    "type": "TARGET_DOSE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "d1bac267b33120e8ec61fb20",
+    "source": "锂盐",
+    "target": "肾功能",
+    "type": "REQUIRES_MONITORING_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "db155e0336ecc910b7decc22",
+    "source": "SSRI",
+    "target": "氟西汀",
+    "type": "HAS_DRUG_INSTANCE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "fd09016c51fe58da5db2465a",
+    "source": "心境稳定剂",
+    "target": "锂盐",
+    "type": "HAS_DRUG_INSTANCE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "4fa34aeb3f0fe0be1c6df7c8",
+    "source": "SSRI",
+    "target": "舍曲林",
+    "type": "HAS_DRUG_INSTANCE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8d1d1549c868f41a388737cb",
+    "source": "SSRI",
+    "target": "帕罗西汀",
+    "type": "HAS_DRUG_INSTANCE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "395aa7569c27fb5f83d9647d",
+    "source": "锂盐",
+    "target": "0.6-1.2 mmol/L",
+    "type": "HAS_THERAPEUTIC_RANGE",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "ad78de90060994f017d6cb10",
+    "source": "强迫症",
+    "target": "氟西汀",
+    "type": "FIRST_LINE_DRUG",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "07039787574a0e54bcda3b5f",
+    "source": "氟西汀",
+    "target": "性功能障碍",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b9fd84730572aeb7a45e435d",
+    "source": "帕罗西汀",
+    "target": "CYP2D6抑制",
+    "type": "INHIBITS_METABOLISM_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "3eea3439e4835c027cebc6cf",
+    "source": "氯氮平",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9851e8a0bd597188487bece4",
+    "source": "锂盐",
+    "target": "震颤",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "3bbe75bf0fd0d297e32f457e",
+    "source": "奥氮平",
+    "target": "血糖升高",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5a944495f091b0debadf876b",
+    "source": "锂盐",
+    "target": "协同增效",
+    "type": "HAS_SYNERGISTIC_EFFECT_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "69c38392c2018447898f75b6",
+    "source": "舍曲林",
+    "target": "单胺氧化酶抑制剂",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8a28262294042e7e2a709d3e",
+    "source": "锂盐",
+    "target": "奥氮平",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "2c2faf6fabc3a899f8f98956",
+    "source": "帕罗西汀",
+    "target": "舍曲林",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "unsupported_absolute_contraindication",
+    "reason": "P05仅支持血清素能药物类别风险警示，不能确认原记录所写的药物对绝对禁忌；亦不表示可安全联用。"
+  },
+  {
+    "edge_id": "1c0b4c8fe708e6e99eb9aa3b",
+    "source": "氟西汀",
+    "target": "失眠",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "09e077e1f767759b68f6e7d5",
+    "source": "舍曲林",
+    "target": "喹硫平",
+    "type": "CAN_BE_USED_WITH_FOR_DIFFICULT_TO_TREAT_DEPRESSION",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "eb64e97f27acf17bdde6e298",
+    "source": "锂盐",
+    "target": "血锂浓度升高",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0139db48d946cf7288d83168",
+    "source": "舍曲林",
+    "target": "创伤后应激障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "fb365cad036dad5b384a6726",
+    "source": "锂盐",
+    "target": "低钠血症",
+    "type": "CONTRAINDICATED_IN",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "86306ca579c20302249cb1eb",
+    "source": "舍曲林",
+    "target": "其他选择性5-羟色胺再摄取抑制剂",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0f3929f13b57ab7e9d1e81cf",
+    "source": "帕罗西汀",
+    "target": "广泛性焦虑障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "072e273070374e9d98266ea3",
+    "source": "舍曲林",
+    "target": "社交焦虑障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "c4a657feb9a560fb29aad481",
+    "source": "锂盐",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0bb7c80947b0859464441741",
+    "source": "帕罗西汀",
+    "target": "三环类抗抑郁药",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "63733ac37a92eb9c6072bac9",
+    "source": "舍曲林",
+    "target": "抑郁障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9af5d77d3cc9980df0708ce8",
+    "source": "利培酮",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "38ef2afd8538ed94fd34d365",
+    "source": "舍曲林",
+    "target": "拉莫三嗪",
+    "type": "NO_SIGNIFICANT_INTERACTION_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "f9c67439fdf6541170c3c2e8",
+    "source": "拉莫三嗪",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "dd5b86a14c8e89e0f1245146",
+    "source": "氟西汀",
+    "target": "5周洗脱期",
+    "type": "REQUIRES_WASHOUT_PERIOD",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "f1c8fe4a30da1f645a907b44",
+    "source": "氟西汀",
+    "target": "强迫症",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "fc292538cbd81e360b473a5d",
+    "source": "帕罗西汀",
+    "target": "体重增加",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9148d1e0724254ba64a3f79c",
+    "source": "奥氮平",
+    "target": "喹硫平",
+    "type": "NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "654582a6f62f32abe04bf0d5",
+    "source": "奥氮平",
+    "target": "阿立哌唑",
+    "type": "NO_CLINICAL_RATIONALE_FOR_COMBINATION",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9e9980f781076cc26f679d49",
+    "source": "舍曲林",
+    "target": "阿立哌唑",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5f3e7ffd6060c2fc69c57a2a",
+    "source": "舍曲林",
+    "target": "氯氮平",
+    "type": "INCREASES_CONCENTRATION_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "77ff8da497e8ec6daf77fe9f",
+    "source": "氟西汀",
+    "target": "食欲减退",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "86e45ed3c12c897b77c495a7",
+    "source": "舍曲林",
+    "target": "性功能障碍",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "660b06ab6c5b4f7cdaf78c86",
+    "source": "氟西汀",
+    "target": "神经性贪食",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "07f1c3a531fd0cdebc2fbf92",
+    "source": "阿立哌唑",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "d02a8438690f14b94c4f7d49",
+    "source": "舍曲林",
+    "target": "5-HT综合征",
+    "type": "INCREASES_RISK_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "bb10b74924a846576021a633",
+    "source": "舍曲林",
+    "target": "惊恐障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0add56b9d1bf5a4c353a1854",
+    "source": "喹硫平",
+    "target": "锂盐",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b09f0f490160baf43d5761e5",
+    "source": "帕罗西汀",
+    "target": "性功能障碍",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8518d0479c3c2bc165fe99f5",
+    "source": "舍曲林",
+    "target": "失眠",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "76fc6f9cfda99626b893972c",
+    "source": "锂盐",
+    "target": "喹硫平",
+    "type": "CAN_BE_USED_WITH_FOR_MANIA_WITH_CAUTION",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b21f8751e219a02f07d49af5",
+    "source": "氟西汀",
+    "target": "焦虑",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b64856f54e41a7f7f31fe1ee",
+    "source": "氟西汀",
+    "target": "单胺氧化酶抑制剂",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "febc47ea57e64122d4fa8d87",
+    "source": "锂盐",
+    "target": "双相障碍维持治疗",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "d41b949286b7708b8a242726",
+    "source": "奥氮平",
+    "target": "血药浓度升高",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0e7ad968542880407cddfb87",
+    "source": "喹硫平",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b8cd6e5f5ad353d2c33cb1d9",
+    "source": "阿立哌唑",
+    "target": "奥氮平",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "c2c9dfc3992136e9cf3f3326",
+    "source": "锂盐",
+    "target": "神经毒性",
+    "type": "INCREASES_RISK_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "036b3ccc35a774134749a454",
+    "source": "奥氮平",
+    "target": "非典型抗精神病药",
+    "type": "HAS_CATEGORY",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "981bcebf8e5312955c162d8a",
+    "source": "舍曲林",
+    "target": "华法林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5d696b313e5992c0b5ca40cf",
+    "source": "锂盐",
+    "target": "难治性抑郁增效治疗",
+    "type": "USED_FOR_ENHANCEMENT_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5295ed33f3bf259bf2a41abd",
+    "source": "舍曲林",
+    "target": "抗凝作用增强",
+    "type": "POTENTIATES",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "d6f0b1760e261ed4d564e538",
+    "source": "奥氮平",
+    "target": "精神分裂症",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "dccaabd223173bb40f94106b",
+    "source": "帕罗西汀",
+    "target": "SSRI",
+    "type": "HAS_CATEGORY",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "c0c870e468235396ed3ac302",
+    "source": "舍曲林",
+    "target": "腹泻",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0398f9e9400497e637b79a8c",
+    "source": "锂盐",
+    "target": "难治性抑郁增效治疗",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "79ec1cc5e3edc0fed9609239",
+    "source": "锂盐",
+    "target": "体重增加",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "03a3692dbbfe8e490ea25e67",
+    "source": "帕罗西汀",
+    "target": "单胺氧化酶抑制剂",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "4e7214831d3b4c92a2028f78",
+    "source": "喹硫平",
+    "target": "奥氮平",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b49b8e0f1ad6cfe6fe593d9e",
+    "source": "奥氮平",
+    "target": "体重增加",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "ecae570820caa587ef2a517d",
+    "source": "氯氮平",
+    "target": "锂盐",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "a1cc779d014456b64bc53a97",
+    "source": "帕罗西汀",
+    "target": "社交焦虑障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "223a0be87c5d533b3bdcf1aa",
+    "source": "锂盐",
+    "target": "噻嗪类利尿剂",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "674d66f996a4c874ef1daf7c",
+    "source": "帕罗西汀",
+    "target": "撤药综合征",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8a30b3a46d5e9bc1d5a0fa6d",
+    "source": "帕罗西汀",
+    "target": "抑郁障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "33b85481af8b4e8542669d38",
+    "source": "氟西汀",
+    "target": "SSRI",
+    "type": "HAS_CATEGORY",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "0a719d18467abacb2dba6ba8",
+    "source": "锂盐",
+    "target": "甲状腺功能减退",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "d070b17e90b4da3950f52acd",
+    "source": "奥氮平",
+    "target": "利培酮",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "722dfed96de0d33b731a3da1",
+    "source": "锂盐",
+    "target": "多尿",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "4e656578d3d2842f0072fb0c",
+    "source": "锂盐",
+    "target": "心境稳定剂",
+    "type": "HAS_CATEGORY",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b198df08e47c3bb64482d45f",
+    "source": "奥氮平",
+    "target": "双相障碍维持治疗",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "ab360d2f9ef29fde6d9b07b2",
+    "source": "舍曲林",
+    "target": "非甾体抗炎药",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "7efcc9ce0710295737b50093",
+    "source": "丙戊酸钠",
+    "target": "舍曲林",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "93110c7434d42586cd017545",
+    "source": "奥氮平",
+    "target": "氟西汀",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "845248382f4719fb5c025c88",
+    "source": "舍曲林",
+    "target": "恶心",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b593d2bf4944cfb832f55c1d",
+    "source": "舍曲林",
+    "target": "SSRI",
+    "type": "HAS_CATEGORY",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "4b1f437e8e090fa280c76263",
+    "source": "锂盐",
+    "target": "非甾体抗炎药",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "95740c5de8fc994234b14df4",
+    "source": "帕罗西汀",
+    "target": "惊恐障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b7f575d9ab91b22981ec98fb",
+    "source": "舍曲林",
+    "target": "SNRI",
+    "type": "CONTRAINDICATED_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "6ebec15ca5d8edcd4f81efd5",
+    "source": "锂盐",
+    "target": "严重肾功能不全",
+    "type": "CONTRAINDICATED_IN",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "02ac69cb5a290f3fcb402e2e",
+    "source": "舍曲林",
+    "target": "强迫症",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "9af6e7f1955af46564aef176",
+    "source": "舍曲林",
+    "target": "消化道出血",
+    "type": "INCREASES_RISK_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "22a76f06441fb6d45db82b7f",
+    "source": "锂盐",
+    "target": "氯氮平",
+    "type": "INCREASES_NEUROTOXICITY_RISK",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "b3798c9846a8bf13b3f4e523",
+    "source": "奥氮平",
+    "target": "氯氮平",
+    "type": "NO_CLINICAL_INDICATION_FOR_COMBINATION",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "e89d445c805884d5cfb357fa",
+    "source": "帕罗西汀",
+    "target": "嗜睡",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "92224e3d66cab22b56496279",
+    "source": "氯氮平",
+    "target": "奥氮平",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "8bfe329e2745641e2495449a",
+    "source": "奥氮平",
+    "target": "双相躁狂发作",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "f38f54c74f4628ae508a7a93",
+    "source": "氟西汀",
+    "target": "抑郁障碍",
+    "type": "TREATS",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "5f3e6e7ceacc466c0fee8d3e",
+    "source": "锂盐",
+    "target": "血锂浓度显著升高",
+    "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "72eab889786efdf949c885cd",
+    "source": "舍曲林",
+    "target": "14天洗脱期",
+    "type": "REQUIRES_WASHOUT_PERIOD",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "6a3020907f9ed95b404b2655",
+    "source": "丙戊酸钠",
+    "target": "奥氮平",
+    "type": "INTERACTS_WITH",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "11f79d469f5f6169d3e8c28c",
+    "source": "奥氮平",
+    "target": "血脂异常",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  },
+  {
+    "edge_id": "18c62b7c312febb4e499ce9f",
+    "source": "奥氮平",
+    "target": "嗜睡",
+    "type": "HAS_SIDE_EFFECT",
+    "status": "not_covered_by_current_evidence",
+    "reason": "旧记录未完成逐项原文核对；保留展示，不进入v2推理。"
+  }
+]

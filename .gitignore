@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 .venv/
+.tools/
+.pytest_cache/
+*.tsbuildinfo
 __pycache__/
 *.pyc
 front/clinical_cds/dist/
@@ -16,3 +19,11 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Atomic local key-file update (never publish credentials)
+agent/.env.tmp
+
+# Unified platform local state and credentials
+.env.local
+data/
+private/

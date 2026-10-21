@@ -1,0 +1,20 @@
+{
+  "total_items": 899,
+  "medical_items": 838,
+  "amended_items_rechecked": 399,
+  "open_items_reexamined": 68,
+  "original_status_counts": {
+    "amended": 399,
+    "structural_only": 61,
+    "source_supported": 371,
+    "insufficient_evidence": 55,
+    "quarantined": 13
+  },
+  "candidate_sha256": "4af3da23d395e6b25e760bbbc20a0246d614ab26f031c090c885806bfbd697da",
+  "expert_approved": 0,
+  "clinical_certification": false,
+  "activation_ready": false,
+  "review_kind": "source_traceability_and_candidate_consistency",
+  "supplemental_sources_available": 5,
+  "packet_sha256": "c76608767cbe4e5077f2d4351a839eb5182166bbc7d9c280e9c2aa09bc4f667c"
+}

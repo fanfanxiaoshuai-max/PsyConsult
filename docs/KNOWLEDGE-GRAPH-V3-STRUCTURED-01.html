@@ -1,0 +1,3275 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>首批结构化修订对照</title>
+<style>body{font:15px system-ui;background:#f5f7fa;color:#203044;margin:32px}h1{font-size:24px}
+input{padding:12px;width:min(700px,90%);margin:16px 0}table{border-collapse:collapse;width:100%;background:white}
+td,th{text-align:left;padding:12px;border-bottom:1px solid #ddd;vertical-align:top}
+pre{white-space:pre-wrap;max-height:380px;overflow:auto;font-size:13px}</style>
+<h1>首批结构化修订 · 修改前后对照</h1><p>离线候选；临床专家未审核；当前运行版没有切换。</p><p>已应用候选编辑：50项；待结构化：349项。</p><input id="q" placeholder="搜索药物、编码、病程或关系"><table><thead><tr><th>原条目</th><th>实际编辑及证据</th></tr></thead><tbody><tr><td>ClinicalSubtype · 首次发作</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_entity_role&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;ClinicalSubtype&quot;,
+  &quot;after&quot;: &quot;CourseSpecifier&quot;,
+  &quot;entity_id&quot;: &quot;d592d6d2f064492b3c8b07d1&quot;,
+  &quot;course_definition&quot;: {
+    &quot;course&quot;: &quot;first_episode&quot;,
+    &quot;previous_schizophrenia_or_schizoaffective_episodes&quot;: 0,
+    &quot;requires_complete_diagnostic_criteria&quot;: true,
+    &quot;remission_status_assessed_separately&quot;: true
+  }
+}</pre></td></tr><tr><td>ClinicalSubtype · 多次发作</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_entity_role&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;ClinicalSubtype&quot;,
+  &quot;after&quot;: &quot;CourseSpecifier&quot;,
+  &quot;entity_id&quot;: &quot;fed09d8c290dbd563081baf1&quot;,
+  &quot;course_definition&quot;: {
+    &quot;course&quot;: &quot;multiple_episodes&quot;,
+    &quot;qualifying_episodes_min&quot;: 2,
+    &quot;qualifying_disorders&quot;: [
+      &quot;schizophrenia&quot;,
+      &quot;schizoaffective_disorder&quot;
+    ],
+    &quot;current_or_most_recent_episode&quot;: &quot;schizophrenia&quot;,
+    &quot;between_episode_remission_months_min&quot;: 3,
+    &quot;remission_states&quot;: [
+      &quot;partial&quot;,
+      &quot;full&quot;
+    ],
+    &quot;requires_complete_diagnostic_criteria&quot;: true
+  }
+}</pre></td></tr><tr><td>ClinicalSubtype · 持续型</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_entity_role&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;ClinicalSubtype&quot;,
+  &quot;after&quot;: &quot;CourseSpecifier&quot;,
+  &quot;entity_id&quot;: &quot;21d79055466331363ac01b98&quot;,
+  &quot;course_definition&quot;: {
+    &quot;course&quot;: &quot;continuous&quot;,
+    &quot;full_criteria_met_for_almost_entire_course&quot;: true,
+    &quot;subthreshold_periods&quot;: &quot;very_brief_relative_to_overall_course&quot;,
+    &quot;when_applied_to_first_episode&quot;: {
+      &quot;duration_years_min&quot;: 1,
+      &quot;replaces&quot;: &quot;first_episode_specifier&quot;
+    },
+    &quot;remission_status_assessed_separately&quot;: true
+  }
+}</pre></td></tr><tr><td>精神分裂症 → HAS_SUBTYPE → 持续型</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;HAS_SUBTYPE&quot;,
+  &quot;after&quot;: &quot;HAS_COURSE_SPECIFIER&quot;,
+  &quot;source&quot;: &quot;557312cc1a8ce5f7bb725e2d&quot;,
+  &quot;target&quot;: &quot;21d79055466331363ac01b98&quot;,
+  &quot;relation_id&quot;: &quot;39932bf5528116725f43263e&quot;
+}</pre></td></tr><tr><td>精神分裂症 → HAS_SUBTYPE → 首次发作</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;HAS_SUBTYPE&quot;,
+  &quot;after&quot;: &quot;HAS_COURSE_SPECIFIER&quot;,
+  &quot;source&quot;: &quot;557312cc1a8ce5f7bb725e2d&quot;,
+  &quot;target&quot;: &quot;d592d6d2f064492b3c8b07d1&quot;,
+  &quot;relation_id&quot;: &quot;7f848e2a22a596af03e46864&quot;
+}</pre></td></tr><tr><td>幻听 → SUBTYPE_OF → 命令性幻听</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;d4b0c8a17fa2d6cfbb2ac4c3&quot;,
+  &quot;target&quot;: &quot;eaab0c289a59852018834a78&quot;,
+  &quot;relation_id&quot;: &quot;bb233b2701efc81bd61ef06e&quot;
+}</pre></td></tr><tr><td>幻听 → SUBTYPE_OF → 议论性幻听</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;d4b0c8a17fa2d6cfbb2ac4c3&quot;,
+  &quot;target&quot;: &quot;09668b597185de1859fcfd75&quot;,
+  &quot;relation_id&quot;: &quot;27b52d82ab700e351b02a18d&quot;
+}</pre></td></tr><tr><td>思维紊乱 → SUBTYPE_OF → 言语不连贯</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;d98039d2a44dad6a61f1f42d&quot;,
+  &quot;target&quot;: &quot;ba47a88d925915880cfc4917&quot;,
+  &quot;relation_id&quot;: &quot;6ff1e4a3223b138bb73e1925&quot;
+}</pre></td></tr><tr><td>阴性症状 → SUBTYPE_OF → 意志减退</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;87d2d331e0d60bcd34bfa18d&quot;,
+  &quot;target&quot;: &quot;a935be7e64ff9b7c3546cc76&quot;,
+  &quot;relation_id&quot;: &quot;7b9c3fe402f595b84ee13f8d&quot;
+}</pre></td></tr><tr><td>持续性妄想 → SUBTYPE_OF → 被害妄想</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;9d94ee09431f90fe8dc5518c&quot;,
+  &quot;target&quot;: &quot;18c85333a84c643ddb67e9a7&quot;,
+  &quot;relation_id&quot;: &quot;1a04e70275728d5b3df64942&quot;
+}</pre></td></tr><tr><td>被动体验 → SUBTYPE_OF → 思维被插入</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;ecb26fff7ce20f83639e17e1&quot;,
+  &quot;target&quot;: &quot;085c79fe8a719b7cf8ce25a3&quot;,
+  &quot;relation_id&quot;: &quot;4903b8d597af660175b23b22&quot;
+}</pre></td></tr><tr><td>阴性症状 → SUBTYPE_OF → 社交退缩</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;87d2d331e0d60bcd34bfa18d&quot;,
+  &quot;target&quot;: &quot;dc1ea99f0af40531a22d8ace&quot;,
+  &quot;relation_id&quot;: &quot;11bedb023a2f6673d10a9c51&quot;
+}</pre></td></tr><tr><td>精神分裂症 → HAS_SUBTYPE → 多次发作</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-COURSE-SPECIFIERS&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          181,
+          182,
+          183
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;HAS_SUBTYPE&quot;,
+  &quot;after&quot;: &quot;HAS_COURSE_SPECIFIER&quot;,
+  &quot;source&quot;: &quot;557312cc1a8ce5f7bb725e2d&quot;,
+  &quot;target&quot;: &quot;fed09d8c290dbd563081baf1&quot;,
+  &quot;relation_id&quot;: &quot;a780e88cabc9c17449b29742&quot;
+}</pre></td></tr><tr><td>被动体验 → SUBTYPE_OF → 思维被控制</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;ecb26fff7ce20f83639e17e1&quot;,
+  &quot;target&quot;: &quot;230f5e390ee5bace8cfabca3&quot;,
+  &quot;relation_id&quot;: &quot;9aee08812d1a8ca8d92846e2&quot;
+}</pre></td></tr><tr><td>思维紊乱 → SUBTYPE_OF → 言语离题</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;d98039d2a44dad6a61f1f42d&quot;,
+  &quot;target&quot;: &quot;5893e207ab717d55a19dd302&quot;,
+  &quot;relation_id&quot;: &quot;36851159b15758905039622f&quot;
+}</pre></td></tr><tr><td>被动体验 → SUBTYPE_OF → 思维被抽出</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;ecb26fff7ce20f83639e17e1&quot;,
+  &quot;target&quot;: &quot;961e88c7f3404b1aad0e1a32&quot;,
+  &quot;relation_id&quot;: &quot;81ed0807b783c78c2e182c55&quot;
+}</pre></td></tr><tr><td>阴性症状 → SUBTYPE_OF → 言语贫乏</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;87d2d331e0d60bcd34bfa18d&quot;,
+  &quot;target&quot;: &quot;fcabc0e64a1974ed3658be73&quot;,
+  &quot;relation_id&quot;: &quot;e75d937aa63e061b1888d97c&quot;
+}</pre></td></tr><tr><td>阴性症状 → SUBTYPE_OF → 情感淡漠</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;87d2d331e0d60bcd34bfa18d&quot;,
+  &quot;target&quot;: &quot;bcb02fa4547a845e35777dea&quot;,
+  &quot;relation_id&quot;: &quot;5caaf66ff10ddcb8bcc41208&quot;
+}</pre></td></tr><tr><td>被动体验 → SUBTYPE_OF → 思维被广播</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;ecb26fff7ce20f83639e17e1&quot;,
+  &quot;target&quot;: &quot;e0673d4a6ff84d513ae697c5&quot;,
+  &quot;relation_id&quot;: &quot;476362b9190ef80a668411f6&quot;
+}</pre></td></tr><tr><td>持续性幻觉 → SUBTYPE_OF → 幻听</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;95a736f858113c5a764c3f4c&quot;,
+  &quot;target&quot;: &quot;d4b0c8a17fa2d6cfbb2ac4c3&quot;,
+  &quot;relation_id&quot;: &quot;00fec67a4e1342256300932f&quot;
+}</pre></td></tr><tr><td>行为紊乱 → SUBTYPE_OF → 不适当的情绪反应</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;e9f48e8b2e0815df913fe55b&quot;,
+  &quot;target&quot;: &quot;5d731c3e7612ba6caf9486ee&quot;,
+  &quot;relation_id&quot;: &quot;3358624b80974d8e895dd01e&quot;
+}</pre></td></tr><tr><td>持续性妄想 → SUBTYPE_OF → 关系妄想</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;9d94ee09431f90fe8dc5518c&quot;,
+  &quot;target&quot;: &quot;7a63dab77d4d4ac760115c66&quot;,
+  &quot;relation_id&quot;: &quot;a0da0704d2bab2af25f7dfc3&quot;
+}</pre></td></tr><tr><td>持续性妄想 → SUBTYPE_OF → 被控制感</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;9d94ee09431f90fe8dc5518c&quot;,
+  &quot;target&quot;: &quot;2c3829f221ec7c3ceb871222&quot;,
+  &quot;relation_id&quot;: &quot;4037f1d80ddbd3cb36dbbc6f&quot;
+}</pre></td></tr><tr><td>思维紊乱 → SUBTYPE_OF → 言语破裂</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_relation_type&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SCHIZ-EXAMPLE-DIRECTION&quot;,
+      &quot;conditions&quot;: &quot;WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          180,
+          181,
+          185
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;before&quot;: &quot;SUBTYPE_OF&quot;,
+  &quot;after&quot;: &quot;HAS_EXAMPLE&quot;,
+  &quot;source&quot;: &quot;d98039d2a44dad6a61f1f42d&quot;,
+  &quot;target&quot;: &quot;ad2392546a8c03fc848cbc8f&quot;,
+  &quot;relation_id&quot;: &quot;2230df68e03a775be1421b9d&quot;
+}</pre></td></tr><tr><td>抑郁障碍 / icd_code</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_related_categories&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;F32&quot;,
+          &quot;F33&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;06b62e6a29f4d2e83f762bd2&quot;,
+  &quot;key&quot;: &quot;icd_code&quot;,
+  &quot;before&quot;: &quot;F32/F33&quot;,
+  &quot;after&quot;: [
+    {
+      &quot;code&quot;: &quot;F32&quot;,
+      &quot;concept&quot;: &quot;Depressive episode&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F32&quot;,
+              &quot;F33&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    },
+    {
+      &quot;code&quot;: &quot;F33&quot;,
+      &quot;concept&quot;: &quot;Recurrent depressive disorder&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F32&quot;,
+              &quot;F33&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    }
+  ]
+}</pre></td></tr><tr><td>抑郁障碍 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_related_categories&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;F32&quot;,
+          &quot;F33&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;06b62e6a29f4d2e83f762bd2&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;F32/F33&quot;,
+  &quot;after&quot;: [
+    {
+      &quot;code&quot;: &quot;F32&quot;,
+      &quot;concept&quot;: &quot;Depressive episode&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F32&quot;,
+              &quot;F33&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    },
+    {
+      &quot;code&quot;: &quot;F33&quot;,
+      &quot;concept&quot;: &quot;Recurrent depressive disorder&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ICD10-DEP&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F32&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F32&quot;,
+              &quot;F33&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    }
+  ]
+}</pre></td></tr><tr><td>焦虑障碍 / icd_code</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_related_categories&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-ANXIETY-CODES&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_F40&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;F40&quot;,
+          &quot;F41&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;7b837688f1073be778fe46f7&quot;,
+  &quot;key&quot;: &quot;icd_code&quot;,
+  &quot;before&quot;: &quot;F40/F41&quot;,
+  &quot;after&quot;: [
+    {
+      &quot;code&quot;: &quot;F40&quot;,
+      &quot;concept&quot;: &quot;Phobic anxiety disorders&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ANXIETY-CODES&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F40&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F40&quot;,
+              &quot;F41&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    },
+    {
+      &quot;code&quot;: &quot;F41&quot;,
+      &quot;concept&quot;: &quot;Other anxiety disorders&quot;,
+      &quot;system&quot;: &quot;ICD-10&quot;,
+      &quot;edition&quot;: &quot;WHO ICD-10 2019&quot;,
+      &quot;relation&quot;: &quot;related_category&quot;,
+      &quot;equivalent_to_umbrella&quot;: false,
+      &quot;exhaustive&quot;: false,
+      &quot;evidence&quot;: [
+        {
+          &quot;evidence_id&quot;: &quot;B03-ANXIETY-CODES&quot;,
+          &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+          &quot;source_id&quot;: &quot;who_icd10_F40&quot;,
+          &quot;locator&quot;: {
+            &quot;kind&quot;: &quot;html_anchor&quot;,
+            &quot;anchors&quot;: [
+              &quot;F40&quot;,
+              &quot;F41&quot;
+            ]
+          }
+        }
+      ],
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false
+    }
+  ]
+}</pre></td></tr><tr><td>躁狂发作 / ICD-11_code</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;WHO-MANIC-CODE-SCOPE&quot;,
+      &quot;conditions&quot;: &quot;仅指出原编码赋值的范围问题；具体编码需结合所属障碍、当前发作及修饰信息。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          243
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;f24ee52a7efbff65c7339fd8&quot;,
+  &quot;key&quot;: &quot;ICD-11_code&quot;,
+  &quot;before&quot;: &quot;6A60&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>轻躁狂发作 / ICD-11_code</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;WHO-HYPOMANIC-CODE-SCOPE&quot;,
+      &quot;conditions&quot;: &quot;不据单个轻躁狂发作诊断双相II型障碍；本记录不补造独立发作代码。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          248
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;0a16bf13b44d8f0c6a6dbfe1&quot;,
+  &quot;key&quot;: &quot;ICD-11_code&quot;,
+  &quot;before&quot;: &quot;6A61&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>恶劣心境 / ICD-11_code</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;WHO-DYSTHYMIA-CODE&quot;,
+      &quot;conditions&quot;: &quot;针对WHO ICD-11 CDDR 2024的恶劣心境条目；名称与编码一起核对。&quot;,
+      &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          273
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;8baeef1194c213900abd08f3&quot;,
+  &quot;key&quot;: &quot;ICD-11_code&quot;,
+  &quot;before&quot;: &quot;6A73&quot;,
+  &quot;after&quot;: {
+    &quot;code&quot;: &quot;6A72&quot;,
+    &quot;system&quot;: &quot;ICD-11&quot;,
+    &quot;edition&quot;: &quot;WHO CDDR 2024&quot;,
+    &quot;concept&quot;: &quot;Dysthymic disorder&quot;,
+    &quot;evidence&quot;: [
+      {
+        &quot;evidence_id&quot;: &quot;WHO-DYSTHYMIA-CODE&quot;,
+        &quot;conditions&quot;: &quot;针对WHO ICD-11 CDDR 2024的恶劣心境条目；名称与编码一起核对。&quot;,
+        &quot;source_id&quot;: &quot;who_cddr_2024&quot;,
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            273
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        }
+      }
+    ],
+    &quot;equivalent_to_named_concept&quot;: true,
+    &quot;expert_review&quot;: &quot;pending&quot;,
+    &quot;reasoning_eligible&quot;: false
+  }
+}</pre></td></tr><tr><td>双相躁狂发作 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-MANIA-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_F31_1&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;F31.1&quot;,
+          &quot;F31.2&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;c93d5937775db620f66e7431&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;F31.1&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>甲状腺功能减退 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-THYROID-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_E03_9&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;E03.9&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;60daf4037069ebea6aee7dbe&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;E03.9&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>血脂异常 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LIPID-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_E78_5&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;E78.5&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;c65b27d41eb2415526c17338&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;E78.5&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>5-HT综合征 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-SEROTONIN-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019；未据此补造另一个统一替代编码。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_T43_6&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;T43.6&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;408bf2d0bb58d9adb050102d&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;T43.6&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>未控制的高血压 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-HYPERTENSION-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_I10&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;I10&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;b22c1619c84a15eec2192457&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;I10&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>肝功能不全 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-HEPATIC-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_K76_0&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;K76.0&quot;,
+          &quot;K72.9&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;845ae0c616b381a617eeb5d4&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;K76.0&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>严重肾功能不全 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-RENAL-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_N18_4&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;N18.4&quot;,
+          &quot;N18.5&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;9a92aa6b151984a4259ada36&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;N18.4&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>消化道出血 / icd10</td><td><pre>{
+  &quot;kind&quot;: &quot;remove_code_assignment&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-GI-BLEED-CODE&quot;,
+      &quot;conditions&quot;: &quot;WHO ICD-10 2019。&quot;,
+      &quot;source_id&quot;: &quot;who_icd10_K92_2&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;K92.2&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;ae02cd74347c0ab4c80f7588&quot;,
+  &quot;key&quot;: &quot;icd10&quot;,
+  &quot;before&quot;: &quot;K92.2&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>舍曲林 / dose_start</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-SER-START&quot;,
+      &quot;conditions&quot;: &quot;CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          2
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;sertraline-adult-initial-cn&quot;,
+      &quot;subject_id&quot;: &quot;04f8787e935c61048f6af186&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;evidence_id&quot;: &quot;B02-SER-START&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indications&quot;: [
+          &quot;depression&quot;,
+          &quot;OCD&quot;
+        ],
+        &quot;phase&quot;: &quot;initial&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 50,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;initial_dose&quot;
+        },
+        {
+          &quot;value&quot;: 7,
+          &quot;unit&quot;: &quot;day&quot;,
+          &quot;role&quot;: &quot;minimum_titration_interval&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:sertraline-adult-initial-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;sertraline-adult-initial-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;左洛复·盐酸舍曲林片说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸舍曲林片（左洛复）&quot;,
+        &quot;edition&quot;: &quot;2026-03-01&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-SER-START&quot;,
+        &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+        &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:04f8787e935c61048f6af186:dose_start&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;50mg/日起始量在该产品成人用法中有依据，原字段缺少适用范围。&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>氟西汀 / dose_max</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-FLU-MAX&quot;,
+      &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;,
+      &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          2,
+          3
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;fluoxetine-depression-cn&quot;,
+      &quot;subject_id&quot;: &quot;fcc7bf9f26197edd8426900f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+      &quot;evidence_id&quot;: &quot;B02-FLU-MAX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;depression&quot;,
+        &quot;phase&quot;: &quot;dose_adjustment&quot;,
+        &quot;prerequisite&quot;: &quot;20mg/day疗效不足；最初3–4周评估调整&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 20,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;recommended_dose&quot;
+        },
+        {
+          &quot;value&quot;: 60,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;maximum_after_titration&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluoxetine-depression-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluoxetine-depression-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;百优解·盐酸氟西汀胶囊说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸氟西汀胶囊（百优解）&quot;,
+        &quot;edition&quot;: &quot;2025-02-05&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-FLU-MAX&quot;,
+        &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+        &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fcc7bf9f26197edd8426900f:dose_max&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2,
+            3
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;
+    },
+    {
+      &quot;key&quot;: &quot;fluoxetine-OCD-cn&quot;,
+      &quot;subject_id&quot;: &quot;fcc7bf9f26197edd8426900f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+      &quot;evidence_id&quot;: &quot;B02-FLU-MAX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;OCD&quot;,
+        &quot;phase&quot;: &quot;dose_adjustment&quot;,
+        &quot;prerequisite&quot;: &quot;20mg/day治疗2周后仍无明显疗效&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 20,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;recommended_dose&quot;
+        },
+        {
+          &quot;value&quot;: 60,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;maximum_after_titration&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluoxetine-OCD-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluoxetine-OCD-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;百优解·盐酸氟西汀胶囊说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸氟西汀胶囊（百优解）&quot;,
+        &quot;edition&quot;: &quot;2025-02-05&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-FLU-MAX&quot;,
+        &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+        &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fcc7bf9f26197edd8426900f:dose_max&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2,
+            3
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;
+    },
+    {
+      &quot;key&quot;: &quot;fluoxetine-bulimia-cn&quot;,
+      &quot;subject_id&quot;: &quot;fcc7bf9f26197edd8426900f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+      &quot;evidence_id&quot;: &quot;B02-FLU-MAX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;bulimia&quot;,
+        &quot;co_treatment&quot;: &quot;psychotherapy&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 60,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;recommended_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluoxetine-bulimia-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluoxetine-bulimia-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;百优解·盐酸氟西汀胶囊说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸氟西汀胶囊（百优解）&quot;,
+        &quot;edition&quot;: &quot;2025-02-05&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-FLU-MAX&quot;,
+        &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+        &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fcc7bf9f26197edd8426900f:dose_max&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2,
+            3
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;
+    },
+    {
+      &quot;key&quot;: &quot;fluoxetine-elderly-cn&quot;,
+      &quot;subject_id&quot;: &quot;fcc7bf9f26197edd8426900f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+      &quot;evidence_id&quot;: &quot;B02-FLU-MAX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;elderly&quot;,
+        &quot;phase&quot;: &quot;dose_adjustment&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 40,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;usual_upper_dose&quot;
+        },
+        {
+          &quot;value&quot;: 60,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;maximum_recommended_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;谨慎增加剂量；不能把最高量等同于通常推荐量&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluoxetine-elderly-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluoxetine-elderly-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;百优解·盐酸氟西汀胶囊说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸氟西汀胶囊（百优解）&quot;,
+        &quot;edition&quot;: &quot;2025-02-05&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-FLU-MAX&quot;,
+        &quot;source_id&quot;: &quot;cn_fluoxetine_lilly&quot;,
+        &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fcc7bf9f26197edd8426900f:dose_max&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2,
+            3
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。&quot;,
+        &quot;conditions&quot;: &quot;CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>奥氮平 / dose_start</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-OLA-START&quot;,
+      &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;,
+      &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          2
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;olanzapine-schizophrenia-monotherapy-cn&quot;,
+      &quot;subject_id&quot;: &quot;fbe4ed72827477d0ae8cfb0f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+      &quot;evidence_id&quot;: &quot;B02-OLA-START&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;schizophrenia&quot;,
+        &quot;regimen&quot;: &quot;monotherapy&quot;,
+        &quot;phase&quot;: &quot;initial&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 10,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;initial_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:olanzapine-schizophrenia-monotherapy-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;olanzapine-schizophrenia-monotherapy-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;欧兰宁·奥氮平片说明书&quot;,
+        &quot;formulation&quot;: &quot;奥氮平普通片（欧兰宁，5mg/10mg）&quot;,
+        &quot;edition&quot;: &quot;2025-08-21&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-OLA-START&quot;,
+        &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+        &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fbe4ed72827477d0ae8cfb0f:dose_start&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;
+    },
+    {
+      &quot;key&quot;: &quot;olanzapine-mania-monotherapy-cn&quot;,
+      &quot;subject_id&quot;: &quot;fbe4ed72827477d0ae8cfb0f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+      &quot;evidence_id&quot;: &quot;B02-OLA-START&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;mania&quot;,
+        &quot;regimen&quot;: &quot;monotherapy&quot;,
+        &quot;phase&quot;: &quot;initial&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 15,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;initial_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:olanzapine-mania-monotherapy-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;olanzapine-mania-monotherapy-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;欧兰宁·奥氮平片说明书&quot;,
+        &quot;formulation&quot;: &quot;奥氮平普通片（欧兰宁，5mg/10mg）&quot;,
+        &quot;edition&quot;: &quot;2025-08-21&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-OLA-START&quot;,
+        &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+        &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fbe4ed72827477d0ae8cfb0f:dose_start&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;
+    },
+    {
+      &quot;key&quot;: &quot;olanzapine-mania-combination-cn&quot;,
+      &quot;subject_id&quot;: &quot;fbe4ed72827477d0ae8cfb0f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+      &quot;evidence_id&quot;: &quot;B02-OLA-START&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;mania&quot;,
+        &quot;regimen&quot;: &quot;combination&quot;,
+        &quot;phase&quot;: &quot;initial&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 10,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;initial_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:olanzapine-mania-combination-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;olanzapine-mania-combination-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;欧兰宁·奥氮平片说明书&quot;,
+        &quot;formulation&quot;: &quot;奥氮平普通片（欧兰宁，5mg/10mg）&quot;,
+        &quot;edition&quot;: &quot;2025-08-21&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-OLA-START&quot;,
+        &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+        &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fbe4ed72827477d0ae8cfb0f:dose_start&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;
+    },
+    {
+      &quot;key&quot;: &quot;olanzapine-bipolar_recurrence_prevention-label_qualified-cn&quot;,
+      &quot;subject_id&quot;: &quot;fbe4ed72827477d0ae8cfb0f&quot;,
+      &quot;kind&quot;: &quot;dose&quot;,
+      &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+      &quot;evidence_id&quot;: &quot;B02-OLA-START&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;indication&quot;: &quot;bipolar_recurrence_prevention&quot;,
+        &quot;regimen&quot;: &quot;label_qualified&quot;,
+        &quot;phase&quot;: &quot;initial&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 10,
+          &quot;unit&quot;: &quot;mg/day&quot;,
+          &quot;role&quot;: &quot;initial_dose&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;预防复发应保留既往躁狂治疗有效等标签条件&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:olanzapine-bipolar_recurrence_prevention-label_qualified-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;olanzapine-bipolar_recurrence_prevention-label_qualified-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;欧兰宁·奥氮平片说明书&quot;,
+        &quot;formulation&quot;: &quot;奥氮平普通片（欧兰宁，5mg/10mg）&quot;,
+        &quot;edition&quot;: &quot;2025-08-21&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-OLA-START&quot;,
+        &quot;source_id&quot;: &quot;cn_olanzapine_hansoh&quot;,
+        &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:fbe4ed72827477d0ae8cfb0f:dose_start&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            2
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。&quot;,
+        &quot;conditions&quot;: &quot;CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>锂盐 / dose_start</td><td><pre>{
+  &quot;kind&quot;: &quot;retire_unqualified_dose&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          4,
+          5
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;entity_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+  &quot;key&quot;: &quot;dose_start&quot;,
+  &quot;before&quot;: &quot;300-600mg/d&quot;,
+  &quot;after&quot;: null,
+  &quot;followup_required&quot;: true
+}</pre></td></tr><tr><td>锂盐 / therapeutic_range</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          4,
+          5
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    },
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;cg185-1_10_15&quot;,
+          &quot;cg185-1_10_16&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;acute_manic_or_mixed&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.2,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-acute_manic_or_mixed-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;maintenance&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-maintenance-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;first_lithium_treatment&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.6,
+          &quot;upper&quot;: 0.8,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-first_time-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;relapse_while_taking_lithium_or_impairing_subthreshold_symptoms&quot;,
+        &quot;trial_duration_months_min&quot;: 6
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-trial_higher-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>TherapeuticRange · 0.6-1.2 mmol/L</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          4,
+          5
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    },
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;cg185-1_10_15&quot;,
+          &quot;cg185-1_10_16&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;acute_manic_or_mixed&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.2,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-acute_manic_or_mixed-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;maintenance&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-maintenance-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;first_lithium_treatment&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.6,
+          &quot;upper&quot;: 0.8,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-first_time-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;relapse_while_taking_lithium_or_impairing_subthreshold_symptoms&quot;,
+        &quot;trial_duration_months_min&quot;: 6
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-trial_higher-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>0.6-1.2 mmol/L / parameter</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          4,
+          5
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    },
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;cg185-1_10_15&quot;,
+          &quot;cg185-1_10_16&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;acute_manic_or_mixed&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.2,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-acute_manic_or_mixed-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;maintenance&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-maintenance-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;first_lithium_treatment&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.6,
+          &quot;upper&quot;: 0.8,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-first_time-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;relapse_while_taking_lithium_or_impairing_subthreshold_symptoms&quot;,
+        &quot;trial_duration_months_min&quot;: 6
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-trial_higher-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>锂盐 → HAS_THERAPEUTIC_RANGE → 0.6-1.2 mmol/L</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          4,
+          5
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    },
+    {
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;html_anchor&quot;,
+        &quot;anchors&quot;: [
+          &quot;cg185-1_10_15&quot;,
+          &quot;cg185-1_10_16&quot;
+        ]
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;acute_manic_or_mixed&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.2,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-acute_manic_or_mixed-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-acute_manic_or_mixed-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-RANGE&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult_over_30kg&quot;,
+        &quot;indication&quot;: &quot;bipolar_I&quot;,
+        &quot;phase&quot;: &quot;maintenance&quot;,
+        &quot;sampling_hours_after_dose&quot;: 12
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mEq/L&quot;,
+          &quot;role&quot;: &quot;serum_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;血浓度不能单独判断疗效或毒性&quot;,
+        &quot;不与英国指南单位及阶段范围自动合并&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-maintenance-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-maintenance-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Lithium carbonate tablets/capsules: US prescribing information&quot;,
+        &quot;formulation&quot;: &quot;碳酸锂普通片及胶囊（美国标签；非缓释制剂）&quot;,
+        &quot;edition&quot;: &quot;2026-08&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-RANGE&quot;,
+        &quot;source_id&quot;: &quot;us_lithium_dailymed&quot;,
+        &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:dose_start&quot;,
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            4,
+            5
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。&quot;,
+        &quot;conditions&quot;: &quot;仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;first_lithium_treatment&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.6,
+          &quot;upper&quot;: 0.8,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-first_time-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-first_time-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    },
+    {
+      &quot;key&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;subject_id&quot;: &quot;72d56d56d60120f29a185b86&quot;,
+      &quot;kind&quot;: &quot;concentration_target&quot;,
+      &quot;source_id&quot;: &quot;nice_cg185&quot;,
+      &quot;evidence_id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;adult&quot;,
+        &quot;scenario&quot;: &quot;relapse_while_taking_lithium_or_impairing_subthreshold_symptoms&quot;,
+        &quot;trial_duration_months_min&quot;: 6
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;lower&quot;: 0.8,
+          &quot;upper&quot;: 1.0,
+          &quot;unit&quot;: &quot;mmol/L&quot;,
+          &quot;role&quot;: &quot;plasma_target&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅NICE CG185相应条件&quot;,
+        &quot;不转换或并入美国产品目标范围&quot;,
+        &quot;不生成个人处方&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:lithium-trial_higher-uk&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;lithium-trial_higher-uk&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;UK&quot;,
+        &quot;title&quot;: &quot;NICE CG185: Bipolar disorder recommendations&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B03-LI-NICE-CONCENTRATION&quot;,
+        &quot;source_id&quot;: &quot;nice_cg185&quot;,
+        &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;,
+        &quot;item_ids&quot;: [
+          &quot;property:72d56d56d60120f29a185b86:therapeutic_range&quot;,
+          &quot;entity:6776fcf352fe12c2d0e50aab&quot;,
+          &quot;property:6776fcf352fe12c2d0e50aab:parameter&quot;,
+          &quot;relation:395aa7569c27fb5f83d9647d&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;html_anchor&quot;,
+          &quot;anchors&quot;: [
+            &quot;cg185-1_10_15&quot;,
+            &quot;cg185-1_10_16&quot;
+          ]
+        },
+        &quot;summary&quot;: &quot;NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。&quot;,
+        &quot;conditions&quot;: &quot;NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>舍曲林 → CONTRAINDICATED_WITH → 单胺氧化酶抑制剂</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-SER-MAOI&quot;,
+      &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          6,
+          11
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;sertraline-maoi-washout-cn&quot;,
+      &quot;subject_id&quot;: &quot;04f8787e935c61048f6af186&quot;,
+      &quot;kind&quot;: &quot;washout&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;evidence_id&quot;: &quot;B02-SER-MAOI&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;label_defined&quot;,
+        &quot;prohibited_combination&quot;: true
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;from_entity&quot;: &quot;11ccaac6c87c08ee420b70cd&quot;,
+          &quot;to_entity&quot;: &quot;04f8787e935c61048f6af186&quot;,
+          &quot;minimum&quot;: 14,
+          &quot;unit&quot;: &quot;day&quot;
+        },
+        {
+          &quot;from_entity&quot;: &quot;04f8787e935c61048f6af186&quot;,
+          &quot;to_entity&quot;: &quot;11ccaac6c87c08ee420b70cd&quot;,
+          &quot;minimum&quot;: 14,
+          &quot;unit&quot;: &quot;day&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;仅MAOI与舍曲林间换药；不扩展到其他药物&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:sertraline-maoi-washout-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;sertraline-maoi-washout-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;左洛复·盐酸舍曲林片说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸舍曲林片（左洛复）&quot;,
+        &quot;edition&quot;: &quot;2026-03-01&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-SER-MAOI&quot;,
+        &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+        &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;,
+        &quot;item_ids&quot;: [
+          &quot;relation:69c38392c2018447898f75b6&quot;,
+          &quot;relation:72eab889786efdf949c885cd&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            6,
+            11
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>氟伏沙明 → INTERACTS_WITH → 氯氮平</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+      &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          8,
+          27,
+          33
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;fluvoxamine-clozapine-management-us&quot;,
+      &quot;subject_id&quot;: &quot;daf8a55846ed065646f8b0ed&quot;,
+      &quot;kind&quot;: &quot;interaction_management&quot;,
+      &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+      &quot;evidence_id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;label_defined&quot;,
+        &quot;inhibitor_id&quot;: &quot;ca6f4ce9f70aeb40e51f5b8f&quot;,
+        &quot;affected_id&quot;: &quot;daf8a55846ed065646f8b0ed&quot;,
+        &quot;mechanism&quot;: &quot;strong_CYP1A2_inhibition&quot;,
+        &quot;exposure_direction&quot;: &quot;may_increase&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 1,
+          &quot;denominator&quot;: 3,
+          &quot;unit&quot;: &quot;fraction_of_original_dose&quot;,
+          &quot;role&quot;: &quot;label_dose_adjustment&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;仅美国标签中的强CYP1A2抑制剂合用条件&quot;,
+        &quot;非无条件绝对禁忌&quot;,
+        &quot;不得自行按比例调药&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluvoxamine-clozapine-management-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluvoxamine-clozapine-management-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Clozapine tablets: US prescribing information (Mylan)&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+        &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+        &quot;source_sha256&quot;: &quot;4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;relation:43a9201e4b41894e18db9400&quot;,
+          &quot;relation:5074f125be11e6459b0a7bab&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            8,
+            27,
+            33
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。&quot;,
+        &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>氯氮平 → CONTRAINDICATED_DUE_TO_CONCENTRATION_ELEVATION → 氟伏沙明</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+      &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;,
+      &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          8,
+          27,
+          33
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;fluvoxamine-clozapine-management-us&quot;,
+      &quot;subject_id&quot;: &quot;daf8a55846ed065646f8b0ed&quot;,
+      &quot;kind&quot;: &quot;interaction_management&quot;,
+      &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+      &quot;evidence_id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;label_defined&quot;,
+        &quot;inhibitor_id&quot;: &quot;ca6f4ce9f70aeb40e51f5b8f&quot;,
+        &quot;affected_id&quot;: &quot;daf8a55846ed065646f8b0ed&quot;,
+        &quot;mechanism&quot;: &quot;strong_CYP1A2_inhibition&quot;,
+        &quot;exposure_direction&quot;: &quot;may_increase&quot;
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;value&quot;: 1,
+          &quot;denominator&quot;: 3,
+          &quot;unit&quot;: &quot;fraction_of_original_dose&quot;,
+          &quot;role&quot;: &quot;label_dose_adjustment&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;仅美国标签中的强CYP1A2抑制剂合用条件&quot;,
+        &quot;非无条件绝对禁忌&quot;,
+        &quot;不得自行按比例调药&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:fluvoxamine-clozapine-management-us&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;fluvoxamine-clozapine-management-us&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;US&quot;,
+        &quot;title&quot;: &quot;Clozapine tablets: US prescribing information (Mylan)&quot;,
+        &quot;formulation&quot;: null,
+        &quot;edition&quot;: null,
+        &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-CLO-FLUVOX&quot;,
+        &quot;source_id&quot;: &quot;us_clozapine_mylan&quot;,
+        &quot;source_sha256&quot;: &quot;4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b&quot;,
+        &quot;item_ids&quot;: [
+          &quot;relation:43a9201e4b41894e18db9400&quot;,
+          &quot;relation:5074f125be11e6459b0a7bab&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            8,
+            27,
+            33
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。&quot;,
+        &quot;conditions&quot;: &quot;US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b&quot;
+    }
+  ]
+}</pre></td></tr><tr><td>舍曲林 → REQUIRES_WASHOUT_PERIOD → 14天洗脱期</td><td><pre>{
+  &quot;kind&quot;: &quot;replace_with_scoped_records&quot;,
+  &quot;evidence&quot;: [
+    {
+      &quot;evidence_id&quot;: &quot;B02-SER-MAOI&quot;,
+      &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;locator&quot;: {
+        &quot;kind&quot;: &quot;pdf_pages&quot;,
+        &quot;pages&quot;: [
+          6,
+          11
+        ],
+        &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+      }
+    }
+  ],
+  &quot;expert_review&quot;: &quot;pending&quot;,
+  &quot;reasoning_eligible&quot;: false,
+  &quot;records&quot;: [
+    {
+      &quot;key&quot;: &quot;sertraline-maoi-washout-cn&quot;,
+      &quot;subject_id&quot;: &quot;04f8787e935c61048f6af186&quot;,
+      &quot;kind&quot;: &quot;washout&quot;,
+      &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+      &quot;evidence_id&quot;: &quot;B02-SER-MAOI&quot;,
+      &quot;context&quot;: {
+        &quot;population&quot;: &quot;label_defined&quot;,
+        &quot;prohibited_combination&quot;: true
+      },
+      &quot;parameters&quot;: [
+        {
+          &quot;from_entity&quot;: &quot;11ccaac6c87c08ee420b70cd&quot;,
+          &quot;to_entity&quot;: &quot;04f8787e935c61048f6af186&quot;,
+          &quot;minimum&quot;: 14,
+          &quot;unit&quot;: &quot;day&quot;
+        },
+        {
+          &quot;from_entity&quot;: &quot;04f8787e935c61048f6af186&quot;,
+          &quot;to_entity&quot;: &quot;11ccaac6c87c08ee420b70cd&quot;,
+          &quot;minimum&quot;: 14,
+          &quot;unit&quot;: &quot;day&quot;
+        }
+      ],
+      &quot;constraints&quot;: [
+        &quot;仅原文所列制剂及版本&quot;,
+        &quot;需临床人员结合完整标签及个体情况复核&quot;,
+        &quot;不生成个人处方&quot;,
+        &quot;仅MAOI与舍曲林间换药；不扩展到其他药物&quot;
+      ],
+      &quot;id&quot;: &quot;v3-rule:sertraline-maoi-washout-cn&quot;,
+      &quot;label&quot;: &quot;ScopedClinicalRule&quot;,
+      &quot;name&quot;: &quot;sertraline-maoi-washout-cn&quot;,
+      &quot;expert_review&quot;: &quot;pending&quot;,
+      &quot;reasoning_eligible&quot;: false,
+      &quot;scope&quot;: {
+        &quot;region&quot;: &quot;CN&quot;,
+        &quot;title&quot;: &quot;左洛复·盐酸舍曲林片说明书&quot;,
+        &quot;formulation&quot;: &quot;盐酸舍曲林片（左洛复）&quot;,
+        &quot;edition&quot;: &quot;2026-03-01&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;
+      },
+      &quot;evidence&quot;: {
+        &quot;id&quot;: &quot;B02-SER-MAOI&quot;,
+        &quot;source_id&quot;: &quot;cn_sertraline_viatris&quot;,
+        &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;,
+        &quot;item_ids&quot;: [
+          &quot;relation:69c38392c2018447898f75b6&quot;,
+          &quot;relation:72eab889786efdf949c885cd&quot;
+        ],
+        &quot;locator&quot;: {
+          &quot;kind&quot;: &quot;pdf_pages&quot;,
+          &quot;pages&quot;: [
+            6,
+            11
+          ],
+          &quot;page_numbering&quot;: &quot;PDF physical pages&quot;
+        },
+        &quot;summary&quot;: &quot;合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。&quot;,
+        &quot;conditions&quot;: &quot;CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。&quot;,
+        &quot;checked_at&quot;: &quot;2026-10-20&quot;,
+        &quot;reviewer&quot;: &quot;agent&quot;,
+        &quot;scope&quot;: &quot;medical_source_comparison&quot;,
+        &quot;expert_review&quot;: &quot;pending&quot;
+      },
+      &quot;source_sha256&quot;: &quot;db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5&quot;
+    }
+  ]
+}</pre></td></tr></tbody></table><script>document.getElementById('q').addEventListener('input',e=>{
+const q=e.target.value.toLowerCase();document.querySelectorAll('tbody tr').forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q));});</script></html>

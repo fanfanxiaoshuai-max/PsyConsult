@@ -1,0 +1,2272 @@
+{
+  "version": "kg_v3_candidate",
+  "activation_ready": false,
+  "expert_review": "pending",
+  "nodes": [
+    {
+      "id": "06b62e6a29f4d2e83f762bd2",
+      "name": "抑郁障碍",
+      "label": "Disease",
+      "related_categories": [
+        {
+          "code": "F32",
+          "concept": "Depressive episode",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        },
+        {
+          "code": "F33",
+          "concept": "Recurrent depressive disorder",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ICD10-DEP",
+              "conditions": "WHO ICD-10 2019，保留编码体系和具体类别，勿混为ICD-11。",
+              "source_id": "who_icd10_F32",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F32",
+                  "F33"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ],
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "557312cc1a8ce5f7bb725e2d",
+      "name": "精神分裂症",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "7b837688f1073be778fe46f7",
+      "name": "焦虑障碍",
+      "label": "Disease",
+      "related_categories": [
+        {
+          "code": "F40",
+          "concept": "Phobic anxiety disorders",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ANXIETY-CODES",
+              "conditions": "WHO ICD-10 2019。",
+              "source_id": "who_icd10_F40",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F40",
+                  "F41"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        },
+        {
+          "code": "F41",
+          "concept": "Other anxiety disorders",
+          "system": "ICD-10",
+          "edition": "WHO ICD-10 2019",
+          "relation": "related_category",
+          "equivalent_to_umbrella": false,
+          "exhaustive": false,
+          "evidence": [
+            {
+              "evidence_id": "B03-ANXIETY-CODES",
+              "conditions": "WHO ICD-10 2019。",
+              "source_id": "who_icd10_F40",
+              "locator": {
+                "kind": "html_anchor",
+                "anchors": [
+                  "F40",
+                  "F41"
+                ]
+              }
+            }
+          ],
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ],
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "04f8787e935c61048f6af186",
+      "name": "舍曲林",
+      "label": "Drug",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "fcc7bf9f26197edd8426900f",
+      "name": "氟西汀",
+      "label": "Drug",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "fbe4ed72827477d0ae8cfb0f",
+      "name": "奥氮平",
+      "label": "Drug",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "72d56d56d60120f29a185b86",
+      "name": "锂盐",
+      "label": "Drug",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "f24ee52a7efbff65c7339fd8",
+      "name": "躁狂发作",
+      "label": "Episode",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "0a16bf13b44d8f0c6a6dbfe1",
+      "name": "轻躁狂发作",
+      "label": "Episode",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "8baeef1194c213900abd08f3",
+      "name": "恶劣心境",
+      "label": "Disease",
+      "codings": [
+        {
+          "code": "6A72",
+          "system": "ICD-11",
+          "edition": "WHO CDDR 2024",
+          "concept": "Dysthymic disorder",
+          "evidence": [
+            {
+              "evidence_id": "WHO-DYSTHYMIA-CODE",
+              "conditions": "针对WHO ICD-11 CDDR 2024的恶劣心境条目；名称与编码一起核对。",
+              "source_id": "who_cddr_2024",
+              "locator": {
+                "kind": "pdf_pages",
+                "pages": [
+                  273
+                ],
+                "page_numbering": "PDF physical pages"
+              }
+            }
+          ],
+          "equivalent_to_named_concept": true,
+          "expert_review": "pending",
+          "reasoning_eligible": false
+        }
+      ],
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "95a736f858113c5a764c3f4c",
+      "name": "持续性幻觉",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "9d94ee09431f90fe8dc5518c",
+      "name": "持续性妄想",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "d98039d2a44dad6a61f1f42d",
+      "name": "思维紊乱",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "ecb26fff7ce20f83639e17e1",
+      "name": "被动体验",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "87d2d331e0d60bcd34bfa18d",
+      "name": "阴性症状",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "e9f48e8b2e0815df913fe55b",
+      "name": "行为紊乱",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "name": "幻听",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "09668b597185de1859fcfd75",
+      "name": "议论性幻听",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "eaab0c289a59852018834a78",
+      "name": "命令性幻听",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "7a63dab77d4d4ac760115c66",
+      "name": "关系妄想",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "18c85333a84c643ddb67e9a7",
+      "name": "被害妄想",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "2c3829f221ec7c3ceb871222",
+      "name": "被控制感",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "5893e207ab717d55a19dd302",
+      "name": "言语离题",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "ad2392546a8c03fc848cbc8f",
+      "name": "言语破裂",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "ba47a88d925915880cfc4917",
+      "name": "言语不连贯",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "085c79fe8a719b7cf8ce25a3",
+      "name": "思维被插入",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "e0673d4a6ff84d513ae697c5",
+      "name": "思维被广播",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "961e88c7f3404b1aad0e1a32",
+      "name": "思维被抽出",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "230f5e390ee5bace8cfabca3",
+      "name": "思维被控制",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "bcb02fa4547a845e35777dea",
+      "name": "情感淡漠",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "a935be7e64ff9b7c3546cc76",
+      "name": "意志减退",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "dc1ea99f0af40531a22d8ace",
+      "name": "社交退缩",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "fcabc0e64a1974ed3658be73",
+      "name": "言语贫乏",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "5d731c3e7612ba6caf9486ee",
+      "name": "不适当的情绪反应",
+      "label": "Symptom",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "d592d6d2f064492b3c8b07d1",
+      "name": "首次发作",
+      "label": "CourseSpecifier",
+      "reasoning_eligible": false,
+      "display_only": true,
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "course_definition": {
+        "course": "first_episode",
+        "previous_schizophrenia_or_schizoaffective_episodes": 0,
+        "requires_complete_diagnostic_criteria": true,
+        "remission_status_assessed_separately": true
+      }
+    },
+    {
+      "id": "fed09d8c290dbd563081baf1",
+      "name": "多次发作",
+      "label": "CourseSpecifier",
+      "reasoning_eligible": false,
+      "display_only": true,
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "course_definition": {
+        "course": "multiple_episodes",
+        "qualifying_episodes_min": 2,
+        "qualifying_disorders": [
+          "schizophrenia",
+          "schizoaffective_disorder"
+        ],
+        "current_or_most_recent_episode": "schizophrenia",
+        "between_episode_remission_months_min": 3,
+        "remission_states": [
+          "partial",
+          "full"
+        ],
+        "requires_complete_diagnostic_criteria": true
+      }
+    },
+    {
+      "id": "21d79055466331363ac01b98",
+      "name": "持续型",
+      "label": "CourseSpecifier",
+      "reasoning_eligible": false,
+      "display_only": true,
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "course_definition": {
+        "course": "continuous",
+        "full_criteria_met_for_almost_entire_course": true,
+        "subthreshold_periods": "very_brief_relative_to_overall_course",
+        "when_applied_to_first_episode": {
+          "duration_years_min": 1,
+          "replaces": "first_episode_specifier"
+        },
+        "remission_status_assessed_separately": true
+      }
+    },
+    {
+      "id": "c93d5937775db620f66e7431",
+      "name": "双相躁狂发作",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "60daf4037069ebea6aee7dbe",
+      "name": "甲状腺功能减退",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "c65b27d41eb2415526c17338",
+      "name": "血脂异常",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "408bf2d0bb58d9adb050102d",
+      "name": "5-HT综合征",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "b22c1619c84a15eec2192457",
+      "name": "未控制的高血压",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "845ae0c616b381a617eeb5d4",
+      "name": "肝功能不全",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "9a92aa6b151984a4259ada36",
+      "name": "严重肾功能不全",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "ae02cd74347c0ab4c80f7588",
+      "name": "消化道出血",
+      "label": "Disease",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "id": "daf8a55846ed065646f8b0ed",
+      "name": "氯氮平",
+      "label": "Drug",
+      "reasoning_eligible": false,
+      "display_only": true
+    },
+    {
+      "key": "fluoxetine-OCD-cn",
+      "subject_id": "fcc7bf9f26197edd8426900f",
+      "kind": "dose",
+      "source_id": "cn_fluoxetine_lilly",
+      "evidence_id": "B02-FLU-MAX",
+      "context": {
+        "population": "adult",
+        "indication": "OCD",
+        "phase": "dose_adjustment",
+        "prerequisite": "20mg/day治疗2周后仍无明显疗效"
+      },
+      "parameters": [
+        {
+          "value": 20,
+          "unit": "mg/day",
+          "role": "recommended_dose"
+        },
+        {
+          "value": 60,
+          "unit": "mg/day",
+          "role": "maximum_after_titration"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:fluoxetine-OCD-cn",
+      "label": "ScopedClinicalRule",
+      "name": "fluoxetine-OCD-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "百优解·盐酸氟西汀胶囊说明书",
+        "formulation": "盐酸氟西汀胶囊（百优解）",
+        "edition": "2025-02-05",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。"
+      },
+      "evidence": {
+        "id": "B02-FLU-MAX",
+        "source_id": "cn_fluoxetine_lilly",
+        "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+        "item_ids": [
+          "property:fcc7bf9f26197edd8426900f:dose_max"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2,
+            3
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7"
+    },
+    {
+      "key": "fluoxetine-bulimia-cn",
+      "subject_id": "fcc7bf9f26197edd8426900f",
+      "kind": "dose",
+      "source_id": "cn_fluoxetine_lilly",
+      "evidence_id": "B02-FLU-MAX",
+      "context": {
+        "population": "adult",
+        "indication": "bulimia",
+        "co_treatment": "psychotherapy"
+      },
+      "parameters": [
+        {
+          "value": 60,
+          "unit": "mg/day",
+          "role": "recommended_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:fluoxetine-bulimia-cn",
+      "label": "ScopedClinicalRule",
+      "name": "fluoxetine-bulimia-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "百优解·盐酸氟西汀胶囊说明书",
+        "formulation": "盐酸氟西汀胶囊（百优解）",
+        "edition": "2025-02-05",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。"
+      },
+      "evidence": {
+        "id": "B02-FLU-MAX",
+        "source_id": "cn_fluoxetine_lilly",
+        "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+        "item_ids": [
+          "property:fcc7bf9f26197edd8426900f:dose_max"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2,
+            3
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7"
+    },
+    {
+      "key": "fluoxetine-depression-cn",
+      "subject_id": "fcc7bf9f26197edd8426900f",
+      "kind": "dose",
+      "source_id": "cn_fluoxetine_lilly",
+      "evidence_id": "B02-FLU-MAX",
+      "context": {
+        "population": "adult",
+        "indication": "depression",
+        "phase": "dose_adjustment",
+        "prerequisite": "20mg/day疗效不足；最初3–4周评估调整"
+      },
+      "parameters": [
+        {
+          "value": 20,
+          "unit": "mg/day",
+          "role": "recommended_dose"
+        },
+        {
+          "value": 60,
+          "unit": "mg/day",
+          "role": "maximum_after_titration"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:fluoxetine-depression-cn",
+      "label": "ScopedClinicalRule",
+      "name": "fluoxetine-depression-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "百优解·盐酸氟西汀胶囊说明书",
+        "formulation": "盐酸氟西汀胶囊（百优解）",
+        "edition": "2025-02-05",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。"
+      },
+      "evidence": {
+        "id": "B02-FLU-MAX",
+        "source_id": "cn_fluoxetine_lilly",
+        "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+        "item_ids": [
+          "property:fcc7bf9f26197edd8426900f:dose_max"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2,
+            3
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7"
+    },
+    {
+      "key": "fluoxetine-elderly-cn",
+      "subject_id": "fcc7bf9f26197edd8426900f",
+      "kind": "dose",
+      "source_id": "cn_fluoxetine_lilly",
+      "evidence_id": "B02-FLU-MAX",
+      "context": {
+        "population": "elderly",
+        "phase": "dose_adjustment"
+      },
+      "parameters": [
+        {
+          "value": 40,
+          "unit": "mg/day",
+          "role": "usual_upper_dose"
+        },
+        {
+          "value": 60,
+          "unit": "mg/day",
+          "role": "maximum_recommended_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "谨慎增加剂量；不能把最高量等同于通常推荐量"
+      ],
+      "id": "v3-rule:fluoxetine-elderly-cn",
+      "label": "ScopedClinicalRule",
+      "name": "fluoxetine-elderly-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "百优解·盐酸氟西汀胶囊说明书",
+        "formulation": "盐酸氟西汀胶囊（百优解）",
+        "edition": "2025-02-05",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。"
+      },
+      "evidence": {
+        "id": "B02-FLU-MAX",
+        "source_id": "cn_fluoxetine_lilly",
+        "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+        "item_ids": [
+          "property:fcc7bf9f26197edd8426900f:dose_max"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2,
+            3
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7"
+    },
+    {
+      "key": "fluvoxamine-clozapine-management-us",
+      "subject_id": "daf8a55846ed065646f8b0ed",
+      "kind": "interaction_management",
+      "source_id": "us_clozapine_mylan",
+      "evidence_id": "B02-CLO-FLUVOX",
+      "context": {
+        "population": "label_defined",
+        "inhibitor_id": "ca6f4ce9f70aeb40e51f5b8f",
+        "affected_id": "daf8a55846ed065646f8b0ed",
+        "mechanism": "strong_CYP1A2_inhibition",
+        "exposure_direction": "may_increase"
+      },
+      "parameters": [
+        {
+          "value": 1,
+          "denominator": 3,
+          "unit": "fraction_of_original_dose",
+          "role": "label_dose_adjustment"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "仅美国标签中的强CYP1A2抑制剂合用条件",
+        "非无条件绝对禁忌",
+        "不得自行按比例调药"
+      ],
+      "id": "v3-rule:fluvoxamine-clozapine-management-us",
+      "label": "ScopedClinicalRule",
+      "name": "fluvoxamine-clozapine-management-us",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "US",
+        "title": "Clozapine tablets: US prescribing information (Mylan)",
+        "formulation": null,
+        "edition": null,
+        "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。"
+      },
+      "evidence": {
+        "id": "B02-CLO-FLUVOX",
+        "source_id": "us_clozapine_mylan",
+        "source_sha256": "4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b",
+        "item_ids": [
+          "relation:43a9201e4b41894e18db9400",
+          "relation:5074f125be11e6459b0a7bab"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            8,
+            27,
+            33
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。",
+        "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b"
+    },
+    {
+      "key": "lithium-acute_manic_or_mixed-us",
+      "subject_id": "72d56d56d60120f29a185b86",
+      "kind": "concentration_target",
+      "source_id": "us_lithium_dailymed",
+      "evidence_id": "B03-LI-RANGE",
+      "context": {
+        "population": "adult_over_30kg",
+        "indication": "bipolar_I",
+        "phase": "acute_manic_or_mixed",
+        "sampling_hours_after_dose": 12
+      },
+      "parameters": [
+        {
+          "lower": 0.8,
+          "upper": 1.2,
+          "unit": "mEq/L",
+          "role": "serum_target"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "血浓度不能单独判断疗效或毒性",
+        "不与英国指南单位及阶段范围自动合并"
+      ],
+      "id": "v3-rule:lithium-acute_manic_or_mixed-us",
+      "label": "ScopedClinicalRule",
+      "name": "lithium-acute_manic_or_mixed-us",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "US",
+        "title": "Lithium carbonate tablets/capsules: US prescribing information",
+        "formulation": "碳酸锂普通片及胶囊（美国标签；非缓释制剂）",
+        "edition": "2026-08",
+        "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。"
+      },
+      "evidence": {
+        "id": "B03-LI-RANGE",
+        "source_id": "us_lithium_dailymed",
+        "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+        "item_ids": [
+          "property:72d56d56d60120f29a185b86:dose_start",
+          "property:72d56d56d60120f29a185b86:therapeutic_range",
+          "entity:6776fcf352fe12c2d0e50aab",
+          "property:6776fcf352fe12c2d0e50aab:parameter",
+          "relation:395aa7569c27fb5f83d9647d"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            4,
+            5
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。",
+        "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b"
+    },
+    {
+      "key": "lithium-first_time-uk",
+      "subject_id": "72d56d56d60120f29a185b86",
+      "kind": "concentration_target",
+      "source_id": "nice_cg185",
+      "evidence_id": "B03-LI-NICE-CONCENTRATION",
+      "context": {
+        "population": "adult",
+        "scenario": "first_lithium_treatment"
+      },
+      "parameters": [
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "unit": "mmol/L",
+          "role": "plasma_target"
+        }
+      ],
+      "constraints": [
+        "仅NICE CG185相应条件",
+        "不转换或并入美国产品目标范围",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:lithium-first_time-uk",
+      "label": "ScopedClinicalRule",
+      "name": "lithium-first_time-uk",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "UK",
+        "title": "NICE CG185: Bipolar disorder recommendations",
+        "formulation": null,
+        "edition": null,
+        "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。"
+      },
+      "evidence": {
+        "id": "B03-LI-NICE-CONCENTRATION",
+        "source_id": "nice_cg185",
+        "source_sha256": "495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82",
+        "item_ids": [
+          "property:72d56d56d60120f29a185b86:therapeutic_range",
+          "entity:6776fcf352fe12c2d0e50aab",
+          "property:6776fcf352fe12c2d0e50aab:parameter",
+          "relation:395aa7569c27fb5f83d9647d"
+        ],
+        "locator": {
+          "kind": "html_anchor",
+          "anchors": [
+            "cg185-1_10_15",
+            "cg185-1_10_16"
+          ]
+        },
+        "summary": "NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。",
+        "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82"
+    },
+    {
+      "key": "lithium-maintenance-us",
+      "subject_id": "72d56d56d60120f29a185b86",
+      "kind": "concentration_target",
+      "source_id": "us_lithium_dailymed",
+      "evidence_id": "B03-LI-RANGE",
+      "context": {
+        "population": "adult_over_30kg",
+        "indication": "bipolar_I",
+        "phase": "maintenance",
+        "sampling_hours_after_dose": 12
+      },
+      "parameters": [
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "unit": "mEq/L",
+          "role": "serum_target"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "血浓度不能单独判断疗效或毒性",
+        "不与英国指南单位及阶段范围自动合并"
+      ],
+      "id": "v3-rule:lithium-maintenance-us",
+      "label": "ScopedClinicalRule",
+      "name": "lithium-maintenance-us",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "US",
+        "title": "Lithium carbonate tablets/capsules: US prescribing information",
+        "formulation": "碳酸锂普通片及胶囊（美国标签；非缓释制剂）",
+        "edition": "2026-08",
+        "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。"
+      },
+      "evidence": {
+        "id": "B03-LI-RANGE",
+        "source_id": "us_lithium_dailymed",
+        "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+        "item_ids": [
+          "property:72d56d56d60120f29a185b86:dose_start",
+          "property:72d56d56d60120f29a185b86:therapeutic_range",
+          "entity:6776fcf352fe12c2d0e50aab",
+          "property:6776fcf352fe12c2d0e50aab:parameter",
+          "relation:395aa7569c27fb5f83d9647d"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            4,
+            5
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原锂起始量及0.6–1.2范围缺少产品、阶段、年龄和取血时间；不能作为统一治疗窗。",
+        "conditions": "仅所缓存美国口服制剂标签；适应症、人群与版本以原文为准，不能代替中国批准说明书。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b"
+    },
+    {
+      "key": "lithium-trial_higher-uk",
+      "subject_id": "72d56d56d60120f29a185b86",
+      "kind": "concentration_target",
+      "source_id": "nice_cg185",
+      "evidence_id": "B03-LI-NICE-CONCENTRATION",
+      "context": {
+        "population": "adult",
+        "scenario": "relapse_while_taking_lithium_or_impairing_subthreshold_symptoms",
+        "trial_duration_months_min": 6
+      },
+      "parameters": [
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "unit": "mmol/L",
+          "role": "plasma_target"
+        }
+      ],
+      "constraints": [
+        "仅NICE CG185相应条件",
+        "不转换或并入美国产品目标范围",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:lithium-trial_higher-uk",
+      "label": "ScopedClinicalRule",
+      "name": "lithium-trial_higher-uk",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "UK",
+        "title": "NICE CG185: Bipolar disorder recommendations",
+        "formulation": null,
+        "edition": null,
+        "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。"
+      },
+      "evidence": {
+        "id": "B03-LI-NICE-CONCENTRATION",
+        "source_id": "nice_cg185",
+        "source_sha256": "495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82",
+        "item_ids": [
+          "property:72d56d56d60120f29a185b86:therapeutic_range",
+          "entity:6776fcf352fe12c2d0e50aab",
+          "property:6776fcf352fe12c2d0e50aab:parameter",
+          "relation:395aa7569c27fb5f83d9647d"
+        ],
+        "locator": {
+          "kind": "html_anchor",
+          "anchors": [
+            "cg185-1_10_15",
+            "cg185-1_10_16"
+          ]
+        },
+        "summary": "NICE对首次锂治疗及部分复发/残留症状情境分别给出0.6–0.8及0.8–1.0mmol/L范围。",
+        "conditions": "NICE英国成人指南；是该指南条件下的建议，未证明同一条中国批准适应症或固定治疗排序。保留原文单位和情境，与美国mEq/L及不同阶段目标分别记录。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "495748760cd2d3b4ea8d52f3c7b28da32663b6433f920b7d83ff3bc6c4d34d82"
+    },
+    {
+      "key": "olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+      "subject_id": "fbe4ed72827477d0ae8cfb0f",
+      "kind": "dose",
+      "source_id": "cn_olanzapine_hansoh",
+      "evidence_id": "B02-OLA-START",
+      "context": {
+        "population": "adult",
+        "indication": "bipolar_recurrence_prevention",
+        "regimen": "label_qualified",
+        "phase": "initial"
+      },
+      "parameters": [
+        {
+          "value": 10,
+          "unit": "mg/day",
+          "role": "initial_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "预防复发应保留既往躁狂治疗有效等标签条件"
+      ],
+      "id": "v3-rule:olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+      "label": "ScopedClinicalRule",
+      "name": "olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "欧兰宁·奥氮平片说明书",
+        "formulation": "奥氮平普通片（欧兰宁，5mg/10mg）",
+        "edition": "2025-08-21",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。"
+      },
+      "evidence": {
+        "id": "B02-OLA-START",
+        "source_id": "cn_olanzapine_hansoh",
+        "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+        "item_ids": [
+          "property:fbe4ed72827477d0ae8cfb0f:dose_start"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d"
+    },
+    {
+      "key": "olanzapine-mania-combination-cn",
+      "subject_id": "fbe4ed72827477d0ae8cfb0f",
+      "kind": "dose",
+      "source_id": "cn_olanzapine_hansoh",
+      "evidence_id": "B02-OLA-START",
+      "context": {
+        "population": "adult",
+        "indication": "mania",
+        "regimen": "combination",
+        "phase": "initial"
+      },
+      "parameters": [
+        {
+          "value": 10,
+          "unit": "mg/day",
+          "role": "initial_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:olanzapine-mania-combination-cn",
+      "label": "ScopedClinicalRule",
+      "name": "olanzapine-mania-combination-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "欧兰宁·奥氮平片说明书",
+        "formulation": "奥氮平普通片（欧兰宁，5mg/10mg）",
+        "edition": "2025-08-21",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。"
+      },
+      "evidence": {
+        "id": "B02-OLA-START",
+        "source_id": "cn_olanzapine_hansoh",
+        "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+        "item_ids": [
+          "property:fbe4ed72827477d0ae8cfb0f:dose_start"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d"
+    },
+    {
+      "key": "olanzapine-mania-monotherapy-cn",
+      "subject_id": "fbe4ed72827477d0ae8cfb0f",
+      "kind": "dose",
+      "source_id": "cn_olanzapine_hansoh",
+      "evidence_id": "B02-OLA-START",
+      "context": {
+        "population": "adult",
+        "indication": "mania",
+        "regimen": "monotherapy",
+        "phase": "initial"
+      },
+      "parameters": [
+        {
+          "value": 15,
+          "unit": "mg/day",
+          "role": "initial_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:olanzapine-mania-monotherapy-cn",
+      "label": "ScopedClinicalRule",
+      "name": "olanzapine-mania-monotherapy-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "欧兰宁·奥氮平片说明书",
+        "formulation": "奥氮平普通片（欧兰宁，5mg/10mg）",
+        "edition": "2025-08-21",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。"
+      },
+      "evidence": {
+        "id": "B02-OLA-START",
+        "source_id": "cn_olanzapine_hansoh",
+        "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+        "item_ids": [
+          "property:fbe4ed72827477d0ae8cfb0f:dose_start"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d"
+    },
+    {
+      "key": "olanzapine-schizophrenia-monotherapy-cn",
+      "subject_id": "fbe4ed72827477d0ae8cfb0f",
+      "kind": "dose",
+      "source_id": "cn_olanzapine_hansoh",
+      "evidence_id": "B02-OLA-START",
+      "context": {
+        "population": "adult",
+        "indication": "schizophrenia",
+        "regimen": "monotherapy",
+        "phase": "initial"
+      },
+      "parameters": [
+        {
+          "value": 10,
+          "unit": "mg/day",
+          "role": "initial_dose"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:olanzapine-schizophrenia-monotherapy-cn",
+      "label": "ScopedClinicalRule",
+      "name": "olanzapine-schizophrenia-monotherapy-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "欧兰宁·奥氮平片说明书",
+        "formulation": "奥氮平普通片（欧兰宁，5mg/10mg）",
+        "edition": "2025-08-21",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。"
+      },
+      "evidence": {
+        "id": "B02-OLA-START",
+        "source_id": "cn_olanzapine_hansoh",
+        "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+        "item_ids": [
+          "property:fbe4ed72827477d0ae8cfb0f:dose_start"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d"
+    },
+    {
+      "key": "sertraline-adult-initial-cn",
+      "subject_id": "04f8787e935c61048f6af186",
+      "kind": "dose",
+      "source_id": "cn_sertraline_viatris",
+      "evidence_id": "B02-SER-START",
+      "context": {
+        "population": "adult",
+        "indications": [
+          "depression",
+          "OCD"
+        ],
+        "phase": "initial"
+      },
+      "parameters": [
+        {
+          "value": 50,
+          "unit": "mg/day",
+          "role": "initial_dose"
+        },
+        {
+          "value": 7,
+          "unit": "day",
+          "role": "minimum_titration_interval"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方"
+      ],
+      "id": "v3-rule:sertraline-adult-initial-cn",
+      "label": "ScopedClinicalRule",
+      "name": "sertraline-adult-initial-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "左洛复·盐酸舍曲林片说明书",
+        "formulation": "盐酸舍曲林片（左洛复）",
+        "edition": "2026-03-01",
+        "conditions": "CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。"
+      },
+      "evidence": {
+        "id": "B02-SER-START",
+        "source_id": "cn_sertraline_viatris",
+        "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+        "item_ids": [
+          "property:04f8787e935c61048f6af186:dose_start"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            2
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "50mg/日起始量在该产品成人用法中有依据，原字段缺少适用范围。",
+        "conditions": "CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5"
+    },
+    {
+      "key": "sertraline-maoi-washout-cn",
+      "subject_id": "04f8787e935c61048f6af186",
+      "kind": "washout",
+      "source_id": "cn_sertraline_viatris",
+      "evidence_id": "B02-SER-MAOI",
+      "context": {
+        "population": "label_defined",
+        "prohibited_combination": true
+      },
+      "parameters": [
+        {
+          "from_entity": "11ccaac6c87c08ee420b70cd",
+          "to_entity": "04f8787e935c61048f6af186",
+          "minimum": 14,
+          "unit": "day"
+        },
+        {
+          "from_entity": "04f8787e935c61048f6af186",
+          "to_entity": "11ccaac6c87c08ee420b70cd",
+          "minimum": 14,
+          "unit": "day"
+        }
+      ],
+      "constraints": [
+        "仅原文所列制剂及版本",
+        "需临床人员结合完整标签及个体情况复核",
+        "不生成个人处方",
+        "仅MAOI与舍曲林间换药；不扩展到其他药物"
+      ],
+      "id": "v3-rule:sertraline-maoi-washout-cn",
+      "label": "ScopedClinicalRule",
+      "name": "sertraline-maoi-washout-cn",
+      "expert_review": "pending",
+      "reasoning_eligible": false,
+      "scope": {
+        "region": "CN",
+        "title": "左洛复·盐酸舍曲林片说明书",
+        "formulation": "盐酸舍曲林片（左洛复）",
+        "edition": "2026-03-01",
+        "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。"
+      },
+      "evidence": {
+        "id": "B02-SER-MAOI",
+        "source_id": "cn_sertraline_viatris",
+        "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+        "item_ids": [
+          "relation:69c38392c2018447898f75b6",
+          "relation:72eab889786efdf949c885cd"
+        ],
+        "locator": {
+          "kind": "pdf_pages",
+          "pages": [
+            6,
+            11
+          ],
+          "page_numbering": "PDF physical pages"
+        },
+        "summary": "合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。",
+        "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。",
+        "checked_at": "2026-10-20",
+        "reviewer": "agent",
+        "scope": "medical_source_comparison",
+        "expert_review": "pending"
+      },
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "39932bf5528116725f43263e",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "21d79055466331363ac01b98",
+      "type": "HAS_COURSE_SPECIFIER",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/0"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:39932bf5528116725f43263e",
+      "structured_item_id": "relation:39932bf5528116725f43263e",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "7f848e2a22a596af03e46864",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "d592d6d2f064492b3c8b07d1",
+      "type": "HAS_COURSE_SPECIFIER",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/1"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:7f848e2a22a596af03e46864",
+      "structured_item_id": "relation:7f848e2a22a596af03e46864",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "bb233b2701efc81bd61ef06e",
+      "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "target": "eaab0c289a59852018834a78",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/3"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:bb233b2701efc81bd61ef06e",
+      "structured_item_id": "relation:bb233b2701efc81bd61ef06e",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "27b52d82ab700e351b02a18d",
+      "source": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "target": "09668b597185de1859fcfd75",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/5"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:27b52d82ab700e351b02a18d",
+      "structured_item_id": "relation:27b52d82ab700e351b02a18d",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "6ff1e4a3223b138bb73e1925",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "ba47a88d925915880cfc4917",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/6"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:6ff1e4a3223b138bb73e1925",
+      "structured_item_id": "relation:6ff1e4a3223b138bb73e1925",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "7b9c3fe402f595b84ee13f8d",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "a935be7e64ff9b7c3546cc76",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/7"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:7b9c3fe402f595b84ee13f8d",
+      "structured_item_id": "relation:7b9c3fe402f595b84ee13f8d",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "1a04e70275728d5b3df64942",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "18c85333a84c643ddb67e9a7",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/8"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:1a04e70275728d5b3df64942",
+      "structured_item_id": "relation:1a04e70275728d5b3df64942",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "4903b8d597af660175b23b22",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "085c79fe8a719b7cf8ce25a3",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/9"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:4903b8d597af660175b23b22",
+      "structured_item_id": "relation:4903b8d597af660175b23b22",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "11bedb023a2f6673d10a9c51",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "dc1ea99f0af40531a22d8ace",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/10"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:11bedb023a2f6673d10a9c51",
+      "structured_item_id": "relation:11bedb023a2f6673d10a9c51",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "a780e88cabc9c17449b29742",
+      "source": "557312cc1a8ce5f7bb725e2d",
+      "target": "fed09d8c290dbd563081baf1",
+      "type": "HAS_COURSE_SPECIFIER",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/11"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:a780e88cabc9c17449b29742",
+      "structured_item_id": "relation:a780e88cabc9c17449b29742",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-COURSE-SPECIFIERS",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              181,
+              182,
+              183
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "9aee08812d1a8ca8d92846e2",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "230f5e390ee5bace8cfabca3",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/12"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:9aee08812d1a8ca8d92846e2",
+      "structured_item_id": "relation:9aee08812d1a8ca8d92846e2",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "36851159b15758905039622f",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "5893e207ab717d55a19dd302",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/15"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:36851159b15758905039622f",
+      "structured_item_id": "relation:36851159b15758905039622f",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "81ed0807b783c78c2e182c55",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "961e88c7f3404b1aad0e1a32",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/18"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:81ed0807b783c78c2e182c55",
+      "structured_item_id": "relation:81ed0807b783c78c2e182c55",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "e75d937aa63e061b1888d97c",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "fcabc0e64a1974ed3658be73",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/19"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:e75d937aa63e061b1888d97c",
+      "structured_item_id": "relation:e75d937aa63e061b1888d97c",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "5caaf66ff10ddcb8bcc41208",
+      "source": "87d2d331e0d60bcd34bfa18d",
+      "target": "bcb02fa4547a845e35777dea",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/23"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:5caaf66ff10ddcb8bcc41208",
+      "structured_item_id": "relation:5caaf66ff10ddcb8bcc41208",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "476362b9190ef80a668411f6",
+      "source": "ecb26fff7ce20f83639e17e1",
+      "target": "e0673d4a6ff84d513ae697c5",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/24"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:476362b9190ef80a668411f6",
+      "structured_item_id": "relation:476362b9190ef80a668411f6",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "00fec67a4e1342256300932f",
+      "source": "95a736f858113c5a764c3f4c",
+      "target": "d4b0c8a17fa2d6cfbb2ac4c3",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/26"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:00fec67a4e1342256300932f",
+      "structured_item_id": "relation:00fec67a4e1342256300932f",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "3358624b80974d8e895dd01e",
+      "source": "e9f48e8b2e0815df913fe55b",
+      "target": "5d731c3e7612ba6caf9486ee",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/27"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:3358624b80974d8e895dd01e",
+      "structured_item_id": "relation:3358624b80974d8e895dd01e",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "a0da0704d2bab2af25f7dfc3",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "7a63dab77d4d4ac760115c66",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/28"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:a0da0704d2bab2af25f7dfc3",
+      "structured_item_id": "relation:a0da0704d2bab2af25f7dfc3",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "4037f1d80ddbd3cb36dbbc6f",
+      "source": "9d94ee09431f90fe8dc5518c",
+      "target": "2c3829f221ec7c3ceb871222",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/30"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:4037f1d80ddbd3cb36dbbc6f",
+      "structured_item_id": "relation:4037f1d80ddbd3cb36dbbc6f",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "2230df68e03a775be1421b9d",
+      "source": "d98039d2a44dad6a61f1f42d",
+      "target": "ad2392546a8c03fc848cbc8f",
+      "type": "HAS_EXAMPLE",
+      "properties": {},
+      "source_ids": [
+        "icd11_schizophrenia.json#/edges/31"
+      ],
+      "reasoning_eligible": false,
+      "review_status": "amended",
+      "audit_item_id": "relation:2230df68e03a775be1421b9d",
+      "structured_item_id": "relation:2230df68e03a775be1421b9d",
+      "structured_evidence": [
+        {
+          "evidence_id": "B03-SCHIZ-EXAMPLE-DIRECTION",
+          "conditions": "WHO CDDR 2024；仅该分类的诊断描述，需结合全部要求，不以单个节点自动诊断。",
+          "source_id": "who_cddr_2024",
+          "locator": {
+            "kind": "pdf_pages",
+            "pages": [
+              180,
+              181,
+              185
+            ],
+            "page_numbering": "PDF physical pages"
+          }
+        }
+      ],
+      "diagnostic_sufficiency": false
+    },
+    {
+      "id": "link:v3-rule:fluoxetine-OCD-cn",
+      "source": "fcc7bf9f26197edd8426900f",
+      "target": "v3-rule:fluoxetine-OCD-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-FLU-MAX"
+    },
+    {
+      "id": "link:v3-rule:fluoxetine-bulimia-cn",
+      "source": "fcc7bf9f26197edd8426900f",
+      "target": "v3-rule:fluoxetine-bulimia-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-FLU-MAX"
+    },
+    {
+      "id": "link:v3-rule:fluoxetine-depression-cn",
+      "source": "fcc7bf9f26197edd8426900f",
+      "target": "v3-rule:fluoxetine-depression-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-FLU-MAX"
+    },
+    {
+      "id": "link:v3-rule:fluoxetine-elderly-cn",
+      "source": "fcc7bf9f26197edd8426900f",
+      "target": "v3-rule:fluoxetine-elderly-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-FLU-MAX"
+    },
+    {
+      "id": "link:v3-rule:fluvoxamine-clozapine-management-us",
+      "source": "daf8a55846ed065646f8b0ed",
+      "target": "v3-rule:fluvoxamine-clozapine-management-us",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-CLO-FLUVOX"
+    },
+    {
+      "id": "link:v3-rule:lithium-acute_manic_or_mixed-us",
+      "source": "72d56d56d60120f29a185b86",
+      "target": "v3-rule:lithium-acute_manic_or_mixed-us",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B03-LI-RANGE"
+    },
+    {
+      "id": "link:v3-rule:lithium-first_time-uk",
+      "source": "72d56d56d60120f29a185b86",
+      "target": "v3-rule:lithium-first_time-uk",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B03-LI-NICE-CONCENTRATION"
+    },
+    {
+      "id": "link:v3-rule:lithium-maintenance-us",
+      "source": "72d56d56d60120f29a185b86",
+      "target": "v3-rule:lithium-maintenance-us",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B03-LI-RANGE"
+    },
+    {
+      "id": "link:v3-rule:lithium-trial_higher-uk",
+      "source": "72d56d56d60120f29a185b86",
+      "target": "v3-rule:lithium-trial_higher-uk",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B03-LI-NICE-CONCENTRATION"
+    },
+    {
+      "id": "link:v3-rule:olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+      "source": "fbe4ed72827477d0ae8cfb0f",
+      "target": "v3-rule:olanzapine-bipolar_recurrence_prevention-label_qualified-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-OLA-START"
+    },
+    {
+      "id": "link:v3-rule:olanzapine-mania-combination-cn",
+      "source": "fbe4ed72827477d0ae8cfb0f",
+      "target": "v3-rule:olanzapine-mania-combination-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-OLA-START"
+    },
+    {
+      "id": "link:v3-rule:olanzapine-mania-monotherapy-cn",
+      "source": "fbe4ed72827477d0ae8cfb0f",
+      "target": "v3-rule:olanzapine-mania-monotherapy-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-OLA-START"
+    },
+    {
+      "id": "link:v3-rule:olanzapine-schizophrenia-monotherapy-cn",
+      "source": "fbe4ed72827477d0ae8cfb0f",
+      "target": "v3-rule:olanzapine-schizophrenia-monotherapy-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-OLA-START"
+    },
+    {
+      "id": "link:v3-rule:sertraline-adult-initial-cn",
+      "source": "04f8787e935c61048f6af186",
+      "target": "v3-rule:sertraline-adult-initial-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-SER-START"
+    },
+    {
+      "id": "link:v3-rule:sertraline-maoi-washout-cn",
+      "source": "04f8787e935c61048f6af186",
+      "target": "v3-rule:sertraline-maoi-washout-cn",
+      "type": "HAS_SCOPED_RULE",
+      "reasoning_eligible": false,
+      "expert_review": "pending",
+      "evidence_id": "B02-SER-MAOI"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "expert_pmid_24921233": {
+    "id": "expert_pmid_24921233",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24921233/",
+    "retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=24921233,9742515,36072169,18232726",
+    "title": "A sertraline/valproic acid drug interaction: Case Reports.",
+    "region": "study_specific",
+    "format": "xml",
+    "source_kind": "primary_author_abstract",
+    "availability": "available",
+    "full_article_reviewed": false,
+    "locator": {
+      "pmid": "24921233"
+    },
+    "local_snapshot": ".tools/knowledge_sources/v3/expert-round/abstracts.xml",
+    "sha256": "93cb6a0adef110a916bb9cfe40aaf54906655bbb1c61eb67c25b05ae5324e670",
+    "expert_review": "pending"
+  },
+  "expert_pmid_9742515": {
+    "id": "expert_pmid_9742515",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9742515/",
+    "retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=24921233,9742515,36072169,18232726",
+    "title": "Catatonia-like events after valproic acid with risperidone and sertraline.",
+    "region": "study_specific",
+    "format": "xml",
+    "source_kind": "primary_author_abstract",
+    "availability": "available",
+    "full_article_reviewed": false,
+    "locator": {
+      "pmid": "9742515"
+    },
+    "local_snapshot": ".tools/knowledge_sources/v3/expert-round/abstracts.xml",
+    "sha256": "93cb6a0adef110a916bb9cfe40aaf54906655bbb1c61eb67c25b05ae5324e670",
+    "expert_review": "pending"
+  },
+  "expert_pmid_36072169": {
+    "id": "expert_pmid_36072169",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36072169/",
+    "retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=24921233,9742515,36072169,18232726",
+    "title": "A Case of Serotonin Syndrome Precipitated by Quetiapine in a Middle-Aged Female on Trazodone and Sertraline.",
+    "region": "study_specific",
+    "format": "xml",
+    "source_kind": "primary_author_abstract",
+    "availability": "available",
+    "full_article_reviewed": false,
+    "locator": {
+      "pmid": "36072169"
+    },
+    "local_snapshot": ".tools/knowledge_sources/v3/expert-round/abstracts.xml",
+    "sha256": "93cb6a0adef110a916bb9cfe40aaf54906655bbb1c61eb67c25b05ae5324e670",
+    "expert_review": "pending"
+  },
+  "expert_pmid_18232726": {
+    "id": "expert_pmid_18232726",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18232726/",
+    "retrieval_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=24921233,9742515,36072169,18232726",
+    "title": "A randomized, double-blind comparison of clozapine and high-dose olanzapine in treatment-resistant patients with schizophrenia.",
+    "region": "study_specific",
+    "format": "xml",
+    "source_kind": "primary_author_abstract",
+    "availability": "available",
+    "full_article_reviewed": false,
+    "locator": {
+      "pmid": "18232726"
+    },
+    "local_snapshot": ".tools/knowledge_sources/v3/expert-round/abstracts.xml",
+    "sha256": "93cb6a0adef110a916bb9cfe40aaf54906655bbb1c61eb67c25b05ae5324e670",
+    "expert_review": "pending"
+  },
+  "expert_nice_ng10": {
+    "id": "expert_nice_ng10",
+    "url": "https://www.nice.org.uk/guidance/ng10/chapter/Recommendations",
+    "title": "NICE NG10 rapid tranquillisation recommendations",
+    "region": "UK",
+    "format": "html",
+    "source_kind": "guideline",
+    "availability": "available",
+    "local_snapshot": ".tools/knowledge_sources/v3/expert-round/nice-ng10.html",
+    "sha256": "39522187909a945709176419b7911739dae4a3ac7d19fcc1bc4872717e98265a",
+    "expert_review": "pending"
+  }
+}

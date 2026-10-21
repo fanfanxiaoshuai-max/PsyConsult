@@ -1,0 +1,110 @@
+{
+  "files": 4,
+  "node_records": 240,
+  "unique_node_ids": 209,
+  "edge_records": 389,
+  "expected_nodes_on_empty_database": 214,
+  "expected_edges_on_empty_database": 423,
+  "node_ids_with_multiple_labels": {
+    "精神分裂症": [
+      "DifferentialDiagnosis",
+      "Disease"
+    ],
+    "双相障碍": [
+      "DifferentialDiagnosis",
+      "Disease"
+    ],
+    "躁狂发作": [
+      "Episode",
+      "Phase"
+    ],
+    "物质使用": [
+      "Condition",
+      "ExclusionFactor"
+    ],
+    "躯体疾病": [
+      "Condition",
+      "ExclusionFactor"
+    ]
+  },
+  "skipped_missing_endpoints": [
+    {
+      "file": "china_guidelines.json",
+      "source": "喹硫平",
+      "type": "HAS_EVIDENCE_FOR",
+      "target": "双相抑郁"
+    },
+    {
+      "file": "china_guidelines.json",
+      "source": "伴精神病性症状",
+      "type": "REQUIRES_COMBINATION_WITH",
+      "target": "抗精神病药"
+    },
+    {
+      "file": "china_guidelines.json",
+      "source": "伴精神病性症状",
+      "type": "REQUIRES_COMBINATION_WITH",
+      "target": "抗抑郁药"
+    },
+    {
+      "file": "china_guidelines.json",
+      "source": "强迫症",
+      "type": "PSYCHOTHERAPY_ADD_ON",
+      "target": "ERP"
+    },
+    {
+      "file": "china_guidelines.json",
+      "source": "拉莫三嗪",
+      "type": "HAS_PROPHYLACTIC_EVIDENCE_FOR",
+      "target": "双相抑郁"
+    },
+    {
+      "file": "icd11_depression.json",
+      "source": "重度抑郁发作",
+      "type": "REQUIRES",
+      "target": "核心症状=3条"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "丙戊酸钠",
+      "type": "INCREASES_RISK_OF",
+      "target": "镇静作用"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "丙戊酸钠",
+      "type": "CONTRAINDICATED_IN",
+      "target": "育龄女性"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "丙戊酸钠",
+      "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+      "target": "拉莫三嗪血药浓度升高"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "奥氮平",
+      "type": "INCREASES_RISK_OF",
+      "target": "EPS风险叠加"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "锂盐",
+      "type": "TREATS",
+      "target": "双相障碍躁狂发作"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "阿立哌唑",
+      "type": "HAS_CHARACTERISTIC",
+      "target": "体重增加风险低"
+    },
+    {
+      "file": "psychiatric_drugs.json",
+      "source": "丙戊酸钠",
+      "type": "CONTRAINDICATED_IN",
+      "target": "肝功能严重受损"
+    }
+  ]
+}

@@ -22,6 +22,10 @@ class AgentState(TypedDict):
     
     # 工具调用的附带信息或元数据
     metadata: dict[str, Any]
+    knowledge_binding: dict[str, str]
+    history_knowledge_identity: str
+    # Original user statements are retained separately from generated knowledge summaries.
+    user_messages: Annotated[Sequence[BaseMessage], add_messages]
 
 class AgentOutput(TypedDict):
     """Agent 执行的标准输出格式。"""

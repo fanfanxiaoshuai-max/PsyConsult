@@ -1,10 +1,18 @@
 from __future__ import annotations
 
 from typing import Any
+from threading import RLock
 
 from app.app_config.settings import settings
 
-COLLECTION_NAME = "qa_semantic_cache"
+import hashlib
+
+def cache_collection_name(version: str) -> str:
+    return ("qa_semantic_cache" if version == "legacy" else
+            "qa_semantic_cache_kg_" + hashlib.sha256(version.encode()).hexdigest()[:12])
+
+COLLECTION_NAME = cache_collection_name(settings.kg_version)
+
 EMBEDDING_DIM = 1536
 L1_SEMANTIC_DISTANCE_THRESHOLD = 0.08
 MIN_SEMANTIC_CACHE_QUERY_LENGTH = 4
@@ -12,6 +20,10 @@ MIN_SEMANTIC_CACHE_QUERY_LENGTH = 4
 
 class SemanticCache:
     def __init__(self) -> None:
+        self.collection_name = COLLECTION_NAME
+        self._allow_public = True
+        self._version_caches: dict[str, SemanticCache] = {}
+        self._collection_lock = RLock()
         self._client: Any = None
         self._embeddings: Any = None
         self._available: bool = False
@@ -71,9 +83,9 @@ class SemanticCache:
             delete_filter = (
                 f'question_norm == "{safe_norm}" and scope == "{safe_scope}" and user_id == "{safe_owner}"'
             )
-            self._client.delete(collection_name=COLLECTION_NAME, filter=delete_filter)
+            self._client.delete(collection_name=self.collection_name, filter=delete_filter)
             self._client.insert(
-                collection_name=COLLECTION_NAME,
+                collection_name=self.collection_name,
                 data=[
                     {
                         "question": query.strip(),
@@ -111,7 +123,7 @@ class SemanticCache:
                 "distance": 0.0,
             }
 
-        public_exact = self._query_one(public_filter)
+        public_exact = self._query_one(public_filter) if self._allow_public else None
         if public_exact:
             return {
                 "answer": public_exact["answer"],
@@ -128,19 +140,23 @@ class SemanticCache:
             scoped_filter = (
                 f'enabled == 1 and (scope == "public" or (scope == "user" and user_id == "{safe_user}"))'
             )
+            if not self._allow_public:
+                scoped_filter = f'enabled == 1 and scope == \"user\" and user_id == \"{safe_user}\"'
             results = self._client.search(
-                collection_name=COLLECTION_NAME,
+                collection_name=self.collection_name,
                 data=[query_embedding],
                 filter=scoped_filter,
                 limit=1,
                 output_fields=["question", "answer", "scope", "user_id"],
+                consistency_level="Strong",
             )
             if not results:
                 return None
             hit = results[0][0] if results[0] else None
             if not hit:
                 return None
-            distance = float(hit.get("distance", 1.0))
+            # COSINE search returns similarity (larger is closer), not distance.
+            distance = 1.0 - float(hit.get("distance", -1.0))
             if distance > L1_SEMANTIC_DISTANCE_THRESHOLD:
                 return None
             entity = hit.get("entity", {})
@@ -153,6 +169,29 @@ class SemanticCache:
         except Exception as exc:
             print(f"SemanticCache get_cache failed: {exc}")
             return None
+
+    async def for_knowledge(self, identity: str) -> "SemanticCache":
+        """Separate collection per immutable version; never search legacy/public answers."""
+        import asyncio
+        if not self.available:
+            return SemanticCache()
+        def prepare():
+            with self._collection_lock:
+                if identity in self._version_caches:
+                    return self._version_caches[identity]
+                scoped = SemanticCache()
+                scoped.collection_name = cache_collection_name(identity)
+                scoped._allow_public = False
+                scoped._client, scoped._embeddings = self._client, self._embeddings
+                scoped._ensure_collection()
+                scoped._available = True
+                self._version_caches[identity] = scoped
+                return scoped
+        try:
+            return await asyncio.to_thread(prepare)
+        except Exception:
+            # Cache failures never cause a return to an old collection or stop inference.
+            return SemanticCache()
 
     @property
     def available(self) -> bool:
@@ -189,10 +228,11 @@ class SemanticCache:
     def _query_one(self, filter_expr: str) -> dict[str, Any] | None:
         try:
             rows = self._client.query(
-                collection_name=COLLECTION_NAME,
+                collection_name=self.collection_name,
                 filter=filter_expr,
                 output_fields=["question", "answer", "scope", "user_id"],
                 limit=1,
+                consistency_level="Strong",
             )
             if rows:
                 return rows[0]
@@ -203,14 +243,14 @@ class SemanticCache:
     def _ensure_collection(self) -> None:
         from pymilvus import DataType
 
-        if self._client.has_collection(COLLECTION_NAME):
+        if self._client.has_collection(self.collection_name):
             return
 
         schema = self._client.create_schema()
         schema.add_field("id", DataType.INT64, is_primary=True, auto_id=True)
         schema.add_field("question", DataType.VARCHAR, max_length=2048)
         schema.add_field("question_norm", DataType.VARCHAR, max_length=2048)
-        schema.add_field("answer", DataType.VARCHAR, max_length=8192)
+        schema.add_field("answer", DataType.VARCHAR, max_length=8192 if self._allow_public else 65535)
         schema.add_field("scope", DataType.VARCHAR, max_length=16)
         schema.add_field("user_id", DataType.VARCHAR, max_length=128)
         schema.add_field("enabled", DataType.INT8)
@@ -225,7 +265,7 @@ class SemanticCache:
         )
 
         self._client.create_collection(
-            collection_name=COLLECTION_NAME,
+            collection_name=self.collection_name,
             schema=schema,
             index_params=index_params,
         )

@@ -1,5 +1,7 @@
 # PsyConsult — 精神科临床决策支持系统原型
 
+知识审核与版本管理入口：<http://127.0.0.1:5173/#candidate>。支持项目内部审核、知识版本发布、启用与回退；启用版本同步用于知识浏览和新一轮问答。详见[操作说明](docs/PROJECT-WORKBENCH.md)及[版本联动与验收](docs/KNOWLEDGE-VERSION-LINK.md)。
+
 基于 **LangGraph 多智能体**的临床决策支持系统（Clinical CDS）：Vue 3 前端 + FastAPI 后端，通过 SSE 流式返回鉴别诊断、治疗推荐与药物相互作用审查建议。会话级状态由 **LangGraph Checkpoint + Redis** 管理，支持多轮临床问答的状态恢复与连续推理。
 
 ## 架构
@@ -64,6 +66,8 @@ cd front/clinical_cds && npm run type-check && npm run build  # 前端验证门�
 ```
 
 ## 安全说明
+
+知识图谱的399项修订现均有结构化处置，见[最新报告](docs/KNOWLEDGE-GRAPH-V3-STRUCTURED-02.md)及[修改前后对照](docs/KNOWLEDGE-GRAPH-V3-STRUCTURED-ALL.html)。候选版尚未发布，新增记录不进入推理；原文对照不等于临床专家审核。
 
 - `agent/.env` 含密钥，已被 gitignore，切勿提交；文档示例一律使用占位符。
 - `API_AUTH_TOKEN` 配置后强制 Bearer Token 校验；`X-User-Id` 需匹配 `^[A-Za-z0-9_.:-]{1,128}$`。

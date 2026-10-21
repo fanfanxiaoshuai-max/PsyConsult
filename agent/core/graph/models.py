@@ -66,3 +66,24 @@ class Relation:
     properties: dict = field(default_factory=dict)
     # HAS_SYMPTOM: {"criterion": "核心"|"附加"}
     # INTERACTS_WITH: {"risk": "禁忌"|"谨慎"|"注意"}
+
+
+# Normalized graph format used by the first enhancement dataset. Legacy models above remain supported.
+from typing import TypedDict, Any
+
+class GraphEntity(TypedDict):
+    id: str
+    legacy_id: str
+    name: str
+    label: str
+    aliases: list[str]
+    properties: dict[str, Any]
+    source_ids: list[str]
+
+class GraphAssertion(TypedDict):
+    id: str
+    source: str
+    target: str
+    type: str
+    properties: dict[str, Any]
+    source_ids: list[str]

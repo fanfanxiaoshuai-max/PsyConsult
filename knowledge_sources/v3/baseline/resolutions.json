@@ -1,0 +1,535 @@
+[
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/2",
+    "endpoints": [
+      "288aef35757361db129d2728",
+      "1b21cab1d1a3143e887f40d3"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/9",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "a809570dab8e6d7f95bc0450"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/23",
+    "endpoints": [
+      "17961902442705345a65f4ee",
+      "6689ab6f770334391953b60c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/37",
+    "endpoints": [
+      "72d56d56d60120f29a185b86",
+      "6689ab6f770334391953b60c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "china_guidelines.json#/edges/44",
+    "original": {
+      "source": "喹硫平",
+      "type": "HAS_EVIDENCE_FOR",
+      "target": "双相抑郁"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/48",
+    "endpoints": [
+      "6689ab6f770334391953b60c",
+      "f7a2e37680b73cfa8f705638"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/53",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "414a3332eef9a7659be9e0d8"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/54",
+    "endpoints": [
+      "288aef35757361db129d2728",
+      "17961902442705345a65f4ee"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "china_guidelines.json#/edges/62",
+    "original": {
+      "source": "伴精神病性症状",
+      "type": "REQUIRES_COMBINATION_WITH",
+      "target": "抗精神病药"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/64",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "8e2fc4181e3fcb168217fdcd"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/67",
+    "endpoints": [
+      "6689ab6f770334391953b60c",
+      "4bf380949eddb94cce781aed"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/70",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "17961902442705345a65f4ee"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "china_guidelines.json#/edges/78",
+    "original": {
+      "source": "伴精神病性症状",
+      "type": "REQUIRES_COMBINATION_WITH",
+      "target": "抗抑郁药"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/81",
+    "endpoints": [
+      "17961902442705345a65f4ee",
+      "557312cc1a8ce5f7bb725e2d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/92",
+    "endpoints": [
+      "1b21cab1d1a3143e887f40d3",
+      "6689ab6f770334391953b60c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "china_guidelines.json#/edges/99",
+    "original": {
+      "source": "强迫症",
+      "type": "PSYCHOTHERAPY_ADD_ON",
+      "target": "ERP"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/100",
+    "endpoints": [
+      "6689ab6f770334391953b60c",
+      "288aef35757361db129d2728"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/104",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "fb65c44222644e4f91b97db4"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "china_guidelines.json#/edges/108",
+    "original": {
+      "source": "拉莫三嗪",
+      "type": "HAS_PROPHYLACTIC_EVIDENCE_FOR",
+      "target": "双相抑郁"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "china_guidelines.json#/edges/109",
+    "endpoints": [
+      "288aef35757361db129d2728",
+      "8e2fc4181e3fcb168217fdcd"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_depression.json#/edges/6",
+    "endpoints": [
+      "cdf9188e4dce59321a9a8311",
+      "07b4172ccf37edd708a1c13e"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "icd11_depression.json#/edges/10",
+    "original": {
+      "source": "重度抑郁发作",
+      "type": "REQUIRES",
+      "target": "核心症状=3条"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_depression.json#/edges/15",
+    "endpoints": [
+      "cdf9188e4dce59321a9a8311",
+      "80c0a41b505f32fbe589d7c3"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_depression.json#/edges/18",
+    "endpoints": [
+      "cdf9188e4dce59321a9a8311",
+      "c96a99a22a3c400fae67cf40"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_depression.json#/edges/22",
+    "endpoints": [
+      "cdf9188e4dce59321a9a8311",
+      "f24ee52a7efbff65c7339fd8"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_depression.json#/edges/24",
+    "endpoints": [
+      "cdf9188e4dce59321a9a8311",
+      "8466f5cda072d0831e1cdb37"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/0",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "21d79055466331363ac01b98"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/1",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "d592d6d2f064492b3c8b07d1"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/2",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "ecb26fff7ce20f83639e17e1"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/4",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "e9f48e8b2e0815df913fe55b"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/11",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "fed09d8c290dbd563081baf1"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/13",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "ffe2796246e092bc5a39ac33"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/14",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "95a736f858113c5a764c3f4c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/16",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "9d94ee09431f90fe8dc5518c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/17",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "6bf3d540d741ae5836a47aa8"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/20",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "d98039d2a44dad6a61f1f42d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/21",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "6144a9da17473ab8d284daa8"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/22",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "87d2d331e0d60bcd34bfa18d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/25",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "dbdabffbfcbed81628054f77"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/29",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "06b62e6a29f4d2e83f762bd2"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "icd11_schizophrenia.json#/edges/32",
+    "endpoints": [
+      "557312cc1a8ce5f7bb725e2d",
+      "6689ab6f770334391953b60c"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/52",
+    "original": {
+      "source": "丙戊酸钠",
+      "type": "INCREASES_RISK_OF",
+      "target": "镇静作用"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "psychiatric_drugs.json#/edges/63",
+    "endpoints": [
+      "73140311e1638f7c044e7308",
+      "557312cc1a8ce5f7bb725e2d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "psychiatric_drugs.json#/edges/66",
+    "endpoints": [
+      "b417c2371558fc84b9c2e27c",
+      "557312cc1a8ce5f7bb725e2d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/68",
+    "original": {
+      "source": "丙戊酸钠",
+      "type": "CONTRAINDICATED_IN",
+      "target": "育龄女性"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/78",
+    "original": {
+      "source": "丙戊酸钠",
+      "type": "CAUSES_INCREASED_CONCENTRATION_OF",
+      "target": "拉莫三嗪血药浓度升高"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/87",
+    "original": {
+      "source": "奥氮平",
+      "type": "INCREASES_RISK_OF",
+      "target": "EPS风险叠加"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "psychiatric_drugs.json#/edges/93",
+    "endpoints": [
+      "5fb927be024f43b102bdd1d5",
+      "557312cc1a8ce5f7bb725e2d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/106",
+    "original": {
+      "source": "锂盐",
+      "type": "TREATS",
+      "target": "双相障碍躁狂发作"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "scoped_endpoint",
+    "source_id": "psychiatric_drugs.json#/edges/126",
+    "endpoints": [
+      "fbe4ed72827477d0ae8cfb0f",
+      "557312cc1a8ce5f7bb725e2d"
+    ],
+    "status": "resolved_structurally",
+    "reason": "Unique entity type in the originating file; no cross-label expansion."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/163",
+    "original": {
+      "source": "阿立哌唑",
+      "type": "HAS_CHARACTERISTIC",
+      "target": "体重增加风险低"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  },
+  {
+    "kind": "unresolved_edge",
+    "source_id": "psychiatric_drugs.json#/edges/164",
+    "original": {
+      "source": "丙戊酸钠",
+      "type": "CONTRAINDICATED_IN",
+      "target": "肝功能严重受损"
+    },
+    "status": "pending_review",
+    "reason": "Missing endpoint or ambiguous entity type; excluded from active graph."
+  }
+]

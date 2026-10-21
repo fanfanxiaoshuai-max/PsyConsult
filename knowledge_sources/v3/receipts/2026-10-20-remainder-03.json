@@ -1,0 +1,65 @@
+{
+  "batch_id": "2026-10-20-remainder-03",
+  "applied_at": "2026-10-20",
+  "batch_sha256": "fb114597956bfcbf1915c9ce890a075ecd946a91ca7f23f4076afbf09e810b86",
+  "previous_completed_rows": 153,
+  "previous_medical_rows": 92,
+  "previous_rows_sha256": "5bdfc75cc94ca23f281e0cfc10c77499089bcd95343b2149479d650937b4f178",
+  "previous_rows_unchanged": true,
+  "active_kg_v2_unchanged": true,
+  "active_kg_v2_files": {
+    "mock_data/kg_v2/aliases.json": "9c3416fbf834918829141bc76ce59c6b01bf250af93f5d181b83d3795b4300e2",
+    "mock_data/kg_v2/entities.json": "535e3897fae66a6e44a4d20d863d5a6b763e9c5a21c9a17902d16cf6c8372aff",
+    "mock_data/kg_v2/relations.json": "a66aba7f843b3aefa4196443a81437092f941705fde331662d8c653cc971ed16",
+    "mock_data/kg_v2/resolutions.json": "394dd99d6c9a8da17aefdd2aee33bd6ca8fb80c71afd280a910b76cd860640b1",
+    "mock_data/kg_v2/review.json": "58e24d3cd71d7731662a9f953b2c32369f1040496a552026bb80324a4bf87005",
+    "mock_data/kg_v2/sources.json": "66a373e4c75b945b1f7f5ac61ed961e768a080e42205f01205c9d1ba6f4822b7"
+  },
+  "progress": {
+    "implementation_stage": "source_comparison_complete_with_open_findings",
+    "candidate_version": "kg_v3",
+    "baseline_version": "kg_v2",
+    "updated_at": "2026-10-20",
+    "total": 899,
+    "counts_by_kind": {
+      "entity": 230,
+      "property": 250,
+      "relation": 406,
+      "quarantine": 13
+    },
+    "counts_by_status": {
+      "amended": 399,
+      "structural_only": 61,
+      "source_supported": 371,
+      "insufficient_evidence": 55,
+      "quarantined": 13
+    },
+    "counts_by_priority": {
+      "P1": 613,
+      "P0": 225,
+      "P2": 61
+    },
+    "counts_by_batch": {
+      "3": 336,
+      "1": 61,
+      "2": 270,
+      "4": 232
+    },
+    "pending_by_priority": {},
+    "inventory_complete": true,
+    "structural_examination_count": 899,
+    "structural_issue_items": 13,
+    "medical_review_required": 838,
+    "medical_review_completed": 838,
+    "source_supported_count": 371,
+    "clinical_expert_reviewed": 0,
+    "prior_v2_checked_relations": 30,
+    "full_medical_review_complete": true,
+    "activation_ready": false,
+    "all_items_adjudicated": true,
+    "full_medical_verification_complete": false,
+    "unresolved_medical_items": 68,
+    "candidate_amendments_not_applied": 399,
+    "completion_definition": "All frozen items have a scoped review outcome; this does not mean all claims are supported, amendments applied, or clinically expert approved."
+  }
+}

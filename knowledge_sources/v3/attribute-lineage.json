@@ -1,0 +1,3544 @@
+{
+  "property:06b62e6a29f4d2e83f762bd2:icd_code": {
+    "entity_id": "06b62e6a29f4d2e83f762bd2",
+    "key": "icd_code",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/0",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/0/properties/0/value",
+        "original_value": "F32/F33",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:06b62e6a29f4d2e83f762bd2:full_name": {
+    "entity_id": "06b62e6a29f4d2e83f762bd2",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/0",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/0/properties/1/value",
+        "original_value": "Major Depressive Disorder",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:06b62e6a29f4d2e83f762bd2:exclusion_context": {
+    "entity_id": "06b62e6a29f4d2e83f762bd2",
+    "key": "exclusion_context",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/29",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/29/properties/0/value",
+        "original_value": "伴精神病性症状时需鉴别",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:06b62e6a29f4d2e83f762bd2:icd10": {
+    "entity_id": "06b62e6a29f4d2e83f762bd2",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/14",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/14/properties/0/value",
+        "original_value": "F32/F33",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:06b62e6a29f4d2e83f762bd2:name": {
+    "entity_id": "06b62e6a29f4d2e83f762bd2",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/14",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/14/properties/1/value",
+        "original_value": "抑郁障碍",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:557312cc1a8ce5f7bb725e2d:ICD11_Code": {
+    "entity_id": "557312cc1a8ce5f7bb725e2d",
+    "key": "ICD11_Code",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/0",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/0/properties/0/value",
+        "original_value": "6A20",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:557312cc1a8ce5f7bb725e2d:Duration_Requirement": {
+    "entity_id": "557312cc1a8ce5f7bb725e2d",
+    "key": "Duration_Requirement",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/0",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/0/properties/1/value",
+        "original_value": "≥1 month",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:557312cc1a8ce5f7bb725e2d:Minimum_Symptom_Count": {
+    "entity_id": "557312cc1a8ce5f7bb725e2d",
+    "key": "Minimum_Symptom_Count",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/0",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/0/properties/2/value",
+        "original_value": "2",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:557312cc1a8ce5f7bb725e2d:icd10": {
+    "entity_id": "557312cc1a8ce5f7bb725e2d",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/21",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/21/properties/0/value",
+        "original_value": "F20",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:557312cc1a8ce5f7bb725e2d:name": {
+    "entity_id": "557312cc1a8ce5f7bb725e2d",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/21",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/21/properties/1/value",
+        "original_value": "精神分裂症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6689ab6f770334391953b60c:exclusion_context": {
+    "entity_id": "6689ab6f770334391953b60c",
+    "key": "exclusion_context",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/28",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/28/properties/0/value",
+        "original_value": "伴精神病性症状时需鉴别",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:7b837688f1073be778fe46f7:icd_code": {
+    "entity_id": "7b837688f1073be778fe46f7",
+    "key": "icd_code",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/3",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/3/properties/0/value",
+        "original_value": "F40/F41",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:7b837688f1073be778fe46f7:full_name": {
+    "entity_id": "7b837688f1073be778fe46f7",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/3",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/3/properties/1/value",
+        "original_value": "Anxiety Disorders (e.g., GAD, Panic Disorder)",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:07a1fd94a62ac7259cb58f8e:icd10": {
+    "entity_id": "07a1fd94a62ac7259cb58f8e",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/19",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/19/properties/0/value",
+        "original_value": "F41.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d62c8e662ff2a3910597b3a3:icd10": {
+    "entity_id": "d62c8e662ff2a3910597b3a3",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/16",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/16/properties/0/value",
+        "original_value": "F41.0",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4d827297911d3bc97349766d:name": {
+    "entity_id": "4d827297911d3bc97349766d",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/9",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/9/properties/0/value",
+        "original_value": "选择性5-羟色胺再摄取抑制剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:35d4b8ca2bfb16b83b91d5b9:name": {
+    "entity_id": "35d4b8ca2bfb16b83b91d5b9",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/10",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/10/properties/0/value",
+        "original_value": "5-羟色胺和去甲肾上腺素再摄取抑制剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:17961902442705345a65f4ee:name": {
+    "entity_id": "17961902442705345a65f4ee",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/11",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/11/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:1b21cab1d1a3143e887f40d3:name": {
+    "entity_id": "1b21cab1d1a3143e887f40d3",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/12",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/12/properties/0/value",
+        "original_value": "心境稳定剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:24c5810487b4d9467ba5297d:full_name": {
+    "entity_id": "24c5810487b4d9467ba5297d",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/21",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/21/properties/0/value",
+        "original_value": "认知行为治疗",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:24c5810487b4d9467ba5297d:acronym": {
+    "entity_id": "24c5810487b4d9467ba5297d",
+    "key": "acronym",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/21",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/21/properties/1/value",
+        "original_value": "CBT",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:24c5810487b4d9467ba5297d:role_in_OCD": {
+    "entity_id": "24c5810487b4d9467ba5297d",
+    "key": "role_in_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/21",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/21/properties/2/value",
+        "original_value": "Adjunct to SSRI in partial responders",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:2a1bcb899c2e99f63b782b2f:full_name": {
+    "entity_id": "2a1bcb899c2e99f63b782b2f",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/22",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/22/properties/0/value",
+        "original_value": "人际心理治疗",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:97c971cd793751d2f3d73b3e:full_name": {
+    "entity_id": "97c971cd793751d2f3d73b3e",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/23",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/23/properties/0/value",
+        "original_value": "电抽搐治疗",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:class": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/28",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/28/properties/0/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:generic_name": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/28",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/28/properties/1/value",
+        "original_value": "Sertraline",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/1/value",
+        "original_value": "Sertraline",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:is_first_line_for_OCD": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "is_first_line_for_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/28",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/28/properties/2/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:name": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/0/value",
+        "original_value": "舍曲林",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:category": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/2/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:dose_start": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/3/value",
+        "original_value": "50mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:dose_max": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/4/value",
+        "original_value": "200mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:04f8787e935c61048f6af186:dose_range": {
+    "entity_id": "04f8787e935c61048f6af186",
+    "key": "dose_range",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/0",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/0/properties/5/value",
+        "original_value": "100-200mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:class": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/29",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/29/properties/0/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:generic_name": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/29",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/29/properties/1/value",
+        "original_value": "Paroxetine",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/1",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/1/properties/1/value",
+        "original_value": "Paroxetine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:is_first_line_for_OCD": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "is_first_line_for_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/29",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/29/properties/2/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:name": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/1",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/1/properties/0/value",
+        "original_value": "帕罗西汀",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:category": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/1",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/1/properties/2/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:dose_start": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/1",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/1/properties/3/value",
+        "original_value": "20mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d0edfc4d2a910e7878c03d38:dose_max": {
+    "entity_id": "d0edfc4d2a910e7878c03d38",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/1",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/1/properties/4/value",
+        "original_value": "50mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:class": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/30",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/30/properties/0/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:generic_name": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/30",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/30/properties/1/value",
+        "original_value": "Fluoxetine",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/2",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/2/properties/1/value",
+        "original_value": "Fluoxetine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:is_first_line_for_OCD": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "is_first_line_for_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/30",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/30/properties/2/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:name": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/2",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/2/properties/0/value",
+        "original_value": "氟西汀",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:category": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/2",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/2/properties/2/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:dose_start": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/2",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/2/properties/3/value",
+        "original_value": "20mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fcc7bf9f26197edd8426900f:dose_max": {
+    "entity_id": "fcc7bf9f26197edd8426900f",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/2",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/2/properties/4/value",
+        "original_value": "80mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:class": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/31",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/31/properties/0/value",
+        "original_value": "SNRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:name": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/3",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/3/properties/0/value",
+        "original_value": "文拉法辛",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:generic_name": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/3",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/3/properties/1/value",
+        "original_value": "Venlafaxine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:category": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/3",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/3/properties/2/value",
+        "original_value": "SNRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:dose_start": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/3",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/3/properties/3/value",
+        "original_value": "75mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5d3c0aed6313740d007d5c33:dose_max": {
+    "entity_id": "5d3c0aed6313740d007d5c33",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/3",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/3/properties/4/value",
+        "original_value": "225mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:class": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/32",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/32/properties/0/value",
+        "original_value": "SNRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:name": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/4",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/4/properties/0/value",
+        "original_value": "度洛西汀",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:generic_name": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/4",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/4/properties/1/value",
+        "original_value": "Duloxetine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:category": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/4",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/4/properties/2/value",
+        "original_value": "SNRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:dose_start": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/4",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/4/properties/3/value",
+        "original_value": "30-60mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b54615f03488c89728b0568e:dose_max": {
+    "entity_id": "b54615f03488c89728b0568e",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/4",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/4/properties/4/value",
+        "original_value": "120mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:class": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/33",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/33/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:name": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/5",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/5/properties/0/value",
+        "original_value": "奥氮平",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:generic_name": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/5",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/5/properties/1/value",
+        "original_value": "Olanzapine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:category": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/5",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/5/properties/2/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:dose_start": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/5",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/5/properties/3/value",
+        "original_value": "5-10mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fbe4ed72827477d0ae8cfb0f:dose_max": {
+    "entity_id": "fbe4ed72827477d0ae8cfb0f",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/5",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/5/properties/4/value",
+        "original_value": "20mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5fb927be024f43b102bdd1d5:class": {
+    "entity_id": "5fb927be024f43b102bdd1d5",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/34",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/34/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5fb927be024f43b102bdd1d5:generic_name": {
+    "entity_id": "5fb927be024f43b102bdd1d5",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/34",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/34/properties/1/value",
+        "original_value": "Aripiprazole",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/87",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/87/properties/1/value",
+        "original_value": "Aripiprazole",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5fb927be024f43b102bdd1d5:use_in_OCD": {
+    "entity_id": "5fb927be024f43b102bdd1d5",
+    "key": "use_in_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/34",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/34/properties/2/value",
+        "original_value": "Augmentation agent for SSRI-resistant OCD",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5fb927be024f43b102bdd1d5:name": {
+    "entity_id": "5fb927be024f43b102bdd1d5",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/87",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/87/properties/0/value",
+        "original_value": "阿立哌唑",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:class": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/35",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/35/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:generic_name": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/35",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/35/properties/1/value",
+        "original_value": "Risperidone",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/6",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/6/properties/1/value",
+        "original_value": "Risperidone",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:use_in_OCD": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "use_in_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/35",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/35/properties/2/value",
+        "original_value": "Augmentation agent for SSRI-resistant OCD",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:name": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/6",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/6/properties/0/value",
+        "original_value": "利培酮",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:category": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/6",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/6/properties/2/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:dose_start": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/6",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/6/properties/3/value",
+        "original_value": "1-2mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:73140311e1638f7c044e7308:dose_max": {
+    "entity_id": "73140311e1638f7c044e7308",
+    "key": "dose_max",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/6",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/6/properties/4/value",
+        "original_value": "6mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b417c2371558fc84b9c2e27c:class": {
+    "entity_id": "b417c2371558fc84b9c2e27c",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/36",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/36/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b417c2371558fc84b9c2e27c:name": {
+    "entity_id": "b417c2371558fc84b9c2e27c",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/80",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/80/properties/0/value",
+        "original_value": "喹硫平",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b417c2371558fc84b9c2e27c:generic_name": {
+    "entity_id": "b417c2371558fc84b9c2e27c",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/80",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/80/properties/1/value",
+        "original_value": "Quetiapine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:539e69734a4c56d9e856cba5:class": {
+    "entity_id": "539e69734a4c56d9e856cba5",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/37",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/37/properties/0/value",
+        "original_value": "非典型抗精神病药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:class": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/38",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/38/properties/0/value",
+        "original_value": "心境稳定剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:name": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/7",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/7/properties/0/value",
+        "original_value": "锂盐",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:generic_name": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/7",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/7/properties/1/value",
+        "original_value": "Lithium",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:category": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/7",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/7/properties/2/value",
+        "original_value": "心境稳定剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:dose_start": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/7",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/7/properties/3/value",
+        "original_value": "300-600mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72d56d56d60120f29a185b86:therapeutic_range": {
+    "entity_id": "72d56d56d60120f29a185b86",
+    "key": "therapeutic_range",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/7",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/7/properties/4/value",
+        "original_value": "0.6-1.2 mmol/L",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:class": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/39",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/39/properties/0/value",
+        "original_value": "心境稳定剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:name": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/8",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/8/properties/0/value",
+        "original_value": "丙戊酸钠",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:generic_name": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/8",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/8/properties/1/value",
+        "original_value": "Valproate",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:category": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/8",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/8/properties/2/value",
+        "original_value": "心境稳定剂/抗癫痫药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:dose_start": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "dose_start",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/8",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/8/properties/3/value",
+        "original_value": "500-750mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:827862c7895134e2e6cbd42c:therapeutic_range": {
+    "entity_id": "827862c7895134e2e6cbd42c",
+    "key": "therapeutic_range",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/8",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/8/properties/4/value",
+        "original_value": "50-100 μg/mL",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:92d5947708a272d0beac0615:class": {
+    "entity_id": "92d5947708a272d0beac0615",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/40",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/40/properties/0/value",
+        "original_value": "心境稳定剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:92d5947708a272d0beac0615:generic_name": {
+    "entity_id": "92d5947708a272d0beac0615",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/64",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/64/properties/0/value",
+        "original_value": "Lamotrigine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:92d5947708a272d0beac0615:name": {
+    "entity_id": "92d5947708a272d0beac0615",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/64",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/64/properties/1/value",
+        "original_value": "拉莫三嗪",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:231245a74f4d18dcc61dae25:class": {
+    "entity_id": "231245a74f4d18dcc61dae25",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/41",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/41/properties/0/value",
+        "original_value": "苯二氮卓类药物",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fa9c130254295828f271eb43:class": {
+    "entity_id": "fa9c130254295828f271eb43",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/42",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/42/properties/0/value",
+        "original_value": "苯二氮卓类药物",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:cead9d4e068969c0bcbb1b8d:class": {
+    "entity_id": "cead9d4e068969c0bcbb1b8d",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/43",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/43/properties/0/value",
+        "original_value": "苯二氮卓类药物",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:0233471087789bd1c8061c1b:formulation": {
+    "entity_id": "0233471087789bd1c8061c1b",
+    "key": "formulation",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/44",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/44/properties/0/value",
+        "original_value": "长效针剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5dafe72a5638b57bf7b6c0f5:formulation": {
+    "entity_id": "5dafe72a5638b57bf7b6c0f5",
+    "key": "formulation",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/45",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/45/properties/0/value",
+        "original_value": "长效针剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:236e70b30a7b422016b148cc:formulation": {
+    "entity_id": "236e70b30a7b422016b148cc",
+    "key": "formulation",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/46",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/46/properties/0/value",
+        "original_value": "长效针剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:261ade81e504fe49fcbdad9a:class": {
+    "entity_id": "261ade81e504fe49fcbdad9a",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/49",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/49/properties/0/value",
+        "original_value": "Tricyclic Antidepressant (TCA)",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:261ade81e504fe49fcbdad9a:generic_name": {
+    "entity_id": "261ade81e504fe49fcbdad9a",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/49",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/49/properties/1/value",
+        "original_value": "Clomipramine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:261ade81e504fe49fcbdad9a:is_second_line_for_OCD": {
+    "entity_id": "261ade81e504fe49fcbdad9a",
+    "key": "is_second_line_for_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/49",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/49/properties/2/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:261ade81e504fe49fcbdad9a:has_high_efficacy_in_OCD": {
+    "entity_id": "261ade81e504fe49fcbdad9a",
+    "key": "has_high_efficacy_in_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/49",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/49/properties/3/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:261ade81e504fe49fcbdad9a:has_high_side_effect_burden": {
+    "entity_id": "261ade81e504fe49fcbdad9a",
+    "key": "has_high_side_effect_burden",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/49",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/49/properties/4/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6776fcf352fe12c2d0e50aab:parameter": {
+    "entity_id": "6776fcf352fe12c2d0e50aab",
+    "key": "parameter",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/50",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/50/properties/0/value",
+        "original_value": "血锂浓度",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4aee1ca4ec39b8f0f2dcfee7:icd_code": {
+    "entity_id": "4aee1ca4ec39b8f0f2dcfee7",
+    "key": "icd_code",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/53",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/53/properties/0/value",
+        "original_value": "F42",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4aee1ca4ec39b8f0f2dcfee7:full_name": {
+    "entity_id": "4aee1ca4ec39b8f0f2dcfee7",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/53",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/53/properties/1/value",
+        "original_value": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4aee1ca4ec39b8f0f2dcfee7:icd10": {
+    "entity_id": "4aee1ca4ec39b8f0f2dcfee7",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/15",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/15/properties/0/value",
+        "original_value": "F42",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4aee1ca4ec39b8f0f2dcfee7:name": {
+    "entity_id": "4aee1ca4ec39b8f0f2dcfee7",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/15",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/15/properties/1/value",
+        "original_value": "强迫症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:1b22b37d7777d12a73a5f468:minimum_duration_weeks": {
+    "entity_id": "1b22b37d7777d12a73a5f468",
+    "key": "minimum_duration_weeks",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/55",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/55/properties/0/value",
+        "original_value": "12",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d605b888f7183a35139b1a3d:duration_range_years": {
+    "entity_id": "d605b888f7183a35139b1a3d",
+    "key": "duration_range_years",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/56",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/56/properties/0/value",
+        "original_value": "1-2",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ca6f4ce9f70aeb40e51f5b8f:class": {
+    "entity_id": "ca6f4ce9f70aeb40e51f5b8f",
+    "key": "class",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/57",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/57/properties/0/value",
+        "original_value": "SSRI",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ca6f4ce9f70aeb40e51f5b8f:generic_name": {
+    "entity_id": "ca6f4ce9f70aeb40e51f5b8f",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/57",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/57/properties/1/value",
+        "original_value": "Fluvoxamine",
+        "matches_baseline": true
+      },
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/100",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/100/properties/1/value",
+        "original_value": "Fluvoxamine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ca6f4ce9f70aeb40e51f5b8f:is_first_line_for_OCD": {
+    "entity_id": "ca6f4ce9f70aeb40e51f5b8f",
+    "key": "is_first_line_for_OCD",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/57",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/57/properties/2/value",
+        "original_value": "true",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ca6f4ce9f70aeb40e51f5b8f:name": {
+    "entity_id": "ca6f4ce9f70aeb40e51f5b8f",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/100",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/100/properties/0/value",
+        "original_value": "氟伏沙明",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d6ba5704d8f5910e9c7b9040:unit": {
+    "entity_id": "d6ba5704d8f5910e9c7b9040",
+    "key": "unit",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/58",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/58/properties/0/value",
+        "original_value": "mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d6ba5704d8f5910e9c7b9040:range": {
+    "entity_id": "d6ba5704d8f5910e9c7b9040",
+    "key": "range",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/58",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/58/properties/1/value",
+        "original_value": "150-200",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6b13520734575a801a1a6285:unit": {
+    "entity_id": "6b13520734575a801a1a6285",
+    "key": "unit",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/59",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/59/properties/0/value",
+        "original_value": "mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6b13520734575a801a1a6285:value": {
+    "entity_id": "6b13520734575a801a1a6285",
+    "key": "value",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/59",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/59/properties/1/value",
+        "original_value": "200",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:da424821bf328794aa43279d:unit": {
+    "entity_id": "da424821bf328794aa43279d",
+    "key": "unit",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/60",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/60/properties/0/value",
+        "original_value": "mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:da424821bf328794aa43279d:range": {
+    "entity_id": "da424821bf328794aa43279d",
+    "key": "range",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/60",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/60/properties/1/value",
+        "original_value": "40-80",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:dc3d9e49959aa4c8f809a8ff:unit": {
+    "entity_id": "dc3d9e49959aa4c8f809a8ff",
+    "key": "unit",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/61",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/61/properties/0/value",
+        "original_value": "mg/d",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:dc3d9e49959aa4c8f809a8ff:range": {
+    "entity_id": "dc3d9e49959aa4c8f809a8ff",
+    "key": "range",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/61",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/61/properties/1/value",
+        "original_value": "150-300",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:28f8cecccbbc0cbbbdddc95d:acronym": {
+    "entity_id": "28f8cecccbbc0cbbbdddc95d",
+    "key": "acronym",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/62",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/62/properties/0/value",
+        "original_value": "ERP",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:28f8cecccbbc0cbbbdddc95d:full_name": {
+    "entity_id": "28f8cecccbbc0cbbbdddc95d",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/62",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/62/properties/1/value",
+        "original_value": "Exposure and Response Prevention",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:28f8cecccbbc0cbbbdddc95d:evidence_level": {
+    "entity_id": "28f8cecccbbc0cbbbdddc95d",
+    "key": "evidence_level",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/62",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/62/properties/2/value",
+        "original_value": "First-line for OCD",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:72912c08ccb6fa05cbad43bf:category": {
+    "entity_id": "72912c08ccb6fa05cbad43bf",
+    "key": "category",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/63",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/63/properties/0/value",
+        "original_value": "Pharmacotherapy",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:a8e4a7b38710a4af70fdece9:acronym": {
+    "entity_id": "a8e4a7b38710a4af70fdece9",
+    "key": "acronym",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/64",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/64/properties/0/value",
+        "original_value": "TCA",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:a8e4a7b38710a4af70fdece9:name": {
+    "entity_id": "a8e4a7b38710a4af70fdece9",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/55",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/55/properties/0/value",
+        "original_value": "三环类抗抑郁药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e189d4546e4bee6eb27181e2:acronym": {
+    "entity_id": "e189d4546e4bee6eb27181e2",
+    "key": "acronym",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/66",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/66/properties/0/value",
+        "original_value": "DBS",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e189d4546e4bee6eb27181e2:full_name": {
+    "entity_id": "e189d4546e4bee6eb27181e2",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/66",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/66/properties/1/value",
+        "original_value": "Deep Brain Stimulation",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e189d4546e4bee6eb27181e2:indication": {
+    "entity_id": "e189d4546e4bee6eb27181e2",
+    "key": "indication",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/66",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/66/properties/2/value",
+        "original_value": "Refractory OCD",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c9dad2f8cc1b4eb0d76440aa:acronym": {
+    "entity_id": "c9dad2f8cc1b4eb0d76440aa",
+    "key": "acronym",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/67",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/67/properties/0/value",
+        "original_value": "rTMS",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c9dad2f8cc1b4eb0d76440aa:full_name": {
+    "entity_id": "c9dad2f8cc1b4eb0d76440aa",
+    "key": "full_name",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/67",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/67/properties/1/value",
+        "original_value": "repetitive Transcranial Magnetic Stimulation",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c9dad2f8cc1b4eb0d76440aa:indication": {
+    "entity_id": "c9dad2f8cc1b4eb0d76440aa",
+    "key": "indication",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/67",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/67/properties/2/value",
+        "original_value": "Refractory OCD",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:de5b21f14cb779c7ca4d00d7:domain": {
+    "entity_id": "de5b21f14cb779c7ca4d00d7",
+    "key": "domain",
+    "locations": [
+      {
+        "source_id": "china_guidelines.json#/nodes/68",
+        "file": "mock_data/china_guidelines.json",
+        "pointer": "/nodes/68/properties/0/value",
+        "original_value": "Insight",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:cdf9188e4dce59321a9a8311:ICD-11_code": {
+    "entity_id": "cdf9188e4dce59321a9a8311",
+    "key": "ICD-11_code",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/0",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/0/properties/0/value",
+        "original_value": "6A70",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:cdf9188e4dce59321a9a8311:definition": {
+    "entity_id": "cdf9188e4dce59321a9a8311",
+    "key": "definition",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/0",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/0/properties/1/value",
+        "original_value": "单次抑郁发作，需满足核心症状和附加症状标准",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6ae8f17d5d2ac000e74f31ae:duration_requirement": {
+    "entity_id": "6ae8f17d5d2ac000e74f31ae",
+    "key": "duration_requirement",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/1",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/1/properties/0/value",
+        "original_value": "几乎每天大部分时间，持续≥2周",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6ae8f17d5d2ac000e74f31ae:assessment_method": {
+    "entity_id": "6ae8f17d5d2ac000e74f31ae",
+    "key": "assessment_method",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/1",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/1/properties/1/value",
+        "original_value": "主观报告或他人观察",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6bc48d97fee28697e2c09065:duration_requirement": {
+    "entity_id": "6bc48d97fee28697e2c09065",
+    "key": "duration_requirement",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/2",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/2/properties/0/value",
+        "original_value": "几乎每天，对几乎所有活动",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:f7f3420c7ff85ad8e534629d:duration_requirement": {
+    "entity_id": "f7f3420c7ff85ad8e534629d",
+    "key": "duration_requirement",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/3",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/3/properties/0/value",
+        "original_value": "几乎每天",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:42b068358fb31a69fc37b490:subtypes": {
+    "entity_id": "42b068358fb31a69fc37b490",
+    "key": "subtypes",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/7",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/7/properties/0/value",
+        "original_value": "失眠或嗜睡",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:945cdee17594b650716a5e40:associated_change": {
+    "entity_id": "945cdee17594b650716a5e40",
+    "key": "associated_change",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/8",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/8/properties/0/value",
+        "original_value": "体重变化（1月内>5%）",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:48538199759d05485b4a23be:core_symptoms": {
+    "entity_id": "48538199759d05485b4a23be",
+    "key": "core_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/11",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/11/properties/0/value",
+        "original_value": "≥2条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:48538199759d05485b4a23be:additional_symptoms": {
+    "entity_id": "48538199759d05485b4a23be",
+    "key": "additional_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/11",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/11/properties/1/value",
+        "original_value": "≥2条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:48538199759d05485b4a23be:functional_impact": {
+    "entity_id": "48538199759d05485b4a23be",
+    "key": "functional_impact",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/11",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/11/properties/2/value",
+        "original_value": "轻度受损",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d7f6125c8217fe7ba4a5e2ec:core_symptoms": {
+    "entity_id": "d7f6125c8217fe7ba4a5e2ec",
+    "key": "core_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/12",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/12/properties/0/value",
+        "original_value": "≥2条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d7f6125c8217fe7ba4a5e2ec:additional_symptoms": {
+    "entity_id": "d7f6125c8217fe7ba4a5e2ec",
+    "key": "additional_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/12",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/12/properties/1/value",
+        "original_value": "3–4条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d7f6125c8217fe7ba4a5e2ec:functional_impact": {
+    "entity_id": "d7f6125c8217fe7ba4a5e2ec",
+    "key": "functional_impact",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/12",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/12/properties/2/value",
+        "original_value": "中度受损",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4c93659a14284dc4890a7d13:core_symptoms": {
+    "entity_id": "4c93659a14284dc4890a7d13",
+    "key": "core_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/13",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/13/properties/0/value",
+        "original_value": "3条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4c93659a14284dc4890a7d13:additional_symptoms": {
+    "entity_id": "4c93659a14284dc4890a7d13",
+    "key": "additional_symptoms",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/13",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/13/properties/1/value",
+        "original_value": "≥5条",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4c93659a14284dc4890a7d13:functional_impact": {
+    "entity_id": "4c93659a14284dc4890a7d13",
+    "key": "functional_impact",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/13",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/13/properties/2/value",
+        "original_value": "严重受损",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4c93659a14284dc4890a7d13:psychotic_features": {
+    "entity_id": "4c93659a14284dc4890a7d13",
+    "key": "psychotic_features",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/13",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/13/properties/3/value",
+        "original_value": "可伴",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c476858b9e45de3820b3878b:description": {
+    "entity_id": "c476858b9e45de3820b3878b",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/14",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/14/properties/0/value",
+        "original_value": "抑郁心境、兴趣/快感减退、精力减退中至少2项",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c0870031c547dfd9d781a8dd:description": {
+    "entity_id": "c0870031c547dfd9d781a8dd",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/15",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/15/properties/0/value",
+        "original_value": "从第4–10项症状中满足相应数量",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:052fe8ab323a553e09302f2a:description": {
+    "entity_id": "052fe8ab323a553e09302f2a",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/16",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/16/properties/0/value",
+        "original_value": "从第4–10项症状中满足3–4项",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:1412bc96f3242b8de8a08739:description": {
+    "entity_id": "1412bc96f3242b8de8a08739",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/17",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/17/properties/0/value",
+        "original_value": "从第4–10项症状中满足≥5项",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:bc20194aa9386ec7b2ae1710:note": {
+    "entity_id": "bc20194aa9386ec7b2ae1710",
+    "key": "note",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/21",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/21/properties/0/value",
+        "original_value": "仅见于重度抑郁发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c96a99a22a3c400fae67cf40:explanation": {
+    "entity_id": "c96a99a22a3c400fae67cf40",
+    "key": "explanation",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/22",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/22/properties/0/value",
+        "original_value": "抑郁症状不能归因于物质使用所致",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:80c0a41b505f32fbe589d7c3:explanation": {
+    "entity_id": "80c0a41b505f32fbe589d7c3",
+    "key": "explanation",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/23",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/23/properties/0/value",
+        "original_value": "抑郁症状不能由躯体疾病直接引起",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8466f5cda072d0831e1cdb37:explanation": {
+    "entity_id": "8466f5cda072d0831e1cdb37",
+    "key": "explanation",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/24",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/24/properties/0/value",
+        "original_value": "需排除既往或当前存在躁狂/轻躁狂发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:07b4172ccf37edd708a1c13e:explanation": {
+    "entity_id": "07b4172ccf37edd708a1c13e",
+    "key": "explanation",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/25",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/25/properties/0/value",
+        "original_value": "抑郁症状不能更好解释为精神分裂症等原发性精神病性障碍",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:f24ee52a7efbff65c7339fd8:ICD-11_code": {
+    "entity_id": "f24ee52a7efbff65c7339fd8",
+    "key": "ICD-11_code",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/26",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/26/properties/0/value",
+        "original_value": "6A60",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:0a16bf13b44d8f0c6a6dbfe1:ICD-11_code": {
+    "entity_id": "0a16bf13b44d8f0c6a6dbfe1",
+    "key": "ICD-11_code",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/27",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/27/properties/0/value",
+        "original_value": "6A61",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:bcd340a019c2203a6c30c298:ICD-11_code": {
+    "entity_id": "bcd340a019c2203a6c30c298",
+    "key": "ICD-11_code",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/28",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/28/properties/0/value",
+        "original_value": "6A71",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:bcd340a019c2203a6c30c298:definition": {
+    "entity_id": "bcd340a019c2203a6c30c298",
+    "key": "definition",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/28",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/28/properties/1/value",
+        "original_value": "至少2次符合6A70标准的抑郁发作，间歇期≥2个月无明显症状",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:207854fca6a0ef6dd68f826a:description": {
+    "entity_id": "207854fca6a0ef6dd68f826a",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/29",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/29/properties/0/value",
+        "original_value": "两次抑郁发作之间无显著抑郁症状持续≥2个月",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8baeef1194c213900abd08f3:ICD-11_code": {
+    "entity_id": "8baeef1194c213900abd08f3",
+    "key": "ICD-11_code",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/30",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/30/properties/0/value",
+        "original_value": "6A73",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8baeef1194c213900abd08f3:definition": {
+    "entity_id": "8baeef1194c213900abd08f3",
+    "key": "definition",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/30",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/30/properties/1/value",
+        "original_value": "慢性抑郁心境持续≥2年，症状未达抑郁发作标准但具有临床意义",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:cf373db89ae8abfa0e86bc96:description": {
+    "entity_id": "cf373db89ae8abfa0e86bc96",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/31",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/31/properties/0/value",
+        "original_value": "抑郁心境几乎每天存在，持续至少2年",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:a3f69a300b71c4a3bcdfac2c:note": {
+    "entity_id": "a3f69a300b71c4a3bcdfac2c",
+    "key": "note",
+    "locations": [
+      {
+        "source_id": "icd11_depression.json#/nodes/32",
+        "file": "mock_data/icd11_depression.json",
+        "pointer": "/nodes/32/properties/0/value",
+        "original_value": "不符合单次抑郁发作的严重度标准，但病程迁延、影响功能",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6144a9da17473ab8d284daa8:exclusion_reason": {
+    "entity_id": "6144a9da17473ab8d284daa8",
+    "key": "exclusion_reason",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/26",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/26/properties/0/value",
+        "original_value": "不能由其引起",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:dbdabffbfcbed81628054f77:exclusion_reason": {
+    "entity_id": "dbdabffbfcbed81628054f77",
+    "key": "exclusion_reason",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/27",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/27/properties/0/value",
+        "original_value": "不能由其引起",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6bf3d540d741ae5836a47aa8:differentiation_point": {
+    "entity_id": "6bf3d540d741ae5836a47aa8",
+    "key": "differentiation_point",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/30",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/30/properties/0/value",
+        "original_value": "情感症状不占主导，病程中大部分时间为精神病性症状",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ffe2796246e092bc5a39ac33:differentiation_point": {
+    "entity_id": "ffe2796246e092bc5a39ac33",
+    "key": "differentiation_point",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/31",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/31/properties/0/value",
+        "original_value": "时间关联性和停药后缓解",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d592d6d2f064492b3c8b07d1:name": {
+    "entity_id": "d592d6d2f064492b3c8b07d1",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/32",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/32/properties/0/value",
+        "original_value": "首次发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fed09d8c290dbd563081baf1:name": {
+    "entity_id": "fed09d8c290dbd563081baf1",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/33",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/33/properties/0/value",
+        "original_value": "多次发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:21d79055466331363ac01b98:name": {
+    "entity_id": "21d79055466331363ac01b98",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "icd11_schizophrenia.json#/nodes/34",
+        "file": "mock_data/icd11_schizophrenia.json",
+        "pointer": "/nodes/34/properties/0/value",
+        "original_value": "持续型",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:64205cfd10aad1f77b3b4de1:name": {
+    "entity_id": "64205cfd10aad1f77b3b4de1",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/13",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/13/properties/0/value",
+        "original_value": "抗癫痫药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c4602add792ddcef5fef921d:icd10": {
+    "entity_id": "c4602add792ddcef5fef921d",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/17",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/17/properties/0/value",
+        "original_value": "F40.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c4602add792ddcef5fef921d:name": {
+    "entity_id": "c4602add792ddcef5fef921d",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/17",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/17/properties/1/value",
+        "original_value": "社交焦虑障碍",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:f0d6e128a55ccac3f622e41f:icd10": {
+    "entity_id": "f0d6e128a55ccac3f622e41f",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/18",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/18/properties/0/value",
+        "original_value": "F43.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:76ccf7b37b92c1d7452d6bed:icd10": {
+    "entity_id": "76ccf7b37b92c1d7452d6bed",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/20",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/20/properties/0/value",
+        "original_value": "F50.2",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c93d5937775db620f66e7431:icd10": {
+    "entity_id": "c93d5937775db620f66e7431",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/22",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/22/properties/0/value",
+        "original_value": "F31.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c93d5937775db620f66e7431:name": {
+    "entity_id": "c93d5937775db620f66e7431",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/22",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/22/properties/1/value",
+        "original_value": "双相躁狂发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:84bd33b065ba4277ed6b7c92:purpose": {
+    "entity_id": "84bd33b065ba4277ed6b7c92",
+    "key": "purpose",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/23",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/23/properties/0/value",
+        "original_value": "预防复发",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:84bd33b065ba4277ed6b7c92:name": {
+    "entity_id": "84bd33b065ba4277ed6b7c92",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/23",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/23/properties/1/value",
+        "original_value": "双相障碍维持治疗",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9a6b35d91336328d42b1e5a3:associated_with": {
+    "entity_id": "9a6b35d91336328d42b1e5a3",
+    "key": "associated_with",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/24",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/24/properties/0/value",
+        "original_value": "糖尿病",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d58afa8300bc0308c2684511:name": {
+    "entity_id": "d58afa8300bc0308c2684511",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/25",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/25/properties/0/value",
+        "original_value": "恶心",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e88677d175f8f5da551dd0e9:name": {
+    "entity_id": "e88677d175f8f5da551dd0e9",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/27",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/27/properties/0/value",
+        "original_value": "失眠",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:43594fed0268a039f7aedabc:name": {
+    "entity_id": "43594fed0268a039f7aedabc",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/31",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/31/properties/0/value",
+        "original_value": "嗜睡",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:dabcf95c8e36144554d9816e:name": {
+    "entity_id": "dabcf95c8e36144554d9816e",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/32",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/32/properties/0/value",
+        "original_value": "体重增加",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:0d4b0879beb43a232f3292f9:name": {
+    "entity_id": "0d4b0879beb43a232f3292f9",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/39",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/39/properties/0/value",
+        "original_value": "口干",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:60daf4037069ebea6aee7dbe:icd10": {
+    "entity_id": "60daf4037069ebea6aee7dbe",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/42",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/42/properties/0/value",
+        "original_value": "E03.9",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:91ab23dd962665c015b5deba:icd10": {
+    "entity_id": "91ab23dd962665c015b5deba",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/45",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/45/properties/0/value",
+        "original_value": "E28.2",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e4fced6e4a3cc7563b3ead4a:abbreviation": {
+    "entity_id": "e4fced6e4a3cc7563b3ead4a",
+    "key": "abbreviation",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/47",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/47/properties/0/value",
+        "original_value": "Extrapyramidal Symptoms",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d83185cc77724f393627335a:icd10": {
+    "entity_id": "d83185cc77724f393627335a",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/48",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/48/properties/0/value",
+        "original_value": "E22.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c65b27d41eb2415526c17338:icd10": {
+    "entity_id": "c65b27d41eb2415526c17338",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/50",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/50/properties/0/value",
+        "original_value": "E78.5",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:11ccaac6c87c08ee420b70cd:name": {
+    "entity_id": "11ccaac6c87c08ee420b70cd",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/51",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/51/properties/0/value",
+        "original_value": "单胺氧化酶抑制剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5f761a5bf54842dd3f5d380b:name": {
+    "entity_id": "5f761a5bf54842dd3f5d380b",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/52",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/52/properties/0/value",
+        "original_value": "其他选择性5-羟色胺再摄取抑制剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b7a435f02a7309d7b8fc029c:name": {
+    "entity_id": "b7a435f02a7309d7b8fc029c",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/53",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/53/properties/0/value",
+        "original_value": "非甾体抗炎药",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:7d333baaa33d58c947029f10:generic_name": {
+    "entity_id": "7d333baaa33d58c947029f10",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/54",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/54/properties/0/value",
+        "original_value": "Warfarin",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:e7a3e4f67c903a24f5d1c307:mechanism": {
+    "entity_id": "e7a3e4f67c903a24f5d1c307",
+    "key": "mechanism",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/56",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/56/properties/0/value",
+        "original_value": "代谢酶抑制",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:32660fefb5062297bb2a1740:description": {
+    "entity_id": "32660fefb5062297bb2a1740",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/57",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/57/properties/0/value",
+        "original_value": "具有血清素能活性的药物（如SSRIs、SNRIs、曲马多等）",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:408bf2d0bb58d9adb050102d:icd10": {
+    "entity_id": "408bf2d0bb58d9adb050102d",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/58",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/58/properties/0/value",
+        "original_value": "T43.6",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:408bf2d0bb58d9adb050102d:name": {
+    "entity_id": "408bf2d0bb58d9adb050102d",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/58",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/58/properties/1/value",
+        "original_value": "5-HT综合征",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:b22c1619c84a15eec2192457:icd10": {
+    "entity_id": "b22c1619c84a15eec2192457",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/59",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/59/properties/0/value",
+        "original_value": "I10",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:845ae0c616b381a617eeb5d4:icd10": {
+    "entity_id": "845ae0c616b381a617eeb5d4",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/60",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/60/properties/0/value",
+        "original_value": "K76.0",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9a92aa6b151984a4259ada36:icd10": {
+    "entity_id": "9a92aa6b151984a4259ada36",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/61",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/61/properties/0/value",
+        "original_value": "N18.4",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9374dd79dcfb228e175fe34e:icd10": {
+    "entity_id": "9374dd79dcfb228e175fe34e",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/62",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/62/properties/0/value",
+        "original_value": "E87.1",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:3bae0a19c25d4e24aa0a32cc:name": {
+    "entity_id": "3bae0a19c25d4e24aa0a32cc",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/63",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/63/properties/0/value",
+        "original_value": "噻嗪类利尿剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c71e7571e15e6a1684eee094:effect": {
+    "entity_id": "c71e7571e15e6a1684eee094",
+    "key": "effect",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/65",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/65/properties/0/value",
+        "original_value": "血药浓度升高",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:0e08afd00f5e34e9ace896ac:effect": {
+    "entity_id": "0e08afd00f5e34e9ace896ac",
+    "key": "effect",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/66",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/66/properties/0/value",
+        "original_value": "血锂浓度升高",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:32bcff22f79d03b56b8eb58d:effect": {
+    "entity_id": "32bcff22f79d03b56b8eb58d",
+    "key": "effect",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/67",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/67/properties/0/value",
+        "original_value": "血锂浓度显著升高",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:1015aa49066cebdc78d7a2b2:description": {
+    "entity_id": "1015aa49066cebdc78d7a2b2",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/68",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/68/properties/0/value",
+        "original_value": "联合用药产生大于单药效应之和的效果",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ae238a93f7d05cb1d5afbbd4:description": {
+    "entity_id": "ae238a93f7d05cb1d5afbbd4",
+    "key": "description",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/69",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/69/properties/0/value",
+        "original_value": "中枢神经系统毒性，如意识模糊、共济失调、抽搐",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:aa89ed5d9f90d588de354bf4:effect": {
+    "entity_id": "aa89ed5d9f90d588de354bf4",
+    "key": "effect",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/70",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/70/properties/0/value",
+        "original_value": "增强抗凝作用",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:ae02cd74347c0ab4c80f7588:icd10": {
+    "entity_id": "ae02cd74347c0ab4c80f7588",
+    "key": "icd10",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/71",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/71/properties/0/value",
+        "original_value": "K92.2",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8c00c16456f59d4f5370173f:procedure": {
+    "entity_id": "8c00c16456f59d4f5370173f",
+    "key": "procedure",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/72",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/72/properties/0/value",
+        "original_value": "定期检测ALT/AST/GGT及胆红素",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:285a3c18bfefa90c5d571a7b:duration": {
+    "entity_id": "285a3c18bfefa90c5d571a7b",
+    "key": "duration",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/73",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/73/properties/0/value",
+        "original_value": "14 days",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:a3ea1c15a198ea3686a06670:duration": {
+    "entity_id": "a3ea1c15a198ea3686a06670",
+    "key": "duration",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/74",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/74/properties/0/value",
+        "original_value": "5 weeks",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8a681cbc6009dbe6396966aa:name": {
+    "entity_id": "8a681cbc6009dbe6396966aa",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/75",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/75/properties/0/value",
+        "original_value": "双相障碍抑郁发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:6970231fd4fc9b43f8a059bf:name": {
+    "entity_id": "6970231fd4fc9b43f8a059bf",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/76",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/76/properties/0/value",
+        "original_value": "皮疹",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:58897834fffb1466e9af8e14:name": {
+    "entity_id": "58897834fffb1466e9af8e14",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/77",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/77/properties/0/value",
+        "original_value": "Stevens-Johnson综合征",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:bbc6d1233ce064cfdc21e8b1:name": {
+    "entity_id": "bbc6d1233ce064cfdc21e8b1",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/78",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/78/properties/0/value",
+        "original_value": "头痛",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9e3cacb9f8358e33194c2d50:name": {
+    "entity_id": "9e3cacb9f8358e33194c2d50",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/79",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/79/properties/0/value",
+        "original_value": "对拉莫三嗪过敏",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:c311602eac6d0c8c4e863ad7:name": {
+    "entity_id": "c311602eac6d0c8c4e863ad7",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/81",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/81/properties/0/value",
+        "original_value": "双相抑郁发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:0779253ee4b882b31dae778e:name": {
+    "entity_id": "0779253ee4b882b31dae778e",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/82",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/82/properties/0/value",
+        "original_value": "难治性抑郁增效治疗",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:88fb84452b59355599a10fe1:name": {
+    "entity_id": "88fb84452b59355599a10fe1",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/83",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/83/properties/0/value",
+        "original_value": "头晕",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:35167725a9d27d4f184fee27:name": {
+    "entity_id": "35167725a9d27d4f184fee27",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/84",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/84/properties/0/value",
+        "original_value": "体位性低血压",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9edaab30566388dc0015e600:name": {
+    "entity_id": "9edaab30566388dc0015e600",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/85",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/85/properties/0/value",
+        "original_value": "未纠正的低钾血症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:55705ada7aa5bcc85eea86ae:name": {
+    "entity_id": "55705ada7aa5bcc85eea86ae",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/86",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/86/properties/0/value",
+        "original_value": "未纠正的低镁血症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:5da074f82e502bda4024a465:name": {
+    "entity_id": "5da074f82e502bda4024a465",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/88",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/88/properties/0/value",
+        "original_value": "多巴胺部分激动剂",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d4382bfc4d3db42040876b8d:name": {
+    "entity_id": "d4382bfc4d3db42040876b8d",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/89",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/89/properties/0/value",
+        "original_value": "静坐不能",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:fc9ec421e786e3471e6d977f:name": {
+    "entity_id": "fc9ec421e786e3471e6d977f",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/90",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/90/properties/0/value",
+        "original_value": "对阿立哌唑过敏",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:daf8a55846ed065646f8b0ed:name": {
+    "entity_id": "daf8a55846ed065646f8b0ed",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/91",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/91/properties/0/value",
+        "original_value": "氯氮平",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:daf8a55846ed065646f8b0ed:generic_name": {
+    "entity_id": "daf8a55846ed065646f8b0ed",
+    "key": "generic_name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/91",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/91/properties/1/value",
+        "original_value": "Clozapine",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:233ce8361f28c6588893af20:name": {
+    "entity_id": "233ce8361f28c6588893af20",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/92",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/92/properties/0/value",
+        "original_value": "难治性精神分裂症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:233ce8361f28c6588893af20:definition": {
+    "entity_id": "233ce8361f28c6588893af20",
+    "key": "definition",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/92",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/92/properties/1/value",
+        "original_value": "至少2种抗精神病药足量足疗程治疗无效",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:47c4e8ad09f70b2111f65f0f:name": {
+    "entity_id": "47c4e8ad09f70b2111f65f0f",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/93",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/93/properties/0/value",
+        "original_value": "粒细胞缺乏症",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:8aba5aaf4857d7b6873007fe:name": {
+    "entity_id": "8aba5aaf4857d7b6873007fe",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/94",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/94/properties/0/value",
+        "original_value": "流涎",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d991039ac8dda1823b1d8f71:name": {
+    "entity_id": "d991039ac8dda1823b1d8f71",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/95",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/95/properties/0/value",
+        "original_value": "心肌炎",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:014a4e694a765ece01f79987:name": {
+    "entity_id": "014a4e694a765ece01f79987",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/96",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/96/properties/0/value",
+        "original_value": "癫痫发作",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:d95e4f8e8197f79c6b006f41:name": {
+    "entity_id": "d95e4f8e8197f79c6b006f41",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/97",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/97/properties/0/value",
+        "original_value": "粒细胞缺乏症史",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:4eb6ed4e81573a67ded5332b:name": {
+    "entity_id": "4eb6ed4e81573a67ded5332b",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/98",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/98/properties/0/value",
+        "original_value": "未控制的癫痫",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:9df5531c8fc27988b778de4c:name": {
+    "entity_id": "9df5531c8fc27988b778de4c",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/99",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/99/properties/0/value",
+        "original_value": "严重心脏疾病",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:2235fdc943f36ddfd9433806:name": {
+    "entity_id": "2235fdc943f36ddfd9433806",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/101",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/101/properties/0/value",
+        "original_value": "乏力",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  },
+  "property:10bb43c0165b5a2caae80d23:name": {
+    "entity_id": "10bb43c0165b5a2caae80d23",
+    "key": "name",
+    "locations": [
+      {
+        "source_id": "psychiatric_drugs.json#/nodes/102",
+        "file": "mock_data/psychiatric_drugs.json",
+        "pointer": "/nodes/102/properties/0/value",
+        "original_value": "替扎尼定",
+        "matches_baseline": true
+      }
+    ],
+    "medical_verification": false
+  }
+}

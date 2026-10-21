@@ -36,16 +36,19 @@ async def create_redis_checkpointer(
         )
         return None
 
+    saver = None
     try:
         saver = AsyncRedisSaver(
             redis_url=redis_url,
-            ttl={"default_ttl": ttl_seconds, "refresh_on_read": True},
+            # langgraph-checkpoint-redis accepts minutes, our public API uses seconds.
+            ttl={"default_ttl": ttl_seconds / 60, "refresh_on_read": True},
         )
         await saver.asetup()
         await saver.aset_client_info()
         logger.info("Checkpointer ready – Redis session state at %s", redis_url)
         return saver
     except Exception as exc:
+        await close_checkpointer(saver)
         logger.warning(
             "Checkpointer disabled: Redis unavailable (%s) – graph runs stateless.", exc
         )
@@ -60,7 +63,11 @@ async def close_checkpointer(checkpointer: Any) -> None:
         close = getattr(checkpointer, "aclose", None) or getattr(
             checkpointer, "close", None
         )
-        result = close()
+        if close is not None:
+            result = close()
+        else:
+            # AsyncRedisSaver 0.5.x exposes its cleanup via the context manager.
+            result = checkpointer.__aexit__(None, None, None)
         if hasattr(result, "__await__"):
             await result
     except Exception as exc:

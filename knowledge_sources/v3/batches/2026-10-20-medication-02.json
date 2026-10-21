@@ -1,0 +1,2026 @@
+{
+  "id": "2026-10-20-medication-02",
+  "reviewed_at": "2026-10-20",
+  "reviews": {
+    "relation:a2049d7df783c24c8b1c5867": {
+      "item_id": "relation:a2049d7df783c24c8b1c5867",
+      "original_sha256": "10ddad16c58981ee9da90be870431c016a914b7a1828f6ce106643f9753250a8",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "禁止与单胺氧化酶抑制剂合用；换药须保留清洗期。",
+      "evidence_ids": [
+        "B02-RECHECK-S01"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:2b83ee5fdcb6da7fa9e867fd": {
+      "item_id": "relation:2b83ee5fdcb6da7fa9e867fd",
+      "original_sha256": "9e0b75df8ebb83ec72afbc2585d7f5d43bf899280aad82b44056b1ce506a7327",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用可增加匹莫齐特暴露；说明书列为禁忌。",
+      "evidence_ids": [
+        "B02-RECHECK-S02"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:da92a124375ea5f995563efe": {
+      "item_id": "relation:da92a124375ea5f995563efe",
+      "original_sha256": "36de3d12b0ddc0dccd694e360c4172561e3b0f9a3ee224b2c84484893ac103f5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "健康受试者试验中锂药代未显著改变，但震颤增加。",
+      "evidence_ids": [
+        "B02-RECHECK-S03"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:b7a267b9a56882c65e26efb6": {
+      "item_id": "relation:b7a267b9a56882c65e26efb6",
+      "original_sha256": "aa669c8ab37c94df385ef72be749f890731fe08ffd238a80c630b46774f2864f",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用研究中凝血酶原时间轻度延长，临床意义尚不明确。",
+      "evidence_ids": [
+        "B02-RECHECK-S04"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:a8dce42ae5bf50c42831bcc2": {
+      "item_id": "relation:a8dce42ae5bf50c42831bcc2",
+      "original_sha256": "12e2bcc2102a14f2e30ae147d047305627bd7e16c28fecf4cf6512d4eb48ca16",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "试验未见显著代谢抑制；仍须监测苯妥英浓度，苯妥英也可能降低舍曲林浓度。",
+      "evidence_ids": [
+        "B02-RECHECK-S05"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:5fd9be35ba5ee5950cf6092b": {
+      "item_id": "relation:5fd9be35ba5ee5950cf6092b",
+      "original_sha256": "465d32a4973397b7b6939397b672a38b71b98c8c011048138496fa2a03ce559c",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "与延长QT间期药物联用时，QTc延长及室性心律失常风险增加。",
+      "evidence_ids": [
+        "B02-RECHECK-S06"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:b43330d6045b41a7e4526d73": {
+      "item_id": "relation:b43330d6045b41a7e4526d73",
+      "original_sha256": "86725f5822b73e37fe3288b411379835f5028e5768ddd15c2683ecbe681a65e3",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "禁止与MAOI合用；两个换药方向的清洗期不同。",
+      "evidence_ids": [
+        "B02-RECHECK-F01"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:be9074bded32cefb8c764ac6": {
+      "item_id": "relation:be9074bded32cefb8c764ac6",
+      "original_sha256": "efc240b7b75f040340c029c7f595527ae1c94cb726166c570abde2b255009ca5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "说明书禁止与匹莫齐特合用。",
+      "evidence_ids": [
+        "B02-RECHECK-F02"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:0f00b6be5f48704f8a6ed981": {
+      "item_id": "relation:0f00b6be5f48704f8a6ed981",
+      "original_sha256": "60b6341510a1dd07fbd639991bb76b35bf0f4ae86fedc1bab0cb6f8765c3053f",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "禁止与硫利达嗪合用或在停氟西汀后5周内使用硫利达嗪。",
+      "evidence_ids": [
+        "B02-RECHECK-F03"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:c5831b8ee6d8c239acd982a3": {
+      "item_id": "relation:c5831b8ee6d8c239acd982a3",
+      "original_sha256": "a4d692881c2a1cf5570980f7267c90b1c6beea331bd6ed02b00997ef1af4e0ee",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用后锂浓度升高和降低均有报告，也有锂中毒及血清素相关不良反应报告。",
+      "evidence_ids": [
+        "B02-RECHECK-F04"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:1a857fbbbb0a5537bfe393a4": {
+      "item_id": "relation:1a857fbbbb0a5537bfe393a4",
+      "original_sha256": "39efd0f8063d4f34859940141dccacb074afa6305384605d640c5f00338dbe41",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用可能改变抗凝作用并增加出血风险。",
+      "evidence_ids": [
+        "B02-RECHECK-F05"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:72abdeeb8eea45177a1adfdb": {
+      "item_id": "relation:72abdeeb8eea45177a1adfdb",
+      "original_sha256": "4bc59c96309234082a9ed3a79d7c2eb97ea9cff8311cea2ef3f29e19992d9ef5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "强CYP2D6抑制可能降低他莫昔芬活性代谢产物浓度。",
+      "evidence_ids": [
+        "B02-RECHECK-F06"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:212643c6b3f913e8a50fa567": {
+      "item_id": "relation:212643c6b3f913e8a50fa567",
+      "original_sha256": "88e6f1537bdc85707482de36ab20f619524b6824344a87dc111bfae379a93150",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "药物相互作用章节明确禁止与MAOI合用。",
+      "evidence_ids": [
+        "B02-RECHECK-P01"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:c7fd460997173b0a879e2fbc": {
+      "item_id": "relation:c7fd460997173b0a879e2fbc",
+      "original_sha256": "52efcbade60fd10e0277d6a518178ec127d75e6442fa10b5404ca6bfdda4bcb5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "可增加匹莫齐特暴露；说明书禁止合用。",
+      "evidence_ids": [
+        "B02-RECHECK-P02"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:a48fc445224241313888557d": {
+      "item_id": "relation:a48fc445224241313888557d",
+      "original_sha256": "e5aae93d6d52dd60cb75e9f8e37c72ea16e456833290b1ea419330c676ee5842",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "CYP2D6抑制可能增加硫利达嗪暴露及严重心律失常风险，禁止合用。",
+      "evidence_ids": [
+        "B02-RECHECK-P03"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:e5fbec079e3faa1ec9cf7769": {
+      "item_id": "relation:e5fbec079e3faa1ec9cf7769",
+      "original_sha256": "3ed530d88e11a8eac2ccb1b8784fb149c810d2fd3a7cbdb63df45fabf8dd7313",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "CYP2D6抑制可降低他莫昔芬活性代谢物浓度。",
+      "evidence_ids": [
+        "B02-RECHECK-P04"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:9b374c737cca78f398a2b7bf": {
+      "item_id": "relation:9b374c737cca78f398a2b7bf",
+      "original_sha256": "c2e645b1716af7db3c4f16d49c4593e11b22de1dadf3981ba429ebd1f579fc44",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "与其他血清素能药物合用可能增加血清素综合征风险。",
+      "evidence_ids": [
+        "B02-RECHECK-P05"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:66a3b04cf5721f44f7ff94d0": {
+      "item_id": "relation:66a3b04cf5721f44f7ff94d0",
+      "original_sha256": "d627b23f67e40b6fd0d6f0696ec9af57f1c80a57b315896531ced2974e54d9c1",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "可能存在药效学相互作用及出血倾向，凝血酶原时间不变也不能排除。",
+      "evidence_ids": [
+        "B02-RECHECK-P06"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:561d1e0fabf3a6c0e650d476": {
+      "item_id": "relation:561d1e0fabf3a6c0e650d476",
+      "original_sha256": "74dd178c82a3c0c6dfc69d8381c7a77017b5c23bbd84429186af667ad969feeb",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "抑制CYP1A2可降低奥氮平代谢并增加其暴露。",
+      "evidence_ids": [
+        "B02-RECHECK-O01"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:4627f05f614a735b3c8ae20d": {
+      "item_id": "relation:4627f05f614a735b3c8ae20d",
+      "original_sha256": "66cf25bb9c3f852b82e67e94a497ae86f6401575847ddff9272c942519e679ff",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "CYP1A2诱导可降低奥氮平浓度。",
+      "evidence_ids": [
+        "B02-RECHECK-O02"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:973d25c2190ed3ea17a5c891": {
+      "item_id": "relation:973d25c2190ed3ea17a5c891",
+      "original_sha256": "cbfaec7018e923afc7547584df2a6feef3cd4570169393af0031ef2831bbac4d",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "治疗前及治疗过程中应规律监测体重。",
+      "evidence_ids": [
+        "B02-RECHECK-O03"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:34e61a0a44dc26a0d195e200": {
+      "item_id": "relation:34e61a0a44dc26a0d195e200",
+      "original_sha256": "b09be8c3be380d3b3c4d16e7af675dfb1f0fed0ba5a18833b08cfc9281aabce9",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "治疗前及治疗过程中应监测血糖，关注高血糖相关症状。",
+      "evidence_ids": [
+        "B02-RECHECK-O04"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:62625065e8ea1d6da87b42c3": {
+      "item_id": "relation:62625065e8ea1d6da87b42c3",
+      "original_sha256": "42f50c8bbda86493b7ea7bd3040402ae97fe5b03dc0a95e9dff1f508655c12a7",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "治疗过程中应关注血脂异常并监测。",
+      "evidence_ids": [
+        "B02-RECHECK-O05"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:9336c86406b1729a52989b03": {
+      "item_id": "relation:9336c86406b1729a52989b03",
+      "original_sha256": "1c676e7b3de3ddb024047dfac16b8318b2e8c369e9530e3dadffb6df36872f78",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "说明书将已知有窄角型青光眼风险的患者列为禁用。",
+      "evidence_ids": [
+        "B02-RECHECK-O06"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:db14eb5efe79cce25c8898f6": {
+      "item_id": "relation:db14eb5efe79cce25c8898f6",
+      "original_sha256": "11d02ed8200a64bf35d5f51bd42adcfd65f31ad13e2b0a58507ee4052b756d79",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "利尿引起钠流失可能降低锂清除率并增加血锂。",
+      "evidence_ids": [
+        "B02-RECHECK-L01"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:ab252fc1017c34c7efd3bc12": {
+      "item_id": "relation:ab252fc1017c34c7efd3bc12",
+      "original_sha256": "60a199866aa2a75ed43a9f36a31e4e1047d861abfbd0f61cc4233f01f0cf3c8f",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "可降低肾血流及锂清除率，增加血锂。",
+      "evidence_ids": [
+        "B02-RECHECK-L02"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:55c5d3f2f327c7058d39476f": {
+      "item_id": "relation:55c5d3f2f327c7058d39476f",
+      "original_sha256": "73f50ec5325d465fe0e74758ebe0f143741fa2fbdd5c27062a774f4a6bdb6124",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用可增加稳态血锂浓度。",
+      "evidence_ids": [
+        "B02-RECHECK-L03"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:39b8ca84b6fc4d1832b822f6": {
+      "item_id": "relation:39b8ca84b6fc4d1832b822f6",
+      "original_sha256": "e9f65243be500eb2551899b3953d6747b9c6df0921073be6dbe55a6269780ab4",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "可能降低锂肾清除率并增加血锂。",
+      "evidence_ids": [
+        "B02-RECHECK-L04"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:82831313b1dd8be379ff36a7": {
+      "item_id": "relation:82831313b1dd8be379ff36a7",
+      "original_sha256": "c8027a1b75bd4dde25f2ef629917db353e9f82fc39fe9d6df6a7a5fde16f2c8d",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "合用可能诱发血清素综合征。",
+      "evidence_ids": [
+        "B02-RECHECK-L05"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "relation:aafa98a808aca7406aa96d2f": {
+      "item_id": "relation:aafa98a808aca7406aa96d2f",
+      "original_sha256": "434088dac70edff988359c70a8be9d2f64ef554951ab6d689e97010dd7e9c38a",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "source_supported",
+      "reason": "有神经毒性、锥体外系症状至恶性综合征等不良反应报告。",
+      "evidence_ids": [
+        "B02-RECHECK-L06"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20"
+    },
+    "property:04f8787e935c61048f6af186:dose_start": {
+      "item_id": "property:04f8787e935c61048f6af186:dose_start",
+      "original_sha256": "f34edb254b68f1310319693ca54d11876cb0a1fb678977017d37ed6206e0fafb",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "50mg/日起始量在该产品成人用法中有依据，原字段缺少适用范围。",
+      "evidence_ids": [
+        "B02-SER-START"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "adult_initial": "50mg/day",
+          "titration_interval": ">=1 week",
+          "scope": "该版中国产品成人用法；儿童和个体调整另列"
+        },
+        "conditions": "CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。"
+      }
+    },
+    "property:04f8787e935c61048f6af186:dose_max": {
+      "item_id": "property:04f8787e935c61048f6af186:dose_max",
+      "original_sha256": "626cbe7fa49442c060fa79eecd640f83ded338821dec0a91c476cd819551dfe5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "200mg/日是该产品成人剂量调整上限；应补足制剂、人群和耐受性条件。",
+      "evidence_ids": [
+        "B02-SER-MAX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "200mg/日是该产品成人剂量调整上限；应补足制剂、人群和耐受性条件。",
+        "conditions": "CN左洛复普通片成人；50mg疗效欠佳且耐受良好时调整，间隔不短于1周；并非个人目标量。"
+      }
+    },
+    "relation:bcd58d502120b272c9b27ca5": {
+      "item_id": "relation:bcd58d502120b272c9b27ca5",
+      "original_sha256": "02310431a0db137a7ee0a3d8056b8fcb07e69c8b1bd09f1e550e92a026641f45",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "200mg/日是该产品成人剂量调整上限；应补足制剂、人群和耐受性条件。",
+      "evidence_ids": [
+        "B02-SER-MAX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "200mg/日是该产品成人剂量调整上限；应补足制剂、人群和耐受性条件。",
+        "conditions": "CN左洛复普通片成人；50mg疗效欠佳且耐受良好时调整，间隔不短于1周；并非个人目标量。"
+      }
+    },
+    "property:04f8787e935c61048f6af186:dose_range": {
+      "item_id": "property:04f8787e935c61048f6af186:dose_range",
+      "original_sha256": "24eb6e79c15b7c3a8650d0a17d85646d40cfaa3c6b5d40db499fbee95b223459",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "insufficient_evidence",
+      "reason": "指定说明书未将100–200mg/日或150–200mg/日列为所有患者的通用范围或必须达到的目标。",
+      "evidence_ids": [
+        "B02-SER-RANGE"
+      ],
+      "search_attempt_ids": [
+        "B02-SER-RANGE-EXAMINATION"
+      ],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "candidate_disposition": "本候选版本中暂不启用该无条件规则；保留原文和待补查项，不表示联用安全。"
+    },
+    "relation:13cf4441fe873d04d447d25c": {
+      "item_id": "relation:13cf4441fe873d04d447d25c",
+      "original_sha256": "16e621d4f7ede60ddd506f39c15dd9f28b8cdee7616d32d14aae1324dacc33a9",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "insufficient_evidence",
+      "reason": "指定说明书未将100–200mg/日或150–200mg/日列为所有患者的通用范围或必须达到的目标。",
+      "evidence_ids": [
+        "B02-SER-RANGE"
+      ],
+      "search_attempt_ids": [
+        "B02-SER-RANGE-EXAMINATION"
+      ],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "candidate_disposition": "本候选版本中暂不启用该无条件规则；保留原文和待补查项，不表示联用安全。"
+    },
+    "property:fcc7bf9f26197edd8426900f:dose_start": {
+      "item_id": "property:fcc7bf9f26197edd8426900f:dose_start",
+      "original_sha256": "1d5bf52b1c4ec1e4af2165e1f460e20bf29ab614d1727d289b22886a6190d533",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "20mg/日仅在所列抑郁症和强迫症成人及老年患者推荐用法中成立，不能作为全部适应症统一起始量。",
+      "evidence_ids": [
+        "B02-FLU-START"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "20mg/日仅在所列抑郁症和强迫症成人及老年患者推荐用法中成立，不能作为全部适应症统一起始量。",
+        "conditions": "CN百优解胶囊2025-02-05版；神经性贪食症单列60mg/日；老年和肝损害另有限制。"
+      }
+    },
+    "property:fcc7bf9f26197edd8426900f:dose_max": {
+      "item_id": "property:fcc7bf9f26197edd8426900f:dose_max",
+      "original_sha256": "7abb1f5dca9485907c96dd33a62a97a9cc2cbf52ec77719c52925ebd2532b270",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+      "evidence_ids": [
+        "B02-FLU-MAX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "adult_depression": "20mg/day recommended; selected nonresponders may titrate to maximum 60mg/day",
+          "adult_OCD": "20mg/day recommended; selected nonresponders may titrate to maximum 60mg/day",
+          "bulimia": "recommended 60mg/day adjunct to psychotherapy",
+          "elderly": "usually no more than 40mg/day; maximum recommended 60mg/day",
+          "over_80mg_statement": "not systematically evaluated; not an endorsed maximum",
+          "under_18_CN": "not recommended in this label",
+          "scope": "仅该版本中国制剂，不生成个人处方"
+        },
+        "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。"
+      }
+    },
+    "property:fbe4ed72827477d0ae8cfb0f:dose_start": {
+      "item_id": "property:fbe4ed72827477d0ae8cfb0f:dose_start",
+      "original_sha256": "b20932dd257ccac3215baddd3100032d552b53deee47d6d7a12363e515850db0",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+      "evidence_ids": [
+        "B02-OLA-START"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "adult_schizophrenia": "10mg/day",
+          "adult_mania_monotherapy": "15mg/day",
+          "adult_mania_combination": "10mg/day",
+          "adult_bipolar_recurrence_prevention": "10mg/day",
+          "scope": "该产品成人说明书用法；非个人剂量建议"
+        },
+        "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。"
+      }
+    },
+    "property:fbe4ed72827477d0ae8cfb0f:dose_max": {
+      "item_id": "property:fbe4ed72827477d0ae8cfb0f:dose_max",
+      "original_sha256": "0d208f97b00c7b0f8f9ed60b41cd32b27099781bb70f7397280d240af338f806",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "20mg/日是该说明书所列成人5–20mg/日调整范围上端，应补充适用情境。",
+      "evidence_ids": [
+        "B02-OLA-MAX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "20mg/日是该说明书所列成人5–20mg/日调整范围上端，应补充适用情境。",
+        "conditions": "CN欧兰宁普通片成人精神分裂症、躁狂发作及双相复发预防；基于临床再评估调整，不定义所有制剂和人群的通用上限。"
+      }
+    },
+    "relation:43a9201e4b41894e18db9400": {
+      "item_id": "relation:43a9201e4b41894e18db9400",
+      "original_sha256": "15e849cb2f8aee4ddbb3078d1aa068bdb2867643d9080d5f739d73bf20bea08d",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。",
+      "evidence_ids": [
+        "B02-CLO-FLUVOX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "relation": "INTERACTS_WITH",
+          "mechanism": "strong CYP1A2 inhibition; clozapine exposure may increase",
+          "label_management": "US label specifies one-third clozapine dose with strong CYP1A2 inhibitors, managed by prescriber",
+          "CN_label_comparison": "pending; no global contraindication or safety inference"
+        },
+        "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。"
+      }
+    },
+    "relation:5074f125be11e6459b0a7bab": {
+      "item_id": "relation:5074f125be11e6459b0a7bab",
+      "original_sha256": "9e339a70012b499a8eb52ab95702a56858d2eeda7d9c75362a57a4a01a328fea",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。",
+      "evidence_ids": [
+        "B02-CLO-FLUVOX"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "relation": "INTERACTS_WITH",
+          "mechanism": "strong CYP1A2 inhibition; clozapine exposure may increase",
+          "label_management": "US label specifies one-third clozapine dose with strong CYP1A2 inhibitors, managed by prescriber",
+          "CN_label_comparison": "pending; no global contraindication or safety inference"
+        },
+        "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。"
+      }
+    },
+    "relation:3eea3439e4835c027cebc6cf": {
+      "item_id": "relation:3eea3439e4835c027cebc6cf",
+      "original_sha256": "c32a32fed61f2b0bbebc749c9d98e6758feac6dce1760f475b0f2683a91fcf89",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "标签明确列出舍曲林联用可增加氯氮平水平，需要谨慎监测；不应写成每位患者必然增加或固定倍数。",
+      "evidence_ids": [
+        "B02-CLO-SER"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "标签明确列出舍曲林联用可增加氯氮平水平，需要谨慎监测；不应写成每位患者必然增加或固定倍数。",
+        "conditions": "US Mylan clozapine tablets；第12.3节报告与小样本研究有差异；保留可能性、研究背景与地区，未推导绝对禁忌。"
+      }
+    },
+    "relation:5f3e7ffd6060c2fc69c57a2a": {
+      "item_id": "relation:5f3e7ffd6060c2fc69c57a2a",
+      "original_sha256": "a7718652a3b038d80720f7304d65700787ae34c786f6a3f2c3103dad4ad2a6ab",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "标签明确列出舍曲林联用可增加氯氮平水平，需要谨慎监测；不应写成每位患者必然增加或固定倍数。",
+      "evidence_ids": [
+        "B02-CLO-SER"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "标签明确列出舍曲林联用可增加氯氮平水平，需要谨慎监测；不应写成每位患者必然增加或固定倍数。",
+        "conditions": "US Mylan clozapine tablets；第12.3节报告与小样本研究有差异；保留可能性、研究背景与地区，未推导绝对禁忌。"
+      }
+    },
+    "relation:93110c7434d42586cd017545": {
+      "item_id": "relation:93110c7434d42586cd017545",
+      "original_sha256": "c4e3a13706c5256b3d0e28bb4c4f3e7209a2adce953a1a1960709cb3cdf37689",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "氟西汀标签报告奥氮平平均峰浓度增加约16%、清除率下降约16%，相对于个体差异效应较小，通常无需据此调整。",
+      "evidence_ids": [
+        "B02-OLA-FLU"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "氟西汀标签报告奥氮平平均峰浓度增加约16%、清除率下降约16%，相对于个体差异效应较小，通常无需据此调整。",
+        "conditions": "CN百优解胶囊该版的联用研究；不因存在药代变化就认定严重风险或无其他风险。"
+      }
+    },
+    "relation:69c38392c2018447898f75b6": {
+      "item_id": "relation:69c38392c2018447898f75b6",
+      "original_sha256": "dc856f9ab595c56a0cbd05fe93b3d5981d315defe8ab819eabbd8f40729773ca",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。",
+      "evidence_ids": [
+        "B02-SER-MAOI"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "maoi_to_sertraline_days_min": 14,
+          "sertraline_to_maoi_days_min": 14,
+          "scope": "该版MAOI与舍曲林换药；其余换药另核对"
+        },
+        "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。"
+      }
+    },
+    "relation:72eab889786efdf949c885cd": {
+      "item_id": "relation:72eab889786efdf949c885cd",
+      "original_sha256": "b5442e9b50506194313c84bddbf1f64d52b57290f09bd16f6a1ee98467ac93ac",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。",
+      "evidence_ids": [
+        "B02-SER-MAOI"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": {
+          "maoi_to_sertraline_days_min": 14,
+          "sertraline_to_maoi_days_min": 14,
+          "scope": "该版MAOI与舍曲林换药；其余换药另核对"
+        },
+        "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。"
+      }
+    },
+    "relation:86306ca579c20302249cb1eb": {
+      "item_id": "relation:86306ca579c20302249cb1eb",
+      "original_sha256": "e72aac619cfca690d5557ea72fa7d9a6dfb1ea4627d7040725787112bcf9306f",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "insufficient_evidence",
+      "reason": "指定标签支持其他血清素能药物联用的风险警告和谨慎要求，未为原图谱所有其他SSRI/SNRI绝对禁忌断言提供充分依据。",
+      "evidence_ids": [
+        "B02-SER-OTHER-SSRI"
+      ],
+      "search_attempt_ids": [
+        "B02-SER-OTHER-SSRI-EXAMINATION"
+      ],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "candidate_disposition": "本候选版本中暂不启用该无条件规则；保留原文和待补查项，不表示联用安全。"
+    },
+    "relation:b7f575d9ab91b22981ec98fb": {
+      "item_id": "relation:b7f575d9ab91b22981ec98fb",
+      "original_sha256": "20740df6c1b64dee627d5e9b328ee61fe2429a1ff9c99d872b7f1e06c4b56d17",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "insufficient_evidence",
+      "reason": "指定标签支持其他血清素能药物联用的风险警告和谨慎要求，未为原图谱所有其他SSRI/SNRI绝对禁忌断言提供充分依据。",
+      "evidence_ids": [
+        "B02-SER-OTHER-SSRI"
+      ],
+      "search_attempt_ids": [
+        "B02-SER-OTHER-SSRI-EXAMINATION"
+      ],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "candidate_disposition": "本候选版本中暂不启用该无条件规则；保留原文和待补查项，不表示联用安全。"
+    },
+    "relation:2c2faf6fabc3a899f8f98956": {
+      "item_id": "relation:2c2faf6fabc3a899f8f98956",
+      "original_sha256": "ac86e4da9681dd3f4478aa291857e74de81cca7ced98be53b4b4714fd1a23ff5",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "insufficient_evidence",
+      "reason": "扫描说明书的血清素能药物警示不能直接证明帕罗西汀与舍曲林为已证实的绝对禁忌。",
+      "evidence_ids": [
+        "B02-PAR-SER"
+      ],
+      "search_attempt_ids": [
+        "B02-PAR-SER-EXAMINATION"
+      ],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "candidate_disposition": "本候选版本中暂不启用该无条件规则；保留原文和待补查项，不表示联用安全。"
+    },
+    "relation:03a3692dbbfe8e490ea25e67": {
+      "item_id": "relation:03a3692dbbfe8e490ea25e67",
+      "original_sha256": "ad73922abcce54d4eb5318ee8b990a46eab7ce7b77f5945f62a35da96ea104d2",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "该产品药物相互作用章节明确禁止与MAOI合用，需将原记录绑定具体产品与地区。",
+      "evidence_ids": [
+        "B02-PAR-MAOI"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "该产品药物相互作用章节明确禁止与MAOI合用，需将原记录绑定具体产品与地区。",
+        "conditions": "CN石家庄康泽20mg普通片，2022-05-25版，第2页中栏；本条不补造尚未另行逐项确认的换药天数。"
+      }
+    },
+    "relation:0bb7c80947b0859464441741": {
+      "item_id": "relation:0bb7c80947b0859464441741",
+      "original_sha256": "9318b919dd8ebde40c9d03102987420358c8da77aef8b41bedcb9f5d8ce0b224",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "CYP2D6抑制可影响部分三环类药物水平，需保留具体底物、谨慎和调整情境。",
+      "evidence_ids": [
+        "B02-PAR-TCA"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "CYP2D6抑制可影响部分三环类药物水平，需保留具体底物、谨慎和调整情境。",
+        "conditions": "CN该20mg普通片，扫描件第2页中栏末至右栏；类别警示不等于每个TCA相同风险或全部绝对禁忌。"
+      }
+    },
+    "relation:c4a657feb9a560fb29aad481": {
+      "item_id": "relation:c4a657feb9a560fb29aad481",
+      "original_sha256": "2abe107405994e450ee97d0ca50afcf9c56c5132f63ea86d05b23e4210ebbed3",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "健康受试者研究锂药代未显著改变但震颤增加；原裸相互作用记录应补充药代与药效区别。",
+      "evidence_ids": [
+        "B02-SER-LI"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "健康受试者研究锂药代未显著改变但震颤增加；原裸相互作用记录应补充药代与药效区别。",
+        "conditions": "CN左洛复普通片2026-03-01版；研究未见显著药代变化不等于不存在联用风险。"
+      }
+    },
+    "relation:981bcebf8e5312955c162d8a": {
+      "item_id": "relation:981bcebf8e5312955c162d8a",
+      "original_sha256": "7d95c618dd17e5e9210e72a6f289388700749133f5d052b3742d7a5784e1fbbf",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "凝血酶原时间轻微延长的临床意义尚不清楚，开始或停止舍曲林时应监测。",
+      "evidence_ids": [
+        "B02-SER-WARFARIN"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "凝血酶原时间轻微延长的临床意义尚不清楚，开始或停止舍曲林时应监测。",
+        "conditions": "CN左洛复普通片；来自200mg/日的研究，不是个人剂量建议；保留不确定性。"
+      }
+    },
+    "relation:9fcda4bd819bd70a042fe8b9": {
+      "item_id": "relation:9fcda4bd819bd70a042fe8b9",
+      "original_sha256": "7523bccd8a1303844f6869c0762e1d1209c18c06496d22955bd0d6006f98162b",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "指定美国标签列明替扎尼定联用禁忌，涉及CYP1A2抑制和显著暴露及血压影响。",
+      "evidence_ids": [
+        "B02-FLUVOX-TIZ"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "指定美国标签列明替扎尼定联用禁忌，涉及CYP1A2抑制和显著暴露及血压影响。",
+        "conditions": "US fluvoxamine maleate tablets所缓存版本；不能自动代替其他地区或制剂；禁忌仅针对明确点名的药物。"
+      }
+    },
+    "relation:af0df2ff69723bdf209bb04b": {
+      "item_id": "relation:af0df2ff69723bdf209bb04b",
+      "original_sha256": "e44ac910c452977be4db0ab17edd7ca2f49a92d0aed647d440dc2b1d0c9eec13",
+      "batch_id": "2026-10-20-medication-02",
+      "status": "amended",
+      "reason": "指定美国标签列明精神科MAOI合用禁忌及两方向14天限制，另列利奈唑胺及静脉亚甲蓝情境。",
+      "evidence_ids": [
+        "B02-FLUVOX-MAOI"
+      ],
+      "search_attempt_ids": [],
+      "expert_review": "pending",
+      "reviewer": "agent",
+      "reviewed_at": "2026-10-20",
+      "proposed_change": {
+        "action": "replace_unscoped_claim_in_candidate",
+        "replacement": "指定美国标签列明精神科MAOI合用禁忌及两方向14天限制，另列利奈唑胺及静脉亚甲蓝情境。",
+        "conditions": "US fluvoxamine maleate tablets；MAOI类型及给药途径不可省略；不外推为所有药物换药统一规则。"
+      }
+    }
+  },
+  "evidence": {
+    "B02-RECHECK-S01": {
+      "id": "B02-RECHECK-S01",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:a2049d7df783c24c8b1c5867"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          6,
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "禁止与单胺氧化酶抑制剂合用；换药须保留清洗期。",
+      "conditions": "停MAOI后至少14天再开始舍曲林；停舍曲林后至少14天再开始MAOI。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-S02": {
+      "id": "B02-RECHECK-S02",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:2b83ee5fdcb6da7fa9e867fd"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用可增加匹莫齐特暴露；说明书列为禁忌。",
+      "conditions": "低剂量匹莫齐特研究未观察到心电图改变，不能据此推断可安全合用。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-S03": {
+      "id": "B02-RECHECK-S03",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:da92a124375ea5f995563efe"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "健康受试者试验中锂药代未显著改变，但震颤增加。",
+      "conditions": "试验药代结果不能等同于无药效学相互作用。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-S04": {
+      "id": "B02-RECHECK-S04",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:b7a267b9a56882c65e26efb6"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用研究中凝血酶原时间轻度延长，临床意义尚不明确。",
+      "conditions": "证据来自舍曲林200mg/日的合用研究，不是个体给药建议。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-S05": {
+      "id": "B02-RECHECK-S05",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:a8dce42ae5bf50c42831bcc2"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "试验未见显著代谢抑制；仍须监测苯妥英浓度，苯妥英也可能降低舍曲林浓度。",
+      "conditions": "舍曲林200mg/日研究结论不排除其他情境下相互作用。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-S06": {
+      "id": "B02-RECHECK-S06",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:5fd9be35ba5ee5950cf6092b"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "与延长QT间期药物联用时，QTc延长及室性心律失常风险增加。",
+      "conditions": "类别风险；未据此生成每个类别成员的直接关系。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸舍曲林片（左洛复）；版本：2026-03-01。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F01": {
+      "id": "B02-RECHECK-F01",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:b43330d6045b41a7e4526d73"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          9
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "禁止与MAOI合用；两个换药方向的清洗期不同。",
+      "conditions": "停MAOI后至少14天再开始氟西汀；停氟西汀后至少5周再开始MAOI。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F02": {
+      "id": "B02-RECHECK-F02",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:be9074bded32cefb8c764ac6"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          9,
+          21
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "说明书禁止与匹莫齐特合用。",
+      "conditions": "涉及QT延长及药物暴露风险。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F03": {
+      "id": "B02-RECHECK-F03",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:0f00b6be5f48704f8a6ed981"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          9,
+          21
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "禁止与硫利达嗪合用或在停氟西汀后5周内使用硫利达嗪。",
+      "conditions": "氟西汀及其代谢物消除缓慢。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F04": {
+      "id": "B02-RECHECK-F04",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:c5831b8ee6d8c239acd982a3"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          22
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用后锂浓度升高和降低均有报告，也有锂中毒及血清素相关不良反应报告。",
+      "conditions": "不能简化为锂浓度单向升高或无相互作用。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F05": {
+      "id": "B02-RECHECK-F05",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:1a857fbbbb0a5537bfe393a4"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          20
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用可能改变抗凝作用并增加出血风险。",
+      "conditions": "开始或停止氟西汀时均需关注；个体风险不同。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-F06": {
+      "id": "B02-RECHECK-F06",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:72abdeeb8eea45177a1adfdb"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          17
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "强CYP2D6抑制可能降低他莫昔芬活性代谢产物浓度。",
+      "conditions": "属于应尽量避免的联用情境，不自动等同于绝对禁忌。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸氟西汀胶囊（百优解）；版本：2025-02-05。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P01": {
+      "id": "B02-RECHECK-P01",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:212643c6b3f913e8a50fa567"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "药物相互作用章节明确禁止与MAOI合用。",
+      "conditions": "本记录仅核对合用禁忌，不补造未逐项确认的换药天数。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P02": {
+      "id": "B02-RECHECK-P02",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:c7fd460997173b0a879e2fbc"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "可增加匹莫齐特暴露；说明书禁止合用。",
+      "conditions": "匹莫齐特治疗窗窄且存在QT相关风险。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P03": {
+      "id": "B02-RECHECK-P03",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:a48fc445224241313888557d"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "CYP2D6抑制可能增加硫利达嗪暴露及严重心律失常风险，禁止合用。",
+      "conditions": "该说明书产品及成人范围。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P04": {
+      "id": "B02-RECHECK-P04",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:e5fbec079e3faa1ec9cf7769"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "CYP2D6抑制可降低他莫昔芬活性代谢物浓度。",
+      "conditions": "属于替代方案评估提示，不标记为绝对禁忌。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P05": {
+      "id": "B02-RECHECK-P05",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:9b374c737cca78f398a2b7bf"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "与其他血清素能药物合用可能增加血清素综合征风险。",
+      "conditions": "扫描件列出其他SSRI等类别；不能仅凭此条把帕罗西汀与舍曲林改写为已证实的绝对禁忌。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-P06": {
+      "id": "B02-RECHECK-P06",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:66a3b04cf5721f44f7ff94d0"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "可能存在药效学相互作用及出血倾向，凝血酶原时间不变也不能排除。",
+      "conditions": "说明书强调对口服抗凝治疗者非常谨慎。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：盐酸帕罗西汀普通片，20mg；版本：2022-05-25。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O01": {
+      "id": "B02-RECHECK-O01",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:561d1e0fabf3a6c0e650d476"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          10
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "抑制CYP1A2可降低奥氮平代谢并增加其暴露。",
+      "conditions": "药物相互作用研究在成人中开展。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O02": {
+      "id": "B02-RECHECK-O02",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:4627f05f614a735b3c8ae20d"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          10
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "CYP1A2诱导可降低奥氮平浓度。",
+      "conditions": "药物相互作用研究在成人中开展；吸烟也属于说明书列举的诱导因素。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O03": {
+      "id": "B02-RECHECK-O03",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:973d25c2190ed3ea17a5c891"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          7
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "治疗前及治疗过程中应规律监测体重。",
+      "conditions": "说明书列出基线、第4/8/12周及以后每季度。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。所列监测频率是说明书引用指南的例子，需按适用指南和个体风险确定，不作跨产品统一频率。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O04": {
+      "id": "B02-RECHECK-O04",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:34e61a0a44dc26a0d195e200"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          7
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "治疗前及治疗过程中应监测血糖，关注高血糖相关症状。",
+      "conditions": "说明书列出基线、第12周及以后每年；有风险因素者需特别关注。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。所列监测频率是说明书引用指南的例子，需按适用指南和个体风险确定，不作跨产品统一频率。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O05": {
+      "id": "B02-RECHECK-O05",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:62625065e8ea1d6da87b42c3"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          8
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "治疗过程中应关注血脂异常并监测。",
+      "conditions": "说明书列出基线、第12周及以后每5年；不外推为所有患者固定间隔。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。所列监测频率是说明书引用指南的例子，需按适用指南和个体风险确定，不作跨产品统一频率。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-O06": {
+      "id": "B02-RECHECK-O06",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "relation:9336c86406b1729a52989b03"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          6
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "说明书将已知有窄角型青光眼风险的患者列为禁用。",
+      "conditions": "限定为该说明书列出的风险状态，不扩大到所有类型青光眼。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：CN；制剂：奥氮平普通片（欧兰宁，5mg/10mg）；版本：2025-08-21。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L01": {
+      "id": "B02-RECHECK-L01",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:db14eb5efe79cce25c8898f6"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "利尿引起钠流失可能降低锂清除率并增加血锂。",
+      "conditions": "美国标签类别警示，不能直接替代中国批准说明书。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L02": {
+      "id": "B02-RECHECK-L02",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:ab252fc1017c34c7efd3bc12"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "可降低肾血流及锂清除率，增加血锂。",
+      "conditions": "类别警示，未生成每个NSAID的直接药物关系。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L03": {
+      "id": "B02-RECHECK-L03",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:55c5d3f2f327c7058d39476f"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用可增加稳态血锂浓度。",
+      "conditions": "美国标签类别警示。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L04": {
+      "id": "B02-RECHECK-L04",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:39b8ca84b6fc4d1832b822f6"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "可能降低锂肾清除率并增加血锂。",
+      "conditions": "实际2026版标签使用类别名称；未伪造某一具体药物的直接关系。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L05": {
+      "id": "B02-RECHECK-L05",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:82831313b1dd8be379ff36a7"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用可能诱发血清素综合征。",
+      "conditions": "美国标签；尤其关注开始合用阶段。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-RECHECK-L06": {
+      "id": "B02-RECHECK-L06",
+      "source_id": "us_lithium_dailymed",
+      "source_sha256": "33d1a0fb403169f403786d53d664ccec8b8c9cc3b807b09406a363efedf0c60b",
+      "item_ids": [
+        "relation:aafa98a808aca7406aa96d2f"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          13
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "有神经毒性、锥体外系症状至恶性综合征等不良反应报告。",
+      "conditions": "美国标签类别警示，不能据此认定每个药物有同等风险或绝对禁忌。；成人；不外推至儿童、孕哺期或个体剂量决策；地区：US；制剂：碳酸锂普通片及胶囊（美国标签；非缓释制剂）；版本：2026-08。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-START": {
+      "id": "B02-SER-START",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "property:04f8787e935c61048f6af186:dose_start"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "50mg/日起始量在该产品成人用法中有依据，原字段缺少适用范围。",
+      "conditions": "CN左洛复普通片，2026-03-01版；成人说明书适应症，儿童强迫症另列剂量；不外推至特殊人群。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-MAX": {
+      "id": "B02-SER-MAX",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "property:04f8787e935c61048f6af186:dose_max",
+        "relation:bcd58d502120b272c9b27ca5"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "200mg/日是该产品成人剂量调整上限；应补足制剂、人群和耐受性条件。",
+      "conditions": "CN左洛复普通片成人；50mg疗效欠佳且耐受良好时调整，间隔不短于1周；并非个人目标量。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-RANGE": {
+      "id": "B02-SER-RANGE",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "property:04f8787e935c61048f6af186:dose_range",
+        "relation:13cf4441fe873d04d447d25c"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "指定说明书未将100–200mg/日或150–200mg/日列为所有患者的通用范围或必须达到的目标。",
+      "conditions": "仅核对该中国产品成人用法；原图谱可能引用其他情境，需另找其直接依据；不能据此否定其他指南的特定强迫症方案。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-FLU-START": {
+      "id": "B02-FLU-START",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "property:fcc7bf9f26197edd8426900f:dose_start"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2,
+          3
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "20mg/日仅在所列抑郁症和强迫症成人及老年患者推荐用法中成立，不能作为全部适应症统一起始量。",
+      "conditions": "CN百优解胶囊2025-02-05版；神经性贪食症单列60mg/日；老年和肝损害另有限制。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-FLU-MAX": {
+      "id": "B02-FLU-MAX",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "property:fcc7bf9f26197edd8426900f:dose_max"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2,
+          3
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "原80mg/日通用最大量不符合该版按适应症列示的推荐范围；超过80mg未系统评估不等于推荐上限80mg。",
+      "conditions": "CN百优解胶囊2025-02-05版；按适应症、年龄和肝功能分别建模，不以单一60或80覆盖全部产品和人群。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-OLA-START": {
+      "id": "B02-OLA-START",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "property:fbe4ed72827477d0ae8cfb0f:dose_start"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "原通用5–10mg/日起始字段应拆为适应症及单药/合用情境。",
+      "conditions": "CN欧兰宁普通片2025-08-21版成人；老年、肝肾等特殊人群需独立核对。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-OLA-MAX": {
+      "id": "B02-OLA-MAX",
+      "source_id": "cn_olanzapine_hansoh",
+      "source_sha256": "59d20cafa5f21ef01a67ea49969b7244c6e1598fbfd993efd507b89f4db6523d",
+      "item_ids": [
+        "property:fbe4ed72827477d0ae8cfb0f:dose_max"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "20mg/日是该说明书所列成人5–20mg/日调整范围上端，应补充适用情境。",
+      "conditions": "CN欧兰宁普通片成人精神分裂症、躁狂发作及双相复发预防；基于临床再评估调整，不定义所有制剂和人群的通用上限。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-CLO-FLUVOX": {
+      "id": "B02-CLO-FLUVOX",
+      "source_id": "us_clozapine_mylan",
+      "source_sha256": "4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b",
+      "item_ids": [
+        "relation:43a9201e4b41894e18db9400",
+        "relation:5074f125be11e6459b0a7bab"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          8,
+          27,
+          33
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "指定美国标签将氟伏沙明联用列为显著暴露增加及剂量调整情境，不能据此保留原无条件绝对禁忌关系。",
+      "conditions": "US Mylan clozapine tablets，所缓存标签；16人研究约三倍谷浓度是特定研究结果；美国用量调整条款不能直接替代中国产品说明书。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-CLO-SER": {
+      "id": "B02-CLO-SER",
+      "source_id": "us_clozapine_mylan",
+      "source_sha256": "4ed5c2c73762ac9b2cecd671a4d067e52b1705741a1e705d7252de0e11aab42b",
+      "item_ids": [
+        "relation:3eea3439e4835c027cebc6cf",
+        "relation:5f3e7ffd6060c2fc69c57a2a"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          8,
+          27,
+          33
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "标签明确列出舍曲林联用可增加氯氮平水平，需要谨慎监测；不应写成每位患者必然增加或固定倍数。",
+      "conditions": "US Mylan clozapine tablets；第12.3节报告与小样本研究有差异；保留可能性、研究背景与地区，未推导绝对禁忌。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-OLA-FLU": {
+      "id": "B02-OLA-FLU",
+      "source_id": "cn_fluoxetine_lilly",
+      "source_sha256": "a099317c7cbe0572b683cc2dc1f74321d13833c2299c36a012ee1b68534dd9b7",
+      "item_ids": [
+        "relation:93110c7434d42586cd017545"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          22
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "氟西汀标签报告奥氮平平均峰浓度增加约16%、清除率下降约16%，相对于个体差异效应较小，通常无需据此调整。",
+      "conditions": "CN百优解胶囊该版的联用研究；不因存在药代变化就认定严重风险或无其他风险。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-MAOI": {
+      "id": "B02-SER-MAOI",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:69c38392c2018447898f75b6",
+        "relation:72eab889786efdf949c885cd"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          6,
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "合用MAOI禁忌及两方向至少14天清洗期有依据；原通用14天节点应绑定换药方向和药物。",
+      "conditions": "CN左洛复普通片2026-03-01版；不外推为所有抗抑郁药之间统一14天换药。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-OTHER-SSRI": {
+      "id": "B02-SER-OTHER-SSRI",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:86306ca579c20302249cb1eb",
+        "relation:b7f575d9ab91b22981ec98fb"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          6,
+          7,
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "指定标签支持其他血清素能药物联用的风险警告和谨慎要求，未为原图谱所有其他SSRI/SNRI绝对禁忌断言提供充分依据。",
+      "conditions": "仅结论为原无条件断言依据不足；不是建议联用或说明没有风险，也不代表检索了所有制剂与指南。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-PAR-SER": {
+      "id": "B02-PAR-SER",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:2c2faf6fabc3a899f8f98956"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "扫描说明书的血清素能药物警示不能直接证明帕罗西汀与舍曲林为已证实的绝对禁忌。",
+      "conditions": "CN石家庄康泽20mg普通片，2022-05-25版，医院转载扫描件第2页中栏；仍有血清素风险，不推导安全性。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-PAR-MAOI": {
+      "id": "B02-PAR-MAOI",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:03a3692dbbfe8e490ea25e67"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "该产品药物相互作用章节明确禁止与MAOI合用，需将原记录绑定具体产品与地区。",
+      "conditions": "CN石家庄康泽20mg普通片，2022-05-25版，第2页中栏；本条不补造尚未另行逐项确认的换药天数。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-PAR-TCA": {
+      "id": "B02-PAR-TCA",
+      "source_id": "cn_paroxetine_hospital",
+      "source_sha256": "aa3144ff489dc4b9b664e855363b57dc5c45f469ec42c35ce6d7ef7317b8b5f8",
+      "item_ids": [
+        "relation:0bb7c80947b0859464441741"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          2
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "CYP2D6抑制可影响部分三环类药物水平，需保留具体底物、谨慎和调整情境。",
+      "conditions": "CN该20mg普通片，扫描件第2页中栏末至右栏；类别警示不等于每个TCA相同风险或全部绝对禁忌。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-LI": {
+      "id": "B02-SER-LI",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:c4a657feb9a560fb29aad481"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "健康受试者研究锂药代未显著改变但震颤增加；原裸相互作用记录应补充药代与药效区别。",
+      "conditions": "CN左洛复普通片2026-03-01版；研究未见显著药代变化不等于不存在联用风险。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-SER-WARFARIN": {
+      "id": "B02-SER-WARFARIN",
+      "source_id": "cn_sertraline_viatris",
+      "source_sha256": "db3a615461390fa1ec5837a8790416d9cdfb4bb44166cf05aea484fe80f311e5",
+      "item_ids": [
+        "relation:981bcebf8e5312955c162d8a"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          12
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "凝血酶原时间轻微延长的临床意义尚不清楚，开始或停止舍曲林时应监测。",
+      "conditions": "CN左洛复普通片；来自200mg/日的研究，不是个人剂量建议；保留不确定性。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-FLUVOX-TIZ": {
+      "id": "B02-FLUVOX-TIZ",
+      "source_id": "us_fluvoxamine",
+      "source_sha256": "1cb5b3de7f0d6fb70898f6ce7fcfa99676e8dbe455331c067965bf64afdbe41b",
+      "item_ids": [
+        "relation:9fcda4bd819bd70a042fe8b9"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          7,
+          11
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "指定美国标签列明替扎尼定联用禁忌，涉及CYP1A2抑制和显著暴露及血压影响。",
+      "conditions": "US fluvoxamine maleate tablets所缓存版本；不能自动代替其他地区或制剂；禁忌仅针对明确点名的药物。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    },
+    "B02-FLUVOX-MAOI": {
+      "id": "B02-FLUVOX-MAOI",
+      "source_id": "us_fluvoxamine",
+      "source_sha256": "1cb5b3de7f0d6fb70898f6ce7fcfa99676e8dbe455331c067965bf64afdbe41b",
+      "item_ids": [
+        "relation:af0df2ff69723bdf209bb04b"
+      ],
+      "locator": {
+        "kind": "pdf_pages",
+        "pages": [
+          7,
+          8
+        ],
+        "page_numbering": "PDF physical pages"
+      },
+      "summary": "指定美国标签列明精神科MAOI合用禁忌及两方向14天限制，另列利奈唑胺及静脉亚甲蓝情境。",
+      "conditions": "US fluvoxamine maleate tablets；MAOI类型及给药途径不可省略；不外推为所有药物换药统一规则。",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "scope": "medical_source_comparison",
+      "expert_review": "pending"
+    }
+  },
+  "search_attempts": {
+    "B02-SER-RANGE-EXAMINATION": {
+      "item_ids": [
+        "property:04f8787e935c61048f6af186:dose_range",
+        "relation:13cf4441fe873d04d447d25c"
+      ],
+      "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+      "performed_at": "2026-10-20",
+      "queries": [
+        "舍曲林 / dose_range",
+        "舍曲林 → TARGET_DOSE → 150-200mg/d"
+      ],
+      "source_ids": [
+        "cn_sertraline_viatris"
+      ],
+      "result": "指定说明书未将100–200mg/日或150–200mg/日列为所有患者的通用范围或必须达到的目标。"
+    },
+    "B02-SER-OTHER-SSRI-EXAMINATION": {
+      "item_ids": [
+        "relation:86306ca579c20302249cb1eb",
+        "relation:b7f575d9ab91b22981ec98fb"
+      ],
+      "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+      "performed_at": "2026-10-20",
+      "queries": [
+        "舍曲林 → CONTRAINDICATED_WITH → 其他选择性5-羟色胺再摄取抑制剂",
+        "舍曲林 → CONTRAINDICATED_WITH → SNRI"
+      ],
+      "source_ids": [
+        "cn_sertraline_viatris"
+      ],
+      "result": "指定标签支持其他血清素能药物联用的风险警告和谨慎要求，未为原图谱所有其他SSRI/SNRI绝对禁忌断言提供充分依据。"
+    },
+    "B02-PAR-SER-EXAMINATION": {
+      "item_ids": [
+        "relation:2c2faf6fabc3a899f8f98956"
+      ],
+      "method": "逐页对照指定产品说明书相关章节；仅限列明来源，不声称检索穷尽",
+      "performed_at": "2026-10-20",
+      "queries": [
+        "帕罗西汀 → CONTRAINDICATED_WITH → 舍曲林"
+      ],
+      "source_ids": [
+        "cn_paroxetine_hospital"
+      ],
+      "result": "扫描说明书的血清素能药物警示不能直接证明帕罗西汀与舍曲林为已证实的绝对禁忌。"
+    }
+  }
+}

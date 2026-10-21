@@ -1,0 +1,47 @@
+{
+  "implementation_stage": "source_comparison_complete_with_open_findings",
+  "candidate_version": "kg_v3",
+  "baseline_version": "kg_v2",
+  "updated_at": "2026-10-20",
+  "total": 899,
+  "counts_by_kind": {
+    "entity": 230,
+    "property": 250,
+    "relation": 406,
+    "quarantine": 13
+  },
+  "counts_by_status": {
+    "amended": 399,
+    "structural_only": 61,
+    "source_supported": 371,
+    "insufficient_evidence": 55,
+    "quarantined": 13
+  },
+  "counts_by_priority": {
+    "P1": 613,
+    "P0": 225,
+    "P2": 61
+  },
+  "counts_by_batch": {
+    "3": 336,
+    "1": 61,
+    "2": 270,
+    "4": 232
+  },
+  "pending_by_priority": {},
+  "inventory_complete": true,
+  "structural_examination_count": 899,
+  "structural_issue_items": 13,
+  "medical_review_required": 838,
+  "medical_review_completed": 838,
+  "source_supported_count": 371,
+  "clinical_expert_reviewed": 0,
+  "prior_v2_checked_relations": 30,
+  "full_medical_review_complete": true,
+  "activation_ready": false,
+  "all_items_adjudicated": true,
+  "full_medical_verification_complete": false,
+  "unresolved_medical_items": 68,
+  "candidate_amendments_not_applied": 399,
+  "completion_definition": "All frozen items have a scoped review outcome; this does not mean all claims are supported, amendments applied, or clinically expert approved."
+}

@@ -1,5 +1,4 @@
 import os
-import json
 import time
 from threading import Lock
 from dotenv import load_dotenv
@@ -90,10 +89,14 @@ def query_vector_db(query: str) -> str:
     通过语义搜索查询精神科临床指南和诊断标准（RAG）。
     当需要检索 ICD-11 诊断标准原文、中国精神科指南摘要、药物说明书详细内容时，使用此工具。
     """
+    from core.clinical_reference import anxiety_reference,current_document
+    checked=anxiety_reference(query)
+    treatment_query=any(t in query.casefold() for t in ('治疗','干预','用药','剂量','一线','二线','药物','疗法','ssri','snri'))
+    if checked and not treatment_query:return checked
     try:
         total_start = time.perf_counter()
         step_start = total_start
-        print(f"🔎 [MilvusTool] query={query[:120]!r}")
+        print(f"🔎 [MilvusTool] query_chars={len(query)}")
         store = _get_milvus_store()
         step_start = _log_elapsed("milvus:tool", "获取 Milvus VectorStore", step_start)
         results = store.similarity_search_with_score(query, k=3)
@@ -103,13 +106,13 @@ def query_vector_db(query: str) -> str:
             _log_elapsed("milvus:tool", "向量工具总耗时", total_start)
             return "未在文档中检索到相关信息。"
 
-        formatted_results = []
-        for i, (doc, score) in enumerate(results):
-            source = os.path.basename(doc.metadata.get('source', 'Unknown'))
-            content = doc.page_content.strip()
-            formatted_results.append(f"【来源: {source}】\n{content}")
-            
+        formatted_results = [checked] if checked else []
+        for doc, score in results:
+            source = os.path.basename(doc.metadata.get("source", "Unknown"))
+            content = current_document(source,doc.page_content.strip())
+            formatted=f"【来源: {source}】\n{content}"
+            if formatted not in formatted_results:formatted_results.append(formatted)
         _log_elapsed("milvus:tool", "向量工具总耗时", total_start)
         return "\n\n".join(formatted_results)
     except Exception as e:
-        return f"查询向量数据库时发生错误: {str(e)}"
+        return (checked+'\n\n' if checked else '')+"文档检索暂不可用。"

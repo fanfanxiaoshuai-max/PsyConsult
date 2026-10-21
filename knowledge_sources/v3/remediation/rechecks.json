@@ -1,0 +1,843 @@
+{
+  "version": "supplement-01",
+  "note": "补查结果不是旧审核结论的覆盖，也不是临床专家批准；original_claim_enabled始终为false。",
+  "items": {
+    "property:04f8787e935c61048f6af186:dose_range": {
+      "item_id": "property:04f8787e935c61048f6af186:dose_range",
+      "original_review_sha256": "45399f090d08d4f222d2a11775661c92121995605d06d103b73947cc4679549d",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国该普通片标签按适应症、年龄列起始量、调整间隔及上限；不能用150–200mg/d作为所有患者目标量。",
+      "scope_limit": "仅该美国制剂；不替代中国说明书或个人处方。第2.1节；原来的通用范围不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 / dose_range"
+    },
+    "relation:13cf4441fe873d04d447d25c": {
+      "item_id": "relation:13cf4441fe873d04d447d25c",
+      "original_review_sha256": "ac894a5780c53a16522f74a950f71c1d087917b788e39293d1e341a367e5a211",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国该普通片标签按适应症、年龄列起始量、调整间隔及上限；不能用150–200mg/d作为所有患者目标量。",
+      "scope_limit": "仅该美国制剂；不替代中国说明书或个人处方。第2.1节；原来的通用范围不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → TARGET_DOSE → 150-200mg/d"
+    },
+    "property:539e69734a4c56d9e856cba5:class": {
+      "item_id": "property:539e69734a4c56d9e856cba5:class",
+      "original_review_sha256": "f1a33c5436baf5f509985a42ae302bcc74761a16165b0cd734827cf0296ea1f4",
+      "source_ids": [
+        "us_ziprasidone_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该美国齐拉西酮胶囊标签将其归为非典型抗精神病药，可作为分类修订的直接补充。",
+      "scope_limit": "仅药物类别核对；不据此推导其他同类药物的适应症或相互作用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "齐拉西酮 / class"
+    },
+    "relation:0429565bf97541c58895e429": {
+      "item_id": "relation:0429565bf97541c58895e429",
+      "original_review_sha256": "be36ab83cb29a7751a8cbccb762441a21796f33ab97113b7ed1001f1783ef737",
+      "source_ids": [
+        "us_ziprasidone_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该美国齐拉西酮胶囊标签将其归为非典型抗精神病药，可作为分类修订的直接补充。",
+      "scope_limit": "仅药物类别核对；不据此推导其他同类药物的适应症或相互作用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "非典型抗精神病药 → HAS_DRUG_INSTANCE → 齐拉西酮"
+    },
+    "relation:a394c640f090f2ffc1b84e43": {
+      "item_id": "relation:a394c640f090f2ffc1b84e43",
+      "original_review_sha256": "3373a9960aea4615db55a57b48e29f882faf39c9d9e360c27a1a33f8163587e1",
+      "source_ids": [
+        "us_buspirone_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国丁螺环酮标签描述与GAD大致对应人群的短期试验；这不能确立统一的二线治疗顺序。",
+      "scope_limit": "该美国产品INDICATIONS AND USAGE；长期获益和治疗顺序须另有指南依据。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "丁螺环酮 → TREATS → 广泛性焦虑障碍"
+    },
+    "relation:298012439f6f6539cf7faf6b": {
+      "item_id": "relation:298012439f6f6539cf7faf6b",
+      "original_review_sha256": "dd3c83702ec9477ac56e278d660c3aa825266477ce9611fdd065c13db781103f",
+      "source_ids": [
+        "us_buspirone_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国丁螺环酮标签描述与GAD大致对应人群的短期试验；这不能确立统一的二线治疗顺序。",
+      "scope_limit": "该美国产品INDICATIONS AND USAGE；长期获益和治疗顺序须另有指南依据。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "广泛性焦虑障碍 → HAS_SECOND_LINE_TREATMENT → 丁螺环酮"
+    },
+    "property:5fb927be024f43b102bdd1d5:use_in_OCD": {
+      "item_id": "property:5fb927be024f43b102bdd1d5:use_in_OCD",
+      "original_review_sha256": "86ccc12ea88f470d01a01de3bdc39975ca2223d9d7a3a0ba470d3f111d8605de",
+      "source_ids": [
+        "pmid_22933237"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "39名成人难治性OCD的12周随机双盲试验支持研究条件下阿立哌唑增效的候选描述。",
+      "scope_limit": "只阅读原作者摘要，非全文；成人难治性OCD，不代表一线治疗、儿童适用或当地批准适应症。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "阿立哌唑 / use_in_OCD"
+    },
+    "relation:2e28f05898bd118bf6fe0c3f": {
+      "item_id": "relation:2e28f05898bd118bf6fe0c3f",
+      "original_review_sha256": "9845ec88576e0f96a4aec8d0fcad28bd85a2cd6bbfc84a93099702c43387b11b",
+      "source_ids": [
+        "pmid_22933237"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "39名成人难治性OCD的12周随机双盲试验支持研究条件下阿立哌唑增效的候选描述。",
+      "scope_limit": "只阅读原作者摘要，非全文；成人难治性OCD，不代表一线治疗、儿童适用或当地批准适应症。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "强迫症 → ANTIPSYCHOTIC_ADD_ON → 阿立哌唑"
+    },
+    "property:73140311e1638f7c044e7308:use_in_OCD": {
+      "item_id": "property:73140311e1638f7c044e7308:use_in_OCD",
+      "original_review_sha256": "71f26fda4fef13da873d22643787aebc291c6d7e3b66e21f172390c7aad52a38",
+      "source_ids": [
+        "pmid_10920469"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "SRI治疗后仍难治的成人OCD小样本随机试验显示利培酮增效组改善。",
+      "scope_limit": "只阅读原作者摘要，非全文；特定难治人群、短期增效，不能生成无条件用药规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "利培酮 / use_in_OCD"
+    },
+    "relation:50b832e8432cf6bbcd15eaff": {
+      "item_id": "relation:50b832e8432cf6bbcd15eaff",
+      "original_review_sha256": "cdf211eda6932c5934b0f2950e327693a5f1920fbf878176d237fb683e167fc0",
+      "source_ids": [
+        "pmid_10920469"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "SRI治疗后仍难治的成人OCD小样本随机试验显示利培酮增效组改善。",
+      "scope_limit": "只阅读原作者摘要，非全文；特定难治人群、短期增效，不能生成无条件用药规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "强迫症 → ANTIPSYCHOTIC_ADD_ON → 利培酮"
+    },
+    "property:261ade81e504fe49fcbdad9a:has_high_efficacy_in_OCD": {
+      "item_id": "property:261ade81e504fe49fcbdad9a:has_high_efficacy_in_OCD",
+      "original_review_sha256": "5fabfa9d825322a303b2088bb1f460203d89105338cae39b5b67539a8dac0061",
+      "source_ids": [
+        "pmid_19698511"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "一项16周成人OCD对照试验中，氯米帕明因不良反应退出比例高于舍曲林；不能据此标为普遍疗效最强。",
+      "scope_limit": "只阅读原作者摘要，非全文；仅该比较、样本和终点，不保留两个通用布尔结论。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯米帕明 / has_high_efficacy_in_OCD"
+    },
+    "property:261ade81e504fe49fcbdad9a:has_high_side_effect_burden": {
+      "item_id": "property:261ade81e504fe49fcbdad9a:has_high_side_effect_burden",
+      "original_review_sha256": "288eb04b95dc3ae3c77ac381d0c463e0a5c04a47c658005b3388d637b06cc05b",
+      "source_ids": [
+        "pmid_19698511"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "一项16周成人OCD对照试验中，氯米帕明因不良反应退出比例高于舍曲林；不能据此标为普遍疗效最强。",
+      "scope_limit": "只阅读原作者摘要，非全文；仅该比较、样本和终点，不保留两个通用布尔结论。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯米帕明 / has_high_side_effect_burden"
+    },
+    "entity:ac2d2d73a0b8e07aeb818f00": {
+      "item_id": "entity:ac2d2d73a0b8e07aeb818f00",
+      "original_review_sha256": "8ef349ab1bdf36a8fe69e08ad62320c8c3017ddae91ef1005fc7387fc64865d0",
+      "source_ids": [
+        "pmid_19698511"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "一项16周成人OCD对照试验中，氯米帕明因不良反应退出比例高于舍曲林；不能据此标为普遍疗效最强。",
+      "scope_limit": "只阅读原作者摘要，非全文；仅该比较、样本和终点，不保留两个通用布尔结论。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "ClinicalProfile · OCD 疗效强但副作用多"
+    },
+    "relation:6488baba98e09c86e5fd32b9": {
+      "item_id": "relation:6488baba98e09c86e5fd32b9",
+      "original_review_sha256": "c78c64e23d795c6fec677ea5ccc08ca8033a2d91a1ca3cbb0f0cb0ee5cf65b27",
+      "source_ids": [
+        "pmid_19698511"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "一项16周成人OCD对照试验中，氯米帕明因不良反应退出比例高于舍曲林；不能据此标为普遍疗效最强。",
+      "scope_limit": "只阅读原作者摘要，非全文；仅该比较、样本和终点，不保留两个通用布尔结论。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯米帕明 → HAS_CLINICAL_PROFILE → OCD 疗效强但副作用多"
+    },
+    "entity:3bae0a19c25d4e24aa0a32cc": {
+      "item_id": "entity:3bae0a19c25d4e24aa0a32cc",
+      "original_review_sha256": "81b2ff721ef0600a9d05730e089910674d4b909150223c6eb9116a83a0f101b1",
+      "source_ids": [
+        "us_hydrochlorothiazide_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该氢氯噻嗪标签描述利尿药降低锂肾清除并增加毒性风险，建议一般避免合用。",
+      "scope_limit": "该美国具体产品的相互作用段；不能用单个制剂证明所有同类制剂的全部特征。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "DrugClass · 噻嗪类利尿剂"
+    },
+    "relation:223a0be87c5d533b3bdcf1aa": {
+      "item_id": "relation:223a0be87c5d533b3bdcf1aa",
+      "original_review_sha256": "6d4367d479fb551e4f9438dd6351f0a61926c5aada69af8163c8774f0d5f9ef7",
+      "source_ids": [
+        "us_hydrochlorothiazide_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该氢氯噻嗪标签描述利尿药降低锂肾清除并增加毒性风险，建议一般避免合用。",
+      "scope_limit": "该美国具体产品的相互作用段；不能用单个制剂证明所有同类制剂的全部特征。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "锂盐 → INTERACTS_WITH → 噻嗪类利尿剂"
+    },
+    "entity:1015aa49066cebdc78d7a2b2": {
+      "item_id": "entity:1015aa49066cebdc78d7a2b2",
+      "original_review_sha256": "21b3c20b059dd01b37fba6cb57f2a03d095e47973e0cfcd5c4c39f9b983c9d3c",
+      "source_ids": [
+        "pmid_20092882"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "BALANCE研究中联合方案优于丙戊酸半钠单药；与锂单药比较未能可靠确认或排除额外获益。不能证明数学意义的协同增效。",
+      "scope_limit": "只阅读原作者摘要，非全文；开放标签、双相I型、特定制剂；不建立协同节点及其两条裸连接。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "TherapeuticEffect · 协同增效"
+    },
+    "property:1015aa49066cebdc78d7a2b2:description": {
+      "item_id": "property:1015aa49066cebdc78d7a2b2:description",
+      "original_review_sha256": "c7a5fe85fd360953bdd13ca7239ce5b9f24a75fde42f8c37f843895bd5719eae",
+      "source_ids": [
+        "pmid_20092882"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "BALANCE研究中联合方案优于丙戊酸半钠单药；与锂单药比较未能可靠确认或排除额外获益。不能证明数学意义的协同增效。",
+      "scope_limit": "只阅读原作者摘要，非全文；开放标签、双相I型、特定制剂；不建立协同节点及其两条裸连接。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "协同增效 / description"
+    },
+    "relation:5a944495f091b0debadf876b": {
+      "item_id": "relation:5a944495f091b0debadf876b",
+      "original_review_sha256": "87762091398c2951a569d7f168957beb7fba73695f970e277e29ec8a26716ecc",
+      "source_ids": [
+        "pmid_20092882"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "BALANCE研究中联合方案优于丙戊酸半钠单药；与锂单药比较未能可靠确认或排除额外获益。不能证明数学意义的协同增效。",
+      "scope_limit": "只阅读原作者摘要，非全文；开放标签、双相I型、特定制剂；不建立协同节点及其两条裸连接。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "锂盐 → HAS_SYNERGISTIC_EFFECT_WITH → 协同增效"
+    },
+    "relation:14d0cde2d112f9e15581a38e": {
+      "item_id": "relation:14d0cde2d112f9e15581a38e",
+      "original_review_sha256": "a841734d8b1011ed2a1ffd62f70961d02204ffa472878c3d4621d658bd873411",
+      "source_ids": [
+        "pmid_20092882"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "BALANCE研究中联合方案优于丙戊酸半钠单药；与锂单药比较未能可靠确认或排除额外获益。不能证明数学意义的协同增效。",
+      "scope_limit": "只阅读原作者摘要，非全文；开放标签、双相I型、特定制剂；不建立协同节点及其两条裸连接。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "丙戊酸钠 → HAS_SYNERGISTIC_EFFECT_WITH → 协同增效"
+    },
+    "entity:d95e4f8e8197f79c6b006f41": {
+      "item_id": "entity:d95e4f8e8197f79c6b006f41",
+      "original_review_sha256": "3db653618aee3885ee56ded73e346fe6ff4fb70c7e71e70218d4a6c0b62c7847",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "Contraindication · 粒细胞缺乏症史"
+    },
+    "relation:3b6dae6ecbf3d2f5c0490c69": {
+      "item_id": "relation:3b6dae6ecbf3d2f5c0490c69",
+      "original_review_sha256": "aea9a46e4e5828619a72d6a86e2a80f9f3e75822125d5748b45b1cb639181bca",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯氮平 → CONTRAINDICATED_IN → 粒细胞缺乏症史"
+    },
+    "entity:4eb6ed4e81573a67ded5332b": {
+      "item_id": "entity:4eb6ed4e81573a67ded5332b",
+      "original_review_sha256": "b78eccd351914978dbb629ac2db6f9912e312f8b16f09b44e84e37423e8d0053",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "Contraindication · 未控制的癫痫"
+    },
+    "relation:e1f04fc29ecd57dc7c68529e": {
+      "item_id": "relation:e1f04fc29ecd57dc7c68529e",
+      "original_review_sha256": "30b12ef615540d6fea1b0ce2013a507e0419513aa6119593abed96f3a41fd9f2",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯氮平 → CONTRAINDICATED_IN → 未控制的癫痫"
+    },
+    "entity:9df5531c8fc27988b778de4c": {
+      "item_id": "entity:9df5531c8fc27988b778de4c",
+      "original_review_sha256": "32ba940e91df20e928af3a70595194f5a06aeaafb4c96ab66b2c3de55efa4bce",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "Contraindication · 严重心脏疾病"
+    },
+    "relation:0c73d9b5c16a207d6bd6b30c": {
+      "item_id": "relation:0c73d9b5c16a207d6bd6b30c",
+      "original_review_sha256": "92b84ae4e5e9b71fe8e6626148c586cae986c031a2a4bed5e8afaf3260fb6f85",
+      "source_ids": [
+        "uk_clozapine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Clozaril第4.3节列明相关禁忌；粒细胞缺乏史须保留毒性/特异质性限定及既往化疗例外，癫痫须限定未控制。",
+      "scope_limit": "仅英国Clozaril100mg片；严重心脏疾病等限定按该节，不转成中国批准规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯氮平 → CONTRAINDICATED_IN → 严重心脏疾病"
+    },
+    "relation:8c2f869e59bec5a3085f4389": {
+      "item_id": "relation:8c2f869e59bec5a3085f4389",
+      "original_review_sha256": "2a26cc2b1343841623b808df7b16b0c32e2ba6ba8141c983941158c5095ded46",
+      "source_ids": [
+        "pmid_34787653"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "特定高风险退伍军人试验未观察到锂增效对重复相关事件的总体获益，不能用一个无条件降低风险关系概括全部患者。",
+      "scope_limit": "只阅读原作者摘要，非全文；该结果也不能反向证明锂在所有双相人群均无保护作用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "锂盐 → REDUCES_SUICIDE_RISK_IN → 双相障碍"
+    },
+    "relation:d5e9c9aa828c85ff9deea610": {
+      "item_id": "relation:d5e9c9aa828c85ff9deea610",
+      "original_review_sha256": "e9c084b32d0db698d33427220f3c08a7984fa3685d2951169f2c8d5c4cead9ae",
+      "source_ids": [
+        "pmid_20015461"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "OCD前瞻性队列观察到自知力差与较低部分缓解率相关；只能记录相关性。",
+      "scope_limit": "只阅读原作者摘要，非全文；队列有失访及混杂，不等于因果或必然治疗无效。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "强迫症 → ASSOCIATED_WITH_POORER_TREATMENT_RESPONSE → 自知力差"
+    },
+    "relation:607827b2e868431487e1adf6": {
+      "item_id": "relation:607827b2e868431487e1adf6",
+      "original_review_sha256": "7032167213e61c85d319ca1163577af468e81c7219b25e9888f5e72378d9f69f",
+      "source_ids": [
+        "pmid_18725912"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国成人全国调查中OCD与焦虑等类别存在较多共病。",
+      "scope_limit": "只阅读原作者摘要，非全文；该调查总体及诊断体系，不代表所有地区或每位患者。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "强迫症 → COMMONLY_COMORBID_WITH → 焦虑障碍"
+    },
+    "relation:14213b7af71f0485b17b2da0": {
+      "item_id": "relation:14213b7af71f0485b17b2da0",
+      "original_review_sha256": "e70aac5be33f0e8c7ec91ccc79cb5465e1e207d8d2a0bfeda968baf19dabadf6",
+      "source_ids": [
+        "pmid_36350591"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "TAME试验比较标准化MBSR与艾司西酞普兰，样本包括多种成人焦虑障碍。",
+      "scope_limit": "只阅读原作者摘要，非全文；不是任意正念方法，也不能直接建立所有GAD患者一线等效规则。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "广泛性焦虑障碍 → HAS_NON_PHARMACOLOGICAL_TREATMENT → 正念疗法"
+    },
+    "relation:2c2faf6fabc3a899f8f98956": {
+      "item_id": "relation:2c2faf6fabc3a899f8f98956",
+      "original_review_sha256": "abddd09def7219cca5805d3c252d80779edf78bbde3fc65bafeef04353f14cd2",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该舍曲林标签对其他血清素能药物强调综合征风险及监测；不能把风险警示改写为所有SSRI/SNRI药对绝对禁忌。",
+      "scope_limit": "该美国舍曲林制剂第5.2和7节；不推断其他药物标签，原绝对禁忌关系不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "帕罗西汀 → CONTRAINDICATED_WITH → 舍曲林"
+    },
+    "relation:67e1be0b7e746eb11e094d6d": {
+      "item_id": "relation:67e1be0b7e746eb11e094d6d",
+      "original_review_sha256": "0bfc3a798e535e2136bb5681164c959aef295a86d0026661e716eff78a646245",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该舍曲林标签对其他血清素能药物强调综合征风险及监测；不能把风险警示改写为所有SSRI/SNRI药对绝对禁忌。",
+      "scope_limit": "该美国舍曲林制剂第5.2和7节；不推断其他药物标签，原绝对禁忌关系不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "其他选择性5-羟色胺再摄取抑制剂 → CONTRAINDICATED_DUE_TO_SEROTONIN_SYNDROME_RISK → 氟伏沙明"
+    },
+    "relation:86306ca579c20302249cb1eb": {
+      "item_id": "relation:86306ca579c20302249cb1eb",
+      "original_review_sha256": "59590410201bf73f4834603dde31cd8fc4d8126131cefbfff421c620dd453184",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该舍曲林标签对其他血清素能药物强调综合征风险及监测；不能把风险警示改写为所有SSRI/SNRI药对绝对禁忌。",
+      "scope_limit": "该美国舍曲林制剂第5.2和7节；不推断其他药物标签，原绝对禁忌关系不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → CONTRAINDICATED_WITH → 其他选择性5-羟色胺再摄取抑制剂"
+    },
+    "relation:b7f575d9ab91b22981ec98fb": {
+      "item_id": "relation:b7f575d9ab91b22981ec98fb",
+      "original_review_sha256": "e27f89b0362c32b5da8f419fb1e94d213a2e33c797282f5ac843572f303b5853",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "该舍曲林标签对其他血清素能药物强调综合征风险及监测；不能把风险警示改写为所有SSRI/SNRI药对绝对禁忌。",
+      "scope_limit": "该美国舍曲林制剂第5.2和7节；不推断其他药物标签，原绝对禁忌关系不恢复。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → CONTRAINDICATED_WITH → SNRI"
+    },
+    "relation:0139db48d946cf7288d83168": {
+      "item_id": "relation:0139db48d946cf7288d83168",
+      "original_review_sha256": "c34def8286a3f3c44b6438007a1a2271bb0902a074800cba28b80ef0abb77ce9",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国该舍曲林普通片标签第1节列有PTSD、SAD、PD。",
+      "scope_limit": "限定该美国制剂及标签人群；不能据此标为中国批准适应症。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → TREATS → 创伤后应激障碍"
+    },
+    "relation:072e273070374e9d98266ea3": {
+      "item_id": "relation:072e273070374e9d98266ea3",
+      "original_review_sha256": "8e2a7371d83477f87436d39e61455b531846227daf1a9423250267f5505a2562",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国该舍曲林普通片标签第1节列有PTSD、SAD、PD。",
+      "scope_limit": "限定该美国制剂及标签人群；不能据此标为中国批准适应症。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → TREATS → 社交焦虑障碍"
+    },
+    "relation:bb10b74924a846576021a633": {
+      "item_id": "relation:bb10b74924a846576021a633",
+      "original_review_sha256": "dcc80161637e7f29afdc58c521602dd1d41b0b2e003c20c709f5557d9f1025ad",
+      "source_ids": [
+        "us_sertraline_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "美国该舍曲林普通片标签第1节列有PTSD、SAD、PD。",
+      "scope_limit": "限定该美国制剂及标签人群；不能据此标为中国批准适应症。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → TREATS → 惊恐障碍"
+    },
+    "relation:29269e451c219d518faa7539": {
+      "item_id": "relation:29269e451c219d518faa7539",
+      "original_review_sha256": "eb2beee88e761598d12b959df2707ea65bcec981253014dfe20cdf08bfa18080",
+      "source_ids": [
+        "pmid_14709947",
+        "pmid_10327910"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "两项社交焦虑/社交恐惧随机试验提供临床研究补充，其中一项明确为氟伏沙明缓释制剂。",
+      "scope_limit": "只阅读原作者摘要，非全文；区分剂型，不把研究结果写成普通片在中国获批。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氟伏沙明 → TREATS → 社交焦虑障碍"
+    },
+    "relation:9af5d77d3cc9980df0708ce8": {
+      "item_id": "relation:9af5d77d3cc9980df0708ce8",
+      "original_review_sha256": "d3e82d0cc615cd3e01728bb351fc404c5329ca6092a5f93fef4b9cc09084b5ab",
+      "source_ids": [
+        "pmid_15257068"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "11人利培酮合用舍曲林研究中，较高舍曲林剂量时两名患者利培酮浓度升高；低剂量组未见显著平均改变。",
+      "scope_limit": "只阅读原作者摘要，非全文；小样本剂量相关观察，不写成必然倍增或绝无相互作用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "利培酮 → INTERACTS_WITH → 舍曲林"
+    },
+    "relation:38ef2afd8538ed94fd34d365": {
+      "item_id": "relation:38ef2afd8538ed94fd34d365",
+      "original_review_sha256": "2d28bc019f8dc170147a18099b70186d84b83f0711c2577615d300d0aac4ccce",
+      "source_ids": [
+        "pmid_9627209",
+        "pmid_22426846"
+      ],
+      "outcome": "conflicting_evidence",
+      "conclusion": "病例报告描述舍曲林合用时拉莫三嗪浓度变化；另一个小样本回顾研究平均差异不显著且效能不足。两类证据并存。",
+      "scope_limit": "只阅读原作者摘要，非全文；不恢复“无显著相互作用”，也不把病例普遍化。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → NO_SIGNIFICANT_INTERACTION_WITH → 拉莫三嗪"
+    },
+    "relation:f9c67439fdf6541170c3c2e8": {
+      "item_id": "relation:f9c67439fdf6541170c3c2e8",
+      "original_review_sha256": "6a95c65f76042f211939f242332c09b15a338a025a5f82ff59f7f22b2e1daf66",
+      "source_ids": [
+        "pmid_9627209",
+        "pmid_22426846"
+      ],
+      "outcome": "conflicting_evidence",
+      "conclusion": "病例报告描述舍曲林合用时拉莫三嗪浓度变化；另一个小样本回顾研究平均差异不显著且效能不足。两类证据并存。",
+      "scope_limit": "只阅读原作者摘要，非全文；不恢复“无显著相互作用”，也不把病例普遍化。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "拉莫三嗪 → INTERACTS_WITH → 舍曲林"
+    },
+    "relation:0bd98b2694f5db47029e5711": {
+      "item_id": "relation:0bd98b2694f5db47029e5711",
+      "original_review_sha256": "a3a2b3693ef7f949334c8882e56578e2622422d26c46d7abd1dedf2bdcac10a9",
+      "source_ids": [
+        "pmid_21739267"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "健康志愿者研究中氟伏沙明降低阿立哌唑清除；这支持氟伏沙明影响阿立哌唑的方向，不能证明反向升高氟伏沙明。",
+      "scope_limit": "只阅读原作者摘要，非全文；特定基因型、剂量、单次阿立哌唑条件，原反向关系停用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氟伏沙明 → INTERACTS_WITH → 阿立哌唑"
+    },
+    "relation:31364b5c7c0d250d37ddae99": {
+      "item_id": "relation:31364b5c7c0d250d37ddae99",
+      "original_review_sha256": "359d7eb4d387db9744d5faca5bbd80d36744f4fbf26a25552ae4def586d926af",
+      "source_ids": [
+        "pmid_21739267"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "健康志愿者研究中氟伏沙明降低阿立哌唑清除；这支持氟伏沙明影响阿立哌唑的方向，不能证明反向升高氟伏沙明。",
+      "scope_limit": "只阅读原作者摘要，非全文；特定基因型、剂量、单次阿立哌唑条件，原反向关系停用。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "阿立哌唑 → INCREASES_CONCENTRATION_OF → 氟伏沙明"
+    },
+    "relation:9e9980f781076cc26f679d49": {
+      "item_id": "relation:9e9980f781076cc26f679d49",
+      "original_review_sha256": "578efeda317e7894d4211f0c1a3a89555192896cf03874ff224156a18e90f228",
+      "source_ids": [
+        "pmid_18832427"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "所读研究考察阿立哌唑对抗抑郁药浓度的影响，未发现对舍曲林药代有明显影响；不回答舍曲林是否升高阿立哌唑。",
+      "scope_limit": "只阅读原作者摘要，非全文；保留研究方向，不据反向研究确认原关系或宣布安全。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "舍曲林 → INCREASES_CONCENTRATION_OF → 阿立哌唑"
+    },
+    "relation:07f1c3a531fd0cdebc2fbf92": {
+      "item_id": "relation:07f1c3a531fd0cdebc2fbf92",
+      "original_review_sha256": "e44fbcfc5e8b505dcc3c30203d0612490362aea89e7a87604ce635b782a2e5f4",
+      "source_ids": [
+        "pmid_18832427"
+      ],
+      "outcome": "original_claim_not_established",
+      "conclusion": "所读研究考察阿立哌唑对抗抑郁药浓度的影响，未发现对舍曲林药代有明显影响；不回答舍曲林是否升高阿立哌唑。",
+      "scope_limit": "只阅读原作者摘要，非全文；保留研究方向，不据反向研究确认原关系或宣布安全。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "阿立哌唑 → INTERACTS_WITH → 舍曲林"
+    },
+    "relation:6a4eb431584c1ce39a053575": {
+      "item_id": "relation:6a4eb431584c1ce39a053575",
+      "original_review_sha256": "0f90d2f54928ee842c73c5a79f983cc1fa14900810ad6af1474f7b00a95c5fb6",
+      "source_ids": [
+        "uk_fluvoxamine_supplement"
+      ],
+      "outcome": "scoped_replacement_available",
+      "conclusion": "英国Faverin普通片第4.1节列有重性抑郁发作与OCD，不能与所有抑郁障碍等同。",
+      "scope_limit": "英国该产品；不推断中国批准范围、儿童抑郁或缓释制剂范围。",
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氟伏沙明 → TREATS → 抑郁障碍"
+    },
+    "relation:9a2e58cebe2d0222598ae258": {
+      "item_id": "relation:9a2e58cebe2d0222598ae258",
+      "original_review_sha256": "3c1de801d405bb083da25963c8db468eb3edb276d8605e2032b546c3ce6f2250",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "帕罗西汀 → HAS_STRONG_EVIDENCE_FOR → 广泛性焦虑障碍：本产品适应症章节未直接列GAD；安全性研究涉及GAD人群也不足以建立批准用途或未定义的强证据等级。",
+      "prior_search_attempt_ids": [
+        "B03-PAR-GAD-EVIDENCE-ITEM-411"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "帕罗西汀 → HAS_STRONG_EVIDENCE_FOR → 广泛性焦虑障碍"
+    },
+    "relation:30839551104abb739dff0abe": {
+      "item_id": "relation:30839551104abb739dff0abe",
+      "original_review_sha256": "e9072f53d5aadc78e707e50f6d6781073a8b247c8b45f9e0682c4d8d124d3733",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "精神分裂症 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物：指定精神分裂症治疗推荐没有建立苯二氮卓为疾病固定二线的主张；短期镇静等用途与核心疾病治疗须分开。",
+      "prior_search_attempt_ids": [
+        "B03-BENZO-PSYCHOSIS-ITEM-450"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "精神分裂症 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物"
+    },
+    "relation:fd9d051b51eb529d2d975459": {
+      "item_id": "relation:fd9d051b51eb529d2d975459",
+      "original_review_sha256": "610fd2c8e06e585f32a98f395f385e89ca8af72c00195d33225104cbc3f918a2",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "躁狂发作 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物：所查躁狂步骤未确立苯二氮卓为固定二线疾病治疗；短期对症措施不能替代具体抗躁狂方案。",
+      "prior_search_attempt_ids": [
+        "B03-MANIA-BENZO-ITEM-492"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "躁狂发作 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物"
+    },
+    "relation:a869d1c0251ffa70e8dad203": {
+      "item_id": "relation:a869d1c0251ffa70e8dad203",
+      "original_review_sha256": "e9e0631687a66d38bcd8c18d2b91285a0b6916db66a81f2ff62141e7d61786f3",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "急性期治疗 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物：指定精神分裂症治疗推荐没有建立苯二氮卓为疾病固定二线的主张；短期镇静等用途与核心疾病治疗须分开。",
+      "prior_search_attempt_ids": [
+        "B03-BENZO-PSYCHOSIS-ITEM-494"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "急性期治疗 → HAS_SECOND_LINE_TREATMENT → 苯二氮卓类药物"
+    },
+    "relation:9148d1e0724254ba64a3f79c": {
+      "item_id": "relation:9148d1e0724254ba64a3f79c",
+      "original_review_sha256": "bdea6934747c67f2551bcf2029a6653caf999695723e0c51a57777b2e76ba0f3",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "奥氮平 → NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS → 喹硫平：不建议常规联合抗精神病药不能证明奥氮平-喹硫平在所有临床情境不存在禁忌或只需监测代谢副作用。",
+      "prior_search_attempt_ids": [
+        "B03-OLA-QUE-NEGATIVE-ITEM-605"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "奥氮平 → NO_CLINICAL_CONTRAINDICATION_BUT_MONITOR_METABOLIC_SIDE_EFFECTS → 喹硫平"
+    },
+    "relation:0e7ad968542880407cddfb87": {
+      "item_id": "relation:0e7ad968542880407cddfb87",
+      "original_review_sha256": "62b4bba98e5cf3a05272226776827b3b0f2108a1bee8746e9b03870718848ac8",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "喹硫平 → INTERACTS_WITH → 舍曲林：CYP3A4及中枢药物一般相互作用警示未直接建立此舍曲林药对的确定效应。",
+      "prior_search_attempt_ids": [
+        "B03-QUE-SER-DIRECT-ITEM-644"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "喹硫平 → INTERACTS_WITH → 舍曲林"
+    },
+    "relation:7efcc9ce0710295737b50093": {
+      "item_id": "relation:7efcc9ce0710295737b50093",
+      "original_review_sha256": "1831655b5e440b671640cd66abb890f0a14d1b8e239df0a6bf063b14fa3d0426",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "丙戊酸钠 → INTERACTS_WITH → 舍曲林：所查SmPC有抗抑郁药类别的合用警示，但没有直接点名舍曲林并建立其特定效应。",
+      "prior_search_attempt_ids": [
+        "B03-VAL-SER-DIRECT-ITEM-700"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "丙戊酸钠 → INTERACTS_WITH → 舍曲林"
+    },
+    "relation:b3798c9846a8bf13b3f4e523": {
+      "item_id": "relation:b3798c9846a8bf13b3f4e523",
+      "original_review_sha256": "073f63dc5f4b3279c54055d6631e364ec27122c4e26075d2bdb8b5dbf3d10883",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "奥氮平 → NO_CLINICAL_INDICATION_FOR_COMBINATION → 氯氮平：避免常规联合且存在经充分评估的氯氮平增效例外，不能据此证明此药对普遍无临床适应证或具有某确定直接相互作用。",
+      "prior_search_attempt_ids": [
+        "B03-OLA-CLO-UNIVERSAL-ITEM-718"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "奥氮平 → NO_CLINICAL_INDICATION_FOR_COMBINATION → 氯氮平"
+    },
+    "relation:92224e3d66cab22b56496279": {
+      "item_id": "relation:92224e3d66cab22b56496279",
+      "original_review_sha256": "2f8a73f9c4bfc4b27923d0a03e75e1ef1d42563a5ac2e153a19faa2baebb4e31",
+      "source_ids": [],
+      "outcome": "still_open",
+      "conclusion": "本轮新增原始资料未解决原断言；沿用原审核中的逐条检索记录与停用结论。",
+      "scope_limit": "氯氮平 → INTERACTS_WITH → 奥氮平：避免常规联合且存在经充分评估的氯氮平增效例外，不能据此证明此药对普遍无临床适应证或具有某确定直接相互作用。",
+      "prior_search_attempt_ids": [
+        "B03-OLA-CLO-UNIVERSAL-ITEM-720"
+      ],
+      "original_claim_enabled": false,
+      "expert_review": "pending",
+      "checked_at": "2026-10-20",
+      "reviewer": "agent",
+      "summary": "氯氮平 → INTERACTS_WITH → 奥氮平"
+    }
+  }
+}
