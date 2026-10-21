@@ -259,7 +259,7 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 .access-secondary{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:24px;font-size:12px;color:#8a969f}.access-secondary button{padding:3px 0;border:0;background:transparent;font:inherit;font-size:12px;color:#2a6077;cursor:pointer}.access-note{text-align:center;color:#8a969f;font-size:12px;line-height:1.8;margin:24px 0 0}
 .access-footer{display:flex;justify-content:space-between;gap:20px;padding-top:24px;color:#8c99a3;font-size:11px;line-height:1.7}.access-tabs button:focus-visible,.access-secondary button:focus-visible{outline:2px solid #3c829b;outline-offset:3px}
 @media(min-width:1500px){.login-layout{padding-top:88px}}
-@media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:31px}.cover-wordmark{font-size:46px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
+@media(max-width:1000px){.access-frame{grid-template-columns:1fr 1fr}.platform-cover{padding:40px 30px 28px}.access-panel{padding:36px 30px}.platform-cover h1{font-size:31px}.cover-wordmark{font-size:38px}.cover-capabilities span+span:before{margin:0 11px}.login-layout{padding-top:40px}}
 @media(max-width:700px){.login-page .platform-header{height:70px;min-height:70px;padding:0 22px}.portal-caption{display:none}.login-layout{width:calc(100% - 32px);padding-top:24px}.access-frame{grid-template-columns:1fr;min-height:0;border-radius:10px}.platform-cover{padding:25px 28px 24px}.cover-wordmark{font-size:36px;margin-bottom:18px;letter-spacing:-1.3px}.login-page .brand-mark{width:44px;height:44px}.login-page .platform-brand strong{font-size:28px}.platform-cover h1{font-size:25px;line-height:1.5;margin-bottom:10px}.platform-cover h1 br{display:none}.cover-summary{font-size:11px}.cover-rule{display:none}.cover-capabilities{font-size:10px;padding-top:15px;margin-top:18px}.cover-capabilities span+span:before{margin:0 13px}.access-panel{padding:26px 28px 30px}.access-tabs{margin-bottom:26px}.access-heading h2{font-size:21px}.access-heading p{margin-bottom:24px}.access-footer{flex-direction:column;gap:4px;padding:18px 4px;text-align:center;font-size:10px}}
 
 
@@ -276,12 +276,12 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 .cover-background{position:absolute;width:760px;height:608px;max-width:none;right:-160px;bottom:-160px;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.1;pointer-events:none;user-select:none;z-index:0}
 .platform-cover>:not(.cover-background){position:relative;z-index:1}
 @media(max-width:1000px){.cover-background{right:-210px;bottom:-160px}}
-@media(max-width:700px){.cover-background{width:440px;height:352px;right:-105px;bottom:-155px;opacity:.1}}
+@media(max-width:700px){.cover-background{width:300px;height:240px;right:-75px;bottom:-92px;opacity:.1}}
 
 /* The illustration blends into the cover: no white tile, disc, border or shadow. */
-.platform-cover>.cover-emblem{position:absolute;right:32px;bottom:94px;width:230px;height:195px;mix-blend-mode:screen;opacity:.48;pointer-events:none;user-select:none;z-index:1}
+.platform-cover>.cover-emblem{position:absolute;right:32px;top:34px;bottom:auto;width:230px;height:195px;mix-blend-mode:screen;opacity:.48;pointer-events:none;user-select:none;z-index:1}
 .cover-emblem img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1) invert(1)}
-@media(max-width:1000px){.platform-cover>.cover-emblem{width:194px;height:170px;right:18px;bottom:105px}}
+@media(max-width:1000px){.platform-cover>.cover-emblem{width:128px;height:112px;right:14px;top:24px;bottom:auto}}
 @media(max-width:700px){.platform-cover>.cover-emblem{width:110px;height:100px;right:12px;top:8px;bottom:auto;opacity:.38}}
 
 </style>

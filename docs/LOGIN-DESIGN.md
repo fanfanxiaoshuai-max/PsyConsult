@@ -59,3 +59,15 @@
 ![无白底侧脸图案](images/login-soft-emblem-desktop.png)
 
 ![手机侧脸图案](images/login-soft-emblem-mobile.png)
+
+## 两个图案错位布局
+
+侧脸心形移至封面右上方，脑线框保留于右下方淡背景；平板缩小侧脸与字标，手机进一步调整脑背景尺寸与位置，为两个图案留出间隔。两个图案不再叠放，保持原有蓝色、无白底和低对比度处理。
+
+已检查1440px、800px与390px宽度，类型检查及生产构建通过，业务脚本比较一致。
+
+![错位布局](images/login-separated-desktop.png)
+
+![平板布局](images/login-separated-tablet.png)
+
+![手机布局](images/login-separated-mobile.png)
