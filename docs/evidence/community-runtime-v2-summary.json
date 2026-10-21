@@ -1,0 +1,9 @@
+{
+  "knowledge_version": "community-4213a5cf9e34dd06",
+  "retrieval_method": "local_section_bm25_v2",
+  "sources": 16,
+  "clinical_approval": false,
+  "response_policy": "medication_evidence_boundary",
+  "completed": true,
+  "synthetic_answer": "当前资料不能给出统一的补服剂量。需要核对具体药品、剂型和原处方，查阅该产品现行说明书，并向开药医生或药师确认如何处理。\n\n一般用药教育参考：[Mental Health Medications](https://www.nimh.nih.gov/health/topics/mental-health-medications)。该来源支持与医务人员讨论用药问题，不是具体产品的补服、合用或剂量依据。"
+}

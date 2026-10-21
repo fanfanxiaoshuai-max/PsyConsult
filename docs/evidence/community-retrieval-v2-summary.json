@@ -1,0 +1,129 @@
+{
+  "legacy": {
+    "suite": "legacy",
+    "knowledge_version": "community-4213a5cf9e34dd06",
+    "retrieval_method": "local_section_bm25_v2",
+    "k": 3,
+    "cases": 39,
+    "testset_sha256": "ea35d0935faf8b49a04e6b1540047735d989cd74a475f051051eac4974479151",
+    "any_source_recall": 0.8974358974358975,
+    "complete_source_hit_rate": 0.8205128205128205,
+    "macro_source_coverage": 0.8589743589743589,
+    "errors": 0
+  },
+  "reviewed": {
+    "suite": "reviewed",
+    "knowledge_version": "community-4213a5cf9e34dd06",
+    "retrieval_method": "local_section_bm25_v2",
+    "k": 3,
+    "cases": 38,
+    "testset_sha256": "77499f1d40d7a8119042068804b49a7efd591f216b2d28c354db64ac82d597f2",
+    "any_source_recall": 1.0,
+    "complete_source_hit_rate": 1.0,
+    "macro_source_coverage": 1.0,
+    "errors": 0
+  },
+  "paraphrase": {
+    "suite": "paraphrase",
+    "knowledge_version": "community-4213a5cf9e34dd06",
+    "retrieval_method": "local_section_bm25_v2",
+    "k": 3,
+    "cases": 16,
+    "testset_sha256": "b95c219d3c31c35a9d5e3334562c0bc9ec0dbbf62b07f9697487a924a91e2ec1",
+    "any_source_recall": 1.0,
+    "complete_source_hit_rate": 1.0,
+    "macro_source_coverage": 1.0,
+    "errors": 0
+  },
+  "legacy_unmatched": [
+    {
+      "case_id": "KB006",
+      "query": "睡前总是反复想白天的事情，怎么办？",
+      "expected": [
+        "WHO_MENTAL_DISORDERS_ZH_2026",
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "matched": [],
+      "missing": [
+        "WHO_MENTAL_DISORDERS_ZH_2026",
+        "WHO_STRESS_GUIDE_2020"
+      ]
+    },
+    {
+      "case_id": "KB022",
+      "query": "抗抑郁药吃了不舒服怎么办？",
+      "expected": [
+        "NMPA_OFFICIAL_PORTAL",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "matched": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "missing": [
+        "NMPA_OFFICIAL_PORTAL"
+      ]
+    },
+    {
+      "case_id": "KB023",
+      "query": "忘记服药可以下一次加倍吃吗？",
+      "expected": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "matched": [],
+      "missing": [
+        "NMPA_OFFICIAL_PORTAL"
+      ]
+    },
+    {
+      "case_id": "KB024",
+      "query": "我感觉好转了，可以自己停抗抑郁药吗？",
+      "expected": [
+        "NMPA_OFFICIAL_PORTAL",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "matched": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "missing": [
+        "NMPA_OFFICIAL_PORTAL"
+      ]
+    },
+    {
+      "case_id": "KB025",
+      "query": "处方药可以和酒一起吃吗？",
+      "expected": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "matched": [],
+      "missing": [
+        "NMPA_OFFICIAL_PORTAL"
+      ]
+    },
+    {
+      "case_id": "KB031",
+      "query": "如果我现在可能马上伤害自己怎么办？",
+      "expected": [
+        "NHC_12356_2024",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "matched": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "missing": [
+        "NHC_12356_2024"
+      ]
+    },
+    {
+      "case_id": "KB036",
+      "query": "告诉我应该服用哪种抗抑郁药和具体剂量。",
+      "expected": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "matched": [],
+      "missing": [
+        "NMPA_OFFICIAL_PORTAL"
+      ]
+    }
+  ],
+  "interpretation": "Legacy metrics are comparable to v1; reviewed metrics use changed expectations and cannot be presented as the same before/after comparison. Paraphrase cases were authored for this development round and are not an independent clinical validation set."
+}

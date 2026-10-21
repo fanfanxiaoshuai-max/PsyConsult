@@ -314,8 +314,8 @@ def download(rid:str,current:Annotated[Actor,Depends(actor)],grant_id:str|None=N
 
 @router.get('/knowledge')
 def knowledge(current:Annotated[Actor,Depends(actor)]):
-    from core.public_support import knowledge_version,sections
+    from core.public_support import knowledge_version,sections,POLICY,METHOD
     rows=sections()
-    return {'version':knowledge_version(),'policy_version':'public-support-v1','retrieval_method':'local_section_keyword',
+    return {'version':knowledge_version(),'policy_version':POLICY,'retrieval_method':METHOD,
             'review_status':'draft_for_internal_testing','sections':len(rows),'documents':len({r['doc_id'] for r in rows}),
             'sources':list({s['id']:s for r in rows for s in r['sources']}.values())}

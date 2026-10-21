@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-21",
+  "review_type": "engineering_source_scope_review_not_expert_approval",
+  "legacy_sha256": "ea35d0935faf8b49a04e6b1540047735d989cd74a475f051051eac4974479151",
+  "changes": [
+    {
+      "case_id": "KB003",
+      "original": [
+        "WHO_STRESS_GUIDE_2020",
+        "WHO_SELFHELP_2026"
+      ],
+      "reviewed": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "reason": "求助练习优先使用面向公众的自助指南，不要求同时引用实施手册。"
+    },
+    {
+      "case_id": "KB006",
+      "original": [
+        "WHO_STRESS_GUIDE_2020",
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "reviewed": [
+        "WHO_STRESS_QA_2026"
+      ],
+      "reason": "睡前压力和睡眠卫生应匹配实际睡眠章节的压力问答来源。"
+    },
+    {
+      "case_id": "KB022",
+      "original": [
+        "NMPA_OFFICIAL_PORTAL",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "reviewed": [
+        "NIMH_MEDICATIONS"
+      ],
+      "reason": "一般用药问题与就医讨论；门户不支持药品事实。"
+    },
+    {
+      "case_id": "KB023",
+      "original": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "reviewed": [
+        "NIMH_MEDICATIONS"
+      ],
+      "reason": "只评估检索到一般用药与咨询边界，不证明加倍或补服方案。"
+    },
+    {
+      "case_id": "KB024",
+      "original": [
+        "NMPA_OFFICIAL_PORTAL",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "reviewed": [
+        "NIMH_MEDICATIONS"
+      ],
+      "reason": "该来源明确讨论感觉好转后仍需医务人员协助处理停药。"
+    },
+    {
+      "case_id": "KB025",
+      "original": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "reviewed": [
+        "NIMH_MEDICATIONS"
+      ],
+      "reason": "只支持一般用药与咨询边界；具体饮酒相互作用仍缺产品依据。"
+    },
+    {
+      "case_id": "KB031",
+      "original": [
+        "NHC_12356_2024",
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "reviewed": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NIMH_ADULT_BSSA"
+      ],
+      "reason": "紧迫安全求助不以热线服务通知作为必要证据。NIMH成人专业适用范围保留。"
+    },
+    {
+      "case_id": "KB033",
+      "original": [
+        "NHC_12356_2024"
+      ],
+      "reviewed": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NIMH_ADULT_BSSA"
+      ],
+      "reason": "危及生命的行动需紧急求助，不用热线建设通知替代急救背景。"
+    }
+  ],
+  "behavior_only": [
+    "KB034",
+    "KB036"
+  ],
+  "note": "两个套件不可混为同一前后对比；原始预期和结果全部保留。"
+}

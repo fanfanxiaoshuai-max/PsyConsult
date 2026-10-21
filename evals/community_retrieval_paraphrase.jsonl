@@ -1,0 +1,16 @@
+{"case_id": "P01", "query": "家里有人情绪低落，我可以怎样陪他？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expect_empty": false}
+{"case_id": "P02", "query": "抑郁和暂时不开心一样吗？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expect_empty": false}
+{"case_id": "P03", "query": "depression", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expect_empty": false}
+{"case_id": "P04", "query": "anxiety", "expected_source_ids": ["WHO_ANXIETY_ZH_2025"], "expect_empty": false}
+{"case_id": "P05", "query": "入睡困难与压力有关吗？", "expected_source_ids": ["WHO_STRESS_QA_2026"], "expect_empty": false}
+{"case_id": "P06", "query": "我漏服了一次，能否自行补服？", "expected_source_ids": ["NIMH_MEDICATIONS"], "expect_empty": false}
+{"case_id": "P07", "query": "用药副作用让我担心，应联系谁？", "expected_source_ids": ["NIMH_MEDICATIONS"], "expect_empty": false}
+{"case_id": "P08", "query": "想停药需要和医生讨论吗？", "expected_source_ids": ["NIMH_MEDICATIONS"], "expect_empty": false}
+{"case_id": "P09", "query": "PHQ9低分能排除所有问题吗？", "expected_source_ids": ["PHQ9_KROENKE_2001"], "expect_empty": false}
+{"case_id": "P10", "query": "GAD 7是确诊工具吗？", "expected_source_ids": ["GAD7_SPITZER_2006"], "expect_empty": false}
+{"case_id": "P11", "query": "去哪里查处方药的正式说明书？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL"], "expect_empty": false}
+{"case_id": "P12", "query": "强迫症是否就是喜欢整齐？", "expected_source_ids": ["WHO_OCD_FACTSHEET_2023"], "expect_empty": false}
+{"case_id": "P13", "query": "精神分裂症患者可以康复吗？", "expected_source_ids": ["WHO_SCHIZOPHRENIA_ZH_2025"], "expect_empty": false}
+{"case_id": "P14", "query": "压力管理自助指南有哪些？", "expected_source_ids": ["WHO_STRESS_GUIDE_2020"], "expect_empty": false}
+{"case_id": "P15", "query": "双相情感障碍与睡眠减少有什么关系？", "expected_source_ids": ["WHO_BIPOLAR_ZH_2025"], "expect_empty": false}
+{"case_id": "P16", "query": "天气预报与股票行情", "expected_source_ids": [], "expect_empty": true}

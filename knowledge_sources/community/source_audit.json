@@ -1,0 +1,152 @@
+{
+  "audit_version": "source-scope-audit-v1",
+  "checked_date": "2026-10-21",
+  "reviewer": "Codex assisted source and applicability check",
+  "clinical_approval": false,
+  "sources": {
+    "WHO_MENTAL_DISORDERS_ZH_2026": {
+      "url": "https://www.who.int/zh/news-room/fact-sheets/detail/mental-disorders",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/zh/news-room/fact-sheets/detail/mental-disorders",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_DEPRESSION_ZH_2026": {
+      "url": "https://www.who.int/zh/news-room/fact-sheets/detail/depression",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/zh/news-room/fact-sheets/detail/depression",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_ANXIETY_ZH_2025": {
+      "url": "https://www.who.int/zh/news-room/fact-sheets/detail/anxiety-disorders",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/zh/news-room/fact-sheets/detail/anxiety-disorders",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_BIPOLAR_ZH_2025": {
+      "url": "https://www.who.int/zh/news-room/fact-sheets/detail/bipolar-disorder",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/zh/news-room/fact-sheets/detail/bipolar-disorder",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_SCHIZOPHRENIA_ZH_2025": {
+      "url": "https://www.who.int/zh/news-room/fact-sheets/detail/schizophrenia",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/zh/news-room/fact-sheets/detail/schizophrenia",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_STRESS_GUIDE_2020": {
+      "url": "https://www.who.int/publications/i/item/9789240003927",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/publications/i/item/9789240003927",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "WHO_SELFHELP_2026": {
+      "url": "https://www.who.int/publications/i/item/9789240120785",
+      "evidence_role": "implementation_manual",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/publications/i/item/9789240120785",
+      "scope_limit": "服务实施手册，不能把引用它等同于每个自助练习已获验证。",
+      "clinical_approval": false
+    },
+    "NHC_12356_2024": {
+      "url": "https://www.nhc.gov.cn/yzygj/c100068/202412/49a1a65386cd4be582d4702fd0926ee8.shtml",
+      "evidence_role": "service_policy",
+      "status": "official_index_or_reprint_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm",
+      "scope_limit": "通知支持全国号码和建设要求，不保证任何地区当前接通率或服务时段。原站412，核对官方索引和政府网转载。",
+      "clinical_approval": false
+    },
+    "NHC_SERVICES_2025": {
+      "url": "https://www.nhc.gov.cn/bgt/c100023/202502/e730c90e23a24e419bc0509632f62bad.shtml",
+      "evidence_role": "service_policy",
+      "status": "official_index_or_reprint_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.gov.cn/zhengce/zhengceku/202502/content_7003644.htm?dzb=true",
+      "scope_limit": "2025年度服务建设要求，不是2026年具体医院地址、开放时间或现有服务清单。原站412，核对政府网转载。",
+      "clinical_approval": false
+    },
+    "PHQ9_KROENKE_2001": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11556941/",
+      "evidence_role": "original_scale_research",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/11556941/",
+      "scope_limit": "核对原始研究记录，不证明当前中文题本、翻译许可或个人诊断。",
+      "clinical_approval": false
+    },
+    "GAD7_SPITZER_2006": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
+      "evidence_role": "original_scale_research",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/16717171/",
+      "scope_limit": "核对原始研究记录，不证明当前中文题本、翻译许可或个人诊断。",
+      "clinical_approval": false
+    },
+    "NMPA_OFFICIAL_PORTAL": {
+      "url": "https://www.nmpa.gov.cn/",
+      "evidence_role": "portal_navigation",
+      "status": "fetch_blocked_navigation_only",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.nmpa.gov.cn/",
+      "scope_limit": "仅查询入口；不是任何具体药品、剂量、漏服或饮酒建议的证据。原站本次返回412，保留待复核。",
+      "clinical_approval": false
+    },
+    "WHO_OCD_FACTSHEET_2023": {
+      "url": "https://applications.emro.who.int/docs/WHOEMMNH232E-eng.pdf",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://applications.emro.who.int/docs/WHOEMMNH232E-eng.pdf",
+      "scope_limit": "官方区域办英文PDF；本地中文概述仍需医学审核和许可复核。",
+      "clinical_approval": false
+    },
+    "WHO_STRESS_QA_2026": {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+      "scope_limit": "限主题相关的概括科普；不构成个体诊断或治疗方案。",
+      "clinical_approval": false
+    },
+    "NIMH_ADULT_BSSA": {
+      "url": "https://www.nimh.nih.gov/research/research-conducted-at-nimh/asq-toolkit-materials/adult-outpatient/adult-outpatient-brief-suicide-safety-assessment-guide",
+      "evidence_role": "adult_clinician_reference",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.nimh.nih.gov/research/research-conducted-at-nimh/asq-toolkit-materials/adult-outpatient/adult-outpatient-brief-suicide-safety-assessment-guide",
+      "scope_limit": "适用于ASQ筛查阳性的18岁及以上成人，由专业人员使用；不是PHQ第九题算法，也不应由公众自行操作评估。",
+      "clinical_approval": false
+    },
+    "NIMH_MEDICATIONS": {
+      "url": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+      "evidence_role": "general_education",
+      "status": "page_and_scope_checked",
+      "checked_date": "2026-10-21",
+      "verification_url": "https://www.nimh.nih.gov/health/topics/mental-health-medications",
+      "scope_limit": "一般用药教育，不支持个体选择、剂量或中国具体产品相互作用结论。",
+      "clinical_approval": false
+    }
+  }
+}
