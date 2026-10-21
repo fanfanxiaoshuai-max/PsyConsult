@@ -1,3 +1,4 @@
+import { accessToken } from '@/api/platform'
 export interface CandidateEntity { id: string; name: string; label: string }
 export interface CandidateEvidence { source_id: string; source_title?: string; region: string; edition?: string; locator: unknown; scope_conditions?: string; sha256: string }
 export interface CandidateRecord { id: string; title: string; subject_name: string; related_name?: string | null; kind: string; predicate: string; context: Record<string, unknown>; evidence: CandidateEvidence[]; audit_item_ids: string[] }
@@ -7,7 +8,7 @@ export interface ReviewRow { item_id: string; summary: string; original_status: 
 const base = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5000'
 async function request(path: string, user: string, body?: unknown) {
   let response: Response
-  try { response = await fetch(`${base}/api/knowledge-workbench${path}`, { method: body ? 'POST' : 'GET', body: body ? JSON.stringify(body) : undefined, headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${import.meta.env.VITE_API_AUTH_TOKEN || ''}`, 'X-User-Id': user } }) }
+  try { response = await fetch(`${base}/api/knowledge-workbench${path}`, { method: body ? 'POST' : 'GET', body: body ? JSON.stringify(body) : undefined, headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${accessToken()}`, 'X-User-Id': user } }) }
   catch { throw new Error('无法连接本地服务，请确认后端已启动，稍后重新加载。') }
   if (!response.ok && response.status === 409) { const data = await response.json(); throw new Error(data.detail) }
   if (!response.ok) throw new Error(response.status === 401 ? '访问令牌无效，请检查本地配置。' : response.status === 403 ? '当前用户没有执行此操作的权限。' : response.status === 503 ? '知识资料校验失败或服务未就绪，请检查本地数据后重试。' : `请求失败（${response.status}）`)

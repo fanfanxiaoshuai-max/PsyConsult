@@ -18,7 +18,8 @@ from contextlib import asynccontextmanager
 
 from app.app_config.settings import settings
 from app.infra.logging_config import configure_backend_logging
-from app.router import chat, knowledge_graph, candidate_graph, project_workbench
+from app.router import chat, knowledge_graph, candidate_graph, project_workbench, transcribe
+from app.portal.router import router as platform_router
 from app.service.chat_service import init_agent_system, shutdown_agent_system
 
 configure_backend_logging()
@@ -26,6 +27,8 @@ configure_backend_logging()
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # 启动时初始化
+    from app.portal.store import recover_interrupted
+    recover_interrupted()
     await init_agent_system()
     yield
     # 关闭时清理
@@ -51,6 +54,8 @@ app.add_middleware(
 )
 
 # 注册路由
+app.include_router(platform_router, prefix="/api")
+app.include_router(transcribe.router, prefix="/api")
 app.include_router(chat.router, prefix="/api")
 app.include_router(knowledge_graph.router, prefix="/api")
 app.include_router(candidate_graph.router, prefix="/api")

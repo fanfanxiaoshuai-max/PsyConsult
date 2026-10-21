@@ -1,0 +1,3 @@
+# Preserve imported source documents and evaluation fixtures byte-for-byte.
+knowledge_sources/community/** -text whitespace=-blank-at-eof
+evals/community_retrieval.jsonl -text whitespace=-blank-at-eof

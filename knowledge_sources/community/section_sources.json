@@ -1,0 +1,377 @@
+{
+  "mh_literacy_001": {
+    "心理健康不等于“永远开心”": {
+      "source_ids": [
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "哪些信号值得留意": {
+      "source_ids": [
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "日常支持可以从哪里开始": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "什么时候应尽快求助": {
+      "source_ids": [
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "适用边界": {
+      "source_ids": [
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "精神障碍的治疗、康复和社会支持": {
+      "source_ids": [
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "stress_coping_001": {
+    "压力反应很常见": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "一个短暂的“停下来”练习": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "把问题拆小": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "保持支持性连接": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "何时不应只靠自助": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "压力管理的权威自助资料": {
+      "source_ids": [
+        "WHO_STRESS_GUIDE_2020",
+        "WHO_SELFHELP_2026"
+      ],
+      "scope": "指南与实施手册的资料导航；不是具体练习的双重验证。"
+    }
+  },
+  "sleep_support_001": {
+    "睡不好可能有多种原因": {
+      "source_ids": [
+        "WHO_STRESS_QA_2026"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "可以先观察和记录什么": {
+      "source_ids": [
+        "WHO_STRESS_QA_2026"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "什么时候应寻求专业帮助": {
+      "source_ids": [
+        "WHO_STRESS_QA_2026",
+        "WHO_MENTAL_DISORDERS_ZH_2026"
+      ],
+      "scope": "压力问答支持持续功能影响时求助；精神障碍事实清单支持睡眠需求减少伴情绪活动改变的识别。"
+    }
+  },
+  "depression_education_001": {
+    "抑郁障碍是什么": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "不能仅凭一项症状自我诊断": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "有哪些帮助方式": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "家人和朋友可以做什么": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "什么时候应尽快求助": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "持续情绪低落、工作受影响时如何求助": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "anxiety_education_001": {
+    "焦虑与焦虑障碍的区别": {
+      "source_ids": [
+        "WHO_ANXIETY_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "不要仅凭身体反应判断原因": {
+      "source_ids": [
+        "WHO_ANXIETY_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "可以尝试的支持方式": {
+      "source_ids": [
+        "WHO_ANXIETY_ZH_2025",
+        "WHO_STRESS_GUIDE_2020"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "何时求助": {
+      "source_ids": [
+        "WHO_ANXIETY_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "bipolar_education_001": {
+    "什么是双相情感障碍": {
+      "source_ids": [
+        "WHO_BIPOLAR_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "为什么不能只靠网络信息判断": {
+      "source_ids": [
+        "WHO_BIPOLAR_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "治疗与支持": {
+      "source_ids": [
+        "WHO_BIPOLAR_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "需要及时评估的情况": {
+      "source_ids": [
+        "WHO_BIPOLAR_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "睡眠需求减少、异常兴奋与专业求助": {
+      "source_ids": [
+        "WHO_BIPOLAR_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "schizophrenia_education_001": {
+    "基本认识": {
+      "source_ids": [
+        "WHO_SCHIZOPHRENIA_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "重要的反污名原则": {
+      "source_ids": [
+        "WHO_SCHIZOPHRENIA_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "治疗与康复": {
+      "source_ids": [
+        "WHO_SCHIZOPHRENIA_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "何时寻求帮助": {
+      "source_ids": [
+        "WHO_SCHIZOPHRENIA_ZH_2025"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "ocd_education_001": {
+    "基本认识": {
+      "source_ids": [
+        "WHO_OCD_FACTSHEET_2023"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "普通习惯不等于强迫症": {
+      "source_ids": [
+        "WHO_OCD_FACTSHEET_2023"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    },
+    "如何寻求帮助": {
+      "source_ids": [
+        "WHO_OCD_FACTSHEET_2023"
+      ],
+      "scope": "医学科普概述；不替代个体评估。"
+    }
+  },
+  "screening_scales_001": {
+    "两种量表的用途": {
+      "source_ids": [
+        "PHQ9_KROENKE_2001",
+        "GAD7_SPITZER_2006"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "常见分数区间": {
+      "source_ids": [
+        "PHQ9_KROENKE_2001",
+        "GAD7_SPITZER_2006"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "分数不等于诊断": {
+      "source_ids": [
+        "PHQ9_KROENKE_2001",
+        "GAD7_SPITZER_2006"
+      ],
+      "scope": "仅支持本章节的概述；不替代个体评估。"
+    },
+    "PHQ-9第九题非零：安全确认与专业求助": {
+      "source_ids": [
+        "PHQ9_KROENKE_2001",
+        "NIMH_ADULT_BSSA",
+        "NHC_12356_2024"
+      ],
+      "scope": "PHQ研究：量表解释；NIMH：ASQ阳性成人专业评估的一般衔接原则；卫健委：热线导航。非PHQ专属风险分级算法。"
+    }
+  },
+  "medication_safety_001": {
+    "适用范围": {
+      "source_ids": [
+        "NIMH_MEDICATIONS"
+      ],
+      "scope": "一般用药安全教育，不支持具体产品剂量或相互作用结论。"
+    },
+    "基本原则": {
+      "source_ids": [
+        "NIMH_MEDICATIONS"
+      ],
+      "scope": "一般用药安全教育，不支持具体产品剂量或相互作用结论。"
+    },
+    "常见问题如何处理": {
+      "source_ids": [
+        "NIMH_MEDICATIONS"
+      ],
+      "scope": "一般用药安全教育，不支持具体产品剂量或相互作用结论。"
+    },
+    "如何查询正式药品说明书": {
+      "source_ids": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "scope": "仅官方查询入口，不是药品事实证据。"
+    },
+    "知识库维护要求": {
+      "source_ids": [
+        "NMPA_OFFICIAL_PORTAL"
+      ],
+      "scope": "平台编辑规则；门户仅供查询，规则不是监管指南原文。"
+    }
+  },
+  "help_navigation_001": {
+    "可以从哪里开始": {
+      "source_ids": [
+        "NHC_SERVICES_2025",
+        "NHC_12356_2024"
+      ],
+      "scope": "两份通知支持医疗服务与热线入口；按困扰分流为平台导航建议。"
+    },
+    "全国统一心理援助热线12356": {
+      "source_ids": [
+        "NHC_12356_2024"
+      ],
+      "scope": "热线服务导航；不替代急救，地方安排须核实。"
+    },
+    "如何选择服务": {
+      "source_ids": [
+        "NHC_SERVICES_2025"
+      ],
+      "scope": "服务建设与导航；不能证明具体医院当前开放时间。"
+    },
+    "地方资源数据要求": {
+      "source_ids": [
+        "NHC_SERVICES_2025"
+      ],
+      "scope": "服务建设与导航；不能证明具体医院当前开放时间。"
+    },
+    "情绪低落持续影响工作时的专业评估渠道": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NHC_SERVICES_2025"
+      ],
+      "scope": "WHO支持症状、功能与求助；卫健委支持心理门诊服务建设。"
+    }
+  },
+  "crisis_support_001": {
+    "适用范围": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "平台适用边界，非临床算法。"
+    },
+    "如果用户表示可能立即伤害自己": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NIMH_ADULT_BSSA"
+      ],
+      "scope": "WHO支持危机求助；NIMH仅作专业安全评估一般原则参考，不是平台风险诊断。"
+    },
+    "如果用户表达痛苦但未说明立即危险": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NIMH_ADULT_BSSA",
+        "NHC_12356_2024"
+      ],
+      "scope": "WHO与NIMH支持求助及安全确认原则；卫健委仅支持热线导航。"
+    },
+    "给陪伴者的建议": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026",
+        "NIMH_ADULT_BSSA"
+      ],
+      "scope": "WHO支持危机求助；NIMH仅作专业安全评估一般原则参考，不是平台风险诊断。"
+    },
+    "工程要求": {
+      "source_ids": [
+        "WHO_DEPRESSION_ZH_2026"
+      ],
+      "scope": "平台工程约束；来源仅支持安全求助背景，不声称WHO制定了软件规则。"
+    }
+  }
+}
+

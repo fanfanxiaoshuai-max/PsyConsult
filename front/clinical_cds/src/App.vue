@@ -166,6 +166,7 @@
 </template>
 
 <script setup lang="ts">
+import { accessToken } from '@/api/platform'
 import { defineAsyncComponent, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import { consumeChatStream } from '@/api/chatStream'
 import { encodeSessions, newSessionId, restoreSessions, sessionStorageKey, type SessionItem, type ChatMessage } from '@/api/chatSessions'
@@ -188,6 +189,7 @@ import {
 import DOMPurify from 'dompurify'
 import { marked } from 'marked'
 
+const props = defineProps<{ draft?: string; caseId?: string }>()
 const userId = ref('doctor_001')
 const storageError = ref('')
 const identityReady = ref(false)
@@ -202,18 +204,19 @@ const messages = ref<ChatMessage[]>(messagesBySession.value[currentSessionId.val
 watch([sessions, messagesBySession, currentSessionId], () => {
   if (!identityReady.value) return
   try {
-    localStorage.setItem(sessionStorageKey(userId.value), encodeSessions({ sessions: sessions.value, messagesBySession: messagesBySession.value, currentSessionId: currentSessionId.value }))
+    localStorage.setItem(sessionStorageKey(userId.value + (props.caseId ? '.case.' + props.caseId : '')), encodeSessions({ sessions: sessions.value, messagesBySession: messagesBySession.value, currentSessionId: currentSessionId.value }))
     storageError.value = ''
   } catch { storageError.value = '本机保存会话失败，请保留重要内容后再刷新。' }
 }, { deep: true })
 let activeRequest: AbortController | null = null
 onBeforeUnmount(() => activeRequest?.abort())
 function cancelRequest() { activeRequest?.abort('user') }
-const inputMessage = ref('')
+const inputMessage = ref(props.draft || '')
+watch(() => props.draft, value => { if (value && !isThinking.value) inputMessage.value = value })
 const isThinking = ref(false)
 const msgContainer = ref<HTMLElement | null>(null)
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:5000'
-const apiAuthToken = import.meta.env.VITE_API_AUTH_TOKEN || ''
+const apiAuthToken = accessToken()
 const identityPromise = (async () => {
   try {
     const response = await fetch(`${apiBaseUrl}/api/identity`, { headers: apiAuthToken ? { Authorization: `Bearer ${apiAuthToken}` } : {}, signal: AbortSignal.timeout(10_000) })
@@ -222,7 +225,7 @@ const identityPromise = (async () => {
     userId.value = identity.user_id
     identityRole.value = identity.role
     try {
-      const restored = restoreSessions(localStorage.getItem(sessionStorageKey(userId.value)))
+      const restored = restoreSessions(localStorage.getItem(sessionStorageKey(userId.value + (props.caseId ? '.case.' + props.caseId : ''))))
       if (restored) {
         sessions.value = restored.sessions
         messagesBySession.value = restored.messagesBySession
@@ -394,7 +397,7 @@ async function sendQuery(preset?: string) {
       headers.Authorization = `Bearer ${apiAuthToken}`
     }
 
-    const response = await fetch(`${apiBaseUrl}/api/chat`, {
+    const response = await fetch(`${apiBaseUrl}${props.caseId ? '/api/platform/cases/' + props.caseId + '/chat' : '/api/chat'}`, {
       method: 'POST',
       headers,
       body: JSON.stringify({ query, session_id: requestSessionId }),

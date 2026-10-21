@@ -1,0 +1,18 @@
+﻿source_id,publisher,source_title,source_url,source_type,verification_status,checked_date,usage_notes
+WHO_MENTAL_DISORDERS_ZH_2026,世界卫生组织,精神障碍（中文事实清单）,https://www.who.int/zh/news-room/fact-sheets/detail/mental-disorders,官方事实清单,已核对官方页面,2026-10-19,用于心理健康概述和专业求助边界；正式上线前复核页面更新日期
+WHO_DEPRESSION_ZH_2026,世界卫生组织,抑郁障碍（抑郁症）,https://www.who.int/zh/news-room/fact-sheets/detail/depression,官方事实清单,已核对官方页面,2026-10-19,公众科普；不得当作个人诊断或处方建议
+WHO_ANXIETY_ZH_2025,世界卫生组织,焦虑症,https://www.who.int/zh/news-room/fact-sheets/detail/anxiety-disorders,官方事实清单,已核对官方页面,2026-10-19,公众科普；症状不能单独确诊
+WHO_BIPOLAR_ZH_2025,世界卫生组织,双相情感障碍,https://www.who.int/zh/news-room/fact-sheets/detail/bipolar-disorder,官方事实清单,已核对官方页面,2026-10-19,公众科普；治疗信息需保持一般性
+WHO_SCHIZOPHRENIA_ZH_2025,世界卫生组织,精神分裂症,https://www.who.int/zh/news-room/fact-sheets/detail/schizophrenia,官方事实清单,已核对官方页面,2026-10-19,公众科普及反污名
+WHO_STRESS_GUIDE_2020,世界卫生组织,Doing What Matters in Times of Stress,https://www.who.int/publications/i/item/9789240003927,自助指南,已核对官方页面,2026-10-19,原作许可为 CC BY-NC-SA 3.0 IGO；衍生/翻译/商用需遵循具体许可，商业使用须另行确认
+WHO_SELFHELP_2026,世界卫生组织,Psychological self-help interventions,https://www.who.int/publications/i/item/9789240120785,实施手册,已核对官方页面,2026-10-19,原作许可为 CC BY-NC-SA 3.0 IGO；本知识库只作原创摘要
+NHC_12356_2024,国家卫生健康委,关于应用12356全国统一心理援助热线电话号码的通知,https://www.nhc.gov.cn/yzygj/c100068/202412/49a1a65386cd4be582d4702fd0926ee8.shtml,政府通知,已核对官方页面,2026-10-19,地方服务时间和可用性仍须逐地核实
+NHC_SERVICES_2025,国家卫生健康委,关于实施2025年卫生健康系统为民服务实事项目的通知,https://www.nhc.gov.cn/bgt/c100023/202502/e730c90e23a24e419bc0509632f62bad.shtml,政府通知,已核对官方页面,2026-10-19,用于服务导航；具体机构信息需查本地最新公告
+PHQ9_KROENKE_2001,"Kroenke, Spitzer & Williams",The PHQ-9: validity of a brief depression severity measure,https://pubmed.ncbi.nlm.nih.gov/11556941/,同行评审论文,已核对PubMed记录,2026-10-19,量表版本、授权和中文版本须另行核实
+GAD7_SPITZER_2006,Spitzer et al.,A brief measure for assessing generalized anxiety disorder: the GAD-7,https://pubmed.ncbi.nlm.nih.gov/16717171/,同行评审论文,已核对PubMed记录,2026-10-19,量表版本、授权和中文版本须另行核实
+NMPA_OFFICIAL_PORTAL,国家药品监督管理局,国家药品监督管理局官方网站,https://www.nmpa.gov.cn/,政府网站,入口已登记；具体药品来源待补,2026-10-19,不得只以门户首页作为某一药品事实的证据；每个药品须绑定现行批准说明书或官方公告
+WHO_OCD_FACTSHEET_2023,WHO Regional Office for the Eastern Mediterranean,What is obsessive-compulsive disorder (OCD)?,https://applications.emro.who.int/docs/WHOEMMNH232E-eng.pdf,Official public-facing fact sheet PDF,official WHO regional page/PDF identified,2026-10-19,英文原始资料；中文内容为原创概述，发布前应进行医学审核并遵守原始材料许可
+WHO_STRESS_QA_2026,World Health Organization,Stress: Questions and answers,https://www.who.int/news-room/questions-and-answers/item/stress,官方健康资料,已核对官方页面,2026-10-20,睡眠卫生与压力影响
+NIMH_ADULT_BSSA,National Institute of Mental Health,Adult Outpatient Brief Suicide Safety Assessment Guide,https://www.nimh.nih.gov/research/research-conducted-at-nimh/asq-toolkit-materials/adult-outpatient/adult-outpatient-brief-suicide-safety-assessment-guide,官方健康资料,已核对官方页面,2026-10-20,ASQ阳性成人的专业评估；仅参考衔接原则，不是PHQ-9算法
+NIMH_MEDICATIONS,National Institute of Mental Health,Mental Health Medications,https://www.nimh.nih.gov/health/topics/mental-health-medications,官方健康资料,已核对官方页面,2026-10-20,一般用药安全，不替代中国具体产品说明书
+

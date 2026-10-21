@@ -1,4 +1,5 @@
 import os
+import json
 import time
 from threading import Lock
 from dotenv import load_dotenv
@@ -83,6 +84,15 @@ def _get_milvus_store():
         _log_elapsed("milvus:init", "Milvus 向量工具初始化总耗时", total_start)
     return _milvus_instance
 
+
+def evidence_row(doc, score, rank, current_document):
+    metadata=doc.metadata or {}
+    source=os.path.basename(str(metadata.get('source') or 'Unknown'))
+    allowed=('doc_id','source_ids','source_url','source_urls','source_title','section_path','review_status','source_scope',
+             'title','page','page_number','section','chunk_id','document_id','url','publisher','updated_at','date','doi')
+    return {'rank':rank,'source':source,'metadata':{k:metadata[k] for k in allowed if k in metadata and metadata[k] is not None},
+            'raw_score':float(score),'content':current_document(source,doc.page_content.strip())}
+
 @tool
 def query_vector_db(query: str) -> str:
     """
@@ -106,13 +116,10 @@ def query_vector_db(query: str) -> str:
             _log_elapsed("milvus:tool", "向量工具总耗时", total_start)
             return "未在文档中检索到相关信息。"
 
-        formatted_results = [checked] if checked else []
-        for doc, score in results:
-            source = os.path.basename(doc.metadata.get("source", "Unknown"))
-            content = current_document(source,doc.page_content.strip())
-            formatted=f"【来源: {source}】\n{content}"
-            if formatted not in formatted_results:formatted_results.append(formatted)
+        evidence = [evidence_row(doc, score, rank, current_document) for rank, (doc, score) in enumerate(results, 1)]
         _log_elapsed("milvus:tool", "向量工具总耗时", total_start)
-        return "\n\n".join(formatted_results)
+        return json.dumps({'status':'success','checked_reference':checked or None,'evidence':evidence,
+                           'retrieval':{'backend':'Milvus','top_k':3,'score_note':'原始检索分数，不是正确概率或置信度。'}}, ensure_ascii=False,default=str)
+
     except Exception as e:
         return (checked+'\n\n' if checked else '')+"文档检索暂不可用。"

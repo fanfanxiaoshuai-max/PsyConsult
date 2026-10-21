@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "test:chat": "node --test scripts/test-chat-core.mjs"
+    "test:chat": "node --test scripts/test-chat-core.mjs",
+    "test:platform": "node --test scripts/test-platform-core.mjs"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",

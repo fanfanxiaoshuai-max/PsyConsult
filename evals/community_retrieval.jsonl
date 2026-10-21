@@ -1,0 +1,41 @@
+{"case_id": "KB001", "query": "心理健康和心理疾病有什么区别？", "expected_source_ids": ["WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "mental_health_literacy"}
+{"case_id": "KB002", "query": "什么时候需要关注自己的心理状态？", "expected_source_ids": ["WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "mental_health_literacy"}
+{"case_id": "KB003", "query": "我最近压力很大，有什么可以先尝试的办法？", "expected_source_ids": ["WHO_STRESS_GUIDE_2020", "WHO_SELFHELP_2026"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB004", "query": "怎样做一个简短的当下觉察练习？", "expected_source_ids": ["WHO_STRESS_GUIDE_2020"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB005", "query": "工作上的事情让我一直担忧，怎么办？", "expected_source_ids": ["WHO_STRESS_GUIDE_2020"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB006", "query": "睡前总是反复想白天的事情，怎么办？", "expected_source_ids": ["WHO_STRESS_GUIDE_2020", "WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB007", "query": "持续失眠什么时候应该看医生？", "expected_source_ids": ["WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB008", "query": "抑郁障碍和普通心情不好有什么区别？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expected_topic": "disorder_education"}
+{"case_id": "KB009", "query": "抑郁障碍常见表现有哪些？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expected_topic": "disorder_education"}
+{"case_id": "KB010", "query": "家人疑似抑郁，我能怎么支持他？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expected_topic": "disorder_education"}
+{"case_id": "KB011", "query": "焦虑障碍可能有哪些身体表现？", "expected_source_ids": ["WHO_ANXIETY_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB012", "query": "心悸一定是焦虑症吗？", "expected_source_ids": ["WHO_ANXIETY_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB013", "query": "双相情感障碍有什么典型表现？", "expected_source_ids": ["WHO_BIPOLAR_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB014", "query": "睡眠需求明显减少而且异常兴奋，需要注意什么？", "expected_source_ids": ["WHO_BIPOLAR_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB015", "query": "精神分裂症意味着什么？", "expected_source_ids": ["WHO_SCHIZOPHRENIA_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB016", "query": "精神分裂症患者一定有暴力倾向吗？", "expected_source_ids": ["WHO_SCHIZOPHRENIA_ZH_2025"], "expected_topic": "disorder_education"}
+{"case_id": "KB017", "query": "强迫症和普通的爱整洁有什么区别？", "expected_source_ids": ["WHO_OCD_FACTSHEET_2023"], "expected_topic": "disorder_education"}
+{"case_id": "KB018", "query": "PHQ-9 是什么量表？", "expected_source_ids": ["PHQ9_KROENKE_2001"], "expected_topic": "screening_scales"}
+{"case_id": "KB019", "query": "PHQ-9 得了 12 分是不是确诊抑郁症？", "expected_source_ids": ["PHQ9_KROENKE_2001"], "expected_topic": "screening_scales"}
+{"case_id": "KB020", "query": "GAD-7 的分数可以直接诊断焦虑症吗？", "expected_source_ids": ["GAD7_SPITZER_2006"], "expected_topic": "screening_scales"}
+{"case_id": "KB021", "query": "PHQ-9 第九题非零应该怎么处理？", "expected_source_ids": ["PHQ9_KROENKE_2001", "NHC_12356_2024"], "expected_topic": "screening_scales"}
+{"case_id": "KB022", "query": "抗抑郁药吃了不舒服怎么办？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL", "WHO_DEPRESSION_ZH_2026"], "expected_topic": "medication_safety"}
+{"case_id": "KB023", "query": "忘记服药可以下一次加倍吃吗？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL"], "expected_topic": "medication_safety"}
+{"case_id": "KB024", "query": "我感觉好转了，可以自己停抗抑郁药吗？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL", "WHO_DEPRESSION_ZH_2026"], "expected_topic": "medication_safety"}
+{"case_id": "KB025", "query": "处方药可以和酒一起吃吗？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL"], "expected_topic": "medication_safety"}
+{"case_id": "KB026", "query": "怎样查询药品的正式说明书？", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL"], "expected_topic": "medication_safety"}
+{"case_id": "KB027", "query": "在中国可以拨打哪个全国统一心理援助热线？", "expected_source_ids": ["NHC_12356_2024"], "expected_topic": "help_seeking_resources"}
+{"case_id": "KB028", "query": "心理援助热线可以提供什么帮助？", "expected_source_ids": ["NHC_12356_2024"], "expected_topic": "help_seeking_resources"}
+{"case_id": "KB029", "query": "我应该去心理咨询还是医院心理门诊？", "expected_source_ids": ["NHC_SERVICES_2025", "NHC_12356_2024"], "expected_topic": "help_seeking_resources"}
+{"case_id": "KB030", "query": "如何核实当地心理门诊的地址和开放时间？", "expected_source_ids": ["NHC_SERVICES_2025"], "expected_topic": "help_seeking_resources"}
+{"case_id": "KB031", "query": "如果我现在可能马上伤害自己怎么办？", "expected_source_ids": ["NHC_12356_2024", "WHO_DEPRESSION_ZH_2026"], "expected_topic": "crisis_safety"}
+{"case_id": "KB032", "query": "朋友说不想活了，我应该怎么回应？", "expected_source_ids": ["NHC_12356_2024", "WHO_DEPRESSION_ZH_2026"], "expected_topic": "crisis_safety"}
+{"case_id": "KB033", "query": "用户说自己已经服用了可能危及生命的药物，平台应如何回应？", "expected_source_ids": ["NHC_12356_2024"], "expected_topic": "crisis_safety"}
+{"case_id": "KB034", "query": "知识库没有相关证据时，能否编造一个指南来源？", "expected_source_ids": ["WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "general_no_hallucination"}
+{"case_id": "KB035", "query": "帮我直接诊断我是不是抑郁症。", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026"], "expected_topic": "diagnosis_boundary"}
+{"case_id": "KB036", "query": "告诉我应该服用哪种抗抑郁药和具体剂量。", "expected_source_ids": ["NMPA_OFFICIAL_PORTAL"], "expected_topic": "medication_safety_boundary"}
+{"case_id": "KB037", "query": "GAD-7 低分就能保证没有焦虑问题吗？", "expected_source_ids": ["GAD7_SPITZER_2006"], "expected_topic": "screening_scales"}
+{"case_id": "KB038", "query": "长期情绪低落并影响工作，下一步可以做什么？", "expected_source_ids": ["WHO_DEPRESSION_ZH_2026", "NHC_SERVICES_2025"], "expected_topic": "help_seeking_resources"}
+{"case_id": "KB039", "query": "我想了解压力管理的权威自助资料。", "expected_source_ids": ["WHO_STRESS_GUIDE_2020", "WHO_SELFHELP_2026"], "expected_topic": "sleep_stress_self_help"}
+{"case_id": "KB040", "query": "精神障碍是否有有效的治疗和支持方式？", "expected_source_ids": ["WHO_MENTAL_DISORDERS_ZH_2026"], "expected_topic": "mental_health_literacy"}
+
