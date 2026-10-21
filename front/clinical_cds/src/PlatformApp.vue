@@ -15,6 +15,7 @@
       <div class="access-frame">
         <section class="platform-cover" aria-labelledby="platform-title">
           <img class="cover-background" src="/images/brain-network-background.png" alt="" aria-hidden="true" />
+          <div class="cover-emblem" aria-hidden="true"><img src="/images/mental-health-symbol.png" alt="" /></div>
           <p class="cover-wordmark">PsyConsult</p>
           <h1 id="platform-title">心理健康<br>与临床协作</h1>
           <p class="cover-summary">面向个人与专业人员的辅助工作平台</p>
@@ -272,9 +273,15 @@ onBeforeUnmount(() => { clearInterval(poll); chatController?.abort(); discardVoi
 @media(max-width:700px){.cover-capabilities{font-size:10px}.cover-capabilities .el-icon{font-size:14px}.cover-capabilities span+span:before{margin:0 9px 0 3px}}
 
 .platform-cover{isolation:isolate}
-.cover-background{position:absolute;width:760px;height:608px;max-width:none;right:-160px;bottom:-160px;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.15;pointer-events:none;user-select:none;z-index:0}
+.cover-background{position:absolute;width:760px;height:608px;max-width:none;right:-160px;bottom:-160px;object-fit:contain;filter:grayscale(1) invert(1);mix-blend-mode:screen;opacity:.1;pointer-events:none;user-select:none;z-index:0}
 .platform-cover>:not(.cover-background){position:relative;z-index:1}
 @media(max-width:1000px){.cover-background{right:-210px;bottom:-160px}}
 @media(max-width:700px){.cover-background{width:440px;height:352px;right:-105px;bottom:-155px;opacity:.1}}
+
+/* The illustration blends into the cover: no white tile, disc, border or shadow. */
+.platform-cover>.cover-emblem{position:absolute;right:32px;bottom:94px;width:230px;height:195px;mix-blend-mode:screen;opacity:.48;pointer-events:none;user-select:none;z-index:1}
+.cover-emblem img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1) invert(1)}
+@media(max-width:1000px){.platform-cover>.cover-emblem{width:194px;height:170px;right:18px;bottom:105px}}
+@media(max-width:700px){.platform-cover>.cover-emblem{width:110px;height:100px;right:12px;top:8px;bottom:auto;opacity:.38}}
 
 </style>

@@ -48,3 +48,14 @@
 ![脑部标识与封面水印](images/login-brain-background-desktop.png)
 
 ![手机封面水印](images/login-brain-background-mobile.png)
+
+
+## 无底托的侧脸心形图案
+
+按用户要求同时保留侧脸心形与脑线框图案。侧脸原图通过CSS反相、屏幕混合和透明度显示为浅蓝灰线条，取消白色圆形底托、边框和阴影。桌面置于封面右下方，手机缩小至字标右侧；脑线框进一步减淡，两种图案分层展示。
+
+类型检查与生产构建通过，桌面和手机视觉检查完成，业务脚本比较一致。
+
+![无白底侧脸图案](images/login-soft-emblem-desktop.png)
+
+![手机侧脸图案](images/login-soft-emblem-mobile.png)
