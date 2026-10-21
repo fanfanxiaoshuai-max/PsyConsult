@@ -1,4 +1,6 @@
-# PsyConsult 统一平台融合副本
+# PsyConsult 心理健康与临床协作平台
+
+从 GitHub 下载后首次安装，请阅读 [融合版部署说明](docs/GITHUB-DEPLOYMENT.md)，使用 `agent/.env.fusion.example`；下方包含原版历史说明，其默认端口与融合版不同。
 
 后续更新：[首页文案、公众来源核对及检索第二轮验收](docs/COMMUNITY-SOURCE-REVIEW.md)。
 
